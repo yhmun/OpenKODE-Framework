@@ -258,4 +258,6 @@ paket-files/
 *.exe
 [Bb]uild\
 [Dd]ata\
+[Dd]ebug-ES/
+[Rr]elease-ES/
 

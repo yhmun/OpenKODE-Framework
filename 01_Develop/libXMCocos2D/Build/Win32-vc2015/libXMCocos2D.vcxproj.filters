@@ -1,0 +1,2426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\accelerometer_dispatcher">
+      <UniqueIdentifier>{f5192d47-7e0d-4455-82f6-c6f0af07c4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\actions">
+      <UniqueIdentifier>{2c71af43-7a29-42eb-af7d-745650a71b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\base_nodes">
+      <UniqueIdentifier>{e88b1295-f7aa-4ac7-b74b-6b5908a20158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\cocoa">
+      <UniqueIdentifier>{e60a73e6-83d9-47cf-81ca-91ae7bd66c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\effects">
+      <UniqueIdentifier>{86527cfe-112f-4179-bbf0-cc75f65c71c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\keypad_dispatcher">
+      <UniqueIdentifier>{8d762717-d572-41c9-97e1-b07148095aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\label_nodes">
+      <UniqueIdentifier>{b8f4ec39-8d42-48b5-a6be-cc9b6ab6899d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\layers_scenes_transitions_nodes">
+      <UniqueIdentifier>{336cdbe3-e082-431e-8fe2-493edbf2d37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\menu_nodes">
+      <UniqueIdentifier>{77dfa801-98a5-46ca-bb33-f7a1cc59961b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\misc_nodes">
+      <UniqueIdentifier>{2a62ea53-33b6-48fd-8852-74f5672a8d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\particle_nodes">
+      <UniqueIdentifier>{bbe9d3b6-1e4a-4dfb-ba51-e534f6c3415f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\script_support">
+      <UniqueIdentifier>{8216d114-c3bd-44ab-895c-ba6f101d7319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\sprite_nodes">
+      <UniqueIdentifier>{4cfdec27-531b-46dd-a8a9-27ea41dacf9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\text_input_node">
+      <UniqueIdentifier>{f2d6b6a2-92fa-48af-b84d-62009b8a10b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\textures">
+      <UniqueIdentifier>{78be974e-f645-4611-b074-8ab8918c88b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\touch_dispatcher">
+      <UniqueIdentifier>{7ffeb6c4-4b01-440b-91ca-6578c22dc40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode">
+      <UniqueIdentifier>{da7655ad-89fe-4d11-bf37-ff85a39314a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMXml">
+      <UniqueIdentifier>{c6d1956c-08e3-49e4-b50b-5d6b178576b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\ATX">
+      <UniqueIdentifier>{57262d7c-b0a3-4788-b8a5-587666eb8a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{7b6c4022-f803-49ad-b784-2057c7f8490a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{8da1048f-b205-4e31-a6f1-bfcba4f1f780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{83f8fcd9-8809-4d27-a9c1-f2247910bd6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLUES">
+      <UniqueIdentifier>{b7c6a680-f029-41ef-8fe8-203764e99b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{31d0ffe5-bb80-408a-bef0-19460eb03632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{591a98fe-3876-4f21-9852-061bbf7aa2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\XM">
+      <UniqueIdentifier>{c6fb60d1-bfe1-4825-bb07-e7e7d07d450e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D">
+      <UniqueIdentifier>{22c196e0-5e53-46ef-bdb4-53f5cc67636f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\accelerometer_dispatcher">
+      <UniqueIdentifier>{3d7cb482-d4e5-4631-88e8-ea751f1e3400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\actions">
+      <UniqueIdentifier>{c1a826a2-3de2-4752-8eae-467aca25b967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\base_nodes">
+      <UniqueIdentifier>{e3f48178-7ff3-4333-ae74-1fe504ce8a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\cocoa">
+      <UniqueIdentifier>{a6e11a27-5115-4881-8c8e-614e8fea4d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\keypad_dispatcher">
+      <UniqueIdentifier>{91112f1e-8882-45c1-adb2-da445b70d60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\label_nodes">
+      <UniqueIdentifier>{7c710ef4-a354-42f4-a0a9-40871923157a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\layers_scenes_transitions_nodes">
+      <UniqueIdentifier>{df7e2930-75c6-4735-916d-8ca1627b01a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\menu_nodes">
+      <UniqueIdentifier>{a5df3552-f583-452b-942f-ea0878bfa27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\misc_nodes">
+      <UniqueIdentifier>{629b5d67-f487-4f74-84c5-ec35f50856fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\particle_nodes">
+      <UniqueIdentifier>{deda06d5-9194-4dbd-960e-db810c5305fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\script_support">
+      <UniqueIdentifier>{eb4040fc-21d9-46a3-a7c0-5e92bf82145e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\sprite_nodes">
+      <UniqueIdentifier>{9a70f5ca-e7aa-4907-b9cd-46a86175e38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\support">
+      <UniqueIdentifier>{a05740cb-1d59-4692-8847-1c1919f36c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\text_input_node">
+      <UniqueIdentifier>{f713e44e-6a47-46ee-9646-e6ee3a807b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\textures">
+      <UniqueIdentifier>{df922bd0-d120-49d6-8942-6195320e9777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\touch_dispatcher">
+      <UniqueIdentifier>{9ad53120-e00e-4c12-9c35-3a3a78927bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\support\data_support">
+      <UniqueIdentifier>{a7a03406-6abe-4684-8f2e-fa2c831456f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\support\zip_support">
+      <UniqueIdentifier>{c76d14e5-f8d0-4319-ba50-5c169436efda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib">
+      <UniqueIdentifier>{0d95026e-058e-458a-bbbb-f4544a3cbf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib">
+      <UniqueIdentifier>{b66eed5f-5de3-499d-a0fe-bc433d07fc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib\minizip">
+      <UniqueIdentifier>{77c2487f-9b64-41a7-bddc-b6738c8b24f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMFreeType">
+      <UniqueIdentifier>{fdf6814a-2bb2-4182-aa04-1a762791d84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMFreeType\config">
+      <UniqueIdentifier>{6b87a879-44f3-46c3-a54c-1ad38cb3830f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions">
+      <UniqueIdentifier>{7a279d93-23bd-4053-85af-436c18314c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCBReader">
+      <UniqueIdentifier>{9d3604a9-bbca-4115-97e6-b251dbc9a573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\kazmath">
+      <UniqueIdentifier>{710dbb8a-5d83-4fe6-abc8-447597269924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\kazmath\GL">
+      <UniqueIdentifier>{8fc1881e-13ff-4f59-86c8-5f56befe3264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\shaders">
+      <UniqueIdentifier>{e670f727-85c7-46bf-9d55-fb242adfa263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\effect">
+      <UniqueIdentifier>{4e85001a-de87-4140-b2b4-d388f0aed2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions">
+      <UniqueIdentifier>{cb30d938-ed2a-468e-b2c9-2b3991223459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCBReader">
+      <UniqueIdentifier>{2796aeea-cb0a-4440-ba69-34005f5ce4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\kazmath">
+      <UniqueIdentifier>{f71d1738-1a99-48c2-ac86-5feff6139b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\kazmath\GL">
+      <UniqueIdentifier>{b8aa95e5-c382-44c7-96f3-e1a866dedf38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\shaders">
+      <UniqueIdentifier>{d009876a-d4c1-4027-af1a-7e76208f3a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCScrollView">
+      <UniqueIdentifier>{edfe7ddf-a573-4b98-bcd9-e8d4fa030628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCScrollView">
+      <UniqueIdentifier>{449015ed-8f5e-42d0-8d87-742c9b1c1082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCSpaceManager">
+      <UniqueIdentifier>{eeb6372e-2053-47d3-9fd1-c663b9147f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCSpaceManager\ccExtras">
+      <UniqueIdentifier>{549e7a1c-9a5b-4eb6-bdf7-c26b9981cd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCSpaceManager\cpSpaceSerializer">
+      <UniqueIdentifier>{0ed078aa-dfb3-406a-bb3c-1b8f1e83d5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCSpaceManager\PhysicsEditorExtras">
+      <UniqueIdentifier>{fe688a79-46fa-4bad-ae7a-e32f8b590f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCSpaceManager">
+      <UniqueIdentifier>{8f1f076c-fba4-4fe6-a960-680f73605833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCSpaceManager\ccExtras">
+      <UniqueIdentifier>{a1c33d64-57c1-40e4-bcf7-53d310c0672c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCSpaceManager\cpSpaceSerializer">
+      <UniqueIdentifier>{5bff1140-d0bd-44a9-b045-de15c06b60ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCSpaceManager\PhysicsEditorExtras">
+      <UniqueIdentifier>{73c6affc-eb06-46f9-9eed-2742224cfa0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\platform">
+      <UniqueIdentifier>{0c532f8b-6cd5-4f13-8aa5-d975037d140d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCArtPig">
+      <UniqueIdentifier>{2fa1baaf-8001-45e0-ade2-86f1c9c5a44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig">
+      <UniqueIdentifier>{c91d5410-b4b5-4e46-8668-8918825400a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSParser">
+      <UniqueIdentifier>{d5426764-6a2d-44fc-8162-a0e26230a308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSResource">
+      <UniqueIdentifier>{7ae8036b-c184-4c88-8e50-de83121a9bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\cocos2d">
+      <UniqueIdentifier>{ce764d32-d04e-44a4-95fe-7a4d85121b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\device">
+      <UniqueIdentifier>{b42c5eca-c954-4ef3-ae8a-f3d5dda8d4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\media">
+      <UniqueIdentifier>{293d7b45-369d-4c2f-aff8-7317dfe536d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\simple">
+      <UniqueIdentifier>{ff2b6eb2-aa5b-414e-9330-f9889a348a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSParser\elements">
+      <UniqueIdentifier>{fb17b9cb-3d95-4486-9893-5a2a3a5223db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSResource\Action">
+      <UniqueIdentifier>{c0489fb0-17a6-4a4c-9026-797e0528a380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSResource\Graphic">
+      <UniqueIdentifier>{645676ed-f700-4ad1-8f4f-ba00bb3ccf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSResource\Action\GraphicAction">
+      <UniqueIdentifier>{95a40319-28c8-40e2-8466-0c42e2eddb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant">
+      <UniqueIdentifier>{fecbc1fc-eee0-439f-82a8-254d14e82070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval">
+      <UniqueIdentifier>{bc331b76-6eaf-454b-aad3-6879df0c15f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\Bezier">
+      <UniqueIdentifier>{75ae0488-ebe4-47ea-9bfe-a68f777cc0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\tilemap_parallax_nodes">
+      <UniqueIdentifier>{b315631b-59a1-4d78-9edb-79fb0b70d4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCEditBox">
+      <UniqueIdentifier>{2dd4f633-fbff-4a59-9b86-af62ed1ae2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCEditBox">
+      <UniqueIdentifier>{86e0a787-5f71-4833-ad33-21aa2271e806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCControl">
+      <UniqueIdentifier>{14cbb4bf-c806-4cd0-9bd5-ed53052cc670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCControl">
+      <UniqueIdentifier>{6c75b984-e099-40b9-8b50-6cc9ae472c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\draw_nodes">
+      <UniqueIdentifier>{0e9156b1-09ec-4db6-9f7a-0a2c52e72735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\denshion">
+      <UniqueIdentifier>{a55dd460-6f13-4c2a-b10e-8ae5cbb58c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCNetwork">
+      <UniqueIdentifier>{5dfe2d6c-8aef-407a-9bb7-770c9fc45791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCPhysics">
+      <UniqueIdentifier>{b2daea57-1933-4f92-9da5-bf2f0a74d7db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\denshion">
+      <UniqueIdentifier>{56b5598e-73c6-4094-a027-47b9452ee01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\draw_nodes">
+      <UniqueIdentifier>{cb345c36-622d-44a8-b401-d76fb052fe6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCNetwork">
+      <UniqueIdentifier>{f811f0b6-3555-411d-b2fb-624cae2add2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCPhysics">
+      <UniqueIdentifier>{46b21385-e625-4d39-885f-0380e651202a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\support">
+      <UniqueIdentifier>{e4996837-ff46-4472-99f4-89b0632533ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\support\zip_support">
+      <UniqueIdentifier>{909ebf67-b79f-44c3-a475-f9a35a5503a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\support\data_support">
+      <UniqueIdentifier>{af2a8f16-6c06-4f30-b00b-83129534fd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\tilemap_parallax_nodes">
+      <UniqueIdentifier>{a99528fd-89f1-499d-95ad-335dd2fb7699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\event_dispatcher">
+      <UniqueIdentifier>{c3ff8161-bf27-4719-b42f-68282fadc364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\event_dispatcher">
+      <UniqueIdentifier>{a88c6b61-fca9-4775-b0e0-5a8bbfd22a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCAssetsManager">
+      <UniqueIdentifier>{d044a63a-08e1-4dcf-9555-4affb89e2403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCLocalStorage">
+      <UniqueIdentifier>{5cd082c2-5cfe-4327-9c67-a981c9888efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCLocalStorage">
+      <UniqueIdentifier>{d6868448-19b6-4cee-8f57-5c1d4600187f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCAssetsManager">
+      <UniqueIdentifier>{af6facad-12b1-4fe8-bd3c-bbb45a62ab41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCGB2Shape">
+      <UniqueIdentifier>{59895795-5209-48b4-b7e3-83e8497b8818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCSpine">
+      <UniqueIdentifier>{c95706d5-fce2-48f1-ab26-0830d87d827a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCSpine">
+      <UniqueIdentifier>{b6026552-a6d5-4cbe-8cb2-e7a856379cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCGB2Shape">
+      <UniqueIdentifier>{12e17e16-674a-4770-9b2d-9ee292d6c5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCParallaxScroll">
+      <UniqueIdentifier>{5ce6dbf4-03d7-4c09-82ea-174d491f54b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCParallaxScroll">
+      <UniqueIdentifier>{de61d148-e3ee-4be3-82b7-f1d18b2e68ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCVRope">
+      <UniqueIdentifier>{89b07063-ab6f-45ee-8b1d-22c2542081df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCVRope">
+      <UniqueIdentifier>{d49dfa2a-db87-4b39-b23c-81c86b36a3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCPolygonSprite">
+      <UniqueIdentifier>{663872f1-8780-472a-8f1e-9e84d29267ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCBlade">
+      <UniqueIdentifier>{5e2daea0-3ada-44dd-960b-bb613b52f5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCPRKit">
+      <UniqueIdentifier>{560847ca-4755-46b5-810f-8ecc93542e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCPRKit">
+      <UniqueIdentifier>{fc9f64e3-c0c5-4f5c-a988-8302a415f72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCBlade">
+      <UniqueIdentifier>{da13e23b-05d8-4941-87c1-26961a751ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCPolygonSprite">
+      <UniqueIdentifier>{fdd7e4f3-ea06-462b-84b3-81e398ff1cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\extensions\CCScrollLayer">
+      <UniqueIdentifier>{742c9043-1ff1-42f7-b05a-73b364f8b363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\extensions\CCScrollLayer">
+      <UniqueIdentifier>{dd766488-9ccd-4fec-886f-06772e9ad4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\support\user_default">
+      <UniqueIdentifier>{56c5f38b-a0fe-41ac-b6ad-cb753756d07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\support\user_default">
+      <UniqueIdentifier>{24afa644-570a-4b8e-9610-77b18dd15112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\support\component">
+      <UniqueIdentifier>{692ca71b-7fa9-4a72-a1e8-8647d794dd2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMCocos2D\support\component">
+      <UniqueIdentifier>{0970e569-de65-4b58-ae89-d71b7fd26e22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\CCCamera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CCConfiguration.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CCDirector.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CCScheduler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\accelerometer_dispatcher\CCAccelerometer.cpp">
+      <Filter>Source\accelerometer_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCAction.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionCamera.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionEase.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionGrid.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionGrid3D.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionInstant.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionInterval.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionManager.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionPageTurn3D.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionProgressTimer.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionTiledGrid.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base_nodes\CCAtlasNode.cpp">
+      <Filter>Source\base_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base_nodes\CCNode.cpp">
+      <Filter>Source\base_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCAffineTransform.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCAutoReleasePool.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCGeometry.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCNS.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCObject.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCSet.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCZone.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\keypad_dispatcher\CCKeypadDelegate.cpp">
+      <Filter>Source\keypad_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\keypad_dispatcher\CCKeypadDispatcher.cpp">
+      <Filter>Source\keypad_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\label_nodes\CCLabelAtlas.cpp">
+      <Filter>Source\label_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\label_nodes\CCLabelBMFont.cpp">
+      <Filter>Source\label_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\label_nodes\CCLabelTTF.cpp">
+      <Filter>Source\label_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\menu_nodes\CCMenu.cpp">
+      <Filter>Source\menu_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\menu_nodes\CCMenuItem.cpp">
+      <Filter>Source\menu_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_nodes\CCMotionStreak.cpp">
+      <Filter>Source\misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_nodes\CCProgress.cpp">
+      <Filter>Source\misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_nodes\CCProgressTimer.cpp">
+      <Filter>Source\misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_nodes\CCRenderTexture.cpp">
+      <Filter>Source\misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\particle_nodes\CCParticleExamples.cpp">
+      <Filter>Source\particle_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\particle_nodes\CCParticleSystemQuad.cpp">
+      <Filter>Source\particle_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\particle_nodes\CCParticleSystem.cpp">
+      <Filter>Source\particle_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\script_support\CCScriptSupport.cpp">
+      <Filter>Source\script_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\sprite_nodes\CCAnimation.cpp">
+      <Filter>Source\sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\sprite_nodes\CCSpriteFrameCache.cpp">
+      <Filter>Source\sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\sprite_nodes\CCAnimationCache.cpp">
+      <Filter>Source\sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\sprite_nodes\CCSprite.cpp">
+      <Filter>Source\sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\sprite_nodes\CCSpriteBatchNode.cpp">
+      <Filter>Source\sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\sprite_nodes\CCSpriteFrame.cpp">
+      <Filter>Source\sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tileMap_parallax_nodes\CCDiamondTiledLayer.cpp">
+      <Filter>Source\tilemap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tileMap_parallax_nodes\CCParallaxNode.cpp">
+      <Filter>Source\tilemap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tileMap_parallax_nodes\CCTileMapAtlas.cpp">
+      <Filter>Source\tilemap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tileMap_parallax_nodes\CCTMXLayer.cpp">
+      <Filter>Source\tilemap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tileMap_parallax_nodes\CCTMXObjectGroup.cpp">
+      <Filter>Source\tilemap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tileMap_parallax_nodes\CCTMXTiledMap.cpp">
+      <Filter>Source\tilemap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tileMap_parallax_nodes\CCTMXXMLParser.cpp">
+      <Filter>Source\tilemap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\touch_dispatcher\CCTouchDispatcher.cpp">
+      <Filter>Source\touch_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\touch_dispatcher\CCTouchHandler.cpp">
+      <Filter>Source\touch_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\textures\CCTexture2D.cpp">
+      <Filter>Source\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\textures\CCTextureAtlas.cpp">
+      <Filter>Source\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\textures\CCTextureCache.cpp">
+      <Filter>Source\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\text_input_node\CCIMEDispatcher.cpp">
+      <Filter>Source\text_input_node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\text_input_node\CCTextFieldTTF.cpp">
+      <Filter>Source\text_input_node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\base64.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\CCFileUtils.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\CCPointExtension.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\CCSAXParser.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\CCTime.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\ccUtils.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\TransformUtils.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\zip_support\ZipUtils.cpp">
+      <Filter>Source\support\zip_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionTween.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCArray.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCDictionary.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCString.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\effects\CCGrabber.cpp">
+      <Filter>Source\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\effects\CCGrid.cpp">
+      <Filter>Source\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\aabb.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\mat3.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\mat4.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\plane.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\quaternion.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\ray2.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\utility.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\vec2.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\vec3.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\vec4.cpp">
+      <Filter>Source\kazmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\GL\mat4stack.cpp">
+      <Filter>Source\kazmath\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kazmath\GL\matrix.cpp">
+      <Filter>Source\kazmath\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\particle_nodes\CCParticleBatchNode.cpp">
+      <Filter>Source\particle_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\shaders\CCGLProgram.cpp">
+      <Filter>Source\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\shaders\ccGLStateCache.cpp">
+      <Filter>Source\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\shaders\CCShaderCache.cpp">
+      <Filter>Source\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\shaders\ccShaders.cpp">
+      <Filter>Source\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\CCVertex.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\layers_scenes_transitions_nodes\CCLayer.cpp">
+      <Filter>Source\layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\layers_scenes_transitions_nodes\CCScene.cpp">
+      <Filter>Source\layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\layers_scenes_transitions_nodes\CCThreadLayer.cpp">
+      <Filter>Source\layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\layers_scenes_transitions_nodes\CCTransition.cpp">
+      <Filter>Source\layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\layers_scenes_transitions_nodes\CCTransitionPageTurn.cpp">
+      <Filter>Source\layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\layers_scenes_transitions_nodes\CCTransitionProgress.cpp">
+      <Filter>Source\layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\actions\CCActionCatmullRom.cpp">
+      <Filter>Source\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCScrollView\CCScrollView.cpp">
+      <Filter>Source\extensions\CCScrollView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\data_support\ccCArray.cpp">
+      <Filter>Source\support\data_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\CCSpaceManager.cpp">
+      <Filter>Source\extensions\CCSpaceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpCCNode.cpp">
+      <Filter>Source\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpCCNodeImpl.cpp">
+      <Filter>Source\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpCCSprite.cpp">
+      <Filter>Source\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpConstraintNode.cpp">
+      <Filter>Source\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpShapeNode.cpp">
+      <Filter>Source\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\cpSpaceSerializer\cpSpaceSerializer.cpp">
+      <Filter>Source\extensions\CCSpaceManager\cpSpaceSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\platform\CCImage.cpp">
+      <Filter>Source\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\platform\CCImage_FreeType.cpp">
+      <Filter>Source\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\PhysicsEditorExtras\cpCCSprite_PhysicsEditor.cpp">
+      <Filter>Source\extensions\CCSpaceManager\PhysicsEditorExtras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResourceManager.cpp">
+      <Filter>Source\extensions\CCArtPig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSTouch.cpp">
+      <Filter>Source\extensions\CCArtPig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\simple\APXAnimation.cpp">
+      <Filter>Source\extensions\CCArtPig\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\media\APSAudioHolder.cpp">
+      <Filter>Source\extensions\CCArtPig\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\media\APSImageHolder.cpp">
+      <Filter>Source\extensions\CCArtPig\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\media\APSMedium.cpp">
+      <Filter>Source\extensions\CCArtPig\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\media\APSSpriteFrame.cpp">
+      <Filter>Source\extensions\CCArtPig\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\media\APSSpriteSheetHolder.cpp">
+      <Filter>Source\extensions\CCArtPig\media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\device\APSDevice.cpp">
+      <Filter>Source\extensions\CCArtPig\device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\device\APSDeviceInfo.cpp">
+      <Filter>Source\extensions\CCArtPig\device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\cocos2d\APSCCActionInterval.cpp">
+      <Filter>Source\extensions\CCArtPig\cocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\APSResource.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\APSResourceArray.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\APSSymbol.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSParser\APSXMLParser.cpp">
+      <Filter>Source\extensions\CCArtPig\APSParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSParser\elements\APSArray.cpp">
+      <Filter>Source\extensions\CCArtPig\APSParser\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSParser\elements\APSAutoreleasePool.cpp">
+      <Filter>Source\extensions\CCArtPig\APSParser\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSParser\elements\APSDictionary.cpp">
+      <Filter>Source\extensions\CCArtPig\APSParser\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSParser\elements\APSNull.cpp">
+      <Filter>Source\extensions\CCArtPig\APSParser\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSParser\elements\APSNumber.cpp">
+      <Filter>Source\extensions\CCArtPig\APSParser\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSParser\elements\APSObject.cpp">
+      <Filter>Source\extensions\CCArtPig\APSParser\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSParser\elements\APString.cpp">
+      <Filter>Source\extensions\CCArtPig\APSParser\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSActionGroup.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSAudioAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSLinkerAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSSymbolControlAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSTouchEventNotificationLinker.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\APSGraphicAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant\APSInstantFadeAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant\APSInstantGraphicAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant\APSInstantMoveAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant\APSInstantRotationAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant\APSInstantScaleAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant\APSVisibilityAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\APSAnimateAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\APSFadeAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\APSIntervalGraphicAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\APSMoveAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\APSRotationAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\APSScaleAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\Bezier\APSAnchor.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\Bezier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\Bezier\APSBezierMoveAction.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Interval\Bezier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Graphic\APSGraphic.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Graphic\APSGraphicGroup.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Graphic\APSSprite.cpp">
+      <Filter>Source\extensions\CCArtPig\APSResource\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\CCNotificationCenter.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\platform\CCImage_Win32.cpp">
+      <Filter>Source\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CCEGLView.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCScrollView\CCSorting.cpp">
+      <Filter>Source\extensions\CCScrollView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCScrollView\CCTableView.cpp">
+      <Filter>Source\extensions\CCScrollView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCScrollView\CCTableViewCell.cpp">
+      <Filter>Source\extensions\CCScrollView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCEditBox\CCEditBox.cpp">
+      <Filter>Source\extensions\CCEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControl.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlButton.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlColourPicker.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlHuePicker.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlPotentiometer.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlSaturationBrightnessPicker.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlSlider.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlStepper.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlSwitch.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCControlUtils.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCInvocation.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCControl\CCScale9Sprite.cpp">
+      <Filter>Source\extensions\CCControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCBAnimationManager.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCBFileLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCBKeyframe.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCBReader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCBRelativePositioning.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCBSequence.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCBSequenceProperty.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCBValue.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCControlButtonLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCControlLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCLabelBMFontLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCLabelTTFLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCLayerColorLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCLayerGradientLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCLayerLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCMenuItemImageLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCMenuItemLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCNodeLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCNodeLoaderLibrary.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCParticleSystemQuadLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCScale9SpriteLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCScrollViewLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBReader\CCSpriteLoader.cpp">
+      <Filter>Source\extensions\CCBReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCData.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\denshion\SimpleAudioEngine.cpp">
+      <Filter>Source\denshion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\draw_nodes\CCDrawingPrimitives.cpp">
+      <Filter>Source\draw_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\draw_nodes\CCDrawNode.cpp">
+      <Filter>Source\draw_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCNetwork\HttpClient.cpp">
+      <Filter>Source\extensions\CCNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCPhysics\CCPhysicsDebugNode.cpp">
+      <Filter>Source\extensions\CCPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCPhysics\CCPhysicsSprite.cpp">
+      <Filter>Source\extensions\CCPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_nodes\CCClippingNode.cpp">
+      <Filter>Source\misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\denshion\CCSound.cpp">
+      <Filter>Source\denshion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\event_dispatcher\CCEventDelegate.cpp">
+      <Filter>Source\event_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\event_dispatcher\CCEventDispatcher.cpp">
+      <Filter>Source\event_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\CCApplication.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\touch_dispatcher\CCTouch.cpp">
+      <Filter>Source\touch_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\ccUTF8.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCAssetsManager\AssetsManager.cpp">
+      <Filter>Source\extensions\CCAssetsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCLocalStorage\LocalStorage.cpp">
+      <Filter>Source\extensions\CCLocalStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCGBShape\GB2ShapeCache.cpp">
+      <Filter>Source\extensions\CCGB2Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Animation.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\AnimationState.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\AnimationStateData.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Atlas.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\AtlasAttachmentLoader.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Attachment.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\AttachmentLoader.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Bone.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\BoneData.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Extension.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Json.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\RegionAttachment.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Skeleton.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\SkeletonData.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\SkeletonJson.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Skin.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\Slot.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\SlotData.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCSpine\SpineCocos2dx.cpp">
+      <Filter>Source\extensions\CCSpine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCParallaxScroll\CCParallaxScrollNode.cpp">
+      <Filter>Source\extensions\CCParallaxScroll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCParallaxScroll\CCParallaxScrollOffset.cpp">
+      <Filter>Source\extensions\CCParallaxScroll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCVRope\vpoint.cpp">
+      <Filter>Source\extensions\CCVRope</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCVRope\vrope.cpp">
+      <Filter>Source\extensions\CCVRope</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCVRope\vstick.cpp">
+      <Filter>Source\extensions\CCVRope</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCPhysics\CCBox2DDebugDraw.cpp">
+      <Filter>Source\extensions\CCPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCPolygonSprite\PolygonSprite.cpp">
+      <Filter>Source\extensions\CCPolygonSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCBlade\CCBlade.cpp">
+      <Filter>Source\extensions\CCBlade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCPRKit\PRFilledPolygon.cpp">
+      <Filter>Source\extensions\CCPRKit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCPRKit\PRRatcliffTriangulator.cpp">
+      <Filter>Source\extensions\CCPRKit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCPRKit\triangulate.cpp">
+      <Filter>Source\extensions\CCPRKit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\extensions\CCScrollLayer\CCScrollLayer.cpp">
+      <Filter>Source\extensions\CCScrollLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\user_default\CCUserDefault.cpp">
+      <Filter>Source\support\user_default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\component\CCComponent.cpp">
+      <Filter>Source\support\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\component\CCComponentContainer.cpp">
+      <Filter>Source\support\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\support\CCProfiling.cpp">
+      <Filter>Source\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cocoa\CCDataVisitor.cpp">
+      <Filter>Source\cocoa</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\c14n.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\catalog.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\chvalid.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\debugXML.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\dict.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\DOCBparser.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\encoding.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\entities.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\globals.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\hash.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\HTMLparser.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\HTMLtree.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\list.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\nanoftp.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\nanohttp.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\parser.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\parserInternals.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\pattern.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\relaxng.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\SAX.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\SAX2.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\schemasInternals.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\schematron.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\threads.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\tree.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\uri.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\valid.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xinclude.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xlink.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlautomata.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlerror.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlexports.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlIO.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlmemory.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlmodule.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlreader.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlregexp.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlsave.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlschemas.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlschemastypes.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlstring.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlunicode.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlversion.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlwriter.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xpath.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xpathInternals.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xpointer.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\Cocos2D.h">
+      <Filter>Include\XMCocos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\accelerometer_dispatcher\CCAccelerometer.h">
+      <Filter>Include\XMCocos2D\accelerometer_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\accelerometer_dispatcher\CCAccelerometerDelegate.h">
+      <Filter>Include\XMCocos2D\accelerometer_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCAction.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionCamera.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionEase.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionGrid.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionGrid3D.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionInstant.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionInterval.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionManager.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionPageTurn3D.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionProgressTimer.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionTiledGrid.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\base_nodes\CCAtlasNode.h">
+      <Filter>Include\XMCocos2D\base_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\base_nodes\CCNode.h">
+      <Filter>Include\XMCocos2D\base_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCAffineTransform.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCAutoReleasePool.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCGeometry.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCNS.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCObject.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCSet.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCString.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCZone.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\keypad_dispatcher\CCKeypadDelegate.h">
+      <Filter>Include\XMCocos2D\keypad_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\keypad_dispatcher\CCKeypadDispatcher.h">
+      <Filter>Include\XMCocos2D\keypad_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\label_nodes\CCLabelAtlas.h">
+      <Filter>Include\XMCocos2D\label_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\label_nodes\CCLabelBMFont.h">
+      <Filter>Include\XMCocos2D\label_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\label_nodes\CCLabelTTF.h">
+      <Filter>Include\XMCocos2D\label_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\menu_nodes\CCMenu.h">
+      <Filter>Include\XMCocos2D\menu_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\menu_nodes\CCMenuItem.h">
+      <Filter>Include\XMCocos2D\menu_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\misc_nodes\CCMotionStreak.h">
+      <Filter>Include\XMCocos2D\misc_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\misc_nodes\CCProgress.h">
+      <Filter>Include\XMCocos2D\misc_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\misc_nodes\CCProgressTimer.h">
+      <Filter>Include\XMCocos2D\misc_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\misc_nodes\CCRenderTexture.h">
+      <Filter>Include\XMCocos2D\misc_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\particle_nodes\CCParticleExamples.h">
+      <Filter>Include\XMCocos2D\particle_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\particle_nodes\CCParticleSystem.h">
+      <Filter>Include\XMCocos2D\particle_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\particle_nodes\CCParticleSystemQuad.h">
+      <Filter>Include\XMCocos2D\particle_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\script_support\CCScriptSupport.h">
+      <Filter>Include\XMCocos2D\script_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\sprite_nodes\CCAnimation.h">
+      <Filter>Include\XMCocos2D\sprite_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\sprite_nodes\CCAnimationCache.h">
+      <Filter>Include\XMCocos2D\sprite_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\sprite_nodes\CCSprite.h">
+      <Filter>Include\XMCocos2D\sprite_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\sprite_nodes\CCSpriteBatchNode.h">
+      <Filter>Include\XMCocos2D\sprite_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\sprite_nodes\CCSpriteFrame.h">
+      <Filter>Include\XMCocos2D\sprite_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\sprite_nodes\CCSpriteFrameCache.h">
+      <Filter>Include\XMCocos2D\sprite_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\data_support\ccCArray.h">
+      <Filter>Include\XMCocos2D\support\data_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\data_support\uthash.h">
+      <Filter>Include\XMCocos2D\support\data_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\data_support\utlist.h">
+      <Filter>Include\XMCocos2D\support\data_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\zip_support\ZipUtils.h">
+      <Filter>Include\XMCocos2D\support\zip_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\text_input_node\CCIMEDelegate.h">
+      <Filter>Include\XMCocos2D\text_input_node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\text_input_node\CCIMEDispatcher.h">
+      <Filter>Include\XMCocos2D\text_input_node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\text_input_node\CCTextFieldTTF.h">
+      <Filter>Include\XMCocos2D\text_input_node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\textures\CCTexture2D.h">
+      <Filter>Include\XMCocos2D\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\textures\CCTextureAtlas.h">
+      <Filter>Include\XMCocos2D\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\textures\CCTextureCache.h">
+      <Filter>Include\XMCocos2D\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\tileMap_parallax_nodes\CCDiamondTiledLayer.h">
+      <Filter>Include\XMCocos2D\tilemap_parallax_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\tileMap_parallax_nodes\CCParallaxNode.h">
+      <Filter>Include\XMCocos2D\tilemap_parallax_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\tileMap_parallax_nodes\CCTileMapAtlas.h">
+      <Filter>Include\XMCocos2D\tilemap_parallax_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\tileMap_parallax_nodes\CCTMXLayer.h">
+      <Filter>Include\XMCocos2D\tilemap_parallax_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\tileMap_parallax_nodes\CCTMXObjectGroup.h">
+      <Filter>Include\XMCocos2D\tilemap_parallax_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\tileMap_parallax_nodes\CCTMXTiledMap.h">
+      <Filter>Include\XMCocos2D\tilemap_parallax_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\tileMap_parallax_nodes\CCTMXXMLParser.h">
+      <Filter>Include\XMCocos2D\tilemap_parallax_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\touch_dispatcher\CCTouch.h">
+      <Filter>Include\XMCocos2D\touch_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\touch_dispatcher\CCTouchDelegateProtocol.h">
+      <Filter>Include\XMCocos2D\touch_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\touch_dispatcher\CCTouchDispatcher.h">
+      <Filter>Include\XMCocos2D\touch_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\touch_dispatcher\CCTouchHandler.h">
+      <Filter>Include\XMCocos2D\touch_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\freetype.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ft2build.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftadvanc.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftbbox.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftbdf.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftbitmap.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftbzip2.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftcache.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftchapters.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftcid.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\fterrdef.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\fterrors.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftgasp.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftglyph.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftgxval.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftgzip.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftimage.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftincrem.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftlcdfil.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftlist.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftlzw.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftmac.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftmm.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftmodapi.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftmoderr.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftotval.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftoutln.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftpfr.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftrender.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftsizes.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftsnames.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftstroke.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftsynth.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftsystem.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\fttrigon.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\fttypes.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftwinfnt.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ftxf86.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\t1tables.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ttnameid.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\tttables.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\tttags.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\ttunpat.h">
+      <Filter>Include\XMFreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\config\ftconfig.h">
+      <Filter>Include\XMFreeType\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\config\ftheader.h">
+      <Filter>Include\XMFreeType\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\config\ftmodule.h">
+      <Filter>Include\XMFreeType\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\config\ftoption.h">
+      <Filter>Include\XMFreeType\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMFreeType\config\ftstdlib.h">
+      <Filter>Include\XMFreeType\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\effects\CCGrabber.h">
+      <Filter>Source\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\effects\CCGrid.h">
+      <Filter>Source\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionTween.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCArray.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCDictionary.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCInteger.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\effects\CCGrabber.h">
+      <Filter>Include\XMCocos2D\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\effects\CCGrid.h">
+      <Filter>Include\XMCocos2D\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\particle_nodes\CCParticleBatchNode.h">
+      <Filter>Include\XMCocos2D\particle_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\aabb.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\kazmath.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\mat3.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\mat4.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\neon_matrix_impl.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\plane.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\quaternion.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\ray2.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\utility.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\vec2.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\vec3.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\vec4.h">
+      <Filter>Include\XMCocos2D\kazmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\GL\mat4stack.h">
+      <Filter>Include\XMCocos2D\kazmath\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\kazmath\GL\matrix.h">
+      <Filter>Include\XMCocos2D\kazmath\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\shaders\CCGLProgram.h">
+      <Filter>Include\XMCocos2D\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\shaders\ccGLStateCache.h">
+      <Filter>Include\XMCocos2D\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\shaders\CCShaderCache.h">
+      <Filter>Include\XMCocos2D\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\shaders\ccShaders.h">
+      <Filter>Include\XMCocos2D\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\layers_scenes_transitions_nodes\CCLayer.h">
+      <Filter>Include\XMCocos2D\layers_scenes_transitions_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\layers_scenes_transitions_nodes\CCScene.h">
+      <Filter>Include\XMCocos2D\layers_scenes_transitions_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\layers_scenes_transitions_nodes\CCThreadLayer.h">
+      <Filter>Include\XMCocos2D\layers_scenes_transitions_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\layers_scenes_transitions_nodes\CCTransition.h">
+      <Filter>Include\XMCocos2D\layers_scenes_transitions_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\layers_scenes_transitions_nodes\CCTransitionPageTurn.h">
+      <Filter>Include\XMCocos2D\layers_scenes_transitions_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\layers_scenes_transitions_nodes\CCTransitionProgress.h">
+      <Filter>Include\XMCocos2D\layers_scenes_transitions_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionCatmullRom.h">
+      <Filter>Include\XMCocos2D\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCScrollView\CCScrollView.h">
+      <Filter>Include\XMCocos2D\extensions\CCScrollView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCPointer.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpaceManager\CCSpaceManager.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpaceManager\ccExtras\cpCCNode.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpaceManager\ccExtras\cpCCNodeImpl.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpaceManager\ccExtras\cpCCSprite.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpaceManager\ccExtras\cpConstraintNode.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpaceManager\ccExtras\cpShapeNode.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpaceManager\ccExtras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpaceManager\cpSpaceSerializer\cpSpaceSerializer.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpaceManager\cpSpaceSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpaceManager\PhysicsEditorExtras\cpCCSprite+PhysicsEditor.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpaceManager\PhysicsEditorExtras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSActionGroup.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSActionObserver.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSAnchor.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSAnimateAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSArray.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSAudioAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSAudioHolder.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSAutoreleasePool.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSBezierMoveAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSCCActionInterval.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSCommon.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSDevice.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSDeviceInfo.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSDictionary.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSElements.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSFadeAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSGraphic.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSGraphicAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSGraphicGroup.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSImageHolder.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSInstantFadeAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSInstantGraphicAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSInstantMoveAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSInstantRotationAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSInstantScaleAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSIntervalGraphicAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSLinkerAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSMacroCPP.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSMedium.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSMoveAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSNull.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSNumber.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSObject.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSPlatform.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSResource.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSResourceArray.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSResourceManager.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSRotationAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSScaleAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSSharedType.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSSprite.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSSpriteFrame.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSSpriteSheetHolder.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSString.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSSymbol.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSSymbolControlAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSTouch.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSTouchEventNotificationLinker.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSTouchEventObserver.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSVisibilityAction.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APSXMLParser.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APXAnimation.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\APXAnimationObserver.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCArtPig\CCArtPig.h">
+      <Filter>Include\XMCocos2D\extensions\CCArtPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCScrollView\CCSorting.h">
+      <Filter>Include\XMCocos2D\extensions\CCScrollView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCScrollView\CCTableView.h">
+      <Filter>Include\XMCocos2D\extensions\CCScrollView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCScrollView\CCTableViewCell.h">
+      <Filter>Include\XMCocos2D\extensions\CCScrollView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCEditBox\CCEditBox.h">
+      <Filter>Include\XMCocos2D\extensions\CCEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControl.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlButton.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlColourPicker.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlExtensions.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlHuePicker.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlPotentiometer.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlSaturationBrightnessPicker.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlSlider.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlStepper.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlSwitch.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCControlUtils.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCInvocation.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCControl\CCScale9Sprite.h">
+      <Filter>Include\XMCocos2D\extensions\CCControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCData.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBAnimationManager.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBFileLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBKeyframe.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBMemberVariableAssigner.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBReader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBRelativePositioning.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBSelectorResolver.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBSequence.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBSequenceProperty.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCBValue.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCControlButtonLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCControlLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCLabelBMFontLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCLabelTTFLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCLayerColorLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCLayerGradientLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCLayerLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCMenuItemImageLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCMenuItemLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCMenuLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCNodeLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCNodeLoaderLibrary.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCNodeLoaderListener.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCParticleSystemQuadLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCScale9SpriteLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCScrollViewLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBReader\CCSpriteLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCBReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\draw_nodes\CCDrawingPrimitives.h">
+      <Filter>Include\XMCocos2D\draw_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\draw_nodes\CCDrawNode.h">
+      <Filter>Include\XMCocos2D\draw_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\denshion\SimpleAudioEngine.h">
+      <Filter>Include\XMCocos2D\denshion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCPhysics\CCPhysicsDebugNode.h">
+      <Filter>Include\XMCocos2D\extensions\CCPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCPhysics\CCPhysicsSprite.h">
+      <Filter>Include\XMCocos2D\extensions\CCPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCNetwork\HttpResponse.h">
+      <Filter>Include\XMCocos2D\extensions\CCNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCNetwork\HttpRequest.h">
+      <Filter>Include\XMCocos2D\extensions\CCNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCNetwork\HttpClient.h">
+      <Filter>Include\XMCocos2D\extensions\CCNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\misc_nodes\CCClippingNode.h">
+      <Filter>Include\XMCocos2D\misc_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\base64.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCCamera.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCConfiguration.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCDirector.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCEGLView.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCFileUtils.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCImage.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCNotificationCenter.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCPointExtension.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCProfiling.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCSAXParser.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCScheduler.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCTime.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\CCVertex.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\TransformUtils.h">
+      <Filter>Include\XMCocos2D\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\ccConfig.h">
+      <Filter>Include\XMCocos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\ccMacros.h">
+      <Filter>Include\XMCocos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\CCProtocols.h">
+      <Filter>Include\XMCocos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\ccTypeInfo.h">
+      <Filter>Include\XMCocos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\ccTypes.h">
+      <Filter>Include\XMCocos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\ccUtils.h">
+      <Filter>Include\XMCocos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\particle_nodes\firePngData.h">
+      <Filter>Source\particle_nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\event_dispatcher\CCEventDelegate.h">
+      <Filter>Include\XMCocos2D\event_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\event_dispatcher\CCEventDispatcher.h">
+      <Filter>Include\XMCocos2D\event_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\denshion\CCSound.h">
+      <Filter>Include\XMCocos2D\denshion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\CCApplication.h">
+      <Filter>Include\XMCocos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCAssetsManager\AssetsManager.h">
+      <Filter>Include\XMCocos2D\extensions\CCAssetsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCLocalStorage\LocalStorage.h">
+      <Filter>Include\XMCocos2D\extensions\CCLocalStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCGB2Shape\GB2ShapeCache.h">
+      <Filter>Include\XMCocos2D\extensions\CCGB2Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Animation.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\AnimationState.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\AnimationStateData.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Atlas.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\AtlasAttachmentLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Attachment.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\AttachmentLoader.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Bone.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\BoneData.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Extension.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Json.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\RegionAttachment.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Skeleton.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\SkeletonData.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\SkeletonJson.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Skin.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Slot.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\SlotData.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\Spine.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCSpine\SpineCocos2dx.h">
+      <Filter>Include\XMCocos2D\extensions\CCSpine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCParallaxScroll\CCParallaxScrollNode.h">
+      <Filter>Include\XMCocos2D\extensions\CCParallaxScroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCParallaxScroll\CCParallaxScrollOffset.h">
+      <Filter>Include\XMCocos2D\extensions\CCParallaxScroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCVRope\vpoint.h">
+      <Filter>Include\XMCocos2D\extensions\CCVRope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCVRope\vrope.h">
+      <Filter>Include\XMCocos2D\extensions\CCVRope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCVRope\vstick.h">
+      <Filter>Include\XMCocos2D\extensions\CCVRope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCPhysics\CCBox2DDebugDraw.h">
+      <Filter>Include\XMCocos2D\extensions\CCPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCPRKit\PRFilledPolygon.h">
+      <Filter>Include\XMCocos2D\extensions\CCPRKit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCPRKit\triangulate.h">
+      <Filter>Include\XMCocos2D\extensions\CCPRKit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCPRKit\PRRatcliffTriangulator.h">
+      <Filter>Include\XMCocos2D\extensions\CCPRKit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCPolygonSprite\PolygonSprite.h">
+      <Filter>Include\XMCocos2D\extensions\CCPolygonSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCBlade\CCBlade.h">
+      <Filter>Include\XMCocos2D\extensions\CCBlade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\extensions\CCScrollLayer\CCScrollLayer.h">
+      <Filter>Include\XMCocos2D\extensions\CCScrollLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\component\CCComponent.h">
+      <Filter>Include\XMCocos2D\support\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\component\CCComponentContainer.h">
+      <Filter>Include\XMCocos2D\support\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\support\user_default\CCUserDefault.h">
+      <Filter>Include\XMCocos2D\support\user_default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCBool.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCDataVisitor.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCDouble.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCFloat.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\cocoa\CCValue.h">
+      <Filter>Include\XMCocos2D\cocoa</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

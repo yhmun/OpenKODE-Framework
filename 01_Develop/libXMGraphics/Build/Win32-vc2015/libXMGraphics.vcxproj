@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-ES|Win32">
+      <Configuration>Debug-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-ES|Win32">
+      <Configuration>Release-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\STLVector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGAnimate.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGCanvas.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGColor.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGFont.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGMatrix.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGPolygon.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGQuad.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGraphics.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGRect.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGRender.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGRipple.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGSphere.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGText.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGVector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGView.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTCharmap.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTCharToGlyphIndexMap.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTContour.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTFace.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTBitmapFontImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTBufferFontImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTFontImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTOutlineFontImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTTextureFontImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyphContainer.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTBitmapGlyphImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTBufferGlyphImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTGlyphImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTOutlineGlyphImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTTextureGlyphImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBBox.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBitmapGlyph.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBuffer.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBufferFont.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBufferGlyph.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTExtrdGlyph.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTFont.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLBitmapFont.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\ftgles.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\ftglesGlue.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLExtrdFont.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLOutlineFont.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLPixmapFont.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLPolygonFont.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLTextureFont.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGlyph.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTLayout.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTOutlineGlyph.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTPixmapGlyph.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTPoint.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTPolyGlyph.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTSimpleLayout.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTTextureGlyph.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTInternals.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTLayout\FTLayoutImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTLayout\FTSimpleLayoutImpl.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTLibrary.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTList.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTSize.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTUnicode.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTVector.h" />
+    <ClInclude Include="..\..\Source\FTGLES\FTVectoriser.h" />
+    <ClInclude Include="..\..\Source\XMGAnimateImpl.h" />
+    <ClInclude Include="..\..\Source\XMGCanvasImpl.h" />
+    <ClInclude Include="..\..\Source\XMGFontImpl.h" />
+    <ClInclude Include="..\..\Source\XMGLibrary.h" />
+    <ClInclude Include="..\..\Source\XMGPolygonImpl.h" />
+    <ClInclude Include="..\..\Source\XMGQuadImpl.h" />
+    <ClInclude Include="..\..\Source\XMGRenderImpl.h" />
+    <ClInclude Include="..\..\Source\XMGRippleImpl.h" />
+    <ClInclude Include="..\..\Source\XMGRippleTable.h" />
+    <ClInclude Include="..\..\Source\XMGShape.h" />
+    <ClInclude Include="..\..\Source\XMGSphereImpl.h" />
+    <ClInclude Include="..\..\Source\XMGTextImpl.h" />
+    <ClInclude Include="..\..\Source\XMGTextureImpl.h" />
+    <ClInclude Include="..\..\Source\XMGViewImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FTGLES\FTBuffer.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTCharmap.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTContour.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTFace.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTBitmapFont.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTBufferFont.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTFont.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTFontGlue.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTOutlineFont.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTTextureFont.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyphContainer.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTBitmapGlyph.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTBufferGlyph.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTGlyph.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTGlyphGlue.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTOutlineGlyph.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTTextureGlyph.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTGL\ftglesGlue.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTLayout\FTLayout.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTLayout\FTLayoutGlue.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTLayout\FTSimpleLayout.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTLibrary.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTPoint.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTSize.cpp" />
+    <ClCompile Include="..\..\Source\FTGLES\FTVectoriser.cpp" />
+    <ClCompile Include="..\..\Source\XMGAnimate.cpp" />
+    <ClCompile Include="..\..\Source\XMGCanvas.cpp" />
+    <ClCompile Include="..\..\Source\XMGColor.cpp" />
+    <ClCompile Include="..\..\Source\XMGFont.cpp" />
+    <ClCompile Include="..\..\Source\XMGMatrix.cpp" />
+    <ClCompile Include="..\..\Source\XMGPolygon.cpp" />
+    <ClCompile Include="..\..\Source\XMGQuad.cpp" />
+    <ClCompile Include="..\..\Source\XMGRect.cpp" />
+    <ClCompile Include="..\..\Source\XMGRender.cpp" />
+    <ClCompile Include="..\..\Source\XMGRipple.cpp" />
+    <ClCompile Include="..\..\Source\XMGShape.cpp" />
+    <ClCompile Include="..\..\Source\XMGSphere.cpp" />
+    <ClCompile Include="..\..\Source\XMGText.cpp" />
+    <ClCompile Include="..\..\Source\XMGTexture.cpp" />
+    <ClCompile Include="..\..\Source\XMGVector.cpp" />
+    <ClCompile Include="..\..\Source\XMGView.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02572EA3-26E0-47AB-881F-F83514A7270C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TestStatic</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)-ES</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)-ES</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source/FTGLES</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4805;4838</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName)d.lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source/FTGLES</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4805;4838</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

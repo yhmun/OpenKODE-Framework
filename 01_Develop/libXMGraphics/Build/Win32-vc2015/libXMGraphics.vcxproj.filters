@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\XMKode">
+      <UniqueIdentifier>{38c48e66-d806-421f-96cd-d4fa18a16b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{86337101-3eff-4240-a687-6bb23d5d8fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{b5ffca75-cdd7-42a5-8ac5-145fd5d2c08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{cc9c1f12-1bda-4a58-9c92-bed40bea94d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{6aa8aa38-c520-45c9-b748-6408bec0d005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\ATX">
+      <UniqueIdentifier>{dad2b003-7d4b-41c4-8f36-cb5ef9391464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{d073d01d-5c74-430a-b95a-1b38f4abbd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\XM">
+      <UniqueIdentifier>{825d6b50-b4d1-4e16-8799-6ef59646cf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLUES">
+      <UniqueIdentifier>{3c43f451-73e0-49ac-bf69-4f7cde59455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib">
+      <UniqueIdentifier>{1277a261-01a6-40e1-ad19-fedc5ccb1fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib">
+      <UniqueIdentifier>{64002303-ae6b-4e5c-b93b-57592a1d8f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib\minizip">
+      <UniqueIdentifier>{1130abcf-4b1c-430b-a047-7d47e430f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMGraphics">
+      <UniqueIdentifier>{2f7f6ac0-cb91-48f0-86c2-6c635071a4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FTGLES">
+      <UniqueIdentifier>{1b95172c-3077-4d71-8259-37ea9f4bb77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FTGLES\FTFont">
+      <UniqueIdentifier>{9e2f4508-a87a-4bd9-aaa5-618b019af1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FTGLES\FTGL">
+      <UniqueIdentifier>{c6e64ff6-6a32-4f78-836d-4602cb0b2dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FTGLES\FTGlyph">
+      <UniqueIdentifier>{eef73037-f2ef-4c1d-8cb7-d2ca14404d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FTGLES\FTLayout">
+      <UniqueIdentifier>{6a781c99-e124-4234-9cdf-57c64ed7d5e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGAnimateImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGCanvasImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGFontImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGLibrary.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGPolygonImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGQuadImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGRenderImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGRippleImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGRippleTable.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGShape.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGSphereImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGTextImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGTextureImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\XMGViewImpl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTCharmap.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTCharToGlyphIndexMap.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTContour.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTFace.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyphContainer.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTInternals.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTLibrary.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTList.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTSize.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTUnicode.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTVector.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTVectoriser.h">
+      <Filter>Source\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTBitmapFontImpl.h">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTBufferFontImpl.h">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTFontImpl.h">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTOutlineFontImpl.h">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTFont\FTTextureFontImpl.h">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBBox.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBitmapGlyph.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBuffer.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBufferFont.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTBufferGlyph.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTExtrdGlyph.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTFont.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLBitmapFont.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\ftgles.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\ftglesGlue.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLExtrdFont.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLOutlineFont.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLPixmapFont.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLPolygonFont.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGLTextureFont.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTGlyph.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTLayout.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTOutlineGlyph.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTPixmapGlyph.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTPoint.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTPolyGlyph.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTSimpleLayout.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGL\FTTextureGlyph.h">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTBitmapGlyphImpl.h">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTBufferGlyphImpl.h">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTGlyphImpl.h">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTOutlineGlyphImpl.h">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTGlyph\FTTextureGlyphImpl.h">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTLayout\FTLayoutImpl.h">
+      <Filter>Source\FTGLES\FTLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FTGLES\FTLayout\FTSimpleLayoutImpl.h">
+      <Filter>Source\FTGLES\FTLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\STLVector.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGAnimate.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGCanvas.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGColor.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGFont.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGMatrix.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGPolygon.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGQuad.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGraphics.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGRect.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGRender.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGRipple.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGSphere.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGText.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGTexture.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGVector.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMGraphics\XMGView.h">
+      <Filter>Include\XMGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\XMGAnimate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGCanvas.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGColor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGFont.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGMatrix.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGPolygon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGQuad.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGRect.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGRender.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGRipple.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGShape.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGSphere.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGText.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGTexture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGVector.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\XMGView.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTBuffer.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTCharmap.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTContour.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTFace.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyphContainer.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTLibrary.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTPoint.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTSize.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTVectoriser.cpp">
+      <Filter>Source\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTBitmapFont.cpp">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTBufferFont.cpp">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTFont.cpp">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTFontGlue.cpp">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTOutlineFont.cpp">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTFont\FTTextureFont.cpp">
+      <Filter>Source\FTGLES\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTGL\ftglesGlue.cpp">
+      <Filter>Source\FTGLES\FTGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTBitmapGlyph.cpp">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTBufferGlyph.cpp">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTGlyph.cpp">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTGlyphGlue.cpp">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTOutlineGlyph.cpp">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTGlyph\FTTextureGlyph.cpp">
+      <Filter>Source\FTGLES\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTLayout\FTLayout.cpp">
+      <Filter>Source\FTGLES\FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTLayout\FTLayoutGlue.cpp">
+      <Filter>Source\FTGLES\FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FTGLES\FTLayout\FTSimpleLayout.cpp">
+      <Filter>Source\FTGLES\FTLayout</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -24,7 +24,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <FTGLES/FTGL/ftgles.h>
+#include <FTGL/ftgles.h>
 
 #include "../FTFont/FTFontImpl.h"
 #include "./FTLayoutImpl.h"

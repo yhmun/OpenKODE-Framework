@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\curl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\curlbuild.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\curlrules.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\curlver.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\easy.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\mprintf.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\multi.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\stdcheaders.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\typecheck-gcc.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h" />
+    <ClInclude Include="..\..\Source\amigaos.h" />
+    <ClInclude Include="..\..\Source\arpa_telnet.h" />
+    <ClInclude Include="..\..\Source\asyn.h" />
+    <ClInclude Include="..\..\Source\axtls.h" />
+    <ClInclude Include="..\..\Source\config-amigaos.h" />
+    <ClInclude Include="..\..\Source\config-android.h" />
+    <ClInclude Include="..\..\Source\config-dos.h" />
+    <ClInclude Include="..\..\Source\config-ios.h" />
+    <ClInclude Include="..\..\Source\config-linux.h" />
+    <ClInclude Include="..\..\Source\config-mac.h" />
+    <ClInclude Include="..\..\Source\config-os400.h" />
+    <ClInclude Include="..\..\Source\config-riscos.h" />
+    <ClInclude Include="..\..\Source\config-symbian.h" />
+    <ClInclude Include="..\..\Source\config-tpf.h" />
+    <ClInclude Include="..\..\Source\config-vms.h" />
+    <ClInclude Include="..\..\Source\config-vxworks.h" />
+    <ClInclude Include="..\..\Source\config-win32.h" />
+    <ClInclude Include="..\..\Source\config-win32ce.h" />
+    <ClInclude Include="..\..\Source\connect.h" />
+    <ClInclude Include="..\..\Source\content_encoding.h" />
+    <ClInclude Include="..\..\Source\cookie.h" />
+    <ClInclude Include="..\..\Source\curlx.h" />
+    <ClInclude Include="..\..\Source\curl_addrinfo.h" />
+    <ClInclude Include="..\..\Source\curl_base64.h" />
+    <ClInclude Include="..\..\Source\curl_config.h" />
+    <ClInclude Include="..\..\Source\curl_fnmatch.h" />
+    <ClInclude Include="..\..\Source\curl_gethostname.h" />
+    <ClInclude Include="..\..\Source\curl_gssapi.h" />
+    <ClInclude Include="..\..\Source\curl_hmac.h" />
+    <ClInclude Include="..\..\Source\curl_ldap.h" />
+    <ClInclude Include="..\..\Source\curl_md4.h" />
+    <ClInclude Include="..\..\Source\curl_md5.h" />
+    <ClInclude Include="..\..\Source\curl_memory.h" />
+    <ClInclude Include="..\..\Source\curl_memrchr.h" />
+    <ClInclude Include="..\..\Source\curl_ntlm.h" />
+    <ClInclude Include="..\..\Source\curl_ntlm_core.h" />
+    <ClInclude Include="..\..\Source\curl_ntlm_msgs.h" />
+    <ClInclude Include="..\..\Source\curl_ntlm_wb.h" />
+    <ClInclude Include="..\..\Source\curl_rand.h" />
+    <ClInclude Include="..\..\Source\curl_rtmp.h" />
+    <ClInclude Include="..\..\Source\curl_sspi.h" />
+    <ClInclude Include="..\..\Source\curl_threads.h" />
+    <ClInclude Include="..\..\Source\cyassl.h" />
+    <ClInclude Include="..\..\Source\dict.h" />
+    <ClInclude Include="..\..\Source\easyif.h" />
+    <ClInclude Include="..\..\Source\escape.h" />
+    <ClInclude Include="..\..\Source\file.h" />
+    <ClInclude Include="..\..\Source\fileinfo.h" />
+    <ClInclude Include="..\..\Source\formdata.h" />
+    <ClInclude Include="..\..\Source\ftp.h" />
+    <ClInclude Include="..\..\Source\ftplistparser.h" />
+    <ClInclude Include="..\..\Source\getinfo.h" />
+    <ClInclude Include="..\..\Source\gopher.h" />
+    <ClInclude Include="..\..\Source\gtls.h" />
+    <ClInclude Include="..\..\Source\hash.h" />
+    <ClInclude Include="..\..\Source\hostip.h" />
+    <ClInclude Include="..\..\Source\http.h" />
+    <ClInclude Include="..\..\Source\http_chunks.h" />
+    <ClInclude Include="..\..\Source\http_digest.h" />
+    <ClInclude Include="..\..\Source\http_negotiate.h" />
+    <ClInclude Include="..\..\Source\http_proxy.h" />
+    <ClInclude Include="..\..\Source\if2ip.h" />
+    <ClInclude Include="..\..\Source\imap.h" />
+    <ClInclude Include="..\..\Source\inet_ntop.h" />
+    <ClInclude Include="..\..\Source\inet_pton.h" />
+    <ClInclude Include="..\..\Source\krb4.h" />
+    <ClInclude Include="..\..\Source\llist.h" />
+    <ClInclude Include="..\..\Source\memdebug.h" />
+    <ClInclude Include="..\..\Source\multiif.h" />
+    <ClInclude Include="..\..\Source\netrc.h" />
+    <ClInclude Include="..\..\Source\non-ascii.h" />
+    <ClInclude Include="..\..\Source\nonblock.h" />
+    <ClInclude Include="..\..\Source\nssg.h" />
+    <ClInclude Include="..\..\Source\parsedate.h" />
+    <ClInclude Include="..\..\Source\pingpong.h" />
+    <ClInclude Include="..\..\Source\polarssl.h" />
+    <ClInclude Include="..\..\Source\pop3.h" />
+    <ClInclude Include="..\..\Source\progress.h" />
+    <ClInclude Include="..\..\Source\qssl.h" />
+    <ClInclude Include="..\..\Source\rawstr.h" />
+    <ClInclude Include="..\..\Source\rtsp.h" />
+    <ClInclude Include="..\..\Source\select.h" />
+    <ClInclude Include="..\..\Source\sendf.h" />
+    <ClInclude Include="..\..\Source\setup-os400.h" />
+    <ClInclude Include="..\..\Source\setup.h" />
+    <ClInclude Include="..\..\Source\setup_once.h" />
+    <ClInclude Include="..\..\Source\share.h" />
+    <ClInclude Include="..\..\Source\slist.h" />
+    <ClInclude Include="..\..\Source\smtp.h" />
+    <ClInclude Include="..\..\Source\sockaddr.h" />
+    <ClInclude Include="..\..\Source\socks.h" />
+    <ClInclude Include="..\..\Source\speedcheck.h" />
+    <ClInclude Include="..\..\Source\splay.h" />
+    <ClInclude Include="..\..\Source\ssh.h" />
+    <ClInclude Include="..\..\Source\sslgen.h" />
+    <ClInclude Include="..\..\Source\ssluse.h" />
+    <ClInclude Include="..\..\Source\strdup.h" />
+    <ClInclude Include="..\..\Source\strequal.h" />
+    <ClInclude Include="..\..\Source\strerror.h" />
+    <ClInclude Include="..\..\Source\strtok.h" />
+    <ClInclude Include="..\..\Source\strtoofft.h" />
+    <ClInclude Include="..\..\Source\telnet.h" />
+    <ClInclude Include="..\..\Source\tftp.h" />
+    <ClInclude Include="..\..\Source\timeval.h" />
+    <ClInclude Include="..\..\Source\transfer.h" />
+    <ClInclude Include="..\..\Source\url.h" />
+    <ClInclude Include="..\..\Source\urldata.h" />
+    <ClInclude Include="..\..\Source\warnless.h" />
+    <ClInclude Include="..\..\Source\wildcard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\amigaos.c" />
+    <ClCompile Include="..\..\Source\asyn-ares.c" />
+    <ClCompile Include="..\..\Source\asyn-thread.c" />
+    <ClCompile Include="..\..\Source\axtls.c" />
+    <ClCompile Include="..\..\Source\base64.c" />
+    <ClCompile Include="..\..\Source\connect.c" />
+    <ClCompile Include="..\..\Source\content_encoding.c" />
+    <ClCompile Include="..\..\Source\cookie.c" />
+    <ClCompile Include="..\..\Source\curl_addrinfo.c" />
+    <ClCompile Include="..\..\Source\curl_fnmatch.c" />
+    <ClCompile Include="..\..\Source\curl_gethostname.c" />
+    <ClCompile Include="..\..\Source\curl_gssapi.c" />
+    <ClCompile Include="..\..\Source\curl_memrchr.c" />
+    <ClCompile Include="..\..\Source\curl_ntlm.c" />
+    <ClCompile Include="..\..\Source\curl_ntlm_core.c" />
+    <ClCompile Include="..\..\Source\curl_ntlm_msgs.c" />
+    <ClCompile Include="..\..\Source\curl_ntlm_wb.c" />
+    <ClCompile Include="..\..\Source\curl_rand.c" />
+    <ClCompile Include="..\..\Source\curl_rtmp.c" />
+    <ClCompile Include="..\..\Source\curl_sspi.c" />
+    <ClCompile Include="..\..\Source\curl_threads.c" />
+    <ClCompile Include="..\..\Source\cyassl.c" />
+    <ClCompile Include="..\..\Source\dict.c" />
+    <ClCompile Include="..\..\Source\easy.c" />
+    <ClCompile Include="..\..\Source\escape.c" />
+    <ClCompile Include="..\..\Source\file.c" />
+    <ClCompile Include="..\..\Source\fileinfo.c" />
+    <ClCompile Include="..\..\Source\formdata.c" />
+    <ClCompile Include="..\..\Source\ftp.c" />
+    <ClCompile Include="..\..\Source\ftplistparser.c" />
+    <ClCompile Include="..\..\Source\getenv.c" />
+    <ClCompile Include="..\..\Source\getinfo.c" />
+    <ClCompile Include="..\..\Source\gopher.c" />
+    <ClCompile Include="..\..\Source\gtls.c" />
+    <ClCompile Include="..\..\Source\hash.c" />
+    <ClCompile Include="..\..\Source\hmac.c" />
+    <ClCompile Include="..\..\Source\hostasyn.c" />
+    <ClCompile Include="..\..\Source\hostip.c" />
+    <ClCompile Include="..\..\Source\hostip4.c" />
+    <ClCompile Include="..\..\Source\hostip6.c" />
+    <ClCompile Include="..\..\Source\hostsyn.c" />
+    <ClCompile Include="..\..\Source\http.c" />
+    <ClCompile Include="..\..\Source\http_chunks.c" />
+    <ClCompile Include="..\..\Source\http_digest.c" />
+    <ClCompile Include="..\..\Source\http_negotiate.c" />
+    <ClCompile Include="..\..\Source\http_negotiate_sspi.c" />
+    <ClCompile Include="..\..\Source\http_proxy.c" />
+    <ClCompile Include="..\..\Source\idn_win32.c" />
+    <ClCompile Include="..\..\Source\if2ip.c" />
+    <ClCompile Include="..\..\Source\imap.c" />
+    <ClCompile Include="..\..\Source\inet_ntop.c" />
+    <ClCompile Include="..\..\Source\inet_pton.c" />
+    <ClCompile Include="..\..\Source\krb4.c" />
+    <ClCompile Include="..\..\Source\krb5.c" />
+    <ClCompile Include="..\..\Source\ldap.c" />
+    <ClCompile Include="..\..\Source\llist.c" />
+    <ClCompile Include="..\..\Source\md4.c" />
+    <ClCompile Include="..\..\Source\md5.c" />
+    <ClCompile Include="..\..\Source\memdebug.c" />
+    <ClCompile Include="..\..\Source\mprintf.c" />
+    <ClCompile Include="..\..\Source\multi.c" />
+    <ClCompile Include="..\..\Source\netrc.c" />
+    <ClCompile Include="..\..\Source\non-ascii.c" />
+    <ClCompile Include="..\..\Source\nonblock.c" />
+    <ClCompile Include="..\..\Source\nss.c" />
+    <ClCompile Include="..\..\Source\nwlib.c" />
+    <ClCompile Include="..\..\Source\nwos.c" />
+    <ClCompile Include="..\..\Source\openldap.c" />
+    <ClCompile Include="..\..\Source\parsedate.c" />
+    <ClCompile Include="..\..\Source\pingpong.c" />
+    <ClCompile Include="..\..\Source\polarssl.c" />
+    <ClCompile Include="..\..\Source\pop3.c" />
+    <ClCompile Include="..\..\Source\progress.c" />
+    <ClCompile Include="..\..\Source\qssl.c" />
+    <ClCompile Include="..\..\Source\rawstr.c" />
+    <ClCompile Include="..\..\Source\rtsp.c" />
+    <ClCompile Include="..\..\Source\security.c" />
+    <ClCompile Include="..\..\Source\select.c" />
+    <ClCompile Include="..\..\Source\sendf.c" />
+    <ClCompile Include="..\..\Source\share.c" />
+    <ClCompile Include="..\..\Source\slist.c" />
+    <ClCompile Include="..\..\Source\smtp.c" />
+    <ClCompile Include="..\..\Source\socks.c" />
+    <ClCompile Include="..\..\Source\socks_gssapi.c" />
+    <ClCompile Include="..\..\Source\socks_sspi.c" />
+    <ClCompile Include="..\..\Source\speedcheck.c" />
+    <ClCompile Include="..\..\Source\splay.c" />
+    <ClCompile Include="..\..\Source\ssh.c" />
+    <ClCompile Include="..\..\Source\sslgen.c" />
+    <ClCompile Include="..\..\Source\ssluse.c" />
+    <ClCompile Include="..\..\Source\strdup.c" />
+    <ClCompile Include="..\..\Source\strequal.c" />
+    <ClCompile Include="..\..\Source\strerror.c" />
+    <ClCompile Include="..\..\Source\strtok.c" />
+    <ClCompile Include="..\..\Source\strtoofft.c" />
+    <ClCompile Include="..\..\Source\telnet.c" />
+    <ClCompile Include="..\..\Source\tftp.c" />
+    <ClCompile Include="..\..\Source\timeval.c" />
+    <ClCompile Include="..\..\Source\transfer.c" />
+    <ClCompile Include="..\..\Source\url.c" />
+    <ClCompile Include="..\..\Source\version.c" />
+    <ClCompile Include="..\..\Source\warnless.c" />
+    <ClCompile Include="..\..\Source\wildcard.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02572EA3-26E0-47AB-881F-F83514A7270C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TestStatic</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(ProjectName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(ProjectName)d.lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(ProjectName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(ProjectName).lib"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1849,9 +1849,6 @@
     <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\layers_scenes_transitions_nodes\CCTransitionProgress.h">
       <Filter>Include\XMCocos2D\layers_scenes_transitions_nodes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\Precompiled.h">
-      <Filter>Source</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMCocos2D\actions\CCActionCatmullRom.h">
       <Filter>Include\XMCocos2D\actions</Filter>
     </ClInclude>

@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\XMKode">
+      <UniqueIdentifier>{38c48e66-d806-421f-96cd-d4fa18a16b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{86337101-3eff-4240-a687-6bb23d5d8fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{b5ffca75-cdd7-42a5-8ac5-145fd5d2c08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{cc9c1f12-1bda-4a58-9c92-bed40bea94d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{6aa8aa38-c520-45c9-b748-6408bec0d005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\ATX">
+      <UniqueIdentifier>{dad2b003-7d4b-41c4-8f36-cb5ef9391464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{d073d01d-5c74-430a-b95a-1b38f4abbd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\XM">
+      <UniqueIdentifier>{825d6b50-b4d1-4e16-8799-6ef59646cf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLUES">
+      <UniqueIdentifier>{3c43f451-73e0-49ac-bf69-4f7cde59455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMXml">
+      <UniqueIdentifier>{1e9b51b8-eb4a-4bbe-bf0d-edbb73f04719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib">
+      <UniqueIdentifier>{e0c042b6-b020-4854-a13f-ad05ccb8aa15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib">
+      <UniqueIdentifier>{45b9405d-9f8c-40c6-b18e-3a022c6b4e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib\minizip">
+      <UniqueIdentifier>{ecd74f52-4174-4d99-914a-7574ad3fb46c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\acconfig.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\config.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\elfgcchack.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\libxml.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\c14n.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\catalog.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\chvalid.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\debugXML.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\dict.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\DOCBparser.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\encoding.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\entities.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\globals.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\hash.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\HTMLparser.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\HTMLtree.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\list.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\nanoftp.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\nanohttp.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\parser.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\parserInternals.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\pattern.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\relaxng.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\SAX.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\SAX2.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\schemasInternals.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\schematron.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\threads.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\tree.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\uri.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\valid.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xinclude.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xlink.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlautomata.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlerror.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlexports.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlIO.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlmemory.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlmodule.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlreader.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlregexp.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlsave.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlschemas.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlschemastypes.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlstring.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlunicode.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlversion.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xmlwriter.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xpath.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xpathInternals.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMXml\xpointer.h">
+      <Filter>Include\XMXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\c14n.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\catalog.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\chvalid.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\debugXML.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\dict.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DOCBparser.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\encoding.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\entities.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\error.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\globals.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hash.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HTMLparser.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HTMLtree.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\list.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\nanoftp.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\nanohttp.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\parser.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\parserInternals.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\pattern.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\relaxng.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\runxmlconf.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SAX.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SAX2.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\schematron.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\threads.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tree.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\uri.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\valid.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xinclude.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xlink.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlcatalog.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlIO.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlmemory.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlmodule.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlreader.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlregexp.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlsave.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlschemas.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlschemastypes.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlstring.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlunicode.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xmlwriter.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xpath.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xpointer.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

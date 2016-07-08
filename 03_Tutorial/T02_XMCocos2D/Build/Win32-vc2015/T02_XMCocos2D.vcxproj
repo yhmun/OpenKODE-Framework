@@ -951,7 +951,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2Dd.lib;libXMTinyXmld.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKoded.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2Dd.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKoded.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
@@ -974,7 +974,7 @@ copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2Dd.lib;libXMTinyXmld.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKode-ESd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2Dd.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKode-ESd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
@@ -1003,7 +1003,7 @@ copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D.lib;libXMTinyXml.lib;libXMAtx.lib;libXMZlib.lib;libXMKode.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D.lib;libXMXml.lib;libXMTinyXml.lib;libXMAtx.lib;libXMZlib.lib;libXMKode.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
@@ -1033,7 +1033,7 @@ copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D.lib;libXMTinyXml.lib;libXMAtx.lib;libXMZlib.lib;libXMKode-ES.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D.lib;libXMXml.lib;libXMTinyXml.lib;libXMAtx.lib;libXMZlib.lib;libXMKode-ES.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")

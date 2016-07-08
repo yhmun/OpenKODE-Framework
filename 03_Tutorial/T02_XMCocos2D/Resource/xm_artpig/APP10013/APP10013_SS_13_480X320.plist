@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>APP10013_SS13_0</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 235}, {99, 77}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>APP10013_SS13_1</key>
+		<dict>
+			<key>frame</key>
+			<string>{{101, 157}, {99, 77}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>APP10013_SS13_2</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 157}, {99, 77}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>APP10013_SS13_3</key>
+		<dict>
+			<key>frame</key>
+			<string>{{101, 79}, {99, 77}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>APP10013_SS13_4</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 79}, {99, 77}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>APP10013_SS13_5</key>
+		<dict>
+			<key>frame</key>
+			<string>{{101, 1}, {99, 77}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+		<key>APP10013_SS13_6</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {99, 77}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceSize</key>
+			<string>{100, 100}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>APP10013_SS_13_480X320.png</string>
+		<key>size</key>
+		<string>{256, 512}</string>
+	</dict>
+</dict>
+</plist>

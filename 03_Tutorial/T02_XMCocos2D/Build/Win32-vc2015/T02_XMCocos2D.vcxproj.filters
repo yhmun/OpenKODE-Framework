@@ -2833,10 +2833,25 @@
     <ClInclude Include="..\..\Source\Test\TestBox2D\Bed\Web.h">
       <Filter>Source\Test\TestBox2D\Bed</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TestBasic.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestDef.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestList.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Main.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestBasic.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestList.cpp">
+      <Filter>Source\Test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

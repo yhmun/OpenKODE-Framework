@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h" />
+    <ClInclude Include="..\..\Source\internal\autohint.h" />
+    <ClInclude Include="..\..\Source\internal\ftcalc.h" />
+    <ClInclude Include="..\..\Source\internal\ftdebug.h" />
+    <ClInclude Include="..\..\Source\internal\ftdriver.h" />
+    <ClInclude Include="..\..\Source\internal\ftgloadr.h" />
+    <ClInclude Include="..\..\Source\internal\ftmemory.h" />
+    <ClInclude Include="..\..\Source\internal\ftobjs.h" />
+    <ClInclude Include="..\..\Source\internal\ftpic.h" />
+    <ClInclude Include="..\..\Source\internal\ftrfork.h" />
+    <ClInclude Include="..\..\Source\internal\ftserv.h" />
+    <ClInclude Include="..\..\Source\internal\ftstream.h" />
+    <ClInclude Include="..\..\Source\internal\fttrace.h" />
+    <ClInclude Include="..\..\Source\internal\ftvalid.h" />
+    <ClInclude Include="..\..\Source\internal\internal.h" />
+    <ClInclude Include="..\..\Source\internal\psaux.h" />
+    <ClInclude Include="..\..\Source\internal\pshints.h" />
+    <ClInclude Include="..\..\Source\internal\services\svbdf.h" />
+    <ClInclude Include="..\..\Source\internal\services\svcid.h" />
+    <ClInclude Include="..\..\Source\internal\services\svgldict.h" />
+    <ClInclude Include="..\..\Source\internal\services\svgxval.h" />
+    <ClInclude Include="..\..\Source\internal\services\svkern.h" />
+    <ClInclude Include="..\..\Source\internal\services\svmm.h" />
+    <ClInclude Include="..\..\Source\internal\services\svotval.h" />
+    <ClInclude Include="..\..\Source\internal\services\svpfr.h" />
+    <ClInclude Include="..\..\Source\internal\services\svpostnm.h" />
+    <ClInclude Include="..\..\Source\internal\services\svpscmap.h" />
+    <ClInclude Include="..\..\Source\internal\services\svpsinfo.h" />
+    <ClInclude Include="..\..\Source\internal\services\svsfnt.h" />
+    <ClInclude Include="..\..\Source\internal\services\svttcmap.h" />
+    <ClInclude Include="..\..\Source\internal\services\svtteng.h" />
+    <ClInclude Include="..\..\Source\internal\services\svttglyf.h" />
+    <ClInclude Include="..\..\Source\internal\services\svwinfnt.h" />
+    <ClInclude Include="..\..\Source\internal\services\svxf86nm.h" />
+    <ClInclude Include="..\..\Source\internal\sfnt.h" />
+    <ClInclude Include="..\..\Source\internal\t1types.h" />
+    <ClInclude Include="..\..\Source\internal\tttypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\autofit\autofit.c" />
+    <ClCompile Include="..\..\Source\base\ftbase.c" />
+    <ClCompile Include="..\..\Source\base\ftbbox.c" />
+    <ClCompile Include="..\..\Source\base\ftbitmap.c" />
+    <ClCompile Include="..\..\Source\base\ftdebug.c" />
+    <ClCompile Include="..\..\Source\base\ftfstype.c" />
+    <ClCompile Include="..\..\Source\base\ftgasp.c" />
+    <ClCompile Include="..\..\Source\base\ftglyph.c" />
+    <ClCompile Include="..\..\Source\base\ftgxval.c" />
+    <ClCompile Include="..\..\Source\base\ftinit.c" />
+    <ClCompile Include="..\..\Source\base\ftlcdfil.c" />
+    <ClCompile Include="..\..\Source\base\ftmm.c" />
+    <ClCompile Include="..\..\Source\base\ftotval.c" />
+    <ClCompile Include="..\..\Source\base\ftpatent.c" />
+    <ClCompile Include="..\..\Source\base\ftpfr.c" />
+    <ClCompile Include="..\..\Source\base\ftstroke.c" />
+    <ClCompile Include="..\..\Source\base\ftsynth.c" />
+    <ClCompile Include="..\..\Source\base\ftsystem.c" />
+    <ClCompile Include="..\..\Source\base\fttype1.c" />
+    <ClCompile Include="..\..\Source\base\ftwinfnt.c" />
+    <ClCompile Include="..\..\Source\base\ftxf86.c" />
+    <ClCompile Include="..\..\Source\bdf\bdf.c" />
+    <ClCompile Include="..\..\Source\cache\ftcache.c" />
+    <ClCompile Include="..\..\Source\cff\cff.c" />
+    <ClCompile Include="..\..\Source\cid\type1cid.c" />
+    <ClCompile Include="..\..\Source\gzip\ftgzip.c" />
+    <ClCompile Include="..\..\Source\lzw\ftlzw.c" />
+    <ClCompile Include="..\..\Source\pcf\pcf.c" />
+    <ClCompile Include="..\..\Source\pfr\pfr.c" />
+    <ClCompile Include="..\..\Source\psaux\psaux.c" />
+    <ClCompile Include="..\..\Source\pshinter\pshinter.c" />
+    <ClCompile Include="..\..\Source\psnames\psmodule.c" />
+    <ClCompile Include="..\..\Source\raster\raster.c" />
+    <ClCompile Include="..\..\Source\sfnt\sfnt.c" />
+    <ClCompile Include="..\..\Source\smooth\smooth.c" />
+    <ClCompile Include="..\..\Source\truetype\truetype.c" />
+    <ClCompile Include="..\..\Source\type1\type1.c" />
+    <ClCompile Include="..\..\Source\type42\type42.c" />
+    <ClCompile Include="..\..\Source\winfonts\winfnt.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B9EC2785-BCD4-4F15-82D7-D5D7F8F1AF73}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TestStatic</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;FT2_BUILD_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4244;4005;4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(ProjectName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(ProjectName)d.lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;FT2_BUILD_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4244;4005;4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(ProjectName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(ProjectName).lib"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

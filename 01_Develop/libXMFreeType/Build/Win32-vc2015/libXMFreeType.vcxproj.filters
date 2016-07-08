@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\XMKode">
+      <UniqueIdentifier>{38c48e66-d806-421f-96cd-d4fa18a16b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{86337101-3eff-4240-a687-6bb23d5d8fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{b5ffca75-cdd7-42a5-8ac5-145fd5d2c08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{cc9c1f12-1bda-4a58-9c92-bed40bea94d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{6aa8aa38-c520-45c9-b748-6408bec0d005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\ATX">
+      <UniqueIdentifier>{dad2b003-7d4b-41c4-8f36-cb5ef9391464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{d073d01d-5c74-430a-b95a-1b38f4abbd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\XM">
+      <UniqueIdentifier>{825d6b50-b4d1-4e16-8799-6ef59646cf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLUES">
+      <UniqueIdentifier>{3c43f451-73e0-49ac-bf69-4f7cde59455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib">
+      <UniqueIdentifier>{1277a261-01a6-40e1-ad19-fedc5ccb1fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib">
+      <UniqueIdentifier>{64002303-ae6b-4e5c-b93b-57592a1d8f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib\minizip">
+      <UniqueIdentifier>{1130abcf-4b1c-430b-a047-7d47e430f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FT_MODULES">
+      <UniqueIdentifier>{f019b8a9-8262-4c4f-835e-9fa668e1f19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Internal">
+      <UniqueIdentifier>{d65da228-0126-4af0-9c4e-d2657df10646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Internal\services">
+      <UniqueIdentifier>{6aa96ff0-754d-4c1c-87f6-32ff85a87811}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\autohint.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftcalc.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftdebug.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftdriver.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftgloadr.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftmemory.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftobjs.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftpic.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftrfork.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftserv.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftstream.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\fttrace.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\ftvalid.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\internal.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\psaux.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\pshints.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\sfnt.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\t1types.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\tttypes.h">
+      <Filter>Source\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svbdf.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svcid.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svgldict.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svgxval.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svkern.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svmm.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svotval.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svpfr.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svpostnm.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svpscmap.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svpsinfo.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svsfnt.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svttcmap.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svtteng.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svttglyf.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svwinfnt.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\internal\services\svxf86nm.h">
+      <Filter>Source\Internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\bdf\bdf.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\autofit\autofit.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cff\cff.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftbitmap.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cache\ftcache.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\lzw\ftlzw.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftbbox.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftdebug.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftfstype.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftgasp.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftbase.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftinit.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftgxval.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftlcdfil.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftmm.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftotval.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftpatent.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftpfr.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftsynth.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\fttype1.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftwinfnt.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cid\type1cid.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftglyph.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gzip\ftgzip.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\pcf\pcf.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\pfr\pfr.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\psaux\psaux.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\pshinter\pshinter.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\psnames\psmodule.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\raster\raster.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\sfnt\sfnt.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\smooth\smooth.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\truetype\truetype.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\type1\type1.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\type42\type42.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\winfonts\winfnt.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftxf86.c">
+      <Filter>Source\FT_MODULES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftstroke.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\base\ftsystem.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

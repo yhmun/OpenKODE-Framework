@@ -185,6 +185,7 @@ KDvoid TestList::setScene ( KDint nIndex, EDirection eDirection )
 	switch ( nIndex )
 	{
 		case -1 : pLayer = TestList					::create ( ); break;
+			/*
 		case  0 : pLayer = TestActions				::create ( ); break;									
 		case  1 : pLayer = TestTransitions			::create ( ); break;	
 		case  2	: pLayer = TestProgressActions		::create ( ); break;	
@@ -252,6 +253,7 @@ KDvoid TestList::setScene ( KDint nIndex, EDirection eDirection )
 #else
 		case 62 : pLayer = TestGraphics				::create ( ); break;
 #endif
+*/
 	}
 
 	if ( !pLayer )

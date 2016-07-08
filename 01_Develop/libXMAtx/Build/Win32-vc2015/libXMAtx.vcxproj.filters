@@ -1,0 +1,938 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\XMKode">
+      <UniqueIdentifier>{619beb2b-9ff2-4281-aed4-6481a570fcc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\ATX">
+      <UniqueIdentifier>{d47ac6a8-0592-4a3a-92b1-df59329d2ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{4777db23-3574-426a-8161-dcc7d4446827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\XM">
+      <UniqueIdentifier>{5682418d-ff8e-405a-b7c8-cf207b5d6e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{2580ff90-0e9c-48d5-83f4-a097d98756ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GL">
+      <UniqueIdentifier>{7125ad5c-132e-42ea-9dd4-cdfc069d2e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{3147110a-ba36-45eb-a25f-ae39f98a4a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{c280a18d-6ca4-4e62-8adb-e9df0f813fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLUES">
+      <UniqueIdentifier>{f5baefae-2bdf-4041-b6ea-d3bfe15f4617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{a0674569-a4bb-4afe-970c-a18fb6a75b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\JPEG">
+      <UniqueIdentifier>{4e67fb8f-dd5b-4e52-9479-60ec24601e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PNG">
+      <UniqueIdentifier>{b92728d8-72ae-43d6-9c29-edcdebbed1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PVR">
+      <UniqueIdentifier>{8cd1fe7d-ef4c-442a-9c72-9a54a00a60ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\JPEG\Header">
+      <UniqueIdentifier>{0af197ed-7702-4192-8f91-98972e941169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\JPEG\Source">
+      <UniqueIdentifier>{35131990-cd06-4d13-a8b9-df9c6108180e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PNG\Header">
+      <UniqueIdentifier>{6337c087-ef77-4c9e-90ec-7228ff2fe41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PNG\Source">
+      <UniqueIdentifier>{a4692d0d-fe73-4241-8179-d8024fe58779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TIFF">
+      <UniqueIdentifier>{c12063c0-85f0-4c1c-a48f-48750ab4205a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TIFF\Header">
+      <UniqueIdentifier>{19a04293-3087-40f2-a530-9fb2cf55df88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TIFF\Source">
+      <UniqueIdentifier>{07ce2686-c510-4d0b-bfd5-56bee9b77870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WEBP">
+      <UniqueIdentifier>{e519103d-28ba-4be3-be1e-e2cddce2b728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WEBP\dec">
+      <UniqueIdentifier>{3ba512a1-c45e-41c3-92e8-aea750813f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WEBP\demux">
+      <UniqueIdentifier>{b560894f-082a-4f1a-a134-1e5075524f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WEBP\dsp">
+      <UniqueIdentifier>{eeddcdea-3afc-486d-bd95-01d323858c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WEBP\enc">
+      <UniqueIdentifier>{60c718b7-0545-4baf-856d-519a6bbf81f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WEBP\mux">
+      <UniqueIdentifier>{18cfa1a0-d5d7-4a72-8b74-26ddddb1620d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WEBP\utils">
+      <UniqueIdentifier>{609f9877-36e0-449b-a3b1-9040c28d6a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WEBP\webp">
+      <UniqueIdentifier>{eb4ced8c-c3a0-4688-bb9b-87408bb43445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\S3TC">
+      <UniqueIdentifier>{7b6a877c-7c5f-4736-bd8f-5d651cc578bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ATITC">
+      <UniqueIdentifier>{d6964db3-ac6e-4005-b650-100d47f895b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ETC">
+      <UniqueIdentifier>{34c82424-320f-4b9d-aafb-1be10d65949f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\glew.h">
+      <Filter>Include\XMKode\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\glxew.h">
+      <Filter>Include\XMKode\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\wglew.h">
+      <Filter>Include\XMKode\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_system.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\cderror.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\cdjpeg.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jconfig.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jdct.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jerror.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jinclude.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jmemsys.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jmorecfg.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jpegint.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jpeglib.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\jversion.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JPEG\transupp.h">
+      <Filter>Source\JPEG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PNG\png.h">
+      <Filter>Source\PNG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PNG\pngconf.h">
+      <Filter>Source\PNG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PNG\pngdebug.h">
+      <Filter>Source\PNG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PNG\pnginfo.h">
+      <Filter>Source\PNG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PNG\pnglibconf.h">
+      <Filter>Source\PNG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PNG\pngpriv.h">
+      <Filter>Source\PNG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PNG\pngstruct.h">
+      <Filter>Source\PNG\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PVR\PVRTDecompress.h">
+      <Filter>Source\PVR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\t4.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tif_config.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tif_dir.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tif_fax3.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tif_predict.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tiff.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tiffconf.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tiffio.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tiffiop.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\tiffvers.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TIFF\uvcode.h">
+      <Filter>Source\TIFF\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\dsp\dsp.h">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\dsp\lossless.h">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\dsp\yuv.h">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\mux\muxi.h">
+      <Filter>Source\WEBP\mux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\webp\decode.h">
+      <Filter>Source\WEBP\webp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\webp\demux.h">
+      <Filter>Source\WEBP\webp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\webp\encode.h">
+      <Filter>Source\WEBP\webp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\webp\format_constants.h">
+      <Filter>Source\WEBP\webp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\webp\mux.h">
+      <Filter>Source\WEBP\webp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\webp\mux_types.h">
+      <Filter>Source\WEBP\webp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\webp\types.h">
+      <Filter>Source\WEBP\webp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\bit_reader.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\bit_writer.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\color_cache.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\filters.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\huffman.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\huffman_encode.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\quant_levels.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\quant_levels_dec.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\rescaler.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\thread.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\utils\utils.h">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\atx_library.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\enc\backward_references.h">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\enc\cost.h">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\enc\histogram.h">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\enc\vp8enci.h">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\enc\vp8li.h">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\dec\decode_vp8.h">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\dec\vp8i.h">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\dec\vp8li.h">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WEBP\dec\webpi.h">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\S3TC\s3tc_decode.h">
+      <Filter>Source\S3TC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ATITC\atitc_decode.h">
+      <Filter>Source\ATITC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ETC\etc1_decode.h">
+      <Filter>Source\ETC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\JPEG\jaricom.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcapimin.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcapistd.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcarith.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jccoefct.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jccolor.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcdctmgr.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jchuff.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcinit.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcmainct.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcmarker.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcmaster.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcomapi.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcparam.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcprepct.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jcsample.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jctrans.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdapimin.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdapistd.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdarith.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdatadst.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdatasrc.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdcoefct.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdcolor.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jddctmgr.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdhuff.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdinput.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdmainct.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdmarker.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdmaster.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdmerge.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdpostct.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdsample.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jdtrans.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jerror.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jfdctflt.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jfdctfst.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jfdctint.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jidctflt.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jidctfst.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jidctint.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jmemmgr.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jmemnobs.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jquant1.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jquant2.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JPEG\jutils.c">
+      <Filter>Source\JPEG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\png.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngerror.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pnggccrd.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngget.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngmem.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngpread.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngread.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngrio.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngrtran.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngrutil.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngset.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngtrans.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngvcrd.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngwio.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngwrite.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngwtran.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PNG\pngwutil.c">
+      <Filter>Source\PNG\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PVR\PVRTDecompress.c">
+      <Filter>Source\PVR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_aux.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_close.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_codec.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_color.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_compress.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_dir.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_dirinfo.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_dirread.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_dirwrite.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_dumpmode.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_error.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_extension.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_fax3.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_fax3sm.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_flush.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_getimage.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_jbig.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_jpeg.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_jpeg_12.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_kode.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_luv.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_lzma.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_lzw.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_next.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_ojpeg.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_open.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_packbits.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_pixarlog.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_predict.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_print.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_read.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_strip.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_swab.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_thunder.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_tile.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_version.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_warning.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_write.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TIFF\tif_zip.c">
+      <Filter>Source\TIFF\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\demux\demux.c">
+      <Filter>Source\WEBP\demux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\cpu.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\dec.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\dec_neon.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\dec_sse2.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\enc.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\enc_neon.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\enc_sse2.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\lossless.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\upsampling.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\upsampling_neon.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\upsampling_sse2.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dsp\yuv.c">
+      <Filter>Source\WEBP\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\mux\muxedit.c">
+      <Filter>Source\WEBP\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\mux\muxinternal.c">
+      <Filter>Source\WEBP\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\mux\muxread.c">
+      <Filter>Source\WEBP\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\bit_reader.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\bit_writer.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\color_cache.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\filters.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\huffman.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\huffman_encode.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\quant_levels.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\quant_levels_dec.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\rescaler.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\thread.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\utils\utils.c">
+      <Filter>Source\WEBP\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_bluetooth.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_dxtcomp.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_bmp.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_jpg.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_png.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_pvr.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_tga.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_tiff.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_webp.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\analysis.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\backward_references.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\config.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\cost.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_alpha.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_frame.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_layer.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_quant.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_tree.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_vp8l.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\filter.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\histogram.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\iterator.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\picture.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\syntax.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\token.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\enc\webpenc.c">
+      <Filter>Source\WEBP\enc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\buffer.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_alpha.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_frame.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_layer.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_quant.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_tree.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_vp8l.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\idec.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\io.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\vp8.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WEBP\dec\webp.c">
+      <Filter>Source\WEBP\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\S3TC\s3tc_decode.c">
+      <Filter>Source\S3TC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_s3tc.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_atitc.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\atx_imgdec_etc.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ATITC\atitc_decode.c">
+      <Filter>Source\ATITC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ETC\etc1_decode.c">
+      <Filter>Source\ETC</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

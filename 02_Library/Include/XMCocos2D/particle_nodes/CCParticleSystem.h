@@ -1,0 +1,517 @@
+/* -----------------------------------------------------------------------------------
+ *
+ *      File            CCParticleSystem.h
+ *      Ported By       Young-Hwan Mun
+ *      Contact         xmsoft77@gmail.com 
+ * 
+ * -----------------------------------------------------------------------------------
+ *   
+ *      Copyright (c) 2010-2013 XMSoft
+ *      Copyright (c) 2010-2013 cocos2d-x.org
+ *      Copyright (c) 2008-2010 Ricardo Quesada
+ *      Copyright (c) 2011      Zynga Inc.
+ *
+ *         http://www.cocos2d-x.org      
+ *
+ * -----------------------------------------------------------------------------------
+ * 
+ *     Permission is hereby granted, free of charge, to any person obtaining a copy
+ *     of this software and associated documentation files (the "Software"), to deal
+ *     in the Software without restriction, including without limitation the rights
+ *     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *     copies of the Software, and to permit persons to whom the Software is
+ *     furnished to do so, subject to the following conditions:
+ *
+ *     The above copyright notice and this permission notice shall be included in
+ *     all copies or substantial portions of the Software.
+ *     
+ *     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *     AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *     THE SOFTWARE.
+ *
+ * ----------------------------------------------------------------------------------- */ 
+
+#ifndef __CCParticleSystem_h__
+#define __CCParticleSystem_h__
+
+#include "../CCProtocols.h"
+#include "../base_nodes/CCNode.h"
+#include "../cocoa/CCDictionary.h"
+
+NS_CC_BEGIN
+    
+/**
+ * @addtogroup particle_nodes
+ * @{
+ */
+
+class CCParticleBatchNode;
+
+//* @enum
+enum 
+{
+	/** The Particle emitter lives forever */
+	kCCParticleDurationInfinity            = -1,
+
+	/** The starting size of the particle is equal to the ending size */
+	kCCParticleStartSizeEqualToEndSize     = -1,
+
+	/** The starting radius of the particle is equal to the ending radius */
+	kCCParticleStartRadiusEqualToEndRadius = -1,
+
+	// backward compatible
+	kParticleStartSizeEqualToEndSize       = kCCParticleStartSizeEqualToEndSize,
+	kParticleDurationInfinity              = kCCParticleDurationInfinity,
+};
+
+//* @enum
+enum 
+{
+	/** Gravity mode (A mode) */
+	kCCParticleModeGravity,
+
+	/** Radius mode (B mode) */
+	kCCParticleModeRadius,	
+};
+
+/**
+ *	@typedef tCCPositionType
+ *	possible types of particle positions
+ */
+typedef enum 
+{
+	/** Living particles are attached to the world and are unaffected by emitter repositioning. */
+	kCCPositionTypeFree,
+
+	/** 
+	 *	Living particles are attached to the world but will follow the emitter repositioning.
+     *	Use case: Attach an emitter to an sprite, and you want that the emitter follows the sprite.
+     */
+    kCCPositionTypeRelative,
+
+	/** Living particles are attached to the emitter and are translated along with it. */
+	kCCPositionTypeGrouped,
+} tCCPositionType;
+
+// backward compatible
+enum 
+{
+	kPositionTypeFree    = kCCPositionTypeFree,
+	kPositionTypeGrouped = kCCPositionTypeGrouped,
+}; 
+
+/**
+ *	Structure that contains the values of each particle
+ */
+typedef struct sCCParticle
+{
+	CCPoint         tPos;
+	CCPoint         tStartPos;
+
+	ccColor4F       tColor;
+	ccColor4F       tDeltaColor;
+
+	KDfloat         fSize;
+	KDfloat         fDeltaSize;
+
+	KDfloat         fRotation;
+	KDfloat         fDeltaRotation;
+
+	KDfloat         fTimeToLive;
+
+	KDuint			uAtlasIndex;
+
+	//! Mode A: gravity, direction, radial accel, tangential accel
+	struct 
+	{
+		CCPoint     tDir;
+		KDfloat     fRadialAccel;
+		KDfloat     fTangentialAccel;
+	} tModeA;
+
+	//! Mode B: radius mode
+	struct
+	{
+		KDfloat     fAngle;
+		KDfloat     fDegreesPerSecond;
+		KDfloat     fRadius;
+		KDfloat     fDeltaRadius;
+	} tModeB;
+
+} tCCParticle;
+
+class CCTexture2D;
+
+/**
+ *	@brief	Particle System base class.
+ *	Attributes of a Particle System:
+ *		- emission rate of the particles
+ *		- Gravity Mode (Mode A):
+ *		- gravity
+ *		- direction
+ *		- speed +-  variance
+ *		- tangential acceleration +- variance
+ *		- radial acceleration +- variance
+ *		- Radius Mode (Mode B):
+ *		- startRadius +- variance
+ *		- endRadius +- variance
+ *		- rotate +- variance
+ *		- Properties common to all modes:
+ *		- life +- life variance
+ *		- start spin +- variance
+ *		- end spin +- variance
+ *		- start size +- variance
+ *		- end size +- variance
+ *		- start color +- variance
+ *		- end color +- variance
+ *		- life +- variance
+ *		- blending function
+ *		- texture
+ *		
+ *	cocos2d also supports particles generated by Particle Designer (http://particledesigner.71squared.com/).
+ *	'Radius Mode' in Particle Designer uses a fixed emit rate of 30 hz. Since that can't be guaranteed in cocos2d,
+ *	cocos2d uses a another approach, but the results are almost identical. 
+ *	
+ *	cocos2d supports all the variables used by Particle Designer plus a bit more:
+ *		- spinning particles (supported when using CCParticleSystemQuad)
+ *		- tangential acceleration (Gravity mode)
+ *		- radial acceleration (Gravity mode)
+ *		- radius direction (Radius mode) (Particle Designer supports outwards to inwards direction only)
+ *	
+ *	It is possible to customize any of the above mentioned properties in runtime. Example:
+ *	
+ *	@code
+ *	emitter.radialAccel = 15;
+ *	emitter.startSpin = 0;
+ *	@endcode
+ *	
+ */
+class CCParticleSystem : public CCNode, public CCTextureProtocol
+{	
+	public :
+		         CCParticleSystem ( KDvoid );
+		virtual ~CCParticleSystem ( KDvoid );
+
+		/**
+		 *	creates an initializes a CCParticleSystem from a plist file.
+		 *	This plist files can be created manually or with Particle Designer:
+		 *	http://particledesigner.71squared.com/
+		 *	@since	v0.99.3
+		 */
+		static  CCParticleSystem*	create ( const KDchar* szPlistFile );
+
+		//! create a system with a fixed number of particles
+		static  CCParticleSystem*	createWithTotalParticles ( KDuint uNumberOfParticles );
+
+	public :
+
+		/** initializes a CCParticleSystem */
+		virtual KDbool		init ( KDvoid );
+
+		/**
+		 *	initializes a CCParticleSystem from a plist file.
+		 *	This plist files can be created manually or with Particle Designer:
+		 *	http://particledesigner.71squared.com/
+		 *	@since	v0.99.3
+		 */
+		virtual KDbool		initWithFile ( const KDchar* szPlistFile );
+
+		/**
+		 *	initializes a CCQuadParticleSystem from a CCDictionary.
+		 *	@since	v0.99.3
+		 */
+		virtual KDbool		initWithDictionary ( CCDictionary* pDictionary );
+
+		/** 
+		 *	initializes a particle system from a NSDictionary and the path from where to load the png
+		 *	@since v2.1
+		 */
+		virtual KDbool		initWithDictionary ( CCDictionary* pDictionary, const KDchar* szDirname );
+
+		//! Initializes a system with a fixed number of particles
+		virtual KDbool		initWithTotalParticles ( KDuint uNumberOfParticles );
+
+		//! Add a particle to the emitter
+		KDbool				addParticle ( KDvoid );
+
+		//! Initializes a particle
+		virtual KDvoid		initParticle ( tCCParticle* pParticle );
+
+		//! stop emitting particles. Running particles will continue to run until they die
+		KDvoid				stopSystem ( KDvoid );
+
+		//! Kill all living particles.
+		KDvoid				resetSystem ( KDvoid );
+
+		//! whether or not the system is full
+		KDbool				isFull ( KDvoid );
+
+		//! should be overridden by subclasses
+		virtual KDvoid		updateQuadWithParticle ( tCCParticle* pParticle, const CCPoint& tNewPosition );
+
+		//! should be overridden by subclasses
+        virtual KDvoid		postStep ( KDvoid );
+
+		virtual KDvoid		update ( KDfloat fElapsed );
+		virtual KDvoid		updateWithNoTime ( KDvoid );
+
+	protected :
+
+		virtual KDvoid		updateBlendFunc ( KDvoid );
+
+	public :
+
+		// mode A
+		virtual const CCPoint&	getGravity ( KDvoid );
+		virtual KDvoid			setGravity ( const CCPoint& tGravity );
+
+		virtual KDfloat		getSpeed ( KDvoid );
+		virtual KDvoid		setSpeed ( KDfloat fSpeed );
+
+		virtual KDfloat		getSpeedVar ( KDvoid );
+		virtual KDvoid		setSpeedVar ( KDfloat fSpeedVar );
+
+		virtual KDfloat		getTangentialAccel ( KDvoid );
+		virtual KDvoid		 setTangentialAccel ( KDfloat fTangentialAccel );
+
+		virtual KDfloat		 getTangentialAccelVar ( KDvoid );
+		virtual KDvoid		setTangentialAccelVar ( KDfloat fTangentialAccelVar );
+
+		virtual KDfloat		getRadialAccel ( KDvoid );
+		virtual KDvoid		setRadialAccel ( KDfloat fRadialAccel );
+
+		virtual KDfloat		getRadialAccelVar ( KDvoid );
+		virtual KDvoid		setRadialAccelVar ( KDfloat fRadialAccelVar );
+
+		virtual KDbool		getRotationIsDir ( KDvoid );
+		virtual KDvoid		setRotationIsDir ( KDbool bDir );
+
+		// mode B
+		virtual KDfloat		getStartRadius ( KDvoid );
+		virtual KDvoid		setStartRadius ( KDfloat startRadius );
+
+		virtual KDfloat		getStartRadiusVar ( KDvoid );
+		virtual KDvoid		setStartRadiusVar ( KDfloat fStartRadiusVar );
+
+		virtual KDfloat		getEndRadius ( KDvoid );
+		virtual KDvoid		setEndRadius ( KDfloat fEndRadius );
+
+		virtual KDfloat		getEndRadiusVar ( KDvoid );
+		virtual KDvoid		setEndRadiusVar ( KDfloat fEndRadiusVar );
+
+		virtual KDfloat		getRotatePerSecond ( KDvoid );
+		virtual KDvoid		setRotatePerSecond ( KDfloat fRotatePerSecond );
+
+		virtual KDfloat		getRotatePerSecondVar ( KDvoid );
+		virtual KDvoid		setRotatePerSecondVar ( KDfloat fRotatePerSecondVar );
+				
+		virtual KDvoid		setRotation ( KDfloat fRotation );
+
+		virtual KDvoid		setScale  ( KDfloat fScale  );
+		virtual KDvoid		setScaleX ( KDfloat fScaleX );
+		virtual KDvoid		setScaleY ( KDfloat fScaleY );
+
+		/** Is the emitter active */
+		virtual KDbool		isActive ( KDvoid );
+
+		/**
+		 *	whether or not the particles are using blend additive.
+		 *	If enabled, the following blending function will be used.
+		 *	@code
+		 *	source blend function = GL_SRC_ALPHA;
+		 *	dest blend function = GL_ONE;
+		 *	@endcode
+		 */
+		virtual KDbool		 isBlendAdditive ( KDvoid );
+		virtual KDvoid		setBlendAdditive ( KDbool bValue );
+
+		/**
+		 *	whether or not the node will be auto-removed when it has no particles left.
+		 *	By default it is false.
+		 *	@since	v0.8
+		 */
+		virtual KDbool		 isAutoRemoveOnFinish ( KDvoid );
+		virtual KDvoid		setAutoRemoveOnFinish ( KDbool bIsAutoRemoveOnFinish );
+
+		/** Quantity of particles that are being simulated at the moment */
+		CC_PROPERTY_READONLY ( KDuint, m_uParticleCount, ParticleCount );
+
+		/** How many seconds the emitter will run. -1 means 'forever' */
+		CC_PROPERTY ( KDfloat, m_fDuration, Duration );
+
+		/** sourcePosition of the emitter */
+		CC_PROPERTY_PASS_BY_REF ( CCPoint, m_tSourcePosition, SourcePosition );
+
+		/** Position variance of the emitter */
+		CC_PROPERTY_PASS_BY_REF ( CCPoint, m_tPosVar, PosVar );
+
+		/** life, and life variation of each particle */
+		CC_PROPERTY ( KDfloat, m_fLife, Life );
+
+		/** life variance of each particle */
+		CC_PROPERTY ( KDfloat, m_fLifeVar, LifeVar );
+
+		/** angle and angle variation of each particle */
+		CC_PROPERTY ( KDfloat, m_fAngle, Angle );
+
+		/** angle variance of each particle */
+		CC_PROPERTY ( KDfloat, m_fAngleVar, AngleVar );
+
+		/** start size in pixels of each particle */
+		CC_PROPERTY ( KDfloat, m_fStartSize, StartSize );
+
+		/** size variance in pixels of each particle */
+		CC_PROPERTY ( KDfloat, m_fStartSizeVar, StartSizeVar );
+
+		/** end size in pixels of each particle */
+		CC_PROPERTY ( KDfloat, m_fEndSize, EndSize );
+
+		/** end size variance in pixels of each particle */
+		CC_PROPERTY ( KDfloat, m_fEndSizeVar, EndSizeVar );
+
+		/** start color of each particle */
+		CC_PROPERTY_PASS_BY_REF ( ccColor4F, m_tStartColor, StartColor );
+
+		/** start color variance of each particle */
+		CC_PROPERTY_PASS_BY_REF ( ccColor4F, m_tStartColorVar, StartColorVar );
+
+		/** end color and end color variation of each particle */
+		CC_PROPERTY_PASS_BY_REF ( ccColor4F, m_tEndColor, EndColor );
+
+		/** end color variance of each particle */
+		CC_PROPERTY_PASS_BY_REF ( ccColor4F, m_tEndColorVar, EndColorVar );
+
+		//* initial angle of each particle
+		CC_PROPERTY ( KDfloat, m_fStartSpin, StartSpin );
+
+		//* initial angle of each particle
+		CC_PROPERTY ( KDfloat, m_fStartSpinVar, StartSpinVar );
+
+		//* initial angle of each particle
+		CC_PROPERTY ( KDfloat, m_fEndSpin, EndSpin );
+
+		//* initial angle of each particle
+		CC_PROPERTY ( KDfloat, m_fEndSpinVar, EndSpinVar );
+
+		/** emission rate of the particles */
+		CC_PROPERTY ( KDfloat, m_fEmissionRate, EmissionRate );
+
+		/** maximum particles of the system */
+		CC_PROPERTY ( KDuint, m_uTotalParticles, TotalParticles );
+
+		/** conforms to CocosNodeTexture protocol */
+		CC_PROPERTY ( CCTexture2D*, m_pTexture, Texture );
+
+		/** conforms to CocosNodeTexture protocol */
+		CC_PROPERTY ( ccBlendFunc, m_tBlendFunc, BlendFunc );
+	
+		/** does the alpha value modify color */
+		CC_PROPERTY ( KDbool, m_bOpacityModifyRGB, OpacityModifyRGB );
+
+		/** 
+		 *	particles movement type: Free or Grouped
+		 *	@since	v0.8
+		 */
+		CC_PROPERTY ( tCCPositionType, m_ePositionType, PositionType );
+
+		/** 
+		 *	Switch between different kind of emitter modes:
+		 *		- kCCParticleModeGravity: uses gravity, speed, radial and tangential acceleration
+		 *		- kCCParticleModeRadius: uses radius movement + rotation
+		 */
+		CC_PROPERTY ( KDint, m_nEmitterMode, EmitterMode );
+
+		/** weak reference to the CCSpriteBatchNode that renders the CCSprite */
+		CC_PROPERTY ( CCParticleBatchNode*, m_pBatchNode, BatchNode );
+
+		// index of system in batch node array
+		CC_SYNTHESIZE ( KDuint, m_uAtlasIndex, AtlasIndex );
+
+	protected :
+
+		KDbool				m_bIsActive;
+		KDbool				m_bIsBlendAdditive;
+		KDbool				m_bIsAutoRemoveOnFinish;
+
+		std::string			m_sPlistPath;
+
+		//! time elapsed since the start of the system (in seconds)
+		KDfloat				m_fElapsed;
+
+		// Different modes
+		//! Mode A:Gravity + Tangential Accel + Radial Accel
+		struct 
+		{
+			/** Gravity value. Only available in 'Gravity' mode. */
+			CCPoint			tGravity;
+
+			/** speed of each particle. Only available in 'Gravity' mode.  */
+			KDfloat			fSpeed;
+
+			/** speed variance of each particle. Only available in 'Gravity' mode. */
+			KDfloat			fSpeedVar;
+
+			/** tangential acceleration of each particle. Only available in 'Gravity' mode. */
+			KDfloat			fTangentialAccel;
+
+			/** tangential acceleration variance of each particle. Only available in 'Gravity' mode. */
+			KDfloat			fTangentialAccelVar;
+
+			/** radial acceleration of each particle. Only available in 'Gravity' mode. */
+			KDfloat			fRadialAccel;
+
+			/** radial acceleration variance of each particle. Only available in 'Gravity' mode. */
+			KDfloat			fRadialAccelVar;
+
+			/** set the rotation of each particle to its direction Only available in 'Gravity' mode. */
+			KDbool			bRotationIsDir;
+		} m_tModeA;
+
+		//! Mode B: circular movement (gravity, radial accel and tangential accel don't are not used in this mode)
+		struct
+		{
+			/** The starting radius of the particles. Only available in 'Radius' mode. */
+			KDfloat			fStartRadius;
+
+			/** The starting radius variance of the particles. Only available in 'Radius' mode. */
+			KDfloat			fStartRadiusVar;
+
+			/** The ending radius of the particles. Only available in 'Radius' mode. */
+			KDfloat			fEndRadius;
+
+			/** The ending radius variance of the particles. Only available in 'Radius' mode. */
+			KDfloat			fEndRadiusVar;			
+
+			/** Number of degrees to rotate a particle around the source pos per second. Only available in 'Radius' mode. */
+			KDfloat			fRotatePerSecond;
+
+			/** Variance in degrees for rotatePerSecond. Only available in 'Radius' mode. */
+			KDfloat			fRotatePerSecondVar;
+		} m_tModeB;
+
+		//! Array of particles
+		tCCParticle*		m_pParticles;
+
+		//! How many particles can be emitted per second
+		KDfloat				m_fEmitCounter;
+
+		//!  particle idx
+		KDuint				m_uParticleIdx;
+
+		//true if scaled or rotated
+		KDbool				m_bTransformSystemDirty;
+    
+		// Number of allocated particles
+		KDuint				m_uAllocatedParticles;
+};
+
+// end of particle_nodes group
+/// @}
+
+NS_CC_END
+
+#endif // __CCParticleSystem_h__

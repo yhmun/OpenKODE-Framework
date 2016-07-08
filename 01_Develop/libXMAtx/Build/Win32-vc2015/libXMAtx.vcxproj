@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\glew.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\glxew.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\wglew.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_system.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h" />
+    <ClInclude Include="..\..\Source\ATITC\atitc_decode.h" />
+    <ClInclude Include="..\..\Source\atx_library.h" />
+    <ClInclude Include="..\..\Source\ETC\etc1_decode.h" />
+    <ClInclude Include="..\..\Source\JPEG\cderror.h" />
+    <ClInclude Include="..\..\Source\JPEG\cdjpeg.h" />
+    <ClInclude Include="..\..\Source\JPEG\jconfig.h" />
+    <ClInclude Include="..\..\Source\JPEG\jdct.h" />
+    <ClInclude Include="..\..\Source\JPEG\jerror.h" />
+    <ClInclude Include="..\..\Source\JPEG\jinclude.h" />
+    <ClInclude Include="..\..\Source\JPEG\jmemsys.h" />
+    <ClInclude Include="..\..\Source\JPEG\jmorecfg.h" />
+    <ClInclude Include="..\..\Source\JPEG\jpegint.h" />
+    <ClInclude Include="..\..\Source\JPEG\jpeglib.h" />
+    <ClInclude Include="..\..\Source\JPEG\jversion.h" />
+    <ClInclude Include="..\..\Source\JPEG\transupp.h" />
+    <ClInclude Include="..\..\Source\PNG\png.h" />
+    <ClInclude Include="..\..\Source\PNG\pngconf.h" />
+    <ClInclude Include="..\..\Source\PNG\pngdebug.h" />
+    <ClInclude Include="..\..\Source\PNG\pnginfo.h" />
+    <ClInclude Include="..\..\Source\PNG\pnglibconf.h" />
+    <ClInclude Include="..\..\Source\PNG\pngpriv.h" />
+    <ClInclude Include="..\..\Source\PNG\pngstruct.h" />
+    <ClInclude Include="..\..\Source\PVR\PVRTDecompress.h" />
+    <ClInclude Include="..\..\Source\S3TC\s3tc_decode.h" />
+    <ClInclude Include="..\..\Source\TIFF\t4.h" />
+    <ClInclude Include="..\..\Source\TIFF\tiff.h" />
+    <ClInclude Include="..\..\Source\TIFF\tiffconf.h" />
+    <ClInclude Include="..\..\Source\TIFF\tiffio.h" />
+    <ClInclude Include="..\..\Source\TIFF\tiffiop.h" />
+    <ClInclude Include="..\..\Source\TIFF\tiffvers.h" />
+    <ClInclude Include="..\..\Source\TIFF\tif_config.h" />
+    <ClInclude Include="..\..\Source\TIFF\tif_dir.h" />
+    <ClInclude Include="..\..\Source\TIFF\tif_fax3.h" />
+    <ClInclude Include="..\..\Source\TIFF\tif_predict.h" />
+    <ClInclude Include="..\..\Source\TIFF\uvcode.h" />
+    <ClInclude Include="..\..\Source\WEBP\dec\decode_vp8.h" />
+    <ClInclude Include="..\..\Source\WEBP\dec\vp8i.h" />
+    <ClInclude Include="..\..\Source\WEBP\dec\vp8li.h" />
+    <ClInclude Include="..\..\Source\WEBP\dec\webpi.h" />
+    <ClInclude Include="..\..\Source\WEBP\dsp\dsp.h" />
+    <ClInclude Include="..\..\Source\WEBP\dsp\lossless.h" />
+    <ClInclude Include="..\..\Source\WEBP\dsp\yuv.h" />
+    <ClInclude Include="..\..\Source\WEBP\enc\backward_references.h" />
+    <ClInclude Include="..\..\Source\WEBP\enc\cost.h" />
+    <ClInclude Include="..\..\Source\WEBP\enc\histogram.h" />
+    <ClInclude Include="..\..\Source\WEBP\enc\vp8enci.h" />
+    <ClInclude Include="..\..\Source\WEBP\enc\vp8li.h" />
+    <ClInclude Include="..\..\Source\WEBP\mux\muxi.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\bit_reader.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\bit_writer.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\color_cache.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\filters.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\huffman.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\huffman_encode.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\quant_levels.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\quant_levels_dec.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\rescaler.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\thread.h" />
+    <ClInclude Include="..\..\Source\WEBP\utils\utils.h" />
+    <ClInclude Include="..\..\Source\WEBP\webp\decode.h" />
+    <ClInclude Include="..\..\Source\WEBP\webp\demux.h" />
+    <ClInclude Include="..\..\Source\WEBP\webp\encode.h" />
+    <ClInclude Include="..\..\Source\WEBP\webp\format_constants.h" />
+    <ClInclude Include="..\..\Source\WEBP\webp\mux.h" />
+    <ClInclude Include="..\..\Source\WEBP\webp\mux_types.h" />
+    <ClInclude Include="..\..\Source\WEBP\webp\types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ATITC\atitc_decode.c" />
+    <ClCompile Include="..\..\Source\atx_bluetooth.c" />
+    <ClCompile Include="..\..\Source\atx_dxtcomp.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_atitc.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_bmp.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_etc.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_jpg.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_png.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_pvr.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_s3tc.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_tga.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_tiff.c" />
+    <ClCompile Include="..\..\Source\atx_imgdec_webp.c" />
+    <ClCompile Include="..\..\Source\ETC\etc1_decode.c" />
+    <ClCompile Include="..\..\Source\JPEG\jaricom.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcapimin.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcapistd.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcarith.c" />
+    <ClCompile Include="..\..\Source\JPEG\jccoefct.c" />
+    <ClCompile Include="..\..\Source\JPEG\jccolor.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcdctmgr.c" />
+    <ClCompile Include="..\..\Source\JPEG\jchuff.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcinit.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcmainct.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcmarker.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcmaster.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcomapi.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcparam.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcprepct.c" />
+    <ClCompile Include="..\..\Source\JPEG\jcsample.c" />
+    <ClCompile Include="..\..\Source\JPEG\jctrans.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdapimin.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdapistd.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdarith.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdatadst.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdatasrc.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdcoefct.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdcolor.c" />
+    <ClCompile Include="..\..\Source\JPEG\jddctmgr.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdhuff.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdinput.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdmainct.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdmarker.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdmaster.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdmerge.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdpostct.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdsample.c" />
+    <ClCompile Include="..\..\Source\JPEG\jdtrans.c" />
+    <ClCompile Include="..\..\Source\JPEG\jerror.c" />
+    <ClCompile Include="..\..\Source\JPEG\jfdctflt.c" />
+    <ClCompile Include="..\..\Source\JPEG\jfdctfst.c" />
+    <ClCompile Include="..\..\Source\JPEG\jfdctint.c" />
+    <ClCompile Include="..\..\Source\JPEG\jidctflt.c" />
+    <ClCompile Include="..\..\Source\JPEG\jidctfst.c" />
+    <ClCompile Include="..\..\Source\JPEG\jidctint.c" />
+    <ClCompile Include="..\..\Source\JPEG\jmemmgr.c" />
+    <ClCompile Include="..\..\Source\JPEG\jmemnobs.c" />
+    <ClCompile Include="..\..\Source\JPEG\jquant1.c" />
+    <ClCompile Include="..\..\Source\JPEG\jquant2.c" />
+    <ClCompile Include="..\..\Source\JPEG\jutils.c" />
+    <ClCompile Include="..\..\Source\PNG\png.c" />
+    <ClCompile Include="..\..\Source\PNG\pngerror.c" />
+    <ClCompile Include="..\..\Source\PNG\pnggccrd.c" />
+    <ClCompile Include="..\..\Source\PNG\pngget.c" />
+    <ClCompile Include="..\..\Source\PNG\pngmem.c" />
+    <ClCompile Include="..\..\Source\PNG\pngpread.c" />
+    <ClCompile Include="..\..\Source\PNG\pngread.c" />
+    <ClCompile Include="..\..\Source\PNG\pngrio.c" />
+    <ClCompile Include="..\..\Source\PNG\pngrtran.c" />
+    <ClCompile Include="..\..\Source\PNG\pngrutil.c" />
+    <ClCompile Include="..\..\Source\PNG\pngset.c" />
+    <ClCompile Include="..\..\Source\PNG\pngtrans.c" />
+    <ClCompile Include="..\..\Source\PNG\pngvcrd.c" />
+    <ClCompile Include="..\..\Source\PNG\pngwio.c" />
+    <ClCompile Include="..\..\Source\PNG\pngwrite.c" />
+    <ClCompile Include="..\..\Source\PNG\pngwtran.c" />
+    <ClCompile Include="..\..\Source\PNG\pngwutil.c" />
+    <ClCompile Include="..\..\Source\PVR\PVRTDecompress.c" />
+    <ClCompile Include="..\..\Source\S3TC\s3tc_decode.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_aux.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_close.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_codec.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_color.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_compress.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_dir.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_dirinfo.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_dirread.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_dirwrite.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_dumpmode.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_error.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_extension.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_fax3.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_fax3sm.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_flush.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_getimage.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_jbig.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_jpeg.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_jpeg_12.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_kode.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_luv.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_lzma.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_lzw.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_next.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_ojpeg.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_open.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_packbits.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_pixarlog.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_predict.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_print.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_read.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_strip.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_swab.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_thunder.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_tile.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_version.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_warning.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_write.c" />
+    <ClCompile Include="..\..\Source\TIFF\tif_zip.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\buffer.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_alpha.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_frame.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_layer.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_quant.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_tree.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\dec_vp8l.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\idec.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\io.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\vp8.c" />
+    <ClCompile Include="..\..\Source\WEBP\dec\webp.c" />
+    <ClCompile Include="..\..\Source\WEBP\demux\demux.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\cpu.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\dec.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\dec_neon.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\dec_sse2.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\enc.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\enc_neon.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\enc_sse2.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\lossless.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\upsampling.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\upsampling_neon.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\upsampling_sse2.c" />
+    <ClCompile Include="..\..\Source\WEBP\dsp\yuv.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\analysis.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\backward_references.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\config.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\cost.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_alpha.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_frame.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_layer.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_quant.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_tree.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\enc_vp8l.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\filter.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\histogram.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\iterator.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\picture.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\syntax.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\token.c" />
+    <ClCompile Include="..\..\Source\WEBP\enc\webpenc.c" />
+    <ClCompile Include="..\..\Source\WEBP\mux\muxedit.c" />
+    <ClCompile Include="..\..\Source\WEBP\mux\muxinternal.c" />
+    <ClCompile Include="..\..\Source\WEBP\mux\muxread.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\bit_reader.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\bit_writer.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\color_cache.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\filters.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\huffman.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\huffman_encode.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\quant_levels.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\quant_levels_dec.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\rescaler.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\thread.c" />
+    <ClCompile Include="..\..\Source\WEBP\utils\utils.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84DADB8A-ECE0-45C0-B7F9-04904125A4D2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libXMCocos3D</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_LIB;_WINDOWS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <CompileAs>Default</CompileAs>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(ProjectName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(ProjectName)d.lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_LIB;_WINDOWS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(ProjectName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(ProjectName).lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\XMKode">
+      <UniqueIdentifier>{38c48e66-d806-421f-96cd-d4fa18a16b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{86337101-3eff-4240-a687-6bb23d5d8fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{b5ffca75-cdd7-42a5-8ac5-145fd5d2c08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{cc9c1f12-1bda-4a58-9c92-bed40bea94d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{6aa8aa38-c520-45c9-b748-6408bec0d005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\ATX">
+      <UniqueIdentifier>{dad2b003-7d4b-41c4-8f36-cb5ef9391464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{d073d01d-5c74-430a-b95a-1b38f4abbd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\XM">
+      <UniqueIdentifier>{825d6b50-b4d1-4e16-8799-6ef59646cf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLUES">
+      <UniqueIdentifier>{3c43f451-73e0-49ac-bf69-4f7cde59455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib">
+      <UniqueIdentifier>{1277a261-01a6-40e1-ad19-fedc5ccb1fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib">
+      <UniqueIdentifier>{64002303-ae6b-4e5c-b93b-57592a1d8f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib\minizip">
+      <UniqueIdentifier>{1130abcf-4b1c-430b-a047-7d47e430f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Collision">
+      <UniqueIdentifier>{dfe738c7-21ed-4464-ba76-145b59e935c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{f013bd90-adf2-4103-afae-894a3b01feb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dynamics">
+      <UniqueIdentifier>{c86b34f7-24d3-45cc-ab4b-e65ef9eaf241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Collision\Shapes">
+      <UniqueIdentifier>{78d5a0d1-f2ea-408b-a37c-4b3dc884ec07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dynamics\Contacts">
+      <UniqueIdentifier>{c43176f4-3439-4b9b-af17-170e1cf2ee86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dynamics\Joints">
+      <UniqueIdentifier>{bf0c439e-ea56-4495-9d9c-95bd222a8d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMBox2D">
+      <UniqueIdentifier>{1692518c-f30b-4818-aef7-9c9e9dd58f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMBox2D\Collision">
+      <UniqueIdentifier>{0c217769-7efd-470c-9c04-34f4f13b95dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMBox2D\Common">
+      <UniqueIdentifier>{cfdcb2ed-283e-49cd-b68a-50c45faa4ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMBox2D\Dynamics">
+      <UniqueIdentifier>{3f44eba3-58a3-45a8-80c6-c204de3b0c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMBox2D\Collision\Shapes">
+      <UniqueIdentifier>{14f8e4a6-4a4a-4b7b-bc59-de16a4b5a013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMBox2D\Dynamics\Contacts">
+      <UniqueIdentifier>{14671739-cf7b-4c91-9fa9-1015c478a6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMBox2D\Dynamics\Joints">
+      <UniqueIdentifier>{ea552d57-e02f-4751-bc56-47a36cfab9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMBox2D\Rope">
+      <UniqueIdentifier>{dcd56527-1a9c-4e08-b653-9fd6961f2a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rope">
+      <UniqueIdentifier>{9f667e9a-c7d4-4a3c-9eed-66ed29af4546}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\b2BroadPhase.h">
+      <Filter>Include\XMBox2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\b2Collision.h">
+      <Filter>Include\XMBox2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\b2Distance.h">
+      <Filter>Include\XMBox2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\b2DynamicTree.h">
+      <Filter>Include\XMBox2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\b2TimeOfImpact.h">
+      <Filter>Include\XMBox2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>Include\XMBox2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>Include\XMBox2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\Shapes\b2Shape.h">
+      <Filter>Include\XMBox2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Common\b2BlockAllocator.h">
+      <Filter>Include\XMBox2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Common\b2Math.h">
+      <Filter>Include\XMBox2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Common\b2Settings.h">
+      <Filter>Include\XMBox2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Common\b2StackAllocator.h">
+      <Filter>Include\XMBox2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\b2Body.h">
+      <Filter>Include\XMBox2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\b2ContactManager.h">
+      <Filter>Include\XMBox2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\b2Fixture.h">
+      <Filter>Include\XMBox2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\b2Island.h">
+      <Filter>Include\XMBox2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\b2TimeStep.h">
+      <Filter>Include\XMBox2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\b2World.h">
+      <Filter>Include\XMBox2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>Include\XMBox2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2Joint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>Include\XMBox2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>Include\XMBox2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Common\b2Draw.h">
+      <Filter>Include\XMBox2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Common\b2GrowableStack.h">
+      <Filter>Include\XMBox2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Common\b2Timer.h">
+      <Filter>Include\XMBox2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>Include\XMBox2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>Include\XMBox2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Rope\b2Rope.h">
+      <Filter>Include\XMBox2D\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMBox2D\Box2D.h">
+      <Filter>Include\XMBox2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Collision\b2BroadPhase.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\b2CollideCircle.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\b2CollidePolygon.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\b2Collision.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\b2Distance.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\b2DynamicTree.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\b2TimeOfImpact.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>Source\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>Source\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Common\b2BlockAllocator.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Common\b2Math.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Common\b2Settings.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Common\b2StackAllocator.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\b2Body.cpp">
+      <Filter>Source\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\b2ContactManager.cpp">
+      <Filter>Source\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\b2Fixture.cpp">
+      <Filter>Source\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\b2Island.cpp">
+      <Filter>Source\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\b2World.cpp">
+      <Filter>Source\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>Source\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2Joint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>Source\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>Source\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Collision\b2CollideEdge.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Common\b2Draw.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Common\b2Timer.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>Source\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>Source\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Rope\b2Rope.cpp">
+      <Filter>Source\Rope</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

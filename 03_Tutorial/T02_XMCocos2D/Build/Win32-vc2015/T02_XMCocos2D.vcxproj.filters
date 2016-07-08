@@ -2842,6 +2842,204 @@
     <ClInclude Include="..\..\Source\TestList.h">
       <Filter>Source\Test</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestAccelerometer.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestActionManager.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestActions.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestArtPig.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestAssetsManager.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestBlade.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestBox2D.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestBox2DBed.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestBugAndSupport.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestChipmunk.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestChipmunk2.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestClickAndMove.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestClippingNode.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestCocosBuilder.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestControl.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestCurl.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestCurrentLanguage.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestDenshion.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestDiamondTile.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestDrawPrimitives.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestEaseActions.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestEditBox.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestEffects.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestEffectsAdvance.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestFileUtils.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestFont.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestGB2Shape.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestGraphics.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestInterval.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestJson.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestKeypad.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestLabel.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestLayer.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestLocation.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestMenu.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestMotionStreak.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestMultiTouch.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestNetwork.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestNode.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestNotificationCenter.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestParallax.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestParallaxScrollNode.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestParticle.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestPerformance.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestProgressActions.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestRenderTexture.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestRotateWorld.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestScene.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestScheduler.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestSpine.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestSprite.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestSqlite.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestTableView.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestTextInput.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestTexture2D.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestTextureCache.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestTileMap.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestTouches.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestTransitions.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestTTS.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestUserDefault.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestVRope.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestZwoptex.h">
+      <Filter>Source\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestChipmunk\DrawSpace.h">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestBox2D\Box2DRender.h">
+      <Filter>Source\Test\TestBox2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test\TestBox2D\Box2DTest.h">
+      <Filter>Source\Test\TestBox2D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Main.cpp">
@@ -2852,6 +3050,261 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\TestList.cpp">
       <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestAccelerometer.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestActionManager.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestActions.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestArtPig.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestAssetsManager.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestBlade.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestBox2D.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestBox2DBed.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestBugAndSupport.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk2.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestClickAndMove.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestClippingNode.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestCocosBuilder.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestControl.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestCurl.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestCurrentLanguage.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestDenshion.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestDiamondTile.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestDrawPrimitives.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestEaseActions.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestEditBox.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestEffects.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestEffectsAdvance.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestFileUtils.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestFont.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestGB2Shape.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestGraphics.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestInterval.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestJson.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestKeypad.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestLabel.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestLayer.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestLocation.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestMenu.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestMotionStreak.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestMultiTouch.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestNetwork.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestNode.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestNotificationCenter.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestParallax.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestParallaxScrollNode.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestParticle.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestPerformance.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestProgressActions.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestRenderTexture.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestRotateWorld.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestScene.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestScheduler.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestSpine.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestSprite.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestSqlite.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestTableView.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestTextInput.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestTexture2D.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestTextureCache.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestTileMap.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestTouches.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestTransitions.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestTTS.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestUserDefault.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestVRope.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestZwoptex.cpp">
+      <Filter>Source\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoBounce.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoJoints.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoLogoSmash.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoMagnetsElectric.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoOneWay.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoPlanet.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoPlayer.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoPlink.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoPump.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoPyramidStack.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoPyramidTopple.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoQuery.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoSensors.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoSimple.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoSpringies.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoTheoJansen.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoTumble.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DemoUnsafeOps.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestChipmunk\DrawSpace.cpp">
+      <Filter>Source\Test\TestChipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestBox2D\Box2DRender.cpp">
+      <Filter>Source\Test\TestBox2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestBox2D\Box2DTest.cpp">
+      <Filter>Source\Test\TestBox2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\TestBox2D\Box2DTestEntries.cpp">
+      <Filter>Source\Test\TestBox2D</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

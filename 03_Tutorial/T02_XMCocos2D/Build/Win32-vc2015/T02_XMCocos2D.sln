@@ -5,6 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T02_XMCocos2D", "T02_XMCocos2D.vcxproj", "{4A478A5E-47D8-4F6C-A37A-CBEF04C27AA1}"
 	ProjectSection(ProjectDependencies) = postProject
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0} = {4ABDD12B-8F17-480B-8C99-50212FCDAFC0}
 		{84DADB8A-ECE0-45C0-B7F9-04904125A4D2} = {84DADB8A-ECE0-45C0-B7F9-04904125A4D2}
 		{0EE57795-5BD8-494F-89BD-CB48AAE500DA} = {0EE57795-5BD8-494F-89BD-CB48AAE500DA}
 		{AA7161A3-13E5-4AAD-9D77-E826F7FC796D} = {AA7161A3-13E5-4AAD-9D77-E826F7FC796D}
@@ -18,6 +19,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMZlib", "..\..\..\..\01_Develop\libXMZlib\Build\Win32-vc2015\libXMZlib.vcxproj", "{D59AD5F2-9E22-4C8A-9A97-58E1B19137E6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMCocos2D", "..\..\..\..\01_Develop\libXMCocos2D\Build\Win32-vc2015\libXMCocos2D.vcxproj", "{AA7161A3-13E5-4AAD-9D77-E826F7FC796D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMTinyXml", "..\..\..\..\01_Develop\libXMTinyXml\Build\Win32-vc2015\libXMTinyXml.vcxproj", "{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +70,14 @@ Global
 		{AA7161A3-13E5-4AAD-9D77-E826F7FC796D}.Release|Win32.Build.0 = Release|Win32
 		{AA7161A3-13E5-4AAD-9D77-E826F7FC796D}.Release-ES|Win32.ActiveCfg = Release|Win32
 		{AA7161A3-13E5-4AAD-9D77-E826F7FC796D}.Release-ES|Win32.Build.0 = Release|Win32
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}.Debug|Win32.Build.0 = Debug|Win32
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}.Debug-ES|Win32.ActiveCfg = Debug|Win32
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}.Debug-ES|Win32.Build.0 = Debug|Win32
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}.Release|Win32.ActiveCfg = Release|Win32
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}.Release|Win32.Build.0 = Release|Win32
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}.Release-ES|Win32.ActiveCfg = Release|Win32
+		{4ABDD12B-8F17-480B-8C99-50212FCDAFC0}.Release-ES|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

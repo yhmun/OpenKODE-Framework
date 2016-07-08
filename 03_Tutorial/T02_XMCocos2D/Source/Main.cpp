@@ -49,6 +49,7 @@ COCOS2D_ENGINE_LAUNCH ( XM_SYS_LANDSCAPE | XM_SYS_LOCATION | XM_SYS_STATUS_BAR |
 
 KDbool AppDelegate::applicationDidFinishLaunching ( KDvoid )
 {
+	/*
 	CCSize            tDesignSize ( 800, 480 );
 	ResolutionPolicy  eResolutionPolicy = kResolutionExactFit;
 
@@ -69,6 +70,7 @@ KDbool AppDelegate::applicationDidFinishLaunching ( KDvoid )
 	CCScene*   pScene = CCScene::create ( );
     pScene->addChild ( TestList::create ( ) );
     CCDirector::sharedDirector ( )->runWithScene ( pScene );
+	*/
 
 	return KD_TRUE;
 }

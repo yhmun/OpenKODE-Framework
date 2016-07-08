@@ -255,6 +255,7 @@ paket-files/
 # Release
 *.lib
 *.dll
+*.exe
 [Bb]uild\
 [Dd]ata\
 

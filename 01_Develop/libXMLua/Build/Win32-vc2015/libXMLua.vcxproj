@@ -62,7 +62,7 @@
     <ClCompile Include="..\..\Source\tolua\tolua_to.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{84DADB8A-ECE0-45C0-B7F9-04904125A4D2}</ProjectGuid>
+    <ProjectGuid>{0FAE0167-1666-49EC-BB7F-A83BF43E1A66}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>libXMCocos3D</RootNamespace>
   </PropertyGroup>

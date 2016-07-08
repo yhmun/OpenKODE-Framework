@@ -39,9 +39,6 @@
     <Filter Include="Include\XMKode\KHR">
       <UniqueIdentifier>{a0674569-a4bb-4afe-970c-a18fb6a75b24}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\luajit">
-      <UniqueIdentifier>{dc30b98f-d668-4e0b-b504-4d173463042e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\tolua">
       <UniqueIdentifier>{3056db92-5425-4fd7-acca-070aa826dc9a}</UniqueIdentifier>
     </Filter>

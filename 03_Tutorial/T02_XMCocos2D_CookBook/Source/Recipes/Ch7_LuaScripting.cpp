@@ -40,8 +40,10 @@ static Ch7_LuaScripting*	l_pLsRecipe = KD_NULL;
 // Static append message C function
 static KDint lsAppendMessage ( lua_State* l )
 {
+#if 0
 	// Pass lua string into append message method
 	l_pLsRecipe->appendMessage ( lua_tostring ( l, 1 ) );
+#endif
 	return 0;
 }
 
@@ -52,6 +54,8 @@ KDbool Ch7_LuaScripting::init ( KDvoid )
 	{
 		return KD_FALSE;
 	}
+	return TRUE;
+
 	this->showMessage ( "Loading Lua script..." );
 
 	// Set callback pointer

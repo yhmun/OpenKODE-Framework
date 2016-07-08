@@ -3072,9 +3072,6 @@
     <ClInclude Include="..\..\Source\Libraries\MatchCard.h">
       <Filter>Source\Libraries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\Libraries\mcLua.h">
-      <Filter>Source\Libraries</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\Libraries\MIDISampleGenerator.h">
       <Filter>Source\Libraries</Filter>
     </ClInclude>
@@ -3145,6 +3142,9 @@
       <Filter>Source\Libraries</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Libraries\Vector3D.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\mcLua.h">
       <Filter>Source\Libraries</Filter>
     </ClInclude>
   </ItemGroup>
@@ -3531,9 +3531,6 @@
     <ClCompile Include="..\..\Source\Libraries\MatchCard.cpp">
       <Filter>Source\Libraries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Libraries\mcLua.cpp">
-      <Filter>Source\Libraries</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\Libraries\MIDISampleGenerator.cpp">
       <Filter>Source\Libraries</Filter>
     </ClCompile>
@@ -3604,6 +3601,9 @@
       <Filter>Source\Libraries</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Libraries\Vector3D.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\mcLua.cpp">
       <Filter>Source\Libraries</Filter>
     </ClCompile>
   </ItemGroup>

@@ -52,49 +52,68 @@ Ch7_LuaDecisionTree*			l_pRecipe = KD_NULL;
 // Static C functions
 static KDint ldtDesc ( lua_State* l )
 {
+#if 0
 	l_pRecipe->desc ( lua_tostring ( l, 1 ) );
 	l_pRecipe->m_pScript->YieldPause ( );
 	return ( lua_yield ( l, 0 ) );
+#endif
+	return 0;
 }
 static KDint ldtAnim ( lua_State* l )
 {
+#if 0
 	l_pRecipe->anim ( lua_tostring ( l, 1 ) );
+#endif
 	return 0;
 }
 static KDint ldtDialog ( lua_State* l )
 {
+#if 0
 	l_pRecipe->dialog ( lua_tostring ( l, 1 ) );
 	l_pRecipe->m_pScript->YieldPause ( );
 	return ( lua_yield ( l, 0 ) );
+#endif
+	return 0;
 }
 static KDint ldtLogic ( lua_State* l )
 {
+#if 0
 	KDint	nNum = l_pRecipe->logic ( lua_tostring ( l, 1 ) );
 	lua_pushnumber ( l, nNum );
+#endif
 	return 1;
 }
 static KDint ldtDialogOption ( lua_State* l )
 {
+#if 0
 	l_pRecipe->dialogOption ( lua_tostring ( l, 1 ) );
+#endif
 	return 0;
 }
 static KDint ldtActionOption ( lua_State* l )
 {
+#if 0
 	l_pRecipe->actionOption ( lua_tostring ( l, 1 ) );
+#endif
 	return 0;
 }
 
 static KDint ldtGetResponse ( lua_State* l )
 {
+#if 0
 	lua_pushnumber ( l, l_pRecipe->m_nResponse );		// Push a number onto the stack
+#endif
 	return 1;											// We are returning 1 result
 }
 
 static KDint ldtPresentOptions ( lua_State* l )
 {
+#if 0
 	l_pRecipe->presentOptions ( );
 	l_pRecipe->m_pScript->YieldPause ( );
 	return ( lua_yield ( l, 0 ) );
+#endif
+	return 0;
 }
 
 KDbool Ch7_LuaDecisionTree::init ( KDvoid )
@@ -104,6 +123,7 @@ KDbool Ch7_LuaDecisionTree::init ( KDvoid )
 	{
 		return KD_FALSE;
 	}
+	return TRUE;
 
 	// Initial variables
 	m_nResponse			= 0;

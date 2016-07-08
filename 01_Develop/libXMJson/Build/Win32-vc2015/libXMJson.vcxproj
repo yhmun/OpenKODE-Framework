@@ -69,7 +69,7 @@
     <ClCompile Include="..\..\Source\json_writer.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{84DADB8A-ECE0-45C0-B7F9-04904125A4D2}</ProjectGuid>
+    <ProjectGuid>{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>libXMCocos3D</RootNamespace>
   </PropertyGroup>

@@ -34,6 +34,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMChipmunk", "..\..\..\.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMCurl", "..\..\..\..\01_Develop\libXMCurl\Build\Win32-vc2015\libXMCurl.vcxproj", "{B5D8F7C8-91BA-4E6A-A840-5025E5480847}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMJson", "..\..\..\..\01_Develop\libXMJson\Build\Win32-vc2015\libXMJson.vcxproj", "{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -130,6 +132,14 @@ Global
 		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Release|Win32.Build.0 = Release|Win32
 		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Release-ES|Win32.ActiveCfg = Release|Win32
 		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Release-ES|Win32.Build.0 = Release|Win32
+		{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}.Debug|Win32.Build.0 = Debug|Win32
+		{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}.Debug-ES|Win32.ActiveCfg = Debug|Win32
+		{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}.Debug-ES|Win32.Build.0 = Debug|Win32
+		{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}.Release|Win32.ActiveCfg = Release|Win32
+		{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}.Release|Win32.Build.0 = Release|Win32
+		{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}.Release-ES|Win32.ActiveCfg = Release|Win32
+		{FF9049D4-34B3-4C28-ADFC-883AD3F254E8}.Release-ES|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

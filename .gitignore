@@ -256,8 +256,8 @@ paket-files/
 *.lib
 *.dll
 *.exe
-[Bb]uild\
-[Dd]ata\
+[Bb]uild/
+[Dd]ata/
 [Dd]ebug-ES/
 [Rr]elease-ES/
 

@@ -7,111 +7,63 @@
     </Filter>
     <Filter Include="Include">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Include\XMKode">
-      <UniqueIdentifier>{38c48e66-d806-421f-96cd-d4fa18a16b60}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Include\XMKode\EGL">
-      <UniqueIdentifier>{86337101-3eff-4240-a687-6bb23d5d8fe1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Include\XMKode\GLES">
-      <UniqueIdentifier>{b5ffca75-cdd7-42a5-8ac5-145fd5d2c08a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Include\XMKode\GLES2">
-      <UniqueIdentifier>{cc9c1f12-1bda-4a58-9c92-bed40bea94d1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Include\XMKode\KD">
-      <UniqueIdentifier>{6aa8aa38-c520-45c9-b748-6408bec0d005}</UniqueIdentifier>
+      <UniqueIdentifier>{619beb2b-9ff2-4281-aed4-6481a570fcc6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include\XMKode\ATX">
-      <UniqueIdentifier>{dad2b003-7d4b-41c4-8f36-cb5ef9391464}</UniqueIdentifier>
+      <UniqueIdentifier>{d47ac6a8-0592-4a3a-92b1-df59329d2ee7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Include\XMKode\KHR">
-      <UniqueIdentifier>{d073d01d-5c74-430a-b95a-1b38f4abbd5e}</UniqueIdentifier>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{4777db23-3574-426a-8161-dcc7d4446827}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include\XMKode\XM">
-      <UniqueIdentifier>{825d6b50-b4d1-4e16-8799-6ef59646cf47}</UniqueIdentifier>
+      <UniqueIdentifier>{5682418d-ff8e-405a-b7c8-cf207b5d6e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{2580ff90-0e9c-48d5-83f4-a097d98756ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GL">
+      <UniqueIdentifier>{7125ad5c-132e-42ea-9dd4-cdfc069d2e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{3147110a-ba36-45eb-a25f-ae39f98a4a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{c280a18d-6ca4-4e62-8adb-e9df0f813fcf}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include\XMKode\GLUES">
-      <UniqueIdentifier>{3c43f451-73e0-49ac-bf69-4f7cde59455f}</UniqueIdentifier>
+      <UniqueIdentifier>{f5baefae-2bdf-4041-b6ea-d3bfe15f4617}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Include\XMZlib">
-      <UniqueIdentifier>{1277a261-01a6-40e1-ad19-fedc5ccb1fe2}</UniqueIdentifier>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{a0674569-a4bb-4afe-970c-a18fb6a75b24}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Include\XMZlib\contrib">
-      <UniqueIdentifier>{64002303-ae6b-4e5c-b93b-57592a1d8f2f}</UniqueIdentifier>
+    <Filter Include="Include\XMZLib">
+      <UniqueIdentifier>{3d614a99-fc06-4d6c-8818-b96098d49260}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Include\XMZlib\contrib\minizip">
-      <UniqueIdentifier>{1130abcf-4b1c-430b-a047-7d47e430f473}</UniqueIdentifier>
+    <Filter Include="Include\XMZLib\contrib">
+      <UniqueIdentifier>{e209c279-0035-45fa-946b-a3c004dd860e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZLib\contrib\minizip">
+      <UniqueIdentifier>{c158e3d8-7dda-4c43-a6b7-5ca26ca355ab}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include\XMCurl">
-      <UniqueIdentifier>{b8da3f20-14e4-4cfa-97a5-a79d45953794}</UniqueIdentifier>
+      <UniqueIdentifier>{f36cb0b7-3cd6-447a-ab9b-a267964da492}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
-      <Filter>Include\XMKode\EGL</Filter>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
-      <Filter>Include\XMKode\EGL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
-      <Filter>Include\XMKode\EGL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
-      <Filter>Include\XMKode\GLES</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
-      <Filter>Include\XMKode\GLES</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
-      <Filter>Include\XMKode\GLES</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
-      <Filter>Include\XMKode\GLES2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
-      <Filter>Include\XMKode\GLES2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
-      <Filter>Include\XMKode\GLES2</Filter>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
       <Filter>Include\XMKode\KD</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
       <Filter>Include\XMKode\KD</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
-      <Filter>Include\XMKode\XM</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
-      <Filter>Include\XMKode\XM</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
-      <Filter>Include\XMKode\XM</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
-      <Filter>Include\XMKode\XM</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
-      <Filter>Include\XMKode\XM</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
-      <Filter>Include\XMKode\KHR</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
-      <Filter>Include\XMKode\KHR</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
-      <Filter>Include\XMKode\KHR</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
-      <Filter>Include\XMKode\KHR</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
-      <Filter>Include\XMKode\KHR</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
       <Filter>Include\XMKode\ATX</Filter>
@@ -131,11 +83,41 @@
     <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
       <Filter>Include\XMKode\ATX</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
-      <Filter>Include\XMKode</Filter>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
-      <Filter>Include\XMKode</Filter>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\glew.h">
+      <Filter>Include\XMKode\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\glxew.h">
+      <Filter>Include\XMKode\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\wglew.h">
+      <Filter>Include\XMKode\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
       <Filter>Include\XMKode\GLUES</Filter>
@@ -143,20 +125,62 @@
     <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
       <Filter>Include\XMKode\GLUES</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_system.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\glfw3.h">
+      <Filter>Include\XMKode\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GL\glfw3native.h">
+      <Filter>Include\XMKode\GL</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h">
-      <Filter>Include\XMZlib</Filter>
+      <Filter>Include\XMZLib</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h">
-      <Filter>Include\XMZlib</Filter>
+      <Filter>Include\XMZLib</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h">
-      <Filter>Include\XMZlib\contrib\minizip</Filter>
+      <Filter>Include\XMZLib\contrib\minizip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h">
-      <Filter>Include\XMZlib\contrib\minizip</Filter>
+      <Filter>Include\XMZLib\contrib\minizip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h">
-      <Filter>Include\XMZlib\contrib\minizip</Filter>
+      <Filter>Include\XMZLib\contrib\minizip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\02_Library\Include\XMCurl\curl.h">
       <Filter>Include\XMCurl</Filter>
@@ -197,6 +221,9 @@
     <ClInclude Include="..\..\Source\axtls.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\bundles.h">
+      <Filter>Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\config-amigaos.h">
       <Filter>Source</Filter>
     </ClInclude>
@@ -224,10 +251,10 @@
     <ClInclude Include="..\..\Source\config-symbian.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\config-tpf.h">
+    <ClInclude Include="..\..\Source\config-tizen.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\config-vms.h">
+    <ClInclude Include="..\..\Source\config-tpf.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\config-vxworks.h">
@@ -237,6 +264,9 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\config-win32ce.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\conncache.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\connect.h">
@@ -255,6 +285,9 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\curl_config.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\curl_darwinssl.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\curl_fnmatch.h">
@@ -284,6 +317,9 @@
     <ClInclude Include="..\..\Source\curl_memrchr.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\curl_multibyte.h">
+      <Filter>Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\curl_ntlm.h">
       <Filter>Source</Filter>
     </ClInclude>
@@ -296,10 +332,22 @@
     <ClInclude Include="..\..\Source\curl_ntlm_wb.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\curl_rand.h">
+    <ClInclude Include="..\..\Source\curl_rtmp.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\curl_rtmp.h">
+    <ClInclude Include="..\..\Source\curl_sasl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\curl_schannel.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\curl_sec.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\curl_setup.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\curl_setup_once.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\curl_sspi.h">
@@ -315,6 +363,9 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\dict.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\dotdot.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\easyif.h">
@@ -344,10 +395,16 @@
     <ClInclude Include="..\..\Source\gopher.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\gskit.h">
+      <Filter>Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\gtls.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\hash.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\hostcheck.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\hostip.h">
@@ -368,6 +425,9 @@
     <ClInclude Include="..\..\Source\http_proxy.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\http2.h">
+      <Filter>Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\if2ip.h">
       <Filter>Source</Filter>
     </ClInclude>
@@ -380,13 +440,13 @@
     <ClInclude Include="..\..\Source\inet_pton.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\krb4.h">
-      <Filter>Source</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\llist.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\memdebug.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\multihandle.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\multiif.h">
@@ -410,7 +470,13 @@
     <ClInclude Include="..\..\Source\pingpong.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\pipeline.h">
+      <Filter>Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\polarssl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\polarssl_threadlock.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\pop3.h">
@@ -434,13 +500,10 @@
     <ClInclude Include="..\..\Source\sendf.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\setup.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\setup_once.h">
-      <Filter>Source</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\setup-os400.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\setup-vms.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\share.h">
@@ -512,8 +575,8 @@
     <ClInclude Include="..\..\Source\wildcard.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
-      <Filter>Include\XMKode\XM</Filter>
+    <ClInclude Include="..\..\Source\x509asn1.h">
+      <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -532,6 +595,12 @@
     <ClCompile Include="..\..\Source\base64.c">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\bundles.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\conncache.c">
+      <Filter>Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\connect.c">
       <Filter>Source</Filter>
     </ClCompile>
@@ -542,6 +611,9 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\curl_addrinfo.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\curl_darwinssl.c">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\curl_fnmatch.c">
@@ -556,6 +628,9 @@
     <ClCompile Include="..\..\Source\curl_memrchr.c">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\curl_multibyte.c">
+      <Filter>Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\curl_ntlm.c">
       <Filter>Source</Filter>
     </ClCompile>
@@ -568,10 +643,13 @@
     <ClCompile Include="..\..\Source\curl_ntlm_wb.c">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\curl_rand.c">
+    <ClCompile Include="..\..\Source\curl_rtmp.c">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\curl_rtmp.c">
+    <ClCompile Include="..\..\Source\curl_sasl.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\curl_schannel.c">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\curl_sspi.c">
@@ -584,6 +662,9 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\dict.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\dotdot.c">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\easy.c">
@@ -616,6 +697,9 @@
     <ClCompile Include="..\..\Source\gopher.c">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\gskit.c">
+      <Filter>Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\gtls.c">
       <Filter>Source</Filter>
     </ClCompile>
@@ -626,6 +710,9 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\hostasyn.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hostcheck.c">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\hostip.c">
@@ -658,6 +745,9 @@
     <ClCompile Include="..\..\Source\http_proxy.c">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\http2.c">
+      <Filter>Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\idn_win32.c">
       <Filter>Source</Filter>
     </ClCompile>
@@ -671,9 +761,6 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\inet_pton.c">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\krb4.c">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\krb5.c">
@@ -727,7 +814,13 @@
     <ClCompile Include="..\..\Source\pingpong.c">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\pipeline.c">
+      <Filter>Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\polarssl.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\polarssl_threadlock.c">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\pop3.c">
@@ -826,5 +919,13 @@
     <ClCompile Include="..\..\Source\wildcard.c">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\x509asn1.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\curl_config.h.in">
+      <Filter>Source</Filter>
+    </None>
   </ItemGroup>
 </Project>

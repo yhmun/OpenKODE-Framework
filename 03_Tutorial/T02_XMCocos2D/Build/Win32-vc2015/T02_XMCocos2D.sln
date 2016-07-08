@@ -30,6 +30,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMFreeType", "..\..\..\.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMBox2D", "..\..\..\..\01_Develop\libXMBox2D\Build\Win32-vc2015\libXMBox2D.vcxproj", "{092CA9DD-12D0-4FAF-9311-198764646C6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMChipmunk", "..\..\..\..\01_Develop\libXMChipmunk\Build\Win32-vc2015\libXMChipmunk.vcxproj", "{BA26A360-0900-44E9-B216-C5BD66F7162A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libXMCurl", "..\..\..\..\01_Develop\libXMCurl\Build\Win32-vc2015\libXMCurl.vcxproj", "{B5D8F7C8-91BA-4E6A-A840-5025E5480847}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -110,6 +114,22 @@ Global
 		{092CA9DD-12D0-4FAF-9311-198764646C6C}.Release|Win32.Build.0 = Release|Win32
 		{092CA9DD-12D0-4FAF-9311-198764646C6C}.Release-ES|Win32.ActiveCfg = Release|Win32
 		{092CA9DD-12D0-4FAF-9311-198764646C6C}.Release-ES|Win32.Build.0 = Release|Win32
+		{BA26A360-0900-44E9-B216-C5BD66F7162A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA26A360-0900-44E9-B216-C5BD66F7162A}.Debug|Win32.Build.0 = Debug|Win32
+		{BA26A360-0900-44E9-B216-C5BD66F7162A}.Debug-ES|Win32.ActiveCfg = Debug|Win32
+		{BA26A360-0900-44E9-B216-C5BD66F7162A}.Debug-ES|Win32.Build.0 = Debug|Win32
+		{BA26A360-0900-44E9-B216-C5BD66F7162A}.Release|Win32.ActiveCfg = Release|Win32
+		{BA26A360-0900-44E9-B216-C5BD66F7162A}.Release|Win32.Build.0 = Release|Win32
+		{BA26A360-0900-44E9-B216-C5BD66F7162A}.Release-ES|Win32.ActiveCfg = Release|Win32
+		{BA26A360-0900-44E9-B216-C5BD66F7162A}.Release-ES|Win32.Build.0 = Release|Win32
+		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Debug|Win32.Build.0 = Debug|Win32
+		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Debug-ES|Win32.ActiveCfg = Debug|Win32
+		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Debug-ES|Win32.Build.0 = Debug|Win32
+		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Release|Win32.ActiveCfg = Release|Win32
+		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Release|Win32.Build.0 = Release|Win32
+		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Release-ES|Win32.ActiveCfg = Release|Win32
+		{B5D8F7C8-91BA-4E6A-A840-5025E5480847}.Release-ES|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

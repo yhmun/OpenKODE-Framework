@@ -251,6 +251,10 @@ paket-files/
 .idea/
 *.sln.iml
 
+
 # Release
 *.lib
 *.dll
+[Bb]uild\
+[Dd]ata\
+

@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Recipes">
+      <UniqueIdentifier>{21f32cc2-8919-48ba-a8c5-71f84ba18bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Libraries">
+      <UniqueIdentifier>{a0ed8391-a69f-476e-b003-6046232a0deb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Helpers.h" />
+    <ClInclude Include="..\..\Source\Includes.h" />
+    <ClInclude Include="..\..\Source\Precompiled.h" />
+    <ClInclude Include="..\..\Source\Recipe.h" />
+    <ClInclude Include="..\..\Source\RecipeList.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_1DEasingActions.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_2DEasingActions.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_3DCubes.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_AnimateTexturedPolygon.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_AnimatingSprites.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_ColoringSprites.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_ColorMaskLighting.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_DrawingSprites.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_GridEffects.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_MotionStreak.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_MutablePaletteSwapping.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_OpenGLPrimitives.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_PaletteSwapping.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_ParticleEffects.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_PixelFormat.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_PlayingVideoFiles.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_RenderTexturedPolygon.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_RetinaDisplay.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_RetroPixelatedFilter.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_TakingScreenshots.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_UsingAWTextureFilter.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch1_UsingCCParallaxNode.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_AccelerometerRotation.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_AccelerometerSteering.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_AnalogStick.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_Buttons.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_DepthTestingInput.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_DPad.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_Gestures.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_PinchZooming.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch2_TapHoldDragInput.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_ArchivingObjects.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_MutatingNestedMetadata.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_ReadingJsonFiles.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_ReadingPlistFiles.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_ReadingXmlFiles.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_SavingDataCoreData.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_SavingDataPlist.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_SavingDataSQLite.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch3_SavingSimpleData.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_AsyncBodyDestruction.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_BasicSetup.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Bullets.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_CharacterMovement.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_CollisionResponse.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_DifferentShapes.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_DraggingAndFiltering.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Forces.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Impulses.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Joints.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_PhysicalProperties.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Rope.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_TopDownIsometric.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Vehicles.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_HorizScrollMenu.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_LoadingScreen.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_MenuWindows.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_Minimap.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_SceneTransitions.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_ShadowedLabels.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_SwitchingScenes.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_UIKitAlerts.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_UsingCCLabel.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_UsingCCLayerMultiplex.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_UsingCCMenu.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_VertSlidingMenuGrid.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch5_WrappingUIKit.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_AudioInGame.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_AudioProperties.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_FadingSoundsAndMusic.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_iPodLibrary.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_MeteringDialogue.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_MeteringMusic.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_MIDISynthesization.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_PositionalAudio.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_RecordingAudio.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_SoundsAndMusic.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch6_StreamingAudio.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_AIFlocking.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_Box2DPathfinding.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_DynamicScriptLoading.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_GridPathfinding.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_LineOfSight.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_LuaDecisionTree.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_LuaScripting.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_ProjectileAiming.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_SideScrollingPathfinding.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_TileMapPathfinding.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch7_Waypoints.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch8_Cocos2d_X.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch8_Cocos2dTestbed.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch8_Cocos3d.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch8_CocosBuilder.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch8_JSONWorldBuilder.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Recipes\Ch8_Tiled.h">
+      <Filter>Source\Recipes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\AnalogStick.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\AStarNode.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\AStarPathNode.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\AWTextureFilter.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\BasicContactFilter.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\BasicContactListener.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\CCJson.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\CCMoveByCustom.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\CCTexture2DMutable.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\ColorTouchSprite.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\Cube3D.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\DebugDrawNode.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\DPad.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\DrawLayer.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameActor.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameArea2D.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameButton.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameHelper.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameIsoObject.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameMenuWindow.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameMisc.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameObject.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameSensor.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GameWaypoint.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GestureLine.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\GestureShapeLayer.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\InputController.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\IPhoneCube3D.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\IsometricContactListener.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\LoopingMenu.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\MatchCard.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\MIDISampleGenerator.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\Minimap.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\Mole.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\ObjectCallback.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\ParticleWaterfall.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\ParticleWaterSprinkler.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\QueuedAction.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\RayCast.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\Screenshot.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\ShadowLabel.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\ShapeLayer.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SideScrollerRecipe.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SimpleAnimObject.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SimpleCharacter.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SimpleTimedGameRecipe.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SlidingMenuGrid.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SSAStarNode.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SSAStarPathNode.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SSGameActor.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SSGameWaypoint.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\SSNeighborNode.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\TexturedPolygon.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\TouchableSprite.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\Vector3D.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Libraries\mcLua.h">
+      <Filter>Source\Libraries</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Application.cpp" />
+    <ClCompile Include="..\..\Source\Helpers.cpp" />
+    <ClCompile Include="..\..\Source\Recipe.cpp" />
+    <ClCompile Include="..\..\Source\RecipeList.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_1DEasingActions.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_2DEasingActions.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_3DCubes.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_AnimateTexturedPolygon.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_AnimatingSprites.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_ColoringSprites.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_ColorMaskLighting.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_DrawingSprites.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_GridEffects.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_MotionStreak.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_MutablePaletteSwapping.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_OpenGLPrimitives.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_PaletteSwapping.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_ParticleEffects.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_PixelFormat.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_PlayingVideoFiles.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_RenderTexturedPolygon.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_RetinaDisplay.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_RetroPixelatedFilter.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_TakingScreenshots.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_UsingAWTextureFilter.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch1_UsingCCParallaxNode.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_AccelerometerRotation.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_AccelerometerSteering.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_AnalogStick.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_Buttons.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_DepthTestingInput.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_DPad.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_Gestures.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_PinchZooming.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch2_TapHoldDragInput.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_ArchivingObjects.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_MutatingNestedMetadata.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_ReadingJsonFiles.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_ReadingPlistFiles.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_ReadingXmlFiles.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_SavingDataCoreData.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_SavingDataPlist.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_SavingDataSQLite.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch3_SavingSimpleData.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_AsyncBodyDestruction.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_BasicSetup.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Bullets.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_CharacterMovement.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_CollisionResponse.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_DifferentShapes.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_DraggingAndFiltering.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Forces.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Impulses.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Joints.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_PhysicalProperties.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Rope.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_TopDownIsometric.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Vehicles.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_HorizScrollMenu.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_LoadingScreen.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_MenuWindows.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_Minimap.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_SceneTransitions.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_ShadowedLabels.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_SwitchingScenes.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_UIKitAlerts.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_UsingCCLabel.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_UsingCCLayerMultiplex.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_UsingCCMenu.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_VertSlidingMenuGrid.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch5_WrappingUIKit.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_AudioInGame.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_AudioProperties.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_FadingSoundsAndMusic.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_iPodLibrary.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_MeteringDialogue.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_MeteringMusic.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_MIDISynthesization.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_PositionalAudio.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_RecordingAudio.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_SoundsAndMusic.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch6_StreamingAudio.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_AIFlocking.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_Box2DPathfinding.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_DynamicScriptLoading.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_GridPathfinding.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_LineOfSight.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_LuaDecisionTree.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_LuaScripting.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_ProjectileAiming.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_SideScrollingPathfinding.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_TileMapPathfinding.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch7_Waypoints.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch8_Cocos2d_X.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch8_Cocos2dTestbed.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch8_Cocos3d.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch8_CocosBuilder.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch8_JSONWorldBuilder.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Recipes\Ch8_Tiled.cpp">
+      <Filter>Source\Recipes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\AnalogStick.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\AStarNode.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\AStarPathNode.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\AWTextureFilter.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\BasicContactFilter.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\BasicContactListener.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\CCJson.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\CCMoveByCustom.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\CCTexture2DMutable.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\ColorTouchSprite.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\Cube3D.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\DebugDrawNode.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\DPad.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\DrawLayer.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameActor.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameArea2D.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameButton.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameHelper.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameIsoObject.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameMenuWindow.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameMisc.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameObject.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameSensor.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GameWaypoint.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GestureLine.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\GestureShapeLayer.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\InputController.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\IPhoneCube3D.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\IsometricContactListener.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\LoopingMenu.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\MatchCard.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\MIDISampleGenerator.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\Minimap.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\Mole.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\ObjectCallback.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\ParticleWaterfall.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\ParticleWaterSprinkler.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\QueuedAction.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\RayCast.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\Screenshot.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\ShadowLabel.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\ShapeLayer.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SideScrollerRecipe.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SimpleAnimObject.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SimpleCharacter.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SimpleTimedGameRecipe.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SlidingMenuGrid.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SSAStarNode.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SSAStarPathNode.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SSGameActor.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SSGameWaypoint.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\SSNeighborNode.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\TexturedPolygon.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\TouchableSprite.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\Vector3D.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Libraries\mcLua.cpp">
+      <Filter>Source\Libraries</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

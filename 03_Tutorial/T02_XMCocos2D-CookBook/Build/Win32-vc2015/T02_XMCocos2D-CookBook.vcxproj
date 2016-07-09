@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-ES|Win32">
+      <Configuration>Debug-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-ES|Win32">
+      <Configuration>Release-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Helpers.h" />
+    <ClInclude Include="..\..\Source\Includes.h" />
+    <ClInclude Include="..\..\Source\Libraries\AnalogStick.h" />
+    <ClInclude Include="..\..\Source\Libraries\AStarNode.h" />
+    <ClInclude Include="..\..\Source\Libraries\AStarPathNode.h" />
+    <ClInclude Include="..\..\Source\Libraries\AWTextureFilter.h" />
+    <ClInclude Include="..\..\Source\Libraries\BasicContactFilter.h" />
+    <ClInclude Include="..\..\Source\Libraries\BasicContactListener.h" />
+    <ClInclude Include="..\..\Source\Libraries\CCJson.h" />
+    <ClInclude Include="..\..\Source\Libraries\CCMoveByCustom.h" />
+    <ClInclude Include="..\..\Source\Libraries\CCTexture2DMutable.h" />
+    <ClInclude Include="..\..\Source\Libraries\ColorTouchSprite.h" />
+    <ClInclude Include="..\..\Source\Libraries\Cube3D.h" />
+    <ClInclude Include="..\..\Source\Libraries\DebugDrawNode.h" />
+    <ClInclude Include="..\..\Source\Libraries\DPad.h" />
+    <ClInclude Include="..\..\Source\Libraries\DrawLayer.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameActor.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameArea2D.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameButton.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameHelper.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameIsoObject.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameMenuWindow.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameMisc.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameObject.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameSensor.h" />
+    <ClInclude Include="..\..\Source\Libraries\GameWaypoint.h" />
+    <ClInclude Include="..\..\Source\Libraries\GestureLine.h" />
+    <ClInclude Include="..\..\Source\Libraries\GestureShapeLayer.h" />
+    <ClInclude Include="..\..\Source\Libraries\InputController.h" />
+    <ClInclude Include="..\..\Source\Libraries\IPhoneCube3D.h" />
+    <ClInclude Include="..\..\Source\Libraries\IsometricContactListener.h" />
+    <ClInclude Include="..\..\Source\Libraries\LoopingMenu.h" />
+    <ClInclude Include="..\..\Source\Libraries\MatchCard.h" />
+    <ClInclude Include="..\..\Source\Libraries\mcLua.h" />
+    <ClInclude Include="..\..\Source\Libraries\MIDISampleGenerator.h" />
+    <ClInclude Include="..\..\Source\Libraries\Minimap.h" />
+    <ClInclude Include="..\..\Source\Libraries\Mole.h" />
+    <ClInclude Include="..\..\Source\Libraries\ObjectCallback.h" />
+    <ClInclude Include="..\..\Source\Libraries\ParticleWaterfall.h" />
+    <ClInclude Include="..\..\Source\Libraries\ParticleWaterSprinkler.h" />
+    <ClInclude Include="..\..\Source\Libraries\QueuedAction.h" />
+    <ClInclude Include="..\..\Source\Libraries\RayCast.h" />
+    <ClInclude Include="..\..\Source\Libraries\Screenshot.h" />
+    <ClInclude Include="..\..\Source\Libraries\ShadowLabel.h" />
+    <ClInclude Include="..\..\Source\Libraries\ShapeLayer.h" />
+    <ClInclude Include="..\..\Source\Libraries\SideScrollerRecipe.h" />
+    <ClInclude Include="..\..\Source\Libraries\SimpleAnimObject.h" />
+    <ClInclude Include="..\..\Source\Libraries\SimpleCharacter.h" />
+    <ClInclude Include="..\..\Source\Libraries\SimpleTimedGameRecipe.h" />
+    <ClInclude Include="..\..\Source\Libraries\SlidingMenuGrid.h" />
+    <ClInclude Include="..\..\Source\Libraries\SSAStarNode.h" />
+    <ClInclude Include="..\..\Source\Libraries\SSAStarPathNode.h" />
+    <ClInclude Include="..\..\Source\Libraries\SSGameActor.h" />
+    <ClInclude Include="..\..\Source\Libraries\SSGameWaypoint.h" />
+    <ClInclude Include="..\..\Source\Libraries\SSNeighborNode.h" />
+    <ClInclude Include="..\..\Source\Libraries\TexturedPolygon.h" />
+    <ClInclude Include="..\..\Source\Libraries\TouchableSprite.h" />
+    <ClInclude Include="..\..\Source\Libraries\Vector3D.h" />
+    <ClInclude Include="..\..\Source\Precompiled.h" />
+    <ClInclude Include="..\..\Source\Recipe.h" />
+    <ClInclude Include="..\..\Source\RecipeList.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_1DEasingActions.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_2DEasingActions.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_3DCubes.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_AnimateTexturedPolygon.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_AnimatingSprites.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_ColoringSprites.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_ColorMaskLighting.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_DrawingSprites.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_GridEffects.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_MotionStreak.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_MutablePaletteSwapping.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_OpenGLPrimitives.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_PaletteSwapping.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_ParticleEffects.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_PixelFormat.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_PlayingVideoFiles.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_RenderTexturedPolygon.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_RetinaDisplay.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_RetroPixelatedFilter.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_TakingScreenshots.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_UsingAWTextureFilter.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch1_UsingCCParallaxNode.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_AccelerometerRotation.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_AccelerometerSteering.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_AnalogStick.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_Buttons.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_DepthTestingInput.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_DPad.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_Gestures.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_PinchZooming.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch2_TapHoldDragInput.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_ArchivingObjects.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_MutatingNestedMetadata.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_ReadingJsonFiles.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_ReadingPlistFiles.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_ReadingXmlFiles.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_SavingDataCoreData.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_SavingDataPlist.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_SavingDataSQLite.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch3_SavingSimpleData.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_AsyncBodyDestruction.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_BasicSetup.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Bullets.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_CharacterMovement.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_CollisionResponse.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_DifferentShapes.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_DraggingAndFiltering.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Forces.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Impulses.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Joints.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_PhysicalProperties.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Rope.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_TopDownIsometric.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch4_Vehicles.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_HorizScrollMenu.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_LoadingScreen.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_MenuWindows.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_Minimap.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_SceneTransitions.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_ShadowedLabels.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_SwitchingScenes.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_UIKitAlerts.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_UsingCCLabel.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_UsingCCLayerMultiplex.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_UsingCCMenu.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_VertSlidingMenuGrid.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch5_WrappingUIKit.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_AudioInGame.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_AudioProperties.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_FadingSoundsAndMusic.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_iPodLibrary.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_MeteringDialogue.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_MeteringMusic.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_MIDISynthesization.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_PositionalAudio.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_RecordingAudio.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_SoundsAndMusic.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch6_StreamingAudio.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_AIFlocking.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_Box2DPathfinding.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_DynamicScriptLoading.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_GridPathfinding.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_LineOfSight.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_LuaDecisionTree.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_LuaScripting.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_ProjectileAiming.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_SideScrollingPathfinding.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_TileMapPathfinding.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch7_Waypoints.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch8_Cocos2dTestbed.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch8_Cocos2d_X.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch8_Cocos3d.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch8_CocosBuilder.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch8_JSONWorldBuilder.h" />
+    <ClInclude Include="..\..\Source\Recipes\Ch8_Tiled.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Application.cpp" />
+    <ClCompile Include="..\..\Source\Helpers.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\AnalogStick.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\AStarNode.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\AStarPathNode.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\AWTextureFilter.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\BasicContactFilter.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\BasicContactListener.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\CCJson.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\CCMoveByCustom.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\CCTexture2DMutable.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\ColorTouchSprite.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\Cube3D.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\DebugDrawNode.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\DPad.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\DrawLayer.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameActor.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameArea2D.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameButton.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameHelper.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameIsoObject.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameMenuWindow.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameMisc.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameObject.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameSensor.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GameWaypoint.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GestureLine.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\GestureShapeLayer.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\InputController.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\IPhoneCube3D.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\IsometricContactListener.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\LoopingMenu.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\MatchCard.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\mcLua.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\MIDISampleGenerator.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\Minimap.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\Mole.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\ObjectCallback.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\ParticleWaterfall.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\ParticleWaterSprinkler.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\QueuedAction.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\RayCast.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\Screenshot.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\ShadowLabel.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\ShapeLayer.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SideScrollerRecipe.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SimpleAnimObject.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SimpleCharacter.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SimpleTimedGameRecipe.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SlidingMenuGrid.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SSAStarNode.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SSAStarPathNode.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SSGameActor.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SSGameWaypoint.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\SSNeighborNode.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\TexturedPolygon.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\TouchableSprite.cpp" />
+    <ClCompile Include="..\..\Source\Libraries\Vector3D.cpp" />
+    <ClCompile Include="..\..\Source\Recipe.cpp" />
+    <ClCompile Include="..\..\Source\RecipeList.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_1DEasingActions.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_2DEasingActions.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_3DCubes.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_AnimateTexturedPolygon.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_AnimatingSprites.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_ColoringSprites.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_ColorMaskLighting.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_DrawingSprites.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_GridEffects.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_MotionStreak.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_MutablePaletteSwapping.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_OpenGLPrimitives.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_PaletteSwapping.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_ParticleEffects.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_PixelFormat.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_PlayingVideoFiles.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_RenderTexturedPolygon.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_RetinaDisplay.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_RetroPixelatedFilter.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_TakingScreenshots.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_UsingAWTextureFilter.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch1_UsingCCParallaxNode.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_AccelerometerRotation.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_AccelerometerSteering.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_AnalogStick.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_Buttons.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_DepthTestingInput.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_DPad.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_Gestures.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_PinchZooming.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch2_TapHoldDragInput.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_ArchivingObjects.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_MutatingNestedMetadata.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_ReadingJsonFiles.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_ReadingPlistFiles.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_ReadingXmlFiles.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_SavingDataCoreData.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_SavingDataPlist.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_SavingDataSQLite.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch3_SavingSimpleData.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_AsyncBodyDestruction.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_BasicSetup.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Bullets.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_CharacterMovement.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_CollisionResponse.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_DifferentShapes.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_DraggingAndFiltering.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Forces.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Impulses.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Joints.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_PhysicalProperties.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Rope.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_TopDownIsometric.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch4_Vehicles.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_HorizScrollMenu.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_LoadingScreen.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_MenuWindows.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_Minimap.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_SceneTransitions.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_ShadowedLabels.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_SwitchingScenes.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_UIKitAlerts.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_UsingCCLabel.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_UsingCCLayerMultiplex.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_UsingCCMenu.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_VertSlidingMenuGrid.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch5_WrappingUIKit.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_AudioInGame.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_AudioProperties.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_FadingSoundsAndMusic.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_iPodLibrary.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_MeteringDialogue.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_MeteringMusic.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_MIDISynthesization.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_PositionalAudio.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_RecordingAudio.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_SoundsAndMusic.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch6_StreamingAudio.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_AIFlocking.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_Box2DPathfinding.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_DynamicScriptLoading.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_GridPathfinding.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_LineOfSight.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_LuaDecisionTree.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_LuaScripting.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_ProjectileAiming.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_SideScrollingPathfinding.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_TileMapPathfinding.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch7_Waypoints.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch8_Cocos2dTestbed.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch8_Cocos2d_X.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch8_Cocos3d.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch8_CocosBuilder.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch8_JSONWorldBuilder.cpp" />
+    <ClCompile Include="..\..\Source\Recipes\Ch8_Tiled.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A478A5E-47D8-4F6C-A37A-CBEF04C27AA1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Test</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_OPEN_GL;XP_WIN;JS_HAVE___INTN;JS_INTPTR_TYPE=int;COCOS2D_JAVASCRIPT=1;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2Dd.lib;libXMCurld.lib;libXMBox2Dd.lib;libXMChipmunkd.lib;libXMSqlited.lib;libXMLuad.lib;libXMJsond.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMFreeTyped.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKoded.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
+copy "..\..\..\..\02_Library\Platform\$(PlatformName)\*.dll" "..\..\Binary\$(PlatformName)"
+copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)d.exe"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;XP_WIN;JS_HAVE___INTN;JS_INTPTR_TYPE=int;COCOS2D_JAVASCRIPT=1;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D-ESd.lib;libXMGraphics-ESd.lib;libXMCurld.lib;libXMBox2Dd.lib;libXMChipmunkd.lib;libXMSqlited.lib;libXMLuad.lib;libXMJsond.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMFreeTyped.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKode-ESd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
+copy "..\..\..\..\02_Library\Platform\$(PlatformName)\*.dll" "..\..\Binary\$(PlatformName)"
+copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)d.exe"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_OPEN_GL;XP_WIN;JS_HAVE___INTN;JS_INTPTR_TYPE=int;COCOS2D_JAVASCRIPT=1;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D.lib;libXMCurl.lib;libXMBox2D.lib;libXMChipmunk.lib;libXMSqlite.lib;libXMLua.lib;libXMJson.lib;libXMXml.lib;libXMTinyXml.lib;libXMFreeType.lib;libXMAtx.lib;libXMZlib.lib;libXMKode.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
+copy "..\..\..\..\02_Library\Platform\$(PlatformName)\*.dll" "..\..\Binary\$(PlatformName)"
+copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName).exe"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;XP_WIN;JS_HAVE___INTN;JS_INTPTR_TYPE=int;COCOS2D_JAVASCRIPT=1;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D-ES.lib;libXMGraphics-ES.lib;libXMCurl.lib;libXMBox2D.lib;libXMChipmunk.lib;libXMSqlite.lib;libXMLua.lib;libXMJson.lib;libXMXml.lib;libXMTinyXml.lib;libXMFreeType.lib;libXMAtx.lib;libXMZlib.lib;libXMKode-ES.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
+copy "..\..\..\..\02_Library\Platform\$(PlatformName)\*.dll" "..\..\Binary\$(PlatformName)"
+copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName).exe"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Calib3D">
+      <UniqueIdentifier>{a4148721-2163-4a98-842b-b717752afd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{469a33b9-4ad3-41ef-978f-696b8e6626c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features2D">
+      <UniqueIdentifier>{983eafab-7e8c-437f-a990-33f4e2eec736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HistogramsMatching">
+      <UniqueIdentifier>{43796da4-d344-4156-8cf8-a60f83259cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ImgProc">
+      <UniqueIdentifier>{c443a2df-ed68-4438-ac04-a3fbf4839be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ImgTrans">
+      <UniqueIdentifier>{927b98e4-34da-469c-b0b0-a83914e3c86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ML">
+      <UniqueIdentifier>{9a7feafe-c996-4889-be70-01abe72fa486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ObjectDetection">
+      <UniqueIdentifier>{06c9edd3-ee4a-4bf8-9d84-c14a1e1b15d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ShapeDesciptors">
+      <UniqueIdentifier>{b4da7e68-8b73-4af3-9986-4360e4600a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TrackingMotion">
+      <UniqueIdentifier>{3ad3e2dd-c6cc-4362-9386-e04b23523a1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Controller.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Calib3D\SBMSample.cpp">
+      <Filter>Source\Calib3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Core\BasicDrawing1.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Core\BasicDrawing2.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Core\BasicLinearTransforms.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Core\DiscreteFourierTransform.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Core\DisplayImage.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Core\FileInputOutput.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Core\Interoperability.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Core\MaskOperations.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Features2D\SURF_Descriptor.cpp">
+      <Filter>Source\Features2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Features2D\SURF_Detector.cpp">
+      <Filter>Source\Features2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Features2D\SURF_FlannMatcher.cpp">
+      <Filter>Source\Features2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Features2D\SURF_Homography.cpp">
+      <Filter>Source\Features2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HistogramsMatching\CalcBackProject.cpp">
+      <Filter>Source\HistogramsMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HistogramsMatching\CalcHist.cpp">
+      <Filter>Source\HistogramsMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HistogramsMatching\CompareHist.cpp">
+      <Filter>Source\HistogramsMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HistogramsMatching\EqualizeHist.cpp">
+      <Filter>Source\HistogramsMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HistogramsMatching\MatchTemplate.cpp">
+      <Filter>Source\HistogramsMatching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgProc\AddingImages.cpp">
+      <Filter>Source\ImgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgProc\Morphology.cpp">
+      <Filter>Source\ImgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgProc\Pyramids.cpp">
+      <Filter>Source\ImgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgProc\Smoothing.cpp">
+      <Filter>Source\ImgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgProc\Threshold.cpp">
+      <Filter>Source\ImgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\CannyDetector.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\CopyMakeBorder.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\Filter2D.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\GeometricTransforms.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\HoughCircle.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\HoughLines.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\Laplace.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\Remap.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ImgTrans\Sobel.cpp">
+      <Filter>Source\ImgTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ML\IntroductionToSVM.cpp">
+      <Filter>Source\ML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ML\NonLinearSVMs.cpp">
+      <Filter>Source\ML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ObjectDetection\ObjectDetection.cpp">
+      <Filter>Source\ObjectDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShapeDesciptors\FindContours.cpp">
+      <Filter>Source\ShapeDesciptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShapeDesciptors\GeneralContours.cpp">
+      <Filter>Source\ShapeDesciptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShapeDesciptors\Hull.cpp">
+      <Filter>Source\ShapeDesciptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShapeDesciptors\Moments.cpp">
+      <Filter>Source\ShapeDesciptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShapeDesciptors\PointPolygonTest.cpp">
+      <Filter>Source\ShapeDesciptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TrackingMotion\CornerDetector.cpp">
+      <Filter>Source\TrackingMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TrackingMotion\CornerHarris.cpp">
+      <Filter>Source\TrackingMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TrackingMotion\CornerSubPix.cpp">
+      <Filter>Source\TrackingMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TrackingMotion\GoodFeaturesToTrack.cpp">
+      <Filter>Source\TrackingMotion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Controller.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -545,7 +545,7 @@
     <None Include="..\..\Source\objdetect\normal_lut.i" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{02572EA3-26E0-47AB-881F-F83514A7270C}</ProjectGuid>
+    <ProjectGuid>{90505993-DB99-4A95-B139-513BEA683FB9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TestStatic</RootNamespace>
   </PropertyGroup>

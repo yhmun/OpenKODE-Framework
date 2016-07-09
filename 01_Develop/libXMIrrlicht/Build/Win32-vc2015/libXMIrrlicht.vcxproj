@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-ES|Win32">
+      <Configuration>Debug-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-ES|Win32">
+      <Configuration>Release-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\aabbox3d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\CDynamicMeshBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\CIndexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\CMeshBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\coreutil.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\CVertexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\dimension2d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\driverChoice.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EAttributes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ECullingTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EDebugSceneTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EDeviceTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EDriverFeatures.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EDriverTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EGUIAlignment.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EGUIElementTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EHardwareBufferFlags.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EMaterialFlags.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EMaterialTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EMeshWriterEnums.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EMessageBoxFlags.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EPrimitiveTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ESceneNodeAnimatorTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ESceneNodeTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EShaderTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ETerrainElements.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\EVertexAttributes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\fast_atof.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\heapsort.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IAnimatedMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IAnimatedMeshMD2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IAnimatedMeshMD3.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IAnimatedMeshSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IAttributeExchangingObject.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IAttributes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IBillboardSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IBillboardTextSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IBoneSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ICameraSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IColladaMeshWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ICursorControl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IDummyTransformationSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IDynamicMeshBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IEventReceiver.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IFileArchive.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IFileList.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IFileSystem.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGeometryCreator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGPUProgrammingServices.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIButton.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUICheckBox.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIColorSelectDialog.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIComboBox.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIContextMenu.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIEditBox.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIElement.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIElementFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIEnvironment.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIFileOpenDialog.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIFont.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIFontBitmap.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIImage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIImageList.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIInOutFader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIListBox.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIMeshViewer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIScrollBar.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUISkin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUISpinBox.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUISpriteBank.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIStaticText.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUITabControl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUITable.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIToolbar.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUITreeView.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IGUIWindow.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IImage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IImageLoader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IImageWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IIndexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ILightManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ILightSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ILogger.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMaterialRenderer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMaterialRendererServices.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMeshBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMeshCache.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMeshLoader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMeshManipulator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMeshSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMeshWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IMetaTriangleSelector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IOSOperator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleAnimatedMeshSceneNodeEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleAttractionAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleBoxEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleCylinderEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleFadeOutAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleGravityAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleMeshEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleRingEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleRotationAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleSphereEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IParticleSystemSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IQ3LevelMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IQ3Shader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IRandomizer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IReadFile.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IReferenceCounted.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrAllocator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrArray.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IrrCompileConfig.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrlicht.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IrrlichtDevice.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrList.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrMap.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrMath.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrString.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrTypes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\irrXML.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneCollisionManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneLoader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneNodeAnimator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneNodeAnimatorCameraFPS.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneNodeAnimatorCameraMaya.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneNodeAnimatorCollisionResponse.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneNodeAnimatorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneNodeFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISceneUserDataSerializer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IShaderConstantSetCallBack.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IShadowVolumeSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ISkinnedMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ITerrainSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ITextSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ITexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ITimer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\ITriangleSelector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IVertexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IVideoDriver.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IVideoModeList.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IVolumeLightSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IWriteFile.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IXMLReader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\IXMLWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\Keycodes.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\line2d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\line3d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\matrix4.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\path.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\plane3d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\position2d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\quaternion.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\rect.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\S3DVertex.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SAnimatedMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SceneParameters.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SColor.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SExposedVideoData.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SIrrCreationParameters.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SKeyMap.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SLight.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SMaterial.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SMaterialLayer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SMeshBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SMeshBufferLightMap.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SMeshBufferTangents.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SParticle.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SSharedMeshBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SSkinMeshBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SVertexIndex.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SVertexManipulator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\SViewFrustum.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\triangle3d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\vector2d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMIrrlicht\vector3d.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h" />
+    <ClInclude Include="..\..\Source\gui\BuiltInFont.h" />
+    <ClInclude Include="..\..\Source\gui\CDefaultGUIElementFactory.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIButton.h" />
+    <ClInclude Include="..\..\Source\gui\CGUICheckBox.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIColorSelectDialog.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIComboBox.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIContextMenu.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIEditBox.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIEnvironment.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIFileOpenDialog.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIFont.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIImage.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIImageList.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIInOutFader.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIListBox.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIMenu.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIMeshViewer.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIMessageBox.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIModalScreen.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIScrollBar.h" />
+    <ClInclude Include="..\..\Source\gui\CGUISkin.h" />
+    <ClInclude Include="..\..\Source\gui\CGUISpinBox.h" />
+    <ClInclude Include="..\..\Source\gui\CGUISpriteBank.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIStaticText.h" />
+    <ClInclude Include="..\..\Source\gui\CGUITabControl.h" />
+    <ClInclude Include="..\..\Source\gui\CGUITable.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIToolBar.h" />
+    <ClInclude Include="..\..\Source\gui\CGUITreeView.h" />
+    <ClInclude Include="..\..\Source\gui\CGUIWindow.h" />
+    <ClInclude Include="..\..\Source\io\CAttributeImpl.h" />
+    <ClInclude Include="..\..\Source\io\CAttributes.h" />
+    <ClInclude Include="..\..\Source\io\CFileList.h" />
+    <ClInclude Include="..\..\Source\io\CFileSystem.h" />
+    <ClInclude Include="..\..\Source\io\CLimitReadFile.h" />
+    <ClInclude Include="..\..\Source\io\CMemoryFile.h" />
+    <ClInclude Include="..\..\Source\io\CMountPointReader.h" />
+    <ClInclude Include="..\..\Source\io\CNPKReader.h" />
+    <ClInclude Include="..\..\Source\io\CPakReader.h" />
+    <ClInclude Include="..\..\Source\io\CReadFile.h" />
+    <ClInclude Include="..\..\Source\io\CTarReader.h" />
+    <ClInclude Include="..\..\Source\io\CWADReader.h" />
+    <ClInclude Include="..\..\Source\io\CWriteFile.h" />
+    <ClInclude Include="..\..\Source\io\CXMLReader.h" />
+    <ClInclude Include="..\..\Source\io\CXMLReaderImpl.h" />
+    <ClInclude Include="..\..\Source\io\CXMLWriter.h" />
+    <ClInclude Include="..\..\Source\io\CZipReader.h" />
+    <ClInclude Include="..\..\Source\io\IAttribute.h" />
+    <ClInclude Include="..\..\Source\irr\CLogger.h" />
+    <ClInclude Include="..\..\Source\irr\COSOperator.h" />
+    <ClInclude Include="..\..\Source\irr\CTimer.h" />
+    <ClInclude Include="..\..\Source\irr\device\CIrrDevice.h" />
+    <ClInclude Include="..\..\Source\irr\device\CIrrDeviceStub.h" />
+    <ClInclude Include="..\..\Source\irr\os.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorCameraFPS.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorCameraMaya.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorCollisionResponse.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorDelete.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorFlyCircle.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorFlyStraight.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorFollowSpline.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorRotation.h" />
+    <ClInclude Include="..\..\Source\scene\animators\CSceneNodeAnimatorTexture.h" />
+    <ClInclude Include="..\..\Source\scene\animators\ISceneNodeAnimatorFinishing.h" />
+    <ClInclude Include="..\..\Source\scene\CDefaultSceneNodeAnimatorFactory.h" />
+    <ClInclude Include="..\..\Source\scene\CDefaultSceneNodeFactory.h" />
+    <ClInclude Include="..\..\Source\scene\CGeometryCreator.h" />
+    <ClInclude Include="..\..\Source\scene\CMeshCache.h" />
+    <ClInclude Include="..\..\Source\scene\CMeshManipulator.h" />
+    <ClInclude Include="..\..\Source\scene\collision\CMetaTriangleSelector.h" />
+    <ClInclude Include="..\..\Source\scene\collision\COctreeTriangleSelector.h" />
+    <ClInclude Include="..\..\Source\scene\collision\CSceneCollisionManager.h" />
+    <ClInclude Include="..\..\Source\scene\collision\CTerrainTriangleSelector.h" />
+    <ClInclude Include="..\..\Source\scene\collision\CTriangleBBSelector.h" />
+    <ClInclude Include="..\..\Source\scene\collision\CTriangleSelector.h" />
+    <ClInclude Include="..\..\Source\scene\CSceneLoaderIrr.h" />
+    <ClInclude Include="..\..\Source\scene\CSceneManager.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\C3DSMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CAnimatedMeshHalfLife.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CAnimatedMeshMD2.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CAnimatedMeshMD3.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CB3DMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CBSPMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CColladaFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CCSMLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CDMFLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CIrrMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CLMTSMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CLWOMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CMD2MeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CMD3MeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CMS3DMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CMY3DHelper.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CMY3DMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\COBJMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\COCTLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\COgreMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CPLYMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CQ3LevelMesh.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CSkinnedMesh.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CSMFMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CSTLMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\CXMeshFileLoader.h" />
+    <ClInclude Include="..\..\Source\scene\loaders\dmfsupport.h" />
+    <ClInclude Include="..\..\Source\scene\Octree.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleAnimatedMeshSceneNodeEmitter.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleAttractionAffector.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleBoxEmitter.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleCylinderEmitter.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleFadeOutAffector.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleGravityAffector.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleMeshEmitter.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticlePointEmitter.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleRingEmitter.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleRotationAffector.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleScaleAffector.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleSphereEmitter.h" />
+    <ClInclude Include="..\..\Source\scene\particleSystem\CParticleSystemSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CAnimatedMeshSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CBillboardSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CBoneSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CCameraSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CCubeSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CDummyTransformationSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CEmptySceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CLightSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CMeshSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\COctreeSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CQuake3ShaderSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CShadowVolumeSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CSkyBoxSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CSkyDomeSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CSphereSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CTerrainSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CTextSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CVolumeLightSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\sceneNodes\CWaterSurfaceSceneNode.h" />
+    <ClInclude Include="..\..\Source\scene\writers\CColladaMeshWriter.h" />
+    <ClInclude Include="..\..\Source\scene\writers\CIrrMeshWriter.h" />
+    <ClInclude Include="..\..\Source\scene\writers\COBJMeshWriter.h" />
+    <ClInclude Include="..\..\Source\scene\writers\CPLYMeshWriter.h" />
+    <ClInclude Include="..\..\Source\scene\writers\CSTLMeshWriter.h" />
+    <ClInclude Include="..\..\Source\video\CVideoModeList.h" />
+    <ClInclude Include="..\..\Source\video\Null\CBlit.h" />
+    <ClInclude Include="..\..\Source\video\Null\CColorConverter.h" />
+    <ClInclude Include="..\..\Source\video\Null\CFPSCounter.h" />
+    <ClInclude Include="..\..\Source\video\Null\CImage.h" />
+    <ClInclude Include="..\..\Source\video\Null\CNullDriver.h" />
+    <ClInclude Include="..\..\Source\video\Null\IImagePresenter.h" />
+    <ClInclude Include="..\..\Source\video\OpenGL-ES1\COGLESDriver.h" />
+    <ClInclude Include="..\..\Source\video\OpenGL-ES1\COGLESExtensionHandler.h" />
+    <ClInclude Include="..\..\Source\video\OpenGL-ES1\COGLESMaterialRenderer.h" />
+    <ClInclude Include="..\..\Source\video\OpenGL-ES1\COGLESTexture.h" />
+    <ClInclude Include="..\..\Source\video\Software\CSoftwareDriver.h" />
+    <ClInclude Include="..\..\Source\video\Software\CSoftwareTexture.h" />
+    <ClInclude Include="..\..\Source\video\Software\CTRTextureGouraud.h" />
+    <ClInclude Include="..\..\Source\video\Software\CZBuffer.h" />
+    <ClInclude Include="..\..\Source\video\Software\ITriangleRenderer.h" />
+    <ClInclude Include="..\..\Source\video\Software\IZBuffer.h" />
+    <ClInclude Include="..\..\Source\video\Software\S2DVertex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\gui\CDefaultGUIElementFactory.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIButton.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUICheckBox.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIColorSelectDialog.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIComboBox.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIContextMenu.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIEditBox.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIEnvironment.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIFileOpenDialog.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIFont.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIImage.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIImageList.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIInOutFader.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIListBox.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIMenu.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIMeshViewer.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIMessageBox.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIModalScreen.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIScrollBar.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUISkin.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUISpinBox.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUISpriteBank.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIStaticText.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUITabControl.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUITable.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIToolBar.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUITreeView.cpp" />
+    <ClCompile Include="..\..\Source\gui\CGUIWindow.cpp" />
+    <ClCompile Include="..\..\Source\io\CAttributes.cpp" />
+    <ClCompile Include="..\..\Source\io\CFileList.cpp" />
+    <ClCompile Include="..\..\Source\io\CFileSystem.cpp" />
+    <ClCompile Include="..\..\Source\io\CLimitReadFile.cpp" />
+    <ClCompile Include="..\..\Source\io\CMemoryFile.cpp" />
+    <ClCompile Include="..\..\Source\io\CMountPointReader.cpp" />
+    <ClCompile Include="..\..\Source\io\CNPKReader.cpp" />
+    <ClCompile Include="..\..\Source\io\CPakReader.cpp" />
+    <ClCompile Include="..\..\Source\io\CReadFile.cpp" />
+    <ClCompile Include="..\..\Source\io\CTarReader.cpp" />
+    <ClCompile Include="..\..\Source\io\CWADReader.cpp" />
+    <ClCompile Include="..\..\Source\io\CWriteFile.cpp" />
+    <ClCompile Include="..\..\Source\io\CXMLReader.cpp" />
+    <ClCompile Include="..\..\Source\io\CXMLWriter.cpp" />
+    <ClCompile Include="..\..\Source\io\CZipReader.cpp" />
+    <ClCompile Include="..\..\Source\io\irrXML.cpp" />
+    <ClCompile Include="..\..\Source\irr\CLogger.cpp" />
+    <ClCompile Include="..\..\Source\irr\COSOperator.cpp" />
+    <ClCompile Include="..\..\Source\irr\device\CIrrDevice.cpp" />
+    <ClCompile Include="..\..\Source\irr\device\CIrrDeviceStub.cpp" />
+    <ClCompile Include="..\..\Source\irr\Irrlicht.cpp" />
+    <ClCompile Include="..\..\Source\irr\os.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorCameraFPS.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorCameraMaya.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorCollisionResponse.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorDelete.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorFlyCircle.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorFlyStraight.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorFollowSpline.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorRotation.cpp" />
+    <ClCompile Include="..\..\Source\scene\animators\CSceneNodeAnimatorTexture.cpp" />
+    <ClCompile Include="..\..\Source\scene\CDefaultSceneNodeAnimatorFactory.cpp" />
+    <ClCompile Include="..\..\Source\scene\CDefaultSceneNodeFactory.cpp" />
+    <ClCompile Include="..\..\Source\scene\CGeometryCreator.cpp" />
+    <ClCompile Include="..\..\Source\scene\CMeshCache.cpp" />
+    <ClCompile Include="..\..\Source\scene\CMeshManipulator.cpp" />
+    <ClCompile Include="..\..\Source\scene\collision\CMetaTriangleSelector.cpp" />
+    <ClCompile Include="..\..\Source\scene\collision\COctreeTriangleSelector.cpp" />
+    <ClCompile Include="..\..\Source\scene\collision\CSceneCollisionManager.cpp" />
+    <ClCompile Include="..\..\Source\scene\collision\CTerrainTriangleSelector.cpp" />
+    <ClCompile Include="..\..\Source\scene\collision\CTriangleBBSelector.cpp" />
+    <ClCompile Include="..\..\Source\scene\collision\CTriangleSelector.cpp" />
+    <ClCompile Include="..\..\Source\scene\CSceneLoaderIrr.cpp" />
+    <ClCompile Include="..\..\Source\scene\CSceneManager.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\C3DSMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CAnimatedMeshHalfLife.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CAnimatedMeshMD2.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CAnimatedMeshMD3.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CB3DMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CBSPMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CColladaFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CCSMLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CDMFLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CIrrMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CLMTSMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CLWOMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CMD2MeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CMD3MeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CMS3DMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CMY3DMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\COBJMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\COCTLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\COgreMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CPLYMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CQ3LevelMesh.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CSkinnedMesh.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CSMFMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CSTLMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\loaders\CXMeshFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleAnimatedMeshSceneNodeEmitter.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleAttractionAffector.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleBoxEmitter.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleCylinderEmitter.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleFadeOutAffector.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleGravityAffector.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleMeshEmitter.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticlePointEmitter.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleRingEmitter.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleRotationAffector.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleScaleAffector.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleSphereEmitter.cpp" />
+    <ClCompile Include="..\..\Source\scene\particleSystem\CParticleSystemSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CAnimatedMeshSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CBillboardSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CBoneSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CCameraSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CCubeSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CDummyTransformationSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CEmptySceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CLightSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CMeshSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\COctreeSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CQuake3ShaderSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CShadowVolumeSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CSkyBoxSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CSkyDomeSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CSphereSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CTerrainSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CTextSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CVolumeLightSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\sceneNodes\CWaterSurfaceSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\scene\writers\CColladaMeshWriter.cpp" />
+    <ClCompile Include="..\..\Source\scene\writers\CIrrMeshWriter.cpp" />
+    <ClCompile Include="..\..\Source\scene\writers\COBJMeshWriter.cpp" />
+    <ClCompile Include="..\..\Source\scene\writers\CPLYMeshWriter.cpp" />
+    <ClCompile Include="..\..\Source\scene\writers\CSTLMeshWriter.cpp" />
+    <ClCompile Include="..\..\Source\video\CVideoModeList.cpp" />
+    <ClCompile Include="..\..\Source\video\Null\CColorConverter.cpp" />
+    <ClCompile Include="..\..\Source\video\Null\CFPSCounter.cpp" />
+    <ClCompile Include="..\..\Source\video\Null\CImage.cpp" />
+    <ClCompile Include="..\..\Source\video\Null\CNullDriver.cpp" />
+    <ClCompile Include="..\..\Source\video\OpenGL-ES1\COGLESDriver.cpp" />
+    <ClCompile Include="..\..\Source\video\OpenGL-ES1\COGLESExtensionHandler.cpp" />
+    <ClCompile Include="..\..\Source\video\OpenGL-ES1\COGLESTexture.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CSoftwareDriver.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CSoftwareTexture.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRFlat.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRFlatWire.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRGouraud.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRGouraudWire.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRTextureFlat.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRTextureFlatWire.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRTextureGouraud.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRTextureGouraudAdd.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRTextureGouraudNoZ.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CTRTextureGouraudWire.cpp" />
+    <ClCompile Include="..\..\Source\video\Software\CZBuffer.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{33C94212-606A-432F-9E70-D1AF7A24B637}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TestStatic</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)-ES</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)-ES</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMIrrlicht</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName)d.lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMIrrlicht</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

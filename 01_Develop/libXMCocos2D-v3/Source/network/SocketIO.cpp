@@ -42,7 +42,7 @@
 #include "network/HttpClient.h"
 #include <algorithm>
 #include <sstream>
-
+#include <iterator>
 #include "2d/CCDirector.h"
 #include "2d/CCScheduler.h"
 
@@ -461,7 +461,7 @@ void SIOClientImpl::onMessage(WebSocket* ws, const WebSocket::Data& data)
                 {
 					s_data = s_data.substr(pos+1, pos2-pos-1);
 					std::remove_copy(s_data.begin(), s_data.end(),
-						 std::back_inserter(eventname), '"');
+						 std::back_inserter(eventname), '"');						 
 				}
 
 				c->fireEvent(eventname, payload);

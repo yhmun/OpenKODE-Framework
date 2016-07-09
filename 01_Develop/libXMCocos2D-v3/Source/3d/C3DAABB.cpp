@@ -87,7 +87,8 @@ void C3DAABB::set(const C3DVector3& min, const C3DVector3& max)
     this->_max = max;
 }
 
-void updateMinMax(C3DVector3* point, C3DVector3* min, C3DVector3* max)
+void updateMinMax(C3DVector3* point, C3DVector3* min, C3DVector3* max);
+/*
 {
     // Leftmost point.
     if (point->x < min->x)
@@ -125,7 +126,7 @@ void updateMinMax(C3DVector3* point, C3DVector3* min, C3DVector3* max)
         max->z = point->z;
     }
 }
-
+*/
 
 
 void C3DAABB::transform(const C3DMatrix& matrix)

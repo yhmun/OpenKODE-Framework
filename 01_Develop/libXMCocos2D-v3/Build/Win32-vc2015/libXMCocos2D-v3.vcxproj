@@ -1163,7 +1163,7 @@
     <None Include="..\..\..\..\02_Library\Include\XMCocos2D-v3\scripting\auto-generated\js-bindings\jsb_cocos2dx_studio_auto_api.js" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BA26A360-0900-44E9-B216-C5BD66F7162A}</ProjectGuid>
+    <ProjectGuid>{55A81659-E675-4143-83DF-E56F809051AF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>libXMCocos2D-v3</RootNamespace>
   </PropertyGroup>

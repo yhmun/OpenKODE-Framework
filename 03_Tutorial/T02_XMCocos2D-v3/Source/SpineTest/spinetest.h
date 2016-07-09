@@ -28,7 +28,7 @@
 
 #include "cocos2d.h"
 #include "../testBasic.h"
-#include "XMCocos3D/editor-support/spine/spine-cocos2dx.h"
+#include "XMCocos2D-v3/editor-support/spine/spine-cocos2dx.h"
 
 class SpineTestScene : public TestScene
 {

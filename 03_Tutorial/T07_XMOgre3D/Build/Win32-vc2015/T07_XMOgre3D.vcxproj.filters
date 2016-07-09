@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sample">
+      <UniqueIdentifier>{9cf0396f-1889-4ac1-b1c2-6370a00e233c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SampleBrowser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SampleContext.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SamplePlugin.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SdkCameraMan.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SdkSample.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SdkTrays.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\BezierPatch.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\BSP.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\CameraTrack.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\CelShading.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\CharacterSample.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Compositor.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\CubeMapping.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\DeferredShadingDemo.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Dot3Bump.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\DualQuaternion.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\DynTex.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\FacialAnimation.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Fresnel.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Grass.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Instancing.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Lighting.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\NewInstancing.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\OceanDemo.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\ParticleFX.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\ParticleGS.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\ShaderSystem.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Shadows.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\SinbadCharacterController.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\SkeletalAnimation.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\SkyBox.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\SkyDome.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\SkyPlane.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Smoke.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\SphereMapping.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\SSAO.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Terrain.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\TextureArray.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\TextureFX.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Transparency.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\VolumeTex.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sample\Water.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SampleBrowser.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SampleContext.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SamplePlugin.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SdkCameraMan.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SdkSample.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SdkTrays.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\BezierPatch.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\BSP.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\CameraTrack.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\CelShading.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\CharacterSample.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Compositor.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\CubeMapping.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\DeferredShadingDemo.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Dot3Bump.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\DualQuaternion.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\DynTex.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\FacialAnimation.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Fresnel.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Grass.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Instancing.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Lighting.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\NewInstancing.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\OceanDemo.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\ParticleFX.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\ParticleGS.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\ShaderSystem.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Shadows.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\SinbadCharacterController.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\SkeletalAnimation.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\SkyBox.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\SkyDome.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\SkyPlane.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Smoke.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\SphereMapping.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\SSAO.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Terrain.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\TextureArray.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\TextureFX.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Transparency.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\VolumeTex.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sample\Water.h">
+      <Filter>Source\Sample</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

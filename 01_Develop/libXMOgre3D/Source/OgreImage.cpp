@@ -409,7 +409,7 @@ namespace Ogre {
         
         if ( pFile )
         {
-            pImage = kdGetImageFromStreamATX ( pFile, KD_IMAGE_FORMAT_RGBA8888_ATX, KD_IMAGE_FLAG_FLIP_Y_ATX );
+            pImage = kdGetImageFromStreamATX ( pFile, KD_IMAGE_FORMAT_RGBA8888_ATX, 0 );
             if ( pImage )
             {
                 mWidth      = kdGetImageIntATX ( pImage, KD_IMAGE_WIDTH_ATX );

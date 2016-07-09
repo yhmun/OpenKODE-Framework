@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-ES|Win32">
+      <Configuration>Debug-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-ES|Win32">
+      <Configuration>Release-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Main.cpp" />
+    <ClCompile Include="..\..\Source\Sample.cpp" />
+    <ClCompile Include="..\..\Source\SampleBrowser.cpp" />
+    <ClCompile Include="..\..\Source\SampleContext.cpp" />
+    <ClCompile Include="..\..\Source\SamplePlugin.cpp" />
+    <ClCompile Include="..\..\Source\Sample\BezierPatch.cpp" />
+    <ClCompile Include="..\..\Source\Sample\BSP.cpp" />
+    <ClCompile Include="..\..\Source\Sample\CameraTrack.cpp" />
+    <ClCompile Include="..\..\Source\Sample\CelShading.cpp" />
+    <ClCompile Include="..\..\Source\Sample\CharacterSample.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Compositor.cpp" />
+    <ClCompile Include="..\..\Source\Sample\CubeMapping.cpp" />
+    <ClCompile Include="..\..\Source\Sample\DeferredShadingDemo.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Dot3Bump.cpp" />
+    <ClCompile Include="..\..\Source\Sample\DualQuaternion.cpp" />
+    <ClCompile Include="..\..\Source\Sample\DynTex.cpp" />
+    <ClCompile Include="..\..\Source\Sample\FacialAnimation.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Fresnel.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Grass.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Instancing.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Lighting.cpp" />
+    <ClCompile Include="..\..\Source\Sample\NewInstancing.cpp" />
+    <ClCompile Include="..\..\Source\Sample\OceanDemo.cpp" />
+    <ClCompile Include="..\..\Source\Sample\ParticleFX.cpp" />
+    <ClCompile Include="..\..\Source\Sample\ParticleGS.cpp" />
+    <ClCompile Include="..\..\Source\Sample\ShaderSystem.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Shadows.cpp" />
+    <ClCompile Include="..\..\Source\Sample\SinbadCharacterController.cpp" />
+    <ClCompile Include="..\..\Source\Sample\SkeletalAnimation.cpp" />
+    <ClCompile Include="..\..\Source\Sample\SkyBox.cpp" />
+    <ClCompile Include="..\..\Source\Sample\SkyDome.cpp" />
+    <ClCompile Include="..\..\Source\Sample\SkyPlane.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Smoke.cpp" />
+    <ClCompile Include="..\..\Source\Sample\SphereMapping.cpp" />
+    <ClCompile Include="..\..\Source\Sample\SSAO.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Terrain.cpp" />
+    <ClCompile Include="..\..\Source\Sample\TextureArray.cpp" />
+    <ClCompile Include="..\..\Source\Sample\TextureFX.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Transparency.cpp" />
+    <ClCompile Include="..\..\Source\Sample\VolumeTex.cpp" />
+    <ClCompile Include="..\..\Source\Sample\Water.cpp" />
+    <ClCompile Include="..\..\Source\SdkCameraMan.cpp" />
+    <ClCompile Include="..\..\Source\SdkSample.cpp" />
+    <ClCompile Include="..\..\Source\SdkTrays.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Precompiled.h" />
+    <ClInclude Include="..\..\Source\Sample.h" />
+    <ClInclude Include="..\..\Source\SampleBrowser.h" />
+    <ClInclude Include="..\..\Source\SampleContext.h" />
+    <ClInclude Include="..\..\Source\SamplePlugin.h" />
+    <ClInclude Include="..\..\Source\Sample\BezierPatch.h" />
+    <ClInclude Include="..\..\Source\Sample\BSP.h" />
+    <ClInclude Include="..\..\Source\Sample\CameraTrack.h" />
+    <ClInclude Include="..\..\Source\Sample\CelShading.h" />
+    <ClInclude Include="..\..\Source\Sample\CharacterSample.h" />
+    <ClInclude Include="..\..\Source\Sample\Compositor.h" />
+    <ClInclude Include="..\..\Source\Sample\CubeMapping.h" />
+    <ClInclude Include="..\..\Source\Sample\DeferredShadingDemo.h" />
+    <ClInclude Include="..\..\Source\Sample\Dot3Bump.h" />
+    <ClInclude Include="..\..\Source\Sample\DualQuaternion.h" />
+    <ClInclude Include="..\..\Source\Sample\DynTex.h" />
+    <ClInclude Include="..\..\Source\Sample\FacialAnimation.h" />
+    <ClInclude Include="..\..\Source\Sample\Fresnel.h" />
+    <ClInclude Include="..\..\Source\Sample\Grass.h" />
+    <ClInclude Include="..\..\Source\Sample\Instancing.h" />
+    <ClInclude Include="..\..\Source\Sample\Lighting.h" />
+    <ClInclude Include="..\..\Source\Sample\NewInstancing.h" />
+    <ClInclude Include="..\..\Source\Sample\OceanDemo.h" />
+    <ClInclude Include="..\..\Source\Sample\ParticleFX.h" />
+    <ClInclude Include="..\..\Source\Sample\ParticleGS.h" />
+    <ClInclude Include="..\..\Source\Sample\ShaderSystem.h" />
+    <ClInclude Include="..\..\Source\Sample\Shadows.h" />
+    <ClInclude Include="..\..\Source\Sample\SinbadCharacterController.h" />
+    <ClInclude Include="..\..\Source\Sample\SkeletalAnimation.h" />
+    <ClInclude Include="..\..\Source\Sample\SkyBox.h" />
+    <ClInclude Include="..\..\Source\Sample\SkyDome.h" />
+    <ClInclude Include="..\..\Source\Sample\SkyPlane.h" />
+    <ClInclude Include="..\..\Source\Sample\Smoke.h" />
+    <ClInclude Include="..\..\Source\Sample\SphereMapping.h" />
+    <ClInclude Include="..\..\Source\Sample\SSAO.h" />
+    <ClInclude Include="..\..\Source\Sample\Terrain.h" />
+    <ClInclude Include="..\..\Source\Sample\TextureArray.h" />
+    <ClInclude Include="..\..\Source\Sample\TextureFX.h" />
+    <ClInclude Include="..\..\Source\Sample\Transparency.h" />
+    <ClInclude Include="..\..\Source\Sample\VolumeTex.h" />
+    <ClInclude Include="..\..\Source\Sample\Water.h" />
+    <ClInclude Include="..\..\Source\SdkCameraMan.h" />
+    <ClInclude Include="..\..\Source\SdkSample.h" />
+    <ClInclude Include="..\..\Source\SdkTrays.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A478A5E-47D8-4F6C-A37A-CBEF04C27AA1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Test</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMOgre3D;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMOgre3D-ESd.lib;libXMFreeTyped.lib;libXMAtxd.lib;libXMZlibd.lib;libXMZZipd.lib;libXMKode-ESd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
+copy "..\..\..\..\02_Library\Platform\$(PlatformName)\*.dll" "..\..\Binary\$(PlatformName)"
+copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)d.exe"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMOgre3D;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMOgre3D-ES.lib;libXMFreeType.lib;libXMAtx.lib;libXMZlib.lib;libXMZZip.lib;libXMKode-ES.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
+copy "..\..\..\..\02_Library\Platform\$(PlatformName)\*.dll" "..\..\Binary\$(PlatformName)"
+copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName).exe"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

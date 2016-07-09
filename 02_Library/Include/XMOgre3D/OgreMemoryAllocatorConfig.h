@@ -414,7 +414,7 @@ namespace Ogre
 // new / delete for classes deriving from AllocatedObject (alignment determined by per-class policy)
 // Also hooks up the file/line/function params
 // Can only be used with classes that derive from AllocatedObject since customised new/delete needed
-#	define OGRE_NEW new (__FILE__, __LINE__, __FUNCTION__)
+#	define OGRE_NEW new //(__FILE__, __LINE__, __FUNCTION__)
 #	define OGRE_DELETE delete
 
 

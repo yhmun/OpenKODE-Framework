@@ -606,6 +606,7 @@
     <ProjectGuid>{049AC700-CA3A-4403-BEE5-36BF4EC55D5A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TestStatic</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="Configuration">
@@ -634,9 +635,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
     <OutDir>$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)-ES</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
     <OutDir>$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)-ES</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
     <ClCompile>

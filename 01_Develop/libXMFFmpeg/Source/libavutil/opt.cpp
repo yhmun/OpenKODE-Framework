@@ -339,7 +339,7 @@ const char *av_get_string(void *obj, const char *name, const AVOption **o_out, c
     switch (o->type) {
     case AV_OPT_TYPE_FLAGS:     snprintf(buf, buf_len, "0x%08X",*(int    *)dst);break;
     case AV_OPT_TYPE_INT:       snprintf(buf, buf_len, "%d" , *(int    *)dst);break;
-    case AV_OPT_TYPE_INT64:     snprintf(buf, buf_len, "%"PRId64, *(int64_t*)dst);break;
+    case AV_OPT_TYPE_INT64:     snprintf(buf, buf_len, "%" PRId64, *(int64_t*)dst);break;
     case AV_OPT_TYPE_FLOAT:     snprintf(buf, buf_len, "%f" , *(float  *)dst);break;
     case AV_OPT_TYPE_DOUBLE:    snprintf(buf, buf_len, "%f" , *(double *)dst);break;
     case AV_OPT_TYPE_RATIONAL:  snprintf(buf, buf_len, "%d/%d", ((AVRational*)dst)->num, ((AVRational*)dst)->den);break;
@@ -374,7 +374,7 @@ int av_opt_get(void *obj, const char *name, int search_flags, uint8_t **out_val)
     switch (o->type) {
     case AV_OPT_TYPE_FLAGS:     ret = snprintf(buf, sizeof(buf), "0x%08X",  *(int    *)dst);break;
     case AV_OPT_TYPE_INT:       ret = snprintf(buf, sizeof(buf), "%d" ,     *(int    *)dst);break;
-    case AV_OPT_TYPE_INT64:     ret = snprintf(buf, sizeof(buf), "%"PRId64, *(int64_t*)dst);break;
+    case AV_OPT_TYPE_INT64:     ret = snprintf(buf, sizeof(buf), "%" PRId64, *(int64_t*)dst);break;
     case AV_OPT_TYPE_FLOAT:     ret = snprintf(buf, sizeof(buf), "%f" ,     *(float  *)dst);break;
     case AV_OPT_TYPE_DOUBLE:    ret = snprintf(buf, sizeof(buf), "%f" ,     *(double *)dst);break;
     case AV_OPT_TYPE_RATIONAL:  ret = snprintf(buf, sizeof(buf), "%d/%d",   ((AVRational*)dst)->num, ((AVRational*)dst)->den);break;

@@ -254,7 +254,7 @@ static int mpegps_read_pes_header(AVFormatContext *s,
         size = MAX_SYNC_SIZE;
         startcode = find_next_start_code(s->pb, &size, &m->header_state);
         last_sync = avio_tell(s->pb);
-    //printf("startcode=%x pos=0x%"PRIx64"\n", startcode, avio_tell(s->pb));
+    //printf("startcode=%x pos=0x%" PRIx64"\n", startcode, avio_tell(s->pb));
     if (startcode < 0){
         if(url_feof(s->pb))
             return AVERROR_EOF;
@@ -603,7 +603,7 @@ static int64_t mpegps_read_dts(AVFormatContext *s, int stream_index,
         }
         avio_skip(s->pb, len);
     }
-    av_dlog(s, "pos=0x%"PRIx64" dts=0x%"PRIx64" %0.3f\n",
+    av_dlog(s, "pos=0x%" PRIx64" dts=0x%" PRIx64" %0.3f\n",
             pos, dts, dts / 90000.0);
     *ppos = pos;
     return dts;

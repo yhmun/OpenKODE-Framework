@@ -732,11 +732,11 @@ static int mxf_read_index_table_segment(void *arg, AVIOContext *pb, int tag, int
         break;
     case 0x3F0C:
         segment->index_start_position = avio_rb64(pb);
-        av_dlog(NULL, "IndexStartPosition %"PRId64"\n", segment->index_start_position);
+        av_dlog(NULL, "IndexStartPosition %" PRId64 "\n", segment->index_start_position);
         break;
     case 0x3F0D:
         segment->index_duration = avio_rb64(pb);
-        av_dlog(NULL, "IndexDuration %"PRId64"\n", segment->index_duration);
+        av_dlog(NULL, "IndexDuration %" PRId64 "\n", segment->index_duration);
         break;
     }
     return 0;
@@ -1008,14 +1008,14 @@ static int mxf_edit_unit_absolute_offset(MXFContext *mxf, MXFIndexTable *index_t
                     index *= 2;     /* Avid index */
 
                 if (index < 0 || index > s->nb_index_entries) {
-                    av_log(mxf->fc, AV_LOG_ERROR, "IndexSID %i segment at %"PRId64" IndexEntryArray too small\n",
+                    av_log(mxf->fc, AV_LOG_ERROR, "IndexSID %i segment at %" PRId64 " IndexEntryArray too small\n",
                            index_table->index_sid, s->index_start_position);
                     return AVERROR_INVALIDDATA;
                 }
 
                 offset_temp = s->stream_offset_entries[index];
             } else {
-                av_log(mxf->fc, AV_LOG_ERROR, "IndexSID %i segment at %"PRId64" missing EditUnitByteCount and IndexEntryArray\n",
+                av_log(mxf->fc, AV_LOG_ERROR, "IndexSID %i segment at %" PRId64 " missing EditUnitByteCount and IndexEntryArray\n",
                        index_table->index_sid, s->index_start_position);
                 return AVERROR_INVALIDDATA;
             }
@@ -1031,7 +1031,7 @@ static int mxf_edit_unit_absolute_offset(MXFContext *mxf, MXFIndexTable *index_t
     }
 
     if (nag)
-        av_log(mxf->fc, AV_LOG_ERROR, "failed to map EditUnit %"PRId64" in IndexSID %i to an offset\n", edit_unit, index_table->index_sid);
+        av_log(mxf->fc, AV_LOG_ERROR, "failed to map EditUnit %" PRId64 " in IndexSID %i to an offset\n", edit_unit, index_table->index_sid);
 
     return AVERROR_INVALIDDATA;
 }
@@ -1112,7 +1112,7 @@ static int mxf_compute_ptses_fake_index(MXFContext *mxf, MXFIndexTable *index_ta
             int index  = x + offset;
 
             if (x >= index_table->nb_ptses) {
-                av_log(mxf->fc, AV_LOG_ERROR, "x >= nb_ptses - IndexEntryCount %i < IndexDuration %"PRId64"?\n",
+                av_log(mxf->fc, AV_LOG_ERROR, "x >= nb_ptses - IndexEntryCount %i < IndexDuration %" PRId64 "?\n",
                        s->nb_index_entries, s->index_duration);
                 break;
             }
@@ -1189,7 +1189,7 @@ static int mxf_compute_index_tables(MXFContext *mxf)
         }
 
         if (sorted_segments[i]->index_start_position)
-            av_log(mxf->fc, AV_LOG_WARNING, "IndexSID %i starts at EditUnit %"PRId64" - seeking may not work as expected\n",
+            av_log(mxf->fc, AV_LOG_WARNING, "IndexSID %i starts at EditUnit %" PRId64 " - seeking may not work as expected\n",
                    sorted_segments[i]->index_sid, sorted_segments[i]->index_start_position);
 
         memcpy(t->segments, &sorted_segments[i], t->nb_segments * sizeof(MXFIndexTableSegment*));
@@ -1494,7 +1494,7 @@ static int mxf_read_local_tags(MXFContext *mxf, KLVPacket *klv, MXFMetadataReadF
         /* accept the 64k local set limit being exceeded (Avid)
          * don't accept it extending past the end of the KLV though (zzuf5.mxf) */
         if (avio_tell(pb) > klv_end) {
-            av_log(mxf->fc, AV_LOG_ERROR, "local tag %#04x extends past end of local set @ %#"PRIx64"\n",
+            av_log(mxf->fc, AV_LOG_ERROR, "local tag %#04x extends past end of local set @ %#" PRIx64"\n",
                    tag, klv->offset);
             return AVERROR_INVALIDDATA;
         } else if (avio_tell(pb) <= next)   /* only seek forward, else this can loop for a long time */
@@ -1554,7 +1554,7 @@ static int mxf_parse_handle_essence(MXFContext *mxf)
 
         /* seek to footer partition and parse backward */
         if ((ret = avio_seek(pb, mxf->run_in + mxf->footer_partition, SEEK_SET)) < 0) {
-            av_log(mxf->fc, AV_LOG_ERROR, "failed to seek to footer @ 0x%"PRIx64" (%"PRId64") - partial file?\n",
+            av_log(mxf->fc, AV_LOG_ERROR, "failed to seek to footer @ 0x%" PRIx64" (%" PRId64 ") - partial file?\n",
                    mxf->run_in + mxf->footer_partition, ret);
             return ret;
         }
@@ -1677,7 +1677,7 @@ static int mxf_read_header(AVFormatContext *s, AVFormatParameters *ap)
         }
 
         PRINT_KEY(s, "read header", klv.key);
-        av_dlog(s, "size %"PRIu64" offset %#"PRIx64"\n", klv.length, klv.offset);
+        av_dlog(s, "size %" PRIu64 " offset %#" PRIx64"\n", klv.length, klv.offset);
         if (IS_KLV_KEY(klv.key, mxf_encrypted_triplet_key) ||
             IS_KLV_KEY(klv.key, mxf_essence_element_key) ||
             IS_KLV_KEY(klv.key, mxf_avid_essence_element_key) ||
@@ -1737,7 +1737,7 @@ static int mxf_read_header(AVFormatContext *s, AVFormatParameters *ap)
 
                     /* only seek forward, else this can loop for a long time */
                     if (avio_tell(s->pb) > next) {
-                        av_log(s, AV_LOG_ERROR, "read past end of KLV @ %#"PRIx64"\n",
+                        av_log(s, AV_LOG_ERROR, "read past end of KLV @ %#" PRIx64"\n",
                                klv.offset);
                         return AVERROR_INVALIDDATA;
                     }
@@ -1832,7 +1832,7 @@ static int mxf_read_packet_old(AVFormatContext *s, AVPacket *pkt)
         if (klv_read_packet(&klv, s->pb) < 0)
             return -1;
         PRINT_KEY(s, "read packet", klv.key);
-        av_dlog(s, "size %"PRIu64" offset %#"PRIx64"\n", klv.length, klv.offset);
+        av_dlog(s, "size %" PRIu64 " offset %#" PRIx64"\n", klv.length, klv.offset);
         if (IS_KLV_KEY(klv.key, mxf_encrypted_triplet_key)) {
             ret = mxf_decrypt_triplet(s, pkt, &klv);
             if (ret < 0) {

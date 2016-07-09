@@ -88,10 +88,10 @@ void write_float_2d_array   (const void *, int, int);
     } while(0)
 
 
-WRITE_1D_FUNC(int8_t,   "%3"PRIi8, 15)
-WRITE_1D_FUNC(uint8_t,  "0x%02"PRIx8, 15)
-WRITE_1D_FUNC(uint16_t, "0x%08"PRIx16, 7)
-WRITE_1D_FUNC(uint32_t, "0x%08"PRIx32, 7)
+WRITE_1D_FUNC(int8_t,   "%3" PRIi8, 15)
+WRITE_1D_FUNC(uint8_t,  "0x%02" PRIx8, 15)
+WRITE_1D_FUNC(uint16_t, "0x%08" PRIx16, 7)
+WRITE_1D_FUNC(uint32_t, "0x%08" PRIx32, 7)
 WRITE_1D_FUNC(float,    "%.18e", 3)
 
 WRITE_2D_FUNC(int8_t)

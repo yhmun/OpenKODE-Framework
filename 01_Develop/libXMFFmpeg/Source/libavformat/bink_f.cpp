@@ -121,7 +121,7 @@ static int read_header(AVFormatContext *s, AVFormatParameters *ap)
 
     if (bink->num_audio_tracks > BINK_MAX_AUDIO_TRACKS) {
         av_log(s, AV_LOG_ERROR,
-               "invalid header: more than "AV_STRINGIFY(BINK_MAX_AUDIO_TRACKS)" audio tracks (%d)\n",
+               "invalid header: more than " AV_STRINGIFY(BINK_MAX_AUDIO_TRACKS) " audio tracks (%d)\n",
                bink->num_audio_tracks);
         return AVERROR(EIO);
     }
@@ -197,7 +197,7 @@ static int read_packet(AVFormatContext *s, AVPacket *pkt)
                                                 AVSEEK_FLAG_ANY);
         if (index_entry < 0) {
             av_log(s, AV_LOG_ERROR,
-                   "could not find index entry for frame %"PRId64"\n",
+                   "could not find index entry for frame %" PRId64 "\n",
                    bink->video_pts);
             return AVERROR(EIO);
         }
@@ -210,7 +210,7 @@ static int read_packet(AVFormatContext *s, AVPacket *pkt)
         uint32_t audio_size = avio_rl32(pb);
         if (audio_size > bink->remain_packet_size - 4) {
             av_log(s, AV_LOG_ERROR,
-                   "frame %"PRId64": audio size in header (%u) > size of packet left (%u)\n",
+                   "frame %" PRId64 ": audio size in header (%u) > size of packet left (%u)\n",
                    bink->video_pts, audio_size, bink->remain_packet_size);
             return AVERROR(EIO);
         }

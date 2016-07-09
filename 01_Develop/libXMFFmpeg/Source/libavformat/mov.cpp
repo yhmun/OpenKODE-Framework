@@ -258,7 +258,7 @@ static int mov_read_udta_string(MOVContext *c, AVIOContext *pb, MOVAtom atom)
         }
     }
     av_dlog(c->fc, "lang \"%3s\" ", language);
-    av_dlog(c->fc, "tag \"%s\" value \"%s\" atom \"%.4s\" %d %"PRId64"\n",
+    av_dlog(c->fc, "tag \"%s\" value \"%s\" atom \"%.4s\" %d %" PRId64 "\n",
             key, str, (char*)&atom.type, str_size, atom.size);
 
     return 0;
@@ -662,7 +662,7 @@ static int mov_read_moov(MOVContext *c, AVIOContext *pb, MOVAtom atom)
 static int mov_read_moof(MOVContext *c, AVIOContext *pb, MOVAtom atom)
 {
     c->fragment.moof_offset = avio_tell(pb) - 8;
-    av_dlog(c->fc, "moof offset %"PRIx64"\n", c->fragment.moof_offset);
+    av_dlog(c->fc, "moof offset %" PRIx64"\n", c->fragment.moof_offset);
     return mov_read_default(c, pb, atom);
 }
 
@@ -779,7 +779,7 @@ static int mov_read_smi(MOVContext *c, AVIOContext *pb, MOVAtom atom)
     st->codec->extradata_size = 0x5a + atom.size;
     memcpy(st->codec->extradata, "SVQ3", 4); // fake
     avio_read(pb, st->codec->extradata + 0x5a, atom.size);
-    av_dlog(c->fc, "Reading SMI %"PRId64"  %s\n", atom.size, st->codec->extradata + 0x5a);
+    av_dlog(c->fc, "Reading SMI %" PRId64 "  %s\n", atom.size, st->codec->extradata + 0x5a);
     return 0;
 }
 
@@ -1775,7 +1775,7 @@ static void mov_build_index(MOVContext *mov, AVStream *st)
                     e->size = sample_size;
                     e->min_distance = distance;
                     e->flags = keyframe ? AVINDEX_KEYFRAME : 0;
-                    av_dlog(mov->fc, "AVIndex stream %d, sample %d, offset %"PRIx64", dts %"PRId64", "
+                    av_dlog(mov->fc, "AVIndex stream %d, sample %d, offset %" PRIx64", dts %" PRId64 ", "
                             "size %d, distance %d, keyframe %d\n", st->index, current_sample,
                             current_offset, current_dts, sample_size, distance, keyframe);
                 }
@@ -1868,7 +1868,7 @@ static void mov_build_index(MOVContext *mov, AVStream *st)
                 e->size = size;
                 e->min_distance = 0;
                 e->flags = AVINDEX_KEYFRAME;
-                av_dlog(mov->fc, "AVIndex stream %d, chunk %d, offset %"PRIx64", dts %"PRId64", "
+                av_dlog(mov->fc, "AVIndex stream %d, chunk %d, offset %" PRIx64", dts %" PRId64 ", "
                         "size %d, duration %d\n", st->index, i, current_offset, current_dts,
                         size, samples);
 
@@ -2293,7 +2293,7 @@ static int mov_read_trun(MOVContext *c, AVIOContext *pb, MOVAtom atom)
             distance = 0;
         av_add_index_entry(st, offset, dts, sample_size, distance,
                            keyframe ? AVINDEX_KEYFRAME : 0);
-        av_dlog(c->fc, "AVIndex stream %d, sample %d, offset %"PRIx64", dts %"PRId64", "
+        av_dlog(c->fc, "AVIndex stream %d, sample %d, offset %" PRIx64", dts %" PRId64 ", "
                 "size %d, distance %d, keyframe %d\n", st->index, sc->sample_count+i,
                 offset, dts, sample_size, distance, keyframe);
         distance++;
@@ -2508,7 +2508,7 @@ static int mov_read_default(MOVContext *c, AVIOContext *pb, MOVAtom atom)
                 total_size += 8;
             }
         }
-        av_dlog(c->fc, "type: %08x '%.4s' parent:'%.4s' sz: %"PRId64" %"PRId64" %"PRId64"\n",
+        av_dlog(c->fc, "type: %08x '%.4s' parent:'%.4s' sz: %" PRId64 " %" PRId64 " %" PRId64 "\n",
                 a.type, (char*)&a.type, (char*)&atom.type, a.size, total_size, atom.size);
         if (a.size == 0) {
             a.size = atom.size - total_size + 8;
@@ -2732,7 +2732,7 @@ static int mov_read_header(AVFormatContext *s, AVFormatParameters *ap)
         av_log(s, AV_LOG_ERROR, "moov atom not found\n");
         return AVERROR_INVALIDDATA;
     }
-    av_dlog(mov->fc, "on_parse_exit_offset=%"PRId64"\n", avio_tell(pb));
+    av_dlog(mov->fc, "on_parse_exit_offset=%" PRId64 "\n", avio_tell(pb));
 
     if (pb->seekable) {
         int i;
@@ -2767,7 +2767,7 @@ static AVIndexEntry *mov_find_next_sample(AVFormatContext *s, AVStream **st)
         if (msc->pb && msc->current_sample < avst->nb_index_entries) {
             AVIndexEntry *current_sample = &avst->index_entries[msc->current_sample];
             int64_t dts = av_rescale(current_sample->timestamp, AV_TIME_BASE, msc->time_scale);
-            av_dlog(s, "stream %d, sample %d, dts %"PRId64"\n", i, msc->current_sample, dts);
+            av_dlog(s, "stream %d, sample %d, dts %" PRId64 "\n", i, msc->current_sample, dts);
             if (!sample || (!s->pb->seekable && current_sample->pos < sample->pos) ||
                 (s->pb->seekable &&
                  ((msc->pb != s->pb && dts < best_dts) || (msc->pb == s->pb &&
@@ -2801,7 +2801,7 @@ static int mov_read_packet(AVFormatContext *s, AVPacket *pkt)
             url_feof(s->pb))
             return AVERROR_EOF;
 		}
-        av_dlog(s, "read fragments, offset 0x%"PRIx64"\n", avio_tell(s->pb));
+        av_dlog(s, "read fragments, offset 0x%" PRIx64"\n", avio_tell(s->pb));
         goto retry;
     }
     sc = (MOVStreamContext *)st->priv_data;
@@ -2810,7 +2810,7 @@ static int mov_read_packet(AVFormatContext *s, AVPacket *pkt)
 
     if (st->discard != AVDISCARD_ALL) {
         if (avio_seek(sc->pb, sample->pos, SEEK_SET) != sample->pos) {
-            av_log(mov->fc, AV_LOG_ERROR, "stream %d, offset 0x%"PRIx64": partial file\n",
+            av_log(mov->fc, AV_LOG_ERROR, "stream %d, offset 0x%" PRIx64": partial file\n",
                    sc->ffindex, sample->pos);
             return AVERROR_INVALIDDATA;
         }
@@ -2863,7 +2863,7 @@ static int mov_read_packet(AVFormatContext *s, AVPacket *pkt)
         goto retry;
     pkt->flags |= sample->flags & AVINDEX_KEYFRAME ? AV_PKT_FLAG_KEY : 0;
     pkt->pos = sample->pos;
-    av_dlog(s, "stream %d, pts %"PRId64", dts %"PRId64", pos 0x%"PRIx64", duration %d\n",
+    av_dlog(s, "stream %d, pts %" PRId64 ", dts %" PRId64 ", pos 0x%" PRIx64", duration %d\n",
             pkt->stream_index, pkt->pts, pkt->dts, pkt->pos, pkt->duration);
     return 0;
 }
@@ -2875,7 +2875,7 @@ static int mov_seek_stream(AVFormatContext *s, AVStream *st, int64_t timestamp, 
     int i;
 
     sample = av_index_search_timestamp(st, timestamp, flags);
-    av_dlog(s, "stream %d, timestamp %"PRId64", sample %d\n", st->index, timestamp, sample);
+    av_dlog(s, "stream %d, timestamp %" PRId64 ", sample %d\n", st->index, timestamp, sample);
     if (sample < 0 && st->nb_index_entries && timestamp < st->index_entries[0].timestamp)
         sample = 0;
     if (sample < 0) /* not sure what to do */

@@ -45,7 +45,7 @@ static const AVOption options[] = {
     { "sinc"			, "sinc"							, 0					, AV_OPT_TYPE_CONST	, SWS_SINC			, NULL, INT_MIN	, INT_MAX	, VE, "sws_flags" },
     { "lanczos"			, "lanczos"							, 0					, AV_OPT_TYPE_CONST	, SWS_LANCZOS		, NULL, INT_MIN	, INT_MAX	, VE, "sws_flags" },
     { "spline"			, "natural bicubic spline"			, 0					, AV_OPT_TYPE_CONST	, SWS_SPLINE		, NULL, INT_MIN	, INT_MAX	, VE, "sws_flags" },
-    { "print_info"		, "print info"						, 0					, AV_OPT_TYPE_CONST	, SWS_PRINT_INFO	, NULL, INT_MIN	, INT_MAX	, VE, "sws_flags" },
+    { " PRInt_info"		, " PRInt info"						, 0					, AV_OPT_TYPE_CONST	, SWS_PRINT_INFO	, NULL, INT_MIN	, INT_MAX	, VE, "sws_flags" },
     { "accurate_rnd"	, "accurate rounding"				, 0					, AV_OPT_TYPE_CONST	, SWS_ACCURATE_RND	, NULL, INT_MIN	, INT_MAX	, VE, "sws_flags" },
     { "full_chroma_int"	, "full chroma interpolation"		, 0					, AV_OPT_TYPE_CONST	, SWS_FULL_CHR_H_INT, NULL, INT_MIN	, INT_MAX	, VE, "sws_flags" },
     { "full_chroma_inp"	, "full chroma input"				, 0					, AV_OPT_TYPE_CONST	, SWS_FULL_CHR_H_INP, NULL, INT_MIN	, INT_MAX	, VE, "sws_flags" },

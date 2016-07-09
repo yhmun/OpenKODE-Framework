@@ -1021,7 +1021,7 @@ static int mkv_write_ass_blocks(AVFormatContext *s, AVIOContext *pb, AVPacket *p
                 return max_duration;
         size -= start - data;
         sscanf(data, "Dialogue: %d,", &layer);
-        i = snprintf(buffer, sizeof(buffer), "%"PRId64",%d,",
+        i = snprintf(buffer, sizeof(buffer), "%" PRId64 ",%d,",
                      s->streams[pkt->stream_index]->nb_frames, layer);
         size = FFMIN(i+size, sizeof(buffer));
         memcpy(buffer+i, start, size-i);

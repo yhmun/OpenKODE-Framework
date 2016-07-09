@@ -96,7 +96,7 @@ static const AVOption options[] = {
     {"video_stream",      "Make demuxer output a video stream",             OFFSET(video_stream),   AV_OPT_TYPE_INT, {.dbl = 0},   0,   1, D},
     {"video_stream_w",    "Video stream width in char (one char = 8x8px)",  OFFSET(w),              AV_OPT_TYPE_INT, {.dbl = 30}, 20, 512, D},
     {"video_stream_h",    "Video stream height in char (one char = 8x8px)", OFFSET(h),              AV_OPT_TYPE_INT, {.dbl = 30}, 20, 512, D},
-    {"video_stream_ptxt", "Print speed, tempo, order, ... in video stream", OFFSET(print_textinfo), AV_OPT_TYPE_INT, {.dbl = 1},   0,   1, D},
+    {"video_stream_ptxt", " PRInt speed, tempo, order, ... in video stream", OFFSET(print_textinfo), AV_OPT_TYPE_INT, {.dbl = 1},   0,   1, D},
     {NULL},
 };
 

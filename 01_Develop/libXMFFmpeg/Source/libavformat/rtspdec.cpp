@@ -63,7 +63,7 @@ static int rtsp_read_play(AVFormatContext *s)
             cmd[0] = 0;
         } else {
             snprintf(cmd, sizeof(cmd),
-                     "Range: npt=%"PRId64".%03"PRId64"-\r\n",
+                     "Range: npt=%" PRId64 ".%03" PRId64 "-\r\n",
                      rt->seek_timestamp / AV_TIME_BASE,
                      rt->seek_timestamp / (AV_TIME_BASE / 1000) % 1000);
         }

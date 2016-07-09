@@ -961,8 +961,8 @@ static int load_input_picture(MpegEncContext *s, AVFrame *pic_arg)
 
                 if (time <= last) {
                     av_log(s->avctx, AV_LOG_ERROR,
-                           "Error, Invalid timestamp=%"PRId64", "
-                           "last=%"PRId64"\n", pts, s->user_specified_pts);
+                           "Error, Invalid timestamp=%" PRId64 ", "
+                           "last=%" PRId64 "\n", pts, s->user_specified_pts);
                     return -1;
                 }
             }
@@ -972,7 +972,7 @@ static int load_input_picture(MpegEncContext *s, AVFrame *pic_arg)
                 s->user_specified_pts =
                 pts = s->user_specified_pts + 1;
                 av_log(s->avctx, AV_LOG_INFO,
-                       "Warning: AVFrame.pts=? trying to guess (%"PRId64")\n",
+                       "Warning: AVFrame.pts=? trying to guess (%" PRId64 ")\n",
                        pts);
             } else {
                 pts = pic_arg->display_picture_number;
@@ -1256,7 +1256,7 @@ static int select_input_picture(MpegEncContext *s)
                 if (s->picture_in_gop_number < s->gop_size &&
                     skip_check(s, s->input_picture[0], s->next_picture_ptr)) {
                     // FIXME check that te gop check above is +-1 correct
-                    //av_log(NULL, AV_LOG_DEBUG, "skip %p %"PRId64"\n",
+                    //av_log(NULL, AV_LOG_DEBUG, "skip %p %" PRId64 "\n",
                     //       s->input_picture[0]->f.data[0],
                     //       s->input_picture[0]->pts);
 

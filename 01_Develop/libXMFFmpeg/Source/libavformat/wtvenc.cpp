@@ -36,18 +36,18 @@
 #define MAX_NB_INDEX 10
 
 /* declare utf16le strings */
-#define _ , 0,
+//#define _ , 0,
 static const uint8_t timeline_table_0_header_events[] =
-    {'t'_'i'_'m'_'e'_'l'_'i'_'n'_'e'_'.'_'t'_'a'_'b'_'l'_'e'_'.'_'0'_'.'_'h'_'e'_'a'_'d'_'e'_'r'_'.'_'E'_'v'_'e'_'n'_'t'_'s', 0};
+    {'t', 0,'i', 0,'m', 0,'e', 0,'l', 0,'i', 0,'n', 0,'e', 0,'.', 0,'t', 0,'a', 0,'b', 0,'l', 0,'e', 0,'.', 0,'0', 0,'.', 0,'h', 0,'e', 0,'a', 0,'d', 0,'e', 0,'r', 0,'.', 0,'E', 0,'v', 0,'e', 0,'n', 0,'t', 0,'s', 0};
 static const uint8_t table_0_header_legacy_attrib[] =
-    {'t'_'a'_'b'_'l'_'e'_'.'_'0'_'.'_'h'_'e'_'a'_'d'_'e'_'r'_'.'_'l'_'e'_'g'_'a'_'c'_'y'_'_'_'a'_'t'_'t'_'r'_'i'_'b', 0};
+    {'t', 0,'a', 0,'b', 0,'l', 0,'e', 0,'.', 0,'0', 0,'.', 0,'h', 0,'e', 0,'a', 0,'d', 0,'e', 0,'r', 0,'.', 0,'l', 0,'e', 0,'g', 0,'a', 0,'c', 0,'y', 0,'_', 0,'a', 0,'t', 0,'t', 0,'r', 0,'i', 0,'b', 0};
 static const uint8_t table_0_redirector_legacy_attrib[] =
-    {'t'_'a'_'b'_'l'_'e'_'.'_'0'_'.'_'r'_'e'_'d'_'i'_'r'_'e'_'c'_'t'_'o'_'r'_'.'_'l'_'e'_'g'_'a'_'c'_'y'_'_'_'a'_'t'_'t'_'r'_'i'_'b', 0};
+    {'t', 0,'a', 0,'b', 0,'l', 0,'e', 0,'.', 0,'0', 0,'.', 0,'r', 0,'e', 0,'d', 0,'i', 0,'r', 0,'e', 0,'c', 0,'t', 0,'o', 0,'r', 0,'.', 0,'l', 0,'e', 0,'g', 0,'a', 0,'c', 0,'y', 0,'_', 0,'a', 0,'t', 0,'t', 0,'r', 0,'i', 0,'b', 0};
 static const uint8_t table_0_header_time[] =
-    {'t'_'a'_'b'_'l'_'e'_'.'_'0'_'.'_'h'_'e'_'a'_'d'_'e'_'r'_'.'_'t'_'i'_'m'_'e', 0};
+    {'t', 0,'a', 0,'b', 0,'l', 0,'e', 0,'.', 0,'0', 0,'.', 0,'h', 0,'e', 0,'a', 0,'d', 0,'e', 0,'r', 0,'.', 0,'t', 0,'i', 0,'m', 0,'e', 0};
 static const uint8_t legacy_attrib[] =
-    {'l'_'e'_'g'_'a'_'c'_'y'_'_'_'a'_'t'_'t'_'r'_'i'_'b', 0};
-#undef _
+    {'l', 0,'e', 0,'g', 0,'a', 0,'c', 0,'y', 0,'_', 0,'a', 0,'t', 0,'t', 0,'r', 0,'i', 0,'b', 0};
+//#undef _
 
 static const ff_asf_guid sub_wtv_guid =
     {0x8C,0xC3,0xD2,0xC2,0x7E,0x9A,0xDA,0x11,0x8B,0xF7,0x00,0x07,0xE9,0x5E,0xAD,0x8D};
@@ -630,7 +630,7 @@ static int finish_file(AVFormatContext *s, enum WtvFileIndex index, int64_t star
         w->depth = 2;
         sector_bits = WTV_BIGSECTOR_BITS;
     } else {
-        av_log(s, AV_LOG_ERROR, "unsupported file allocation table depth (%"PRIi64" bytes)\n", w->length);
+        av_log(s, AV_LOG_ERROR, "unsupported file allocation table depth (%" PRIi64" bytes)\n", w->length);
         return -1;
     }
 

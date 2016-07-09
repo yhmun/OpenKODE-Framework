@@ -93,7 +93,7 @@ typedef struct {
 #define RTP_FLAG_KEY    0x1 ///< RTP packet contains a keyframe
 #define RTP_FLAG_MARKER 0x2 ///< RTP marker bit was set for this packet
 /**
- * Packet parsing for "private" payloads in the RTP specs.
+ * Packet parsing for " PRIvate" payloads in the RTP specs.
  *
  * @param ctx RTSP demuxer context
  * @param s stream context

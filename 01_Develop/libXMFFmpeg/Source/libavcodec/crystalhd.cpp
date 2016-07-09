@@ -189,7 +189,7 @@ static inline void print_frame_info(CHDContext *priv, BC_DTS_PROC_OUT *output)
            output->YBuffDoneSz);
     av_log(priv->avctx, AV_LOG_VERBOSE, "\tUVBuffDoneSz: %u\n",
            output->UVBuffDoneSz);
-    av_log(priv->avctx, AV_LOG_VERBOSE, "\tTimestamp: %"PRIu64"\n",
+    av_log(priv->avctx, AV_LOG_VERBOSE, "\tTimestamp: %" PRIu64 "\n",
            output->PicInfo.timeStamp);
     av_log(priv->avctx, AV_LOG_VERBOSE, "\tPicture Number: %u\n",
            output->PicInfo.picture_number);
@@ -574,7 +574,7 @@ static inline CopyRet copy_frame(AVCodecContext *avctx,
              */
             pic_type = PICT_BOTTOM_FIELD;
         }
-        av_log(avctx, AV_LOG_VERBOSE, "output \"pts\": %"PRIu64"\n",
+        av_log(avctx, AV_LOG_VERBOSE, "output \"pts\": %" PRIu64 "\n",
                output->PicInfo.timeStamp);
         av_log(avctx, AV_LOG_VERBOSE, "output picture type %d\n",
                pic_type);
@@ -901,7 +901,7 @@ static int decode(AVCodecContext *avctx, void *data, int *data_size, AVPacket *a
                 return AVERROR(ENOMEM);
             }
             av_log(priv->avctx, AV_LOG_VERBOSE,
-                   "input \"pts\": %"PRIu64"\n", pts);
+                   "input \"pts\": %" PRIu64 "\n", pts);
             ret = DtsProcInput(dev, in_data, len, pts, 0);
             if (free_data) {
                 av_freep(&in_data);

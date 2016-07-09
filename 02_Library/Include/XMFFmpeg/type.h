@@ -1,6 +1,8 @@
 #ifndef FFMPEG_TYPE_H
 #define FFMPEG_TYPE_H
 
+#include <stdlib.h>
+#include <cstdlib>
 #include <kode.h>
 
 typedef signed char         int8_t;

@@ -583,7 +583,7 @@ int ff_get_wav_header(AVIOContext *pb, AVCodecContext *codec, int size)
             } else {
                 codec->codec_id = ff_codec_guid_get_id(ff_codec_wav_guids, subformat);
                 if (!codec->codec_id)
-                    av_log(codec, AV_LOG_WARNING, "unknown subformat:"FF_PRI_GUID"\n", FF_ARG_GUID(subformat));
+                    av_log(codec, AV_LOG_WARNING, "unknown subformat:" FF_PRI_GUID "\n", FF_ARG_GUID(subformat));
             }
 			}
             cbSize -= 22;

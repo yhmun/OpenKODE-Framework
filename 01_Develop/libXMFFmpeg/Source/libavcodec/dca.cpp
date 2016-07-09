@@ -510,7 +510,7 @@ static int dca_parse_audio_coding_header(DCAContext *s, int base_channel)
 
 #ifdef TRACE
     av_log(s->avctx, AV_LOG_DEBUG, "subframes: %i\n", s->subframes);
-    av_log(s->avctx, AV_LOG_DEBUG, "prim channels: %i\n", s->prim_channels);
+    av_log(s->avctx, AV_LOG_DEBUG, " PRIm channels: %i\n", s->prim_channels);
     for (i = base_channel; i < s->prim_channels; i++) {
         av_log(s->avctx, AV_LOG_DEBUG, "subband activity: %i\n",
                s->subband_activity[i]);

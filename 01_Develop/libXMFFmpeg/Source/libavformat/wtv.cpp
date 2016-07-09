@@ -40,16 +40,16 @@ extern const ff_asf_guid ff_format_none =
     {0xD6,0x17,0x64,0x0F,0x18,0xC3,0xD0,0x11,0xA4,0x3F,0x00,0xA0,0xC9,0x22,0x31,0x96};
 
 /* declare utf16le strings */
-#define _ , 0,
+//#define _ , 0,
 const uint8_t ff_timeline_le16[] =
-    {'t'_'i'_'m'_'e'_'l'_'i'_'n'_'e', 0};
+    {'t', 0,'i', 0,'m', 0,'e', 0,'l', 0,'i', 0,'n', 0,'e', 0};
 const uint8_t ff_timeline_table_0_entries_Events_le16[] =
-    {'t'_'i'_'m'_'e'_'l'_'i'_'n'_'e'_'.'_'t'_'a'_'b'_'l'_'e'_'.'_'0'_'.'_'e'_'n'_'t'_'r'_'i'_'e'_'s'_'.'_'E'_'v'_'e'_'n'_'t'_'s', 0};
+    {'t', 0,'i', 0,'m', 0,'e', 0,'l', 0,'i', 0,'n', 0,'e', 0,'.', 0,'t', 0,'a', 0,'b', 0,'l', 0,'e', 0,'.', 0,'0', 0,'.', 0,'e', 0,'n', 0,'t', 0,'r', 0,'i', 0,'e', 0,'s', 0,'.', 0,'E', 0,'v', 0,'e', 0,'n', 0,'t', 0,'s', 0};
 const uint8_t ff_table_0_entries_legacy_attrib_le16[] =
-    {'t'_'a'_'b'_'l'_'e'_'.'_'0'_'.'_'e'_'n'_'t'_'r'_'i'_'e'_'s'_'.'_'l'_'e'_'g'_'a'_'c'_'y'_'_'_'a'_'t'_'t'_'r'_'i'_'b', 0};
+    {'t', 0,'a', 0,'b', 0,'l', 0,'e', 0,'.', 0,'0', 0,'.', 0,'e', 0,'n', 0,'t', 0,'r', 0,'i', 0,'e', 0,'s', 0,'.', 0,'l', 0,'e', 0,'g', 0,'a', 0,'c', 0,'y', 0,'_', 0,'a', 0,'t', 0,'t', 0,'r', 0,'i', 0,'b', 0};
 const uint8_t ff_table_0_entries_time_le16[] =
-    {'t'_'a'_'b'_'l'_'e'_'.'_'0'_'.'_'e'_'n'_'t'_'r'_'i'_'e'_'s'_'.'_'t'_'i'_'m'_'e', 0};
-#undef _
+    {'t', 0,'a', 0,'b', 0,'l', 0,'e', 0,'.', 0,'0', 0,'.', 0,'e', 0,'n', 0,'t', 0,'r', 0,'i', 0,'e', 0,'s', 0,'.', 0,'t', 0,'i', 0,'m', 0,'e', 0};
+//#undef _
 
 extern const ff_asf_guid ff_DSATTRIB_TRANSPORT_PROPERTIES =
     {0x12,0xF6,0x22,0xB6,0xAD,0x47,0x71,0x46,0xAD,0x6C,0x05,0xA9,0x8E,0x65,0xDE,0x3A};

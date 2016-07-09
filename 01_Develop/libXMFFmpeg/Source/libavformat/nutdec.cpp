@@ -69,21 +69,21 @@ static uint64_t get_fourcc(AVIOContext *bc){
 static inline uint64_t get_v_trace(AVIOContext *bc, char *file, char *func, int line){
     uint64_t v= ffio_read_varlen(bc);
 
-    av_log(NULL, AV_LOG_DEBUG, "get_v %5"PRId64" / %"PRIX64" in %s %s:%d\n", v, v, file, func, line);
+    av_log(NULL, AV_LOG_DEBUG, "get_v %5" PRId64 " / %" PRIX64" in %s %s:%d\n", v, v, file, func, line);
     return v;
 }
 
 static inline int64_t get_s_trace(AVIOContext *bc, char *file, char *func, int line){
     int64_t v= get_s(bc);
 
-    av_log(NULL, AV_LOG_DEBUG, "get_s %5"PRId64" / %"PRIX64" in %s %s:%d\n", v, v, file, func, line);
+    av_log(NULL, AV_LOG_DEBUG, "get_s %5" PRId64 " / %" PRIX64" in %s %s:%d\n", v, v, file, func, line);
     return v;
 }
 
 static inline uint64_t get_vb_trace(AVIOContext *bc, char *file, char *func, int line){
     uint64_t v= get_vb(bc);
 
-    av_log(NULL, AV_LOG_DEBUG, "get_vb %5"PRId64" / %"PRIX64" in %s %s:%d\n", v, v, file, func, line);
+    av_log(NULL, AV_LOG_DEBUG, "get_vb %5" PRId64 " / %" PRIX64" in %s %s:%d\n", v, v, file, func, line);
     return v;
 }
 #define ffio_read_varlen(bc)  get_v_trace(bc, __FILE__, __PRETTY_FUNCTION__, __LINE__)
@@ -166,7 +166,7 @@ static int nut_probe(AVProbeData *p){
 #define GET_V(dst, check) \
     tmp= ffio_read_varlen(bc);\
     if(!(check)){\
-        av_log(s, AV_LOG_ERROR, "Error " #dst " is (%"PRId64")\n", tmp);\
+        av_log(s, AV_LOG_ERROR, "Error " #dst " is (%" PRId64 ")\n", tmp);\
         return -1;\
     }\
     dst= tmp;
@@ -669,7 +669,7 @@ static int decode_frame_header(NUTContext *nut, int64_t *pts, int *stream_id, ui
     uint64_t tmp;
 
     if(avio_tell(bc) > nut->last_syncpoint_pos + nut->max_distance){
-        av_log(s, AV_LOG_ERROR, "Last frame must have been damaged %"PRId64" > %"PRId64" + %d\n", avio_tell(bc), nut->last_syncpoint_pos, nut->max_distance);
+        av_log(s, AV_LOG_ERROR, "Last frame must have been damaged %" PRId64 " > %" PRId64 " + %d\n", avio_tell(bc), nut->last_syncpoint_pos, nut->max_distance);
         return AVERROR_INVALIDDATA;
     }
 
@@ -818,7 +818,7 @@ static int nut_read_packet(AVFormatContext *s, AVPacket *pkt)
                 break;
         default:
 resync:
-av_log(s, AV_LOG_DEBUG, "syncing from %"PRId64"\n", pos);
+av_log(s, AV_LOG_DEBUG, "syncing from %" PRId64 "\n", pos);
             tmp= find_any_startcode(bc, nut->last_syncpoint_pos+1);
             if(tmp==0)
                 return AVERROR_INVALIDDATA;
@@ -832,7 +832,7 @@ static int64_t nut_read_timestamp(AVFormatContext *s, int stream_index, int64_t 
     NUTContext *nut = (NUTContext *)s->priv_data;
     AVIOContext *bc = s->pb;
     int64_t pos, pts, back_ptr;
-av_log(s, AV_LOG_DEBUG, "read_timestamp(X,%d,%"PRId64",%"PRId64")\n", stream_index, *pos_arg, pos_limit);
+av_log(s, AV_LOG_DEBUG, "read_timestamp(X,%d,%" PRId64 ",%" PRId64 ")\n", stream_index, *pos_arg, pos_limit);
 
     pos= *pos_arg;
     do{
@@ -846,7 +846,7 @@ av_log(s, AV_LOG_DEBUG, "read_timestamp(X,%d,%"PRId64",%"PRId64")\n", stream_ind
     *pos_arg = pos-1;
     assert(nut->last_syncpoint_pos == *pos_arg);
 
-    av_log(s, AV_LOG_DEBUG, "return %"PRId64" %"PRId64"\n", pts,back_ptr );
+    av_log(s, AV_LOG_DEBUG, "return %" PRId64 " %" PRId64 "\n", pts,back_ptr );
     if     (stream_index == -1) return pts;
     else if(stream_index == -2) return back_ptr;
 
@@ -873,7 +873,7 @@ static int read_seek(AVFormatContext *s, int stream_index, int64_t pts, int flag
     }else{
         av_tree_find(nut->syncpoints, &dummy, (int (*)(void *,const void *)) ff_nut_sp_pts_cmp,
                      (void **) next_node);
-        av_log(s, AV_LOG_DEBUG, "%"PRIu64"-%"PRIu64" %"PRId64"-%"PRId64"\n", next_node[0]->pos, next_node[1]->pos,
+        av_log(s, AV_LOG_DEBUG, "%" PRIu64 "-%" PRIu64 " %" PRId64 "-%" PRId64 "\n", next_node[0]->pos, next_node[1]->pos,
                                                     next_node[0]->ts , next_node[1]->ts);
         pos = ff_gen_search(s, -1, dummy.ts, next_node[0]->pos, next_node[1]->pos, next_node[1]->pos,
                                              next_node[0]->ts , next_node[1]->ts, AVSEEK_FLAG_BACKWARD, &ts, nut_read_timestamp);
@@ -896,10 +896,10 @@ static int read_seek(AVFormatContext *s, int stream_index, int64_t pts, int flag
         assert(sp);
         pos2= sp->back_ptr  - 15;
     }
-    av_log(NULL, AV_LOG_DEBUG, "SEEKTO: %"PRId64"\n", pos2);
+    av_log(NULL, AV_LOG_DEBUG, "SEEKTO: %" PRId64 "\n", pos2);
     pos= find_startcode(s->pb, SYNCPOINT_STARTCODE, pos2);
     avio_seek(s->pb, pos, SEEK_SET);
-    av_log(NULL, AV_LOG_DEBUG, "SP: %"PRId64"\n", pos);
+    av_log(NULL, AV_LOG_DEBUG, "SP: %" PRId64 "\n", pos);
     if(pos2 > pos || pos2 + 15 < pos){
         av_log(NULL, AV_LOG_ERROR, "no syncpoint at backptr pos\n");
     }

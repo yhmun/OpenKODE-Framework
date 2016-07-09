@@ -179,7 +179,7 @@ static int64_t ffm_seek1(AVFormatContext *s, int64_t pos1)
 
     pos = FFMIN(pos1, ffm->file_size - FFM_PACKET_SIZE);
     pos = FFMAX(pos, FFM_PACKET_SIZE);
-    av_dlog(s, "seek to %"PRIx64" -> %"PRIx64"\n", pos1, pos);
+    av_dlog(s, "seek to %" PRIx64" -> %" PRIx64"\n", pos1, pos);
     return avio_seek(pb, pos, SEEK_SET);
 }
 
@@ -244,7 +244,7 @@ static void adjust_write_index(AVFormatContext *s)
         ffm->write_index += pos_max;
     }
 
-    //printf("Adjusted write index from %"PRId64" to %"PRId64": pts=%0.6f\n", orig_write_index, ffm->write_index, pts / 1000000.);
+    //printf("Adjusted write index from %" PRId64 " to %" PRId64 ": pts=%0.6f\n", orig_write_index, ffm->write_index, pts / 1000000.);
     //printf("pts range %0.6f - %0.6f\n", get_dts(s, 0) / 1000000. , get_dts(s, ffm->file_size - 2 * FFM_PACKET_SIZE) / 1000000. );
 
  end:
@@ -408,7 +408,7 @@ static int ffm_read_packet(AVFormatContext *s, AVPacket *pkt)
         if ((ret = ffm_is_avail_data(s, FRAME_HEADER_SIZE+4)) < 0)
             return ret;
 
-        av_dlog(s, "pos=%08"PRIx64" spos=%"PRIx64", write_index=%"PRIx64" size=%"PRIx64"\n",
+        av_dlog(s, "pos=%08" PRIx64" spos=%" PRIx64", write_index=%" PRIx64" size=%" PRIx64"\n",
                avio_tell(s->pb), s->pb->pos, ffm->write_index, ffm->file_size);
         if (ffm_read_data(s, ffm->header, FRAME_HEADER_SIZE, 1) !=
             FRAME_HEADER_SIZE)

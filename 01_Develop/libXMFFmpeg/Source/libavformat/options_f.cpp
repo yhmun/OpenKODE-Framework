@@ -110,7 +110,7 @@ static const AVOption options[]={
 {"cryptokey", "decryption key", OFFSET(key), AV_OPT_TYPE_BINARY, 0, NULL, 0, 0, D},
 {"indexmem", "max memory used for timestamp index (per stream)", OFFSET(max_index_size), AV_OPT_TYPE_INT, 1<<20, NULL, 0, INT_MAX, D},
 {"rtbufsize", "max memory used for buffering real-time frames", OFFSET(max_picture_buffer), AV_OPT_TYPE_INT, 3041280, NULL, 0, INT_MAX, D}, /* defaults to 1s of 15fps 352x288 YUYV422 video */
-{"fdebug", "print specific debug info", OFFSET(debug), AV_OPT_TYPE_FLAGS, DEFAULT, NULL, 0, INT_MAX, E|D, "fdebug"},
+{"fdebug", " PRInt specific debug info", OFFSET(debug), AV_OPT_TYPE_FLAGS, DEFAULT, NULL, 0, INT_MAX, E|D, "fdebug"},
 {"ts", NULL, 0, AV_OPT_TYPE_CONST, FF_FDEBUG_TS, NULL, INT_MIN, INT_MAX, E|D, "fdebug"},
 {"max_delay", "maximum muxing or demuxing delay in microseconds", OFFSET(max_delay), AV_OPT_TYPE_INT, DEFAULT, NULL, 0, INT_MAX, E|D},
 {"fpsprobesize", "number of frames used to probe fps", OFFSET(fps_probe_size), AV_OPT_TYPE_INT, -1, NULL, -1, INT_MAX-1, D},

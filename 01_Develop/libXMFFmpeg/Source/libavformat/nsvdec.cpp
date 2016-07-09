@@ -229,7 +229,7 @@ static int nsv_resync(AVFormatContext *s)
     uint32_t v = 0;
     int i;
 
-    av_dlog(s, "%s(), offset = %"PRId64", state = %d\n", __FUNCTION__, avio_tell(pb), nsv->state);
+    av_dlog(s, "%s(), offset = %" PRId64 ", state = %d\n", __FUNCTION__, avio_tell(pb), nsv->state);
 
     //nsv->state = NSV_UNSYNC;
 
@@ -293,7 +293,7 @@ static int nsv_parse_NSVf_header(AVFormatContext *s, AVFormatParameters *ap)
     av_dlog(s, "NSV NSVf file_size %u\n", file_size);
 
     nsv->duration = duration = avio_rl32(pb); /* in ms */
-    av_dlog(s, "NSV NSVf duration %"PRId64" ms\n", duration);
+    av_dlog(s, "NSV NSVf duration %" PRId64 " ms\n", duration);
     // XXX: store it in AVStreams
 
     strings_size = avio_rl32(pb);
@@ -304,7 +304,7 @@ static int nsv_parse_NSVf_header(AVFormatContext *s, AVFormatParameters *ap)
     if (url_feof(pb))
         return -1;
 
-    av_dlog(s, "NSV got header; filepos %"PRId64"\n", avio_tell(pb));
+    av_dlog(s, "NSV got header; filepos %" PRId64 "\n", avio_tell(pb));
 
     if (strings_size > 0) {
         char *strings; /* last byte will be '\0' to play safe with str*() */
@@ -341,7 +341,7 @@ static int nsv_parse_NSVf_header(AVFormatContext *s, AVFormatParameters *ap)
     if (url_feof(pb))
         return -1;
 
-    av_dlog(s, "NSV got infos; filepos %"PRId64"\n", avio_tell(pb));
+    av_dlog(s, "NSV got infos; filepos %" PRId64 "\n", avio_tell(pb));
 
     if (table_entries_used > 0) {
         int i;
@@ -366,7 +366,7 @@ static int nsv_parse_NSVf_header(AVFormatContext *s, AVFormatParameters *ap)
         }
     }
 
-    av_dlog(s, "NSV got index; filepos %"PRId64"\n", avio_tell(pb));
+    av_dlog(s, "NSV got index; filepos %" PRId64 "\n", avio_tell(pb));
 
 #ifdef DEBUG_DUMP_INDEX
 #define V(v) ((v<0x20 || v > 127)?'.':v)
@@ -680,7 +680,7 @@ null_chunk_retry:
             pkt->dts = (((NSVStream*)st[NSV_ST_VIDEO]->priv_data)->frame_offset-1);
             pkt->dts *= (int64_t)1000        * nsv->framerate.den;
             pkt->dts += (int64_t)nsv->avsync * nsv->framerate.num;
-            av_dlog(s, "NSV AUDIO: sync:%d, dts:%"PRId64, nsv->avsync, pkt->dts);
+            av_dlog(s, "NSV AUDIO: sync:%d, dts:%" PRId64, nsv->avsync, pkt->dts);
         }
         nst->frame_offset++;
     }

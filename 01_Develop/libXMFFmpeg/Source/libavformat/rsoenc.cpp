@@ -83,7 +83,7 @@ static int rso_write_trailer(AVFormatContext *s)
 
     if (file_size > 0xffff + RSO_HEADER_SIZE) {
         av_log(s, AV_LOG_WARNING,
-               "Output file is too big (%"PRId64" bytes >= 64kB)\n", file_size);
+               "Output file is too big (%" PRId64 " bytes >= 64kB)\n", file_size);
         coded_file_size = 0xffff;
     } else {
         coded_file_size = file_size - RSO_HEADER_SIZE;

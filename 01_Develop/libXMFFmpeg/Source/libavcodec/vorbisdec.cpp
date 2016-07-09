@@ -564,7 +564,7 @@ static int vorbis_parse_setup_hdr_floors(vorbis_context *vc)
             rangemax = (1 << rangebits);
             if (rangemax > vc->blocksize[1] / 2) {
                 av_log(vc->avccontext, AV_LOG_ERROR,
-                       "Floor value is too large for blocksize: %u (%"PRIu32")\n",
+                       "Floor value is too large for blocksize: %u (%" PRIu32 ")\n",
                        rangemax, vc->blocksize[1] / 2);
                 return AVERROR_INVALIDDATA;
             }
@@ -693,7 +693,7 @@ static int vorbis_parse_setup_hdr_residues(vorbis_context *vc)
             res_setup->end > (res_setup->type == 2 ? vc->avccontext->channels : 1) * vc->blocksize[1] / 2 ||
             (res_setup->end-res_setup->begin) / res_setup->partition_size > V_MAX_PARTITIONS) {
             av_log(vc->avccontext, AV_LOG_ERROR,
-                   "partition out of bounds: type, begin, end, size, blocksize: %"PRIu16", %"PRIu32", %"PRIu32", %u, %"PRIu32"\n",
+                   "partition out of bounds: type, begin, end, size, blocksize: %" PRIu16 ", %" PRIu32 ", %" PRIu32 ", %u, %" PRIu32 "\n",
                    res_setup->type, res_setup->begin, res_setup->end,
                    res_setup->partition_size, vc->blocksize[1] / 2);
             return AVERROR_INVALIDDATA;
@@ -1117,7 +1117,7 @@ static int vorbis_floor0_decode(vorbis_context *vc,
             for (i = 0; i < order; i++)
                 lsp[i] = 2.0f * cos(lsp[i]);
 
-            av_dlog(NULL, "floor0 synth: map_size = %"PRIu32"; m = %d; wstep = %f\n",
+            av_dlog(NULL, "floor0 synth: map_size = %" PRIu32 "; m = %d; wstep = %f\n",
                     vf->map_size[blockflag], order, wstep);
 
             i = 0;

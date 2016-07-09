@@ -2950,7 +2950,7 @@ static int mov_write_trailer(AVFormatContext *s)
         if(mov->reserved_moov_size){
             int64_t size=  mov->reserved_moov_size - (avio_tell(pb) - mov->reserved_moov_pos);
             if(size < 8){
-                av_log(s, AV_LOG_ERROR, "reserved_moov_size is too small, needed %"PRId64" additional\n", 8-size);
+                av_log(s, AV_LOG_ERROR, "reserved_moov_size is too small, needed %" PRId64 " additional\n", 8-size);
                 return -1;
             }
             avio_wb32(pb, size);

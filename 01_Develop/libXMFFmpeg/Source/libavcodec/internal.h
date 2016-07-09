@@ -24,6 +24,7 @@
 #ifndef AVCODEC_INTERNAL_H
 #define AVCODEC_INTERNAL_H
 
+#include <cstdlib>
 #include "XMFFmpeg/libavutil/pixfmt.h"
 #include "XMFFmpeg/libavcodec/avcodec.h"
 

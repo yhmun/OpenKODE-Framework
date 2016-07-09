@@ -374,7 +374,7 @@ static int check_header_mismatch(FLACParseContext  *fpc,
         if (!crc ^ !inverted_test) {
             deduction += FLAC_HEADER_CRC_FAIL_PENALTY;
             av_log(fpc->avctx, AV_LOG_WARNING + log_level_offset,
-                   "crc check failed from offset %i (frame %"PRId64") to %i (frame %"PRId64")\n",
+                   "crc check failed from offset %i (frame %" PRId64 ") to %i (frame %" PRId64 ")\n",
                    header->offset, header_fi->frame_or_sample_num,
                    child->offset, child_fi->frame_or_sample_num);
         }

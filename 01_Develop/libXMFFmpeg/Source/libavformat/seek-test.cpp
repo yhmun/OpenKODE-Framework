@@ -51,7 +51,7 @@ static void ts_str(char buffer[60], int64_t ts, AVRational base)
 		AVRational _a = {1, 1000000};
     ts= av_rescale_q(ts, base, _a);
 	}
-    snprintf(buffer, 60, "%c%"PRId64".%06"PRId64"", ts<0 ? '-' : ' ', FFABS(ts)/1000000, FFABS(ts)%1000000);
+    snprintf(buffer, 60, "%c%" PRId64 ".%06" PRId64 "", ts<0 ? '-' : ' ', FFABS(ts)/1000000, FFABS(ts)%1000000);
 }
 
 #if TEST

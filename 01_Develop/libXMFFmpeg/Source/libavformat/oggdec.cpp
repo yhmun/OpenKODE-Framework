@@ -372,7 +372,7 @@ static int ogg_packet(AVFormatContext *s, int *str, int *dstart, int *dsize,
 
 
     if (os->granule == -1)
-        av_log(s, AV_LOG_WARNING, "Page at %"PRId64" is missing granule\n", os->page_pos);
+        av_log(s, AV_LOG_WARNING, "Page at %" PRId64 " is missing granule\n", os->page_pos);
 
     ogg->curidx = idx;
     os->incomplete = 0;

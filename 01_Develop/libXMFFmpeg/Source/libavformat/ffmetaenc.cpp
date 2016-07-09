@@ -73,8 +73,8 @@ static int write_trailer(AVFormatContext *s)
         avio_write(s->pb, (const unsigned char *)ID_CHAPTER, sizeof(ID_CHAPTER) - 1);
         avio_w8(s->pb, '\n');
         avio_printf(s->pb, "TIMEBASE=%d/%d\n", ch->time_base.num, ch->time_base.den);
-        avio_printf(s->pb, "START=%"PRId64"\n", ch->start);
-        avio_printf(s->pb, "END=%"PRId64"\n",   ch->end);
+        avio_printf(s->pb, "START=%" PRId64 "\n", ch->start);
+        avio_printf(s->pb, "END=%" PRId64 "\n",   ch->end);
         write_tags(s->pb, ch->metadata);
     }
 

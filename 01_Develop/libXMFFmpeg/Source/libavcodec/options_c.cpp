@@ -279,7 +279,7 @@ static const AVOption options[]={
 {"plane", NULL, 0, AV_OPT_TYPE_CONST, FF_PRED_PLANE , NULL, INT_MIN, INT_MAX, V|E, "pred"},
 {"median", NULL, 0, AV_OPT_TYPE_CONST, FF_PRED_MEDIAN , NULL, INT_MIN, INT_MAX, V|E, "pred"},
 {"aspect", "sample aspect ratio", OFFSET(sample_aspect_ratio), AV_OPT_TYPE_RATIONAL, 0, NULL, 0, 10, V|E},
-{"debug", "print specific debug info", OFFSET(debug), AV_OPT_TYPE_FLAGS, DEFAULT, NULL, 0, INT_MAX, V|A|S|E|D, "debug"},
+{"debug", " PRInt specific debug info", OFFSET(debug), AV_OPT_TYPE_FLAGS, DEFAULT, NULL, 0, INT_MAX, V|A|S|E|D, "debug"},
 {"pict", "picture info", 0, AV_OPT_TYPE_CONST, FF_DEBUG_PICT_INFO , NULL, INT_MIN, INT_MAX, V|D, "debug"},
 {"rc", "rate control", 0, AV_OPT_TYPE_CONST, FF_DEBUG_RC , NULL, INT_MIN, INT_MAX, V|E, "debug"},
 {"bitstream", NULL, 0, AV_OPT_TYPE_CONST, FF_DEBUG_BITSTREAM , NULL, INT_MIN, INT_MAX, V|D, "debug"},

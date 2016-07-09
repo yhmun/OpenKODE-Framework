@@ -78,7 +78,7 @@ int ff_mms_asf_header_parser(MMSContext *mms)
         }
         if (!chunksize || chunksize > end - p) {
             av_log(NULL, AV_LOG_ERROR,
-                   "Corrupt stream (header chunksize %"PRId64" is invalid)\n",
+                   "Corrupt stream (header chunksize %" PRId64 " is invalid)\n",
                    chunksize);
             return AVERROR_INVALIDDATA;
         }

@@ -187,7 +187,7 @@ static int seg_write_packet(AVFormatContext *s, AVPacket *pkt)
                       end_pts, AV_TIME_BASE_Q) >= 0 &&
         pkt->flags & AV_PKT_FLAG_KEY) {
 
-        av_log(s, AV_LOG_DEBUG, "Next segment starts at %d %"PRId64"\n",
+        av_log(s, AV_LOG_DEBUG, "Next segment starts at %d %" PRId64 "\n",
                pkt->stream_index, pkt->pts);
 
         ret = segment_end(oc);

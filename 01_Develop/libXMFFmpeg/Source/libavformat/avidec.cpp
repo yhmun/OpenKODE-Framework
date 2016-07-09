@@ -160,7 +160,7 @@ static int read_braindead_odml_indx(AVFormatContext *s, int frame_num){
     int64_t last_pos= -1;
     int64_t filesize= avi->fsize;
 
-    av_dlog((void*)s, "longs_pre_entry:%d index_type:%d entries_in_use:%d chunk_id:%X base:%16"PRIX64"\n",
+    av_dlog((void*)s, "longs_pre_entry:%d index_type:%d entries_in_use:%d chunk_id:%X base:%16" PRIX64"\n",
             longs_pre_entry,index_type, entries_in_use, chunk_id, base);
 
     if(stream_id >= (int)s->nb_streams || stream_id < 0)
@@ -194,7 +194,7 @@ static int read_braindead_odml_indx(AVFormatContext *s, int frame_num){
             len &= 0x7FFFFFFF;
 
 #ifdef DEBUG_SEEK
-            av_log(s, AV_LOG_ERROR, "pos:%"PRId64", len:%X\n", pos, len);
+            av_log(s, AV_LOG_ERROR, "pos:%" PRId64 ", len:%X\n", pos, len);
 #endif
             if(url_feof(pb))
                 return -1;
@@ -396,7 +396,7 @@ static int avi_read_header(AVFormatContext *s, AVFormatParameters *ap)
                 avi->movi_list = avio_tell(pb) - 4;
                 if(size) avi->movi_end = avi->movi_list + size + (size & 1);
                 else     avi->movi_end = avi->fsize;
-                av_dlog(NULL, "movi end=%"PRIx64"\n", avi->movi_end);
+                av_dlog(NULL, "movi end=%" PRIx64"\n", avi->movi_end);
                 goto end_of_header;
             }
             else if (tag1 == MKTAG('I', 'N', 'F', 'O'))
@@ -912,7 +912,7 @@ start_sync:
         size= d[4] + (d[5]<<8) + (d[6]<<16) + (d[7]<<24);
 
         n= get_stream_idx((int *)(d+2));
-//av_log(s, AV_LOG_DEBUG, "%X %X %X %X %X %X %X %X %"PRId64" %d %d\n", d[0], d[1], d[2], d[3], d[4], d[5], d[6], d[7], i, size, n);
+//av_log(s, AV_LOG_DEBUG, "%X %X %X %X %X %X %X %X %" PRId64 " %d %d\n", d[0], d[1], d[2], d[3], d[4], d[5], d[6], d[7], i, size, n);
         if(i + size > avi->fsize || d[0] > 127)
             continue;
 
@@ -1059,7 +1059,7 @@ static int avi_read_packet(AVFormatContext *s, AVPacket *pkt)
 
 			ts = av_rescale_q(ts, st->time_base, av_rational(FFMAX(1, ast->sample_size), AV_TIME_BASE));
 			
-//            av_log(s, AV_LOG_DEBUG, "%"PRId64" %d/%d %"PRId64"\n", ts, st->time_base.num, st->time_base.den, ast->frame_offset);
+//            av_log(s, AV_LOG_DEBUG, "%" PRId64 " %d/%d %" PRId64 "\n", ts, st->time_base.num, st->time_base.den, ast->frame_offset);
             if(ts < best_ts){
                 best_ts= ts;
                 best_st= st;
@@ -1085,7 +1085,7 @@ static int avi_read_packet(AVFormatContext *s, AVPacket *pkt)
             pos += best_ast->packet_size - best_ast->remaining;
             if(avio_seek(s->pb, pos + 8, SEEK_SET) < 0)
               return AVERROR_EOF;
-//        av_log(s, AV_LOG_DEBUG, "pos=%"PRId64"\n", pos);
+//        av_log(s, AV_LOG_DEBUG, "pos=%" PRId64 "\n", pos);
 
             assert(best_ast->remaining <= best_ast->packet_size);
 
@@ -1153,7 +1153,7 @@ resync:
 //                pkt->dts += ast->start;
             if(ast->sample_size)
                 pkt->dts /= ast->sample_size;
-//av_log(s, AV_LOG_DEBUG, "dts:%"PRId64" offset:%"PRId64" %d/%d smpl_siz:%d base:%d st:%d size:%d\n", pkt->dts, ast->frame_offset, ast->scale, ast->rate, ast->sample_size, AV_TIME_BASE, avi->stream_index, size);
+//av_log(s, AV_LOG_DEBUG, "dts:%" PRId64 " offset:%" PRId64 " %d/%d smpl_siz:%d base:%d st:%d size:%d\n", pkt->dts, ast->frame_offset, ast->scale, ast->rate, ast->sample_size, AV_TIME_BASE, avi->stream_index, size);
             pkt->stream_index = avi->stream_index;
 
             if (st->codec->codec_type == AVMEDIA_TYPE_VIDEO) {
@@ -1270,7 +1270,7 @@ static int avi_read_idx1(AVFormatContext *s, int size)
         }
         pos += (unsigned int)data_offset;
 
-        av_dlog(s, "%d cum_len=%"PRId64"\n", len, ast->cum_len);
+        av_dlog(s, "%d cum_len=%" PRId64 "\n", len, ast->cum_len);
 
 
         if(last_pos == pos)
@@ -1324,7 +1324,7 @@ static int avi_load_index(AVFormatContext *s)
 
     if (avio_seek(pb, avi->movi_end, SEEK_SET) < 0)
         goto the_end; // maybe truncated file
-    av_dlog(s, "movi_end=0x%"PRIx64"\n", avi->movi_end);
+    av_dlog(s, "movi_end=0x%" PRIx64"\n", avi->movi_end);
     for(;;) {
         if (url_feof(pb))
             break;
@@ -1389,7 +1389,7 @@ static int avi_read_seek(AVFormatContext *s, int stream_index, int64_t timestamp
     pos = st->index_entries[index].pos;
     timestamp = st->index_entries[index].timestamp / FFMAX(ast->sample_size, 1);
 
-//    av_log(s, AV_LOG_DEBUG, "XX %"PRId64" %d %"PRId64"\n", timestamp, index, st->index_entries[index].timestamp);
+//    av_log(s, AV_LOG_DEBUG, "XX %" PRId64 " %d %" PRId64 "\n", timestamp, index, st->index_entries[index].timestamp);
 
     if (CONFIG_DV_DEMUXER && avi->dv_demux) {
         /* One and only one real stream for DV in AVI, and it has video  */

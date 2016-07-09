@@ -30,7 +30,7 @@ static void md5_finish(struct AVFormatContext *s, char *buf)
     int i, offset = strlen(buf);
     av_md5_final((AVMD5 *)s->priv_data, md5);
     for (i = 0; i < sizeof(md5); i++) {
-        snprintf(buf + offset, 3, "%02"PRIx8, md5[i]);
+        snprintf(buf + offset, 3, "%02" PRIx8, md5[i]);
         offset += 2;
     }
     buf[offset] = '\n';
@@ -91,7 +91,7 @@ static int framemd5_write_packet(struct AVFormatContext *s, AVPacket *pkt)
     av_md5_init((AVMD5 *)s->priv_data);
     av_md5_update((AVMD5 *)s->priv_data, pkt->data, pkt->size);
 
-    snprintf(buf, sizeof(buf) - 64, "%d, %"PRId64", %d, ", pkt->stream_index, pkt->dts, pkt->size);
+    snprintf(buf, sizeof(buf) - 64, "%d, %" PRId64 ", %d, ", pkt->stream_index, pkt->dts, pkt->size);
     md5_finish(s, buf);
     return 0;
 }

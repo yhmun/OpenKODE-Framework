@@ -372,13 +372,13 @@ static int rm_read_index(AVFormatContext *s)
             }
         if (n == s->nb_streams) {
             av_log(s, AV_LOG_ERROR,
-                   "Invalid stream index %d for index at pos %"PRId64"\n",
+                   "Invalid stream index %d for index at pos %" PRId64 "\n",
                    str_id, avio_tell(pb));
             goto skip;
         } else if ((avio_size(pb) - avio_tell(pb)) / 14 < n_pkts) {
             av_log(s, AV_LOG_ERROR,
                    "Nr. of packets in packet index for stream index %d "
-                   "exceeds filesize (%"PRId64" at %"PRId64" = %d)\n",
+                   "exceeds filesize (%" PRId64 " at %" PRId64 " = %d)\n",
                    str_id, avio_size(pb), avio_tell(pb),
                    (avio_size(pb) - avio_tell(pb)) / 14);
             goto skip;
@@ -809,7 +809,7 @@ ff_rm_parse_packet (AVFormatContext *s, AVIOContext *pb,
     if (st->codec->codec_type == AVMEDIA_TYPE_VIDEO) {
         if(st->codec->codec_id == CODEC_ID_RV20){
             int seq= 128*(pkt->data[2]&0x7F) + (pkt->data[3]>>1);
-            av_log(s, AV_LOG_DEBUG, "%d %"PRId64" %d\n", *timestamp, *timestamp*512LL/25, seq);
+            av_log(s, AV_LOG_DEBUG, "%d %" PRId64 " %d\n", *timestamp, *timestamp*512LL/25, seq);
 
             seq |= (timestamp&~0x3FFF);
             if(seq - timestamp >  0x2000) seq -= 0x4000;
@@ -961,7 +961,7 @@ static int64_t rm_read_dts(AVFormatContext *s, int stream_index,
         }
 
         if((flags&2) && (seq&0x7F) == 1){
-//            av_log(s, AV_LOG_DEBUG, "%d %d-%d %"PRId64" %d\n", flags, stream_index2, stream_index, dts, seq);
+//            av_log(s, AV_LOG_DEBUG, "%d %d-%d %" PRId64 " %d\n", flags, stream_index2, stream_index, dts, seq);
             av_add_index_entry(st, pos, dts, 0, 0, AVINDEX_KEYFRAME);
             if(stream_index2 == stream_index)
                 break;

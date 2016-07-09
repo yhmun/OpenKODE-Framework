@@ -583,7 +583,7 @@ static int ebml_read_num(MatroskaDemuxContext *matroska, AVIOContext *pb,
         if (!url_feof(pb)) {
             int64_t pos = avio_tell(pb);
             av_log(matroska->ctx, AV_LOG_ERROR,
-                   "Read error at pos. %"PRIu64" (0x%"PRIx64")\n",
+                   "Read error at pos. %" PRIu64 " (0x%" PRIx64")\n",
                    pos, pos);
         }
         return AVERROR(EIO); /* EOS or actual I/O error */
@@ -594,7 +594,7 @@ static int ebml_read_num(MatroskaDemuxContext *matroska, AVIOContext *pb,
     if (read > max_size) {
         int64_t pos = avio_tell(pb) - 1;
         av_log(matroska->ctx, AV_LOG_ERROR,
-               "Invalid EBML number size tag 0x%02x at pos %"PRIu64" (0x%"PRIx64")\n",
+               "Invalid EBML number size tag 0x%02x at pos %" PRIu64 " (0x%" PRIx64")\n",
                (uint8_t) total, pos, pos);
         return AVERROR_INVALIDDATA;
     }
@@ -852,7 +852,7 @@ static int ebml_parse_elem(MatroskaDemuxContext *matroska,
             return res;
         if (max_lengths[syntax->type] && length > max_lengths[syntax->type]) {
             av_log(matroska->ctx, AV_LOG_ERROR,
-                   "Invalid length 0x%"PRIx64" > 0x%"PRIx64" for syntax element %i\n",
+                   "Invalid length 0x%" PRIx64" > 0x%" PRIx64" for syntax element %i\n",
                    length, max_lengths[syntax->type], syntax->type);
             return AVERROR_INVALIDDATA;
         }
@@ -1333,14 +1333,14 @@ static int matroska_read_header(AVFormatContext *s, AVFormatParameters *ap)
         || ebml.id_length > sizeof(uint32_t) || ebml.doctype_version > 3) {
         av_log(matroska->ctx, AV_LOG_ERROR,
                "EBML header using unsupported features\n"
-               "(EBML version %"PRIu64", doctype %s, doc version %"PRIu64")\n",
+               "(EBML version %" PRIu64 ", doctype %s, doc version %" PRIu64 ")\n",
                ebml.version, ebml.doctype, ebml.doctype_version);
         ebml_free(ebml_syntax, &ebml);
         return AVERROR_PATCHWELCOME;
     } else if (ebml.doctype_version == 3) {
         av_log(matroska->ctx, AV_LOG_WARNING,
                "EBML header using unsupported features\n"
-               "(EBML version %"PRIu64", doctype %s, doc version %"PRIu64")\n",
+               "(EBML version %" PRIu64 ", doctype %s, doc version %" PRIu64 ")\n",
                ebml.version, ebml.doctype, ebml.doctype_version);
     }
     for (i = 0; i < FF_ARRAY_ELEMS(matroska_doctypes); i++)
@@ -1380,7 +1380,7 @@ static int matroska_read_header(AVFormatContext *s, AVFormatParameters *ap)
             track->type != MATROSKA_TRACK_TYPE_AUDIO &&
             track->type != MATROSKA_TRACK_TYPE_SUBTITLE) {
             av_log(matroska->ctx, AV_LOG_INFO,
-                   "Unknown or unsupported track type %"PRIu64"\n",
+                   "Unknown or unsupported track type %" PRIu64 "\n",
                    track->type);
             continue;
         }
@@ -1752,7 +1752,7 @@ static int matroska_parse_block(MatroskaDemuxContext *matroska, uint8_t *data,
     track = matroska_find_track_by_num(matroska, num);
     if (!track || !track->stream) {
         av_log(matroska->ctx, AV_LOG_INFO,
-               "Invalid stream %"PRIu64" or size %u\n", num, size);
+               "Invalid stream %" PRIu64 " or size %u\n", num, size);
         return res;
     } else if (size <= 3)
         return 0;

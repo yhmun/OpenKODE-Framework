@@ -1207,7 +1207,7 @@ static int encode_frame(AVCodecContext *avctx, unsigned char *buf, int buf_size,
         }
 
         for(j=0; j<256; j++){
-            snprintf(p, end-p, "%"PRIu64" %"PRIu64" ", f->rc_stat[j][0], f->rc_stat[j][1]);
+            snprintf(p, end-p, "%" PRIu64 " %" PRIu64" ", f->rc_stat[j][0], f->rc_stat[j][1]);
             p+= strlen(p);
         }
         snprintf(p, end-p, "\n");
@@ -1215,7 +1215,7 @@ static int encode_frame(AVCodecContext *avctx, unsigned char *buf, int buf_size,
         for(i=0; i<f->quant_table_count; i++){
             for(j=0; j<f->context_count[i]; j++){
                 for(m=0; m<32; m++){
-                    snprintf(p, end-p, "%"PRIu64" %"PRIu64" ", f->rc_stat2[i][j][m][0], f->rc_stat2[i][j][m][1]);
+                    snprintf(p, end-p, "% " PRIu64 " %" PRIu64 " ", f->rc_stat2[i][j][m][0], f->rc_stat2[i][j][m][1]);
                     p+= strlen(p);
                 }
             }

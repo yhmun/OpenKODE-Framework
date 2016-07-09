@@ -167,7 +167,7 @@ static void get_tag(AVFormatContext *s, const char *key, int type, int len)
         value[len]=0;
     } else if (type > 1 && type <= 5) {  // boolean or DWORD or QWORD or WORD
         uint64_t num = get_value(s->pb, type);
-        snprintf(value, len, "%"PRIu64, num);
+        snprintf(value, len, "%" PRIu64, num);
     } else {
         av_log(s, AV_LOG_DEBUG, "Unsupported value type %d in tag %s.\n", type, key);
         goto finish;
@@ -594,9 +594,9 @@ static int asf_read_header(AVFormatContext *s, AVFormatParameters *ap)
         uint64_t gpos= avio_tell(pb);
         ff_get_guid(pb, &g);
         gsize = avio_rl64(pb);
-        av_dlog(s, "%08"PRIx64": ", gpos);
+        av_dlog(s, "%08" PRIx64": ", gpos);
         print_guid(&g);
-        av_dlog(s, "  size=0x%"PRIx64"\n", gsize);
+        av_dlog(s, "  size=0x%" PRIx64"\n", gsize);
         if (!ff_guidcmp(&g, &ff_asf_data_header)) {
             asf->data_object_offset = avio_tell(pb);
             // if not streaming, gsize is not unlimited (how?), and there is enough space in the file..
@@ -661,7 +661,7 @@ static int asf_read_header(AVFormatContext *s, AVFormatParameters *ap)
             }
         }
         if(avio_tell(pb) != gpos + gsize)
-            av_log(s, AV_LOG_DEBUG, "gpos mismatch our pos=%"PRIu64", end=%"PRIu64"\n", avio_tell(pb)-gpos, gsize);
+            av_log(s, AV_LOG_DEBUG, "gpos mismatch our pos=%" PRIu64 ", end=%" PRIu64 "\n", avio_tell(pb)-gpos, gsize);
         avio_seek(pb, gpos + gsize, SEEK_SET);
     }
     ff_get_guid(pb, &g);
@@ -754,7 +754,7 @@ static int ff_asf_get_packet(AVFormatContext *s, AVIOContext *pb)
         if (pb->error == AVERROR(EAGAIN))
             return AVERROR(EAGAIN);
         if (!url_feof(pb))
-            av_log(s, AV_LOG_ERROR, "ff asf bad header %x  at:%"PRId64"\n", c, avio_tell(pb));
+            av_log(s, AV_LOG_ERROR, "ff asf bad header %x  at:%" PRId64 "\n", c, avio_tell(pb));
     }
     if ((c & 0x8f) == 0x82) {
         if (d || e) {
@@ -778,11 +778,11 @@ static int ff_asf_get_packet(AVFormatContext *s, AVIOContext *pb)
 
     //the following checks prevent overflows and infinite loops
     if(!packet_length || packet_length >= (1U<<29)){
-        av_log(s, AV_LOG_ERROR, "invalid packet_length %d at:%"PRId64"\n", packet_length, avio_tell(pb));
+        av_log(s, AV_LOG_ERROR, "invalid packet_length %d at:%" PRId64 "\n", packet_length, avio_tell(pb));
         return -1;
     }
     if(padsize >= packet_length){
-        av_log(s, AV_LOG_ERROR, "invalid padsize %d at:%"PRId64"\n", padsize, avio_tell(pb));
+        av_log(s, AV_LOG_ERROR, "invalid padsize %d at:%" PRId64 "\n", padsize, avio_tell(pb));
         return -1;
     }
 
@@ -800,7 +800,7 @@ static int ff_asf_get_packet(AVFormatContext *s, AVIOContext *pb)
     if (rsize > packet_length - padsize) {
         asf->packet_size_left = 0;
         av_log(s, AV_LOG_ERROR,
-               "invalid packet header length %d for pktlen %d-%d at %"PRId64"\n",
+               "invalid packet header length %d for pktlen %d-%d at %" PRId64 "\n",
                rsize, packet_length, padsize, avio_tell(pb));
         return -1;
     }
@@ -920,7 +920,7 @@ static int ff_asf_parse_packet(AVFormatContext *s, AVIOContext *pb, AVPacket *pk
             || asf->packet_segments < 1) {
             //asf->packet_size_left <= asf->packet_padsize) {
             int ret = asf->packet_size_left + asf->packet_padsize;
-            //printf("PacketLeftSize:%d  Pad:%d Pos:%"PRId64"\n", asf->packet_size_left, asf->packet_padsize, avio_tell(pb));
+            //printf("PacketLeftSize:%d  Pad:%d Pos:%" PRId64 "\n", asf->packet_size_left, asf->packet_padsize, avio_tell(pb));
             assert(ret>=0);
             /* fail safe */
             avio_skip(pb, ret);
@@ -1209,7 +1209,7 @@ static int64_t asf_read_pts(AVFormatContext *s, int stream_index, int64_t *ppos,
     }
 
     *ppos= pos;
-//printf("found keyframe at %"PRId64" stream %d stamp:%"PRId64"\n", *ppos, stream_index, pts);
+//printf("found keyframe at %" PRId64 " stream %d stamp:%" PRId64 "\n", *ppos, stream_index, pts);
 
     return pts;
 }
@@ -1249,7 +1249,7 @@ static void asf_build_simple_index(AVFormatContext *s, int stream_index)
         itime=avio_rl64(s->pb);
         pct=avio_rl32(s->pb);
         ict=avio_rl32(s->pb);
-        av_log(s, AV_LOG_DEBUG, "itime:0x%"PRIx64", pct:%d, ict:%d\n",itime,pct,ict);
+        av_log(s, AV_LOG_DEBUG, "itime:0x%" PRIx64", pct:%d, ict:%d\n",itime,pct,ict);
 
         for (i=0;i<ict;i++){
             int pktnum=avio_rl32(s->pb);
@@ -1258,7 +1258,7 @@ static void asf_build_simple_index(AVFormatContext *s, int stream_index)
             int64_t index_pts= FFMAX(av_rescale(itime, i, 10000) - asf->hdr.preroll, 0);
 
             if(pos != last_pos){
-            av_log(s, AV_LOG_DEBUG, "pktnum:%d, pktct:%d  pts: %"PRId64"\n", pktnum, pktct, index_pts);
+            av_log(s, AV_LOG_DEBUG, "pktnum:%d, pktct:%d  pts: %" PRId64 "\n", pktnum, pktct, index_pts);
             av_add_index_entry(s->streams[stream_index], pos, index_pts, s->packet_size, 0, AVINDEX_KEYFRAME);
             last_pos=pos;
             }
@@ -1295,7 +1295,7 @@ static int asf_read_seek(AVFormatContext *s, int stream_index, int64_t pts, int 
             uint64_t pos = st->index_entries[index].pos;
 
             /* do the seek */
-            av_log(s, AV_LOG_DEBUG, "SEEKTO: %"PRId64"\n", pos);
+            av_log(s, AV_LOG_DEBUG, "SEEKTO: %" PRId64 "\n", pos);
             if(avio_seek(s->pb, pos, SEEK_SET) < 0)
                 return -1;
             asf_reset_header(s);

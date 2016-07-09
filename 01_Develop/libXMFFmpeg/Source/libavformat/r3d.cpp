@@ -43,7 +43,7 @@ static int read_atom(AVFormatContext *s, _Atom *atom)
     if (atom->size < 8)
         return -1;
     atom->tag = avio_rl32(s->pb);
-    av_dlog(s, "atom %u %.4s offset %#"PRIx64"\n",
+    av_dlog(s, "atom %u %.4s offset %#" PRIx64"\n",
             atom->size, (char*)&atom->tag, atom->offset);
     return atom->size;
 }
@@ -132,7 +132,7 @@ static int r3d_read_rdvo(AVFormatContext *s, _Atom *atom)
     if (st->codec->time_base.den)
         st->duration = (uint64_t)r3d->video_offsets_count*
             st->time_base.den*st->codec->time_base.num/st->codec->time_base.den;
-    av_dlog(s, "duration %"PRId64"\n", st->duration);
+    av_dlog(s, "duration %" PRId64 "\n", st->duration);
 
     return 0;
 }
@@ -177,7 +177,7 @@ static int r3d_read_header(AVFormatContext *s, AVFormatParameters *ap)
     }
 
     s->data_offset = avio_tell(s->pb);
-    av_dlog(s, "data offset %#"PRIx64"\n", s->data_offset);
+    av_dlog(s, "data offset %#" PRIx64"\n", s->data_offset);
     if (!s->pb->seekable)
         return 0;
     // find REOB/REOF/REOS to load index
@@ -257,7 +257,7 @@ static int r3d_read_redv(AVFormatContext *s, AVPacket *pkt, _Atom *atom)
     if (st->codec->time_base.den)
         pkt->duration = (uint64_t)st->time_base.den*
             st->codec->time_base.num/st->codec->time_base.den;
-    av_dlog(s, "pkt dts %"PRId64" duration %d\n", pkt->dts, pkt->duration);
+    av_dlog(s, "pkt dts %" PRId64 " duration %d\n", pkt->dts, pkt->duration);
 
     return 0;
 }
@@ -302,7 +302,7 @@ static int r3d_read_reda(AVFormatContext *s, AVPacket *pkt, _Atom *atom)
     pkt->stream_index = 1;
     pkt->dts = dts;
     pkt->duration = av_rescale(samples, st->time_base.den, st->codec->sample_rate);
-    av_dlog(s, "pkt dts %"PRId64" duration %d samples %d sample rate %d\n",
+    av_dlog(s, "pkt dts %" PRId64 " duration %d samples %d sample rate %d\n",
             pkt->dts, pkt->duration, samples, st->codec->sample_rate);
 
     return 0;
@@ -359,7 +359,7 @@ static int r3d_seek(AVFormatContext *s, int stream_index, int64_t sample_time, i
 
     frame_num = sample_time*st->codec->time_base.den/
         ((int64_t)st->codec->time_base.num*st->time_base.den);
-    av_dlog(s, "seek frame num %d timestamp %"PRId64"\n",
+    av_dlog(s, "seek frame num %d timestamp %" PRId64 "\n",
             frame_num, sample_time);
 
     if (frame_num < r3d->video_offsets_count) {

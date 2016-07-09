@@ -27,7 +27,7 @@ static int framecrc_write_packet(struct AVFormatContext *s, AVPacket *pkt)
     uint32_t crc = av_adler32_update(0, pkt->data, pkt->size);
     char buf[256];
 
-    snprintf(buf, sizeof(buf), "%d, %"PRId64", %d, 0x%08x\n", pkt->stream_index, pkt->dts, pkt->size, crc);
+    snprintf(buf, sizeof(buf), "%d, %" PRId64 ", %d, 0x%08x\n", pkt->stream_index, pkt->dts, pkt->size, crc);
     avio_write(s->pb, (const unsigned char *)buf, strlen(buf));
     avio_flush(s->pb);
     return 0;

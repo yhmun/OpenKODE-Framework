@@ -741,7 +741,7 @@ intrax8_decoded:
     }
 
 #ifdef PRINT_FRAME_TIME
-av_log(avctx, AV_LOG_DEBUG, "%"PRId64"\n", rdtsc()-time);
+av_log(avctx, AV_LOG_DEBUG, "%" PRId64 "\n", rdtsc()-time);
 #endif
 
     return (ret && (avctx->err_recognition & AV_EF_EXPLODE))?ret:get_consumed_bytes(s, buf_size);

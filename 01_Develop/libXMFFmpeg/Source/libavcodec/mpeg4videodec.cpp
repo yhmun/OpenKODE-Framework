@@ -1990,7 +1990,7 @@ static int decode_vop_header(MpegEncContext *s, GetBitContext *gb){
     else
         s->current_picture_ptr->f.pts = AV_NOPTS_VALUE;
     if(s->avctx->debug&FF_DEBUG_PTS)
-        av_log(s->avctx, AV_LOG_DEBUG, "MPEG4 PTS: %"PRId64"\n",
+        av_log(s->avctx, AV_LOG_DEBUG, "MPEG4 PTS: %" PRId64 "\n",
                s->current_picture_ptr->f.pts);
 
     check_marker(gb, "before vop_coded");

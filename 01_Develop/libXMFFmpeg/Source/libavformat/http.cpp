@@ -363,7 +363,7 @@ static int http_connect(URLContext *h, const char *path, const char *local_path,
                           sizeof(headers) - len);
     if (!has_header(s->headers, "\r\nRange: ") && !post)
         len += av_strlcatf(headers + len, sizeof(headers) - len,
-                           "Range: bytes=%"PRId64"-\r\n", s->off);
+                           "Range: bytes=%" PRId64 "-\r\n", s->off);
     if (!has_header(s->headers, "\r\nConnection: "))
         len += av_strlcpy(headers + len, "Connection: close\r\n",
                           sizeof(headers)-len);
@@ -469,7 +469,7 @@ static int http_read(URLContext *h, uint8_t *buf, int size)
 
                 s->chunksize = strtoll(line, NULL, 16);
 
-                av_dlog(NULL, "Chunked encoding data size: %"PRId64"'\n", s->chunksize);
+                av_dlog(NULL, "Chunked encoding data size: %" PRId64 "'\n", s->chunksize);
 
                 if (!s->chunksize)
                     return 0;

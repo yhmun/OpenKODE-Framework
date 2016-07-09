@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-ES|Win32">
+      <Configuration>Debug-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-ES|Win32">
+      <Configuration>Release-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspLevel.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspResourceManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspSceneManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspSceneManagerPlugin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreQuake3Level.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreQuake3Shader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreQuake3ShaderManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreQuake3Types.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgFxScriptLoader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgPlugin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgProgram.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgProgramFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgreGrid2DPageStrategy.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgreGrid3DPageStrategy.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageConnection.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageContent.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageContentCollection.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageContentCollectionFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageContentFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePagedWorld.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePagedWorldSection.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageFileFormats.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageStrategy.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePaging.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePagingPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgreSimplePageContentCollection.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Property\OgreProperty.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Property\OgrePropertyPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreRTShaderSystem.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderCGProgramProcessor.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderCGProgramWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExDualQuaternionSkinning.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExHardwareSkinning.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExHardwareSkinningTechnique.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExIntegratedPSSM3.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExLayeredBlending.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExLinearSkinning.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExNormalMapLighting.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExPerPixelLighting.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExTextureAtlasSampler.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPColour.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPFog.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPLighting.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPRenderState.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPRenderStateBuilder.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPTexturing.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPTransform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFunction.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFunctionAtom.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGenerator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGLSLESProgramProcessor.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGLSLESProgramWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGLSLProgramProcessor.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGLSLProgramWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderHLSLProgramProcessor.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderHLSLProgramWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderMaterialSerializerListener.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderParameter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgram.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramProcessor.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramSet.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramWriter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramWriterManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderRenderState.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderScriptTranslator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderSubRenderState.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrain.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainGroup.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainLayerBlendMap.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainMaterialGenerator.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainMaterialGeneratorA.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainPagedWorldSection.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainPaging.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainQuadTreeNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\EXRCodec\OgreEXRCodec.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctree.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreeCamera.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreeNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreePlugin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreePrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreeSceneManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreeSceneQuery.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeZone\OgreOctreeZone.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeZone\OgreOctreeZoneOctree.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeZone\OgreOctreeZonePlugin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeZone\OgreOctreeZonePrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreAreaEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreBoxEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreBoxEmitterFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourFaderAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourFaderAffector2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourFaderAffectorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourFaderAffectorFactory2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourImageAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourImageAffectorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourInterpolatorAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourInterpolatorAffectorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreCylinderEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreCylinderEmitterFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreDeflectorPlaneAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreDeflectorPlaneAffectorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreDirectionRandomiserAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreDirectionRandomiserAffectorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreEllipsoidEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreEllipsoidEmitterFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreHollowEllipsoidEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreHollowEllipsoidEmitterFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreLinearForceAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreLinearForceAffectorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreParticleFXPlugin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreParticleFXPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgrePointEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgrePointEmitterFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreRingEmitter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreRingEmitterFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreRotationAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreRotationAffectorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreScaleAffector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreScaleAffectorFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgreAntiPortal.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgreCapsule.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgreDefaultZone.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCPlane.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZCamera.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZFrustum.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZLight.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZone.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZoneFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZPlugin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZSceneManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZSceneNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZSceneQuery.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePortal.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePortalBase.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgreSegment.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\EGL\OgreEGLContext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\EGL\OgreEGLRenderTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\EGL\OgreEGLSupport.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\EGL\OgreEGLWindow.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESCgProgram.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESCgProgramFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESExtSupport.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESGpuProgram.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESLinkProgram.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESLinkProgramManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESPreprocessor.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgram.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramCommon.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramFactory.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramManagerCommon.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramPipeline.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramPipelineManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Context.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2DefaultHardwareBufferManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2DepthBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2FBOMultiRenderTarget.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2FBORenderTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2FrameBufferObject.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2GpuProgram.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2GpuProgramManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwareBufferManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwareIndexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwareOcclusionQuery.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwarePixelBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwareVertexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2InternalShaders.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2PixelFormat.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Plugin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Prerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2RenderSystem.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2RenderTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Support.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Texture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2TextureManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Util.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreEGLContext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreEGLRenderTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreEGLSupport.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreEGLWindow.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreGLESUtil.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESContext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESDefaultHardwareBufferManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESDepthBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESFBOMultiRenderTarget.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESFBORenderTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESFrameBufferObject.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESGpuProgramManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESHardwareBufferManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESHardwareIndexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESHardwarePixelBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESHardwareVertexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPBRenderTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPixelFormat.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPlugin.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESRenderSystem.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESRenderTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESSupport.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESTexture.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESTextureManager.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESUtil.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreDefaultWorkQueue.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreDefaultWorkQueueStandard.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreDefaultWorkQueueTBB.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefines.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefinesBoost.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefinesNone.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefinesPoco.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefinesTBB.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadHeaders.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadHeadersBoost.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadHeadersPoco.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadHeadersTBB.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h" />
+    <ClInclude Include="..\..\Source\OgreImageResampler.h" />
+    <ClInclude Include="..\..\Source\OgrePixelConversions.h" />
+    <ClInclude Include="..\..\Source\OgreSIMDHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspLevel.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspNode.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspResourceManager.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspSceneManager.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspSceneManagerDll.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspSceneManagerPlugin.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreQuake3Level.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreQuake3Shader.cpp" />
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreQuake3ShaderManager.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderCGProgramProcessor.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderCGProgramWriter.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExDualQuaternionSkinning.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExHardwareSkinning.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExHardwareSkinningTechnique.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExIntegratedPSSM3.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExLayeredBlending.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExLinearSkinning.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExNormalMapLighting.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExPerPixelLighting.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExTextureAtlasSampler.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPColour.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPFog.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPLighting.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPRenderStateBuilder.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPTexturing.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPTransform.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFunction.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFunctionAtom.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGenerator.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGLSLESProgramProcessor.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGLSLESProgramWriter.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGLSLProgramProcessor.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGLSLProgramWriter.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderHLSLProgramProcessor.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderHLSLProgramWriter.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderMaterialSerializerListener.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderParameter.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgram.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramManager.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramProcessor.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramSet.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramWriter.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramWriterManager.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderRenderState.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderScriptTranslator.cpp" />
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderSubRenderState.cpp" />
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrain.cpp" />
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainGroup.cpp" />
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainLayerBlendMap.cpp" />
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainMaterialGenerator.cpp" />
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainMaterialGeneratorA.cpp" />
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainPagedWorldSection.cpp" />
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainPaging.cpp" />
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainQuadTreeNode.cpp" />
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctree.cpp" />
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeCamera.cpp" />
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeNode.cpp" />
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreePlugin.cpp" />
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeSceneManager.cpp" />
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeSceneManagerDll.cpp" />
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeSceneQuery.cpp" />
+    <ClCompile Include="..\..\Source\OctreeZone\OgreOctreeZone.cpp" />
+    <ClCompile Include="..\..\Source\OctreeZone\OgreOctreeZoneDll.cpp" />
+    <ClCompile Include="..\..\Source\OctreeZone\OgreOctreeZoneOctree.cpp" />
+    <ClCompile Include="..\..\Source\OctreeZone\OgreOctreeZonePlugin.cpp" />
+    <ClCompile Include="..\..\Source\OgreAlignedAllocator.cpp" />
+    <ClCompile Include="..\..\Source\OgreAnimable.cpp" />
+    <ClCompile Include="..\..\Source\OgreAnimation.cpp" />
+    <ClCompile Include="..\..\Source\OgreAnimationState.cpp" />
+    <ClCompile Include="..\..\Source\OgreAnimationTrack.cpp" />
+    <ClCompile Include="..\..\Source\OgreArchiveManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreAutoParamDataSource.cpp" />
+    <ClCompile Include="..\..\Source\OgreAxisAlignedBox.cpp" />
+    <ClCompile Include="..\..\Source\OgreBillboard.cpp" />
+    <ClCompile Include="..\..\Source\OgreBillboardChain.cpp" />
+    <ClCompile Include="..\..\Source\OgreBillboardParticleRenderer.cpp" />
+    <ClCompile Include="..\..\Source\OgreBillboardSet.cpp" />
+    <ClCompile Include="..\..\Source\OgreBone.cpp" />
+    <ClCompile Include="..\..\Source\OgreBorderPanelOverlayElement.cpp" />
+    <ClCompile Include="..\..\Source\OgreCamera.cpp" />
+    <ClCompile Include="..\..\Source\OgreCodec.cpp" />
+    <ClCompile Include="..\..\Source\OgreColourValue.cpp" />
+    <ClCompile Include="..\..\Source\OgreCommon.cpp" />
+    <ClCompile Include="..\..\Source\OgreCompositionPass.cpp" />
+    <ClCompile Include="..\..\Source\OgreCompositionTargetPass.cpp" />
+    <ClCompile Include="..\..\Source\OgreCompositionTechnique.cpp" />
+    <ClCompile Include="..\..\Source\OgreCompositor.cpp" />
+    <ClCompile Include="..\..\Source\OgreCompositorChain.cpp" />
+    <ClCompile Include="..\..\Source\OgreCompositorInstance.cpp" />
+    <ClCompile Include="..\..\Source\OgreCompositorManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreConfigFile.cpp" />
+    <ClCompile Include="..\..\Source\OgreControllerManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreConvexBody.cpp" />
+    <ClCompile Include="..\..\Source\OgreDataStream.cpp" />
+    <ClCompile Include="..\..\Source\OgreDDSCodec.cpp" />
+    <ClCompile Include="..\..\Source\OgreDefaultHardwareBufferManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreDefaultSceneQueries.cpp" />
+    <ClCompile Include="..\..\Source\OgreDeflate.cpp" />
+    <ClCompile Include="..\..\Source\OgreDepthBuffer.cpp" />
+    <ClCompile Include="..\..\Source\OgreDistanceLodStrategy.cpp" />
+    <ClCompile Include="..\..\Source\OgreDualQuaternion.cpp" />
+    <ClCompile Include="..\..\Source\OgreDynLib.cpp" />
+    <ClCompile Include="..\..\Source\OgreDynLibManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreEdgeListBuilder.cpp" />
+    <ClCompile Include="..\..\Source\OgreEntity.cpp" />
+    <ClCompile Include="..\..\Source\OgreException.cpp" />
+    <ClCompile Include="..\..\Source\OgreExternalTextureSource.cpp" />
+    <ClCompile Include="..\..\Source\OgreExternalTextureSourceManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreFileSystem.cpp" />
+    <ClCompile Include="..\..\Source\OgreFont.cpp" />
+    <ClCompile Include="..\..\Source\OgreFontManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreFreeImageCodec.cpp" />
+    <ClCompile Include="..\..\Source\OgreFrustum.cpp" />
+    <ClCompile Include="..\..\Source\OgreGpuProgram.cpp" />
+    <ClCompile Include="..\..\Source\OgreGpuProgramManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreGpuProgramParams.cpp" />
+    <ClCompile Include="..\..\Source\OgreGpuProgramUsage.cpp" />
+    <ClCompile Include="..\..\Source\OgreHardwareBufferManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreHardwareIndexBuffer.cpp" />
+    <ClCompile Include="..\..\Source\OgreHardwareOcclusionQuery.cpp" />
+    <ClCompile Include="..\..\Source\OgreHardwarePixelBuffer.cpp" />
+    <ClCompile Include="..\..\Source\OgreHardwareVertexBuffer.cpp" />
+    <ClCompile Include="..\..\Source\OgreHighLevelGpuProgram.cpp" />
+    <ClCompile Include="..\..\Source\OgreHighLevelGpuProgramManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreImage.cpp" />
+    <ClCompile Include="..\..\Source\OgreInstanceBatch.cpp" />
+    <ClCompile Include="..\..\Source\OgreInstanceBatchHW.cpp" />
+    <ClCompile Include="..\..\Source\OgreInstanceBatchHW_VTF.cpp" />
+    <ClCompile Include="..\..\Source\OgreInstanceBatchShader.cpp" />
+    <ClCompile Include="..\..\Source\OgreInstanceBatchVTF.cpp" />
+    <ClCompile Include="..\..\Source\OgreInstancedEntity.cpp" />
+    <ClCompile Include="..\..\Source\OgreInstancedGeometry.cpp" />
+    <ClCompile Include="..\..\Source\OgreInstanceManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreKeyFrame.cpp" />
+    <ClCompile Include="..\..\Source\OgreLight.cpp" />
+    <ClCompile Include="..\..\Source\OgreLodStrategy.cpp" />
+    <ClCompile Include="..\..\Source\OgreLodStrategyManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreLog.cpp" />
+    <ClCompile Include="..\..\Source\OgreLogManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreManualObject.cpp" />
+    <ClCompile Include="..\..\Source\OgreMaterial.cpp" />
+    <ClCompile Include="..\..\Source\OgreMaterialManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreMaterialSerializer.cpp" />
+    <ClCompile Include="..\..\Source\OgreMath.cpp" />
+    <ClCompile Include="..\..\Source\OgreMatrix3.cpp" />
+    <ClCompile Include="..\..\Source\OgreMatrix4.cpp" />
+    <ClCompile Include="..\..\Source\OgreMemoryAllocatedObject.cpp" />
+    <ClCompile Include="..\..\Source\OgreMemoryNedAlloc.cpp" />
+    <ClCompile Include="..\..\Source\OgreMemoryNedPooling.cpp" />
+    <ClCompile Include="..\..\Source\OgreMemoryTracker.cpp" />
+    <ClCompile Include="..\..\Source\OgreMesh.cpp" />
+    <ClCompile Include="..\..\Source\OgreMeshManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreMeshSerializer.cpp" />
+    <ClCompile Include="..\..\Source\OgreMeshSerializerImpl.cpp" />
+    <ClCompile Include="..\..\Source\OgreMovableObject.cpp" />
+    <ClCompile Include="..\..\Source\OgreMovablePlane.cpp" />
+    <ClCompile Include="..\..\Source\OgreNode.cpp" />
+    <ClCompile Include="..\..\Source\OgreNumerics.cpp" />
+    <ClCompile Include="..\..\Source\OgreOptimisedUtil.cpp" />
+    <ClCompile Include="..\..\Source\OgreOptimisedUtilGeneral.cpp" />
+    <ClCompile Include="..\..\Source\OgreOptimisedUtilSSE.cpp" />
+    <ClCompile Include="..\..\Source\OgreOverlay.cpp" />
+    <ClCompile Include="..\..\Source\OgreOverlayContainer.cpp" />
+    <ClCompile Include="..\..\Source\OgreOverlayElement.cpp" />
+    <ClCompile Include="..\..\Source\OgreOverlayElementCommands.cpp" />
+    <ClCompile Include="..\..\Source\OgreOverlayElementFactory.cpp" />
+    <ClCompile Include="..\..\Source\OgreOverlayManager.cpp" />
+    <ClCompile Include="..\..\Source\OgrePanelOverlayElement.cpp" />
+    <ClCompile Include="..\..\Source\OgreParticle.cpp" />
+    <ClCompile Include="..\..\Source\OgreParticleEmitter.cpp" />
+    <ClCompile Include="..\..\Source\OgreParticleEmitterCommands.cpp" />
+    <ClCompile Include="..\..\Source\OgreParticleIterator.cpp" />
+    <ClCompile Include="..\..\Source\OgreParticleSystem.cpp" />
+    <ClCompile Include="..\..\Source\OgreParticleSystemManager.cpp" />
+    <ClCompile Include="..\..\Source\OgrePass.cpp" />
+    <ClCompile Include="..\..\Source\OgrePatchMesh.cpp" />
+    <ClCompile Include="..\..\Source\OgrePatchSurface.cpp" />
+    <ClCompile Include="..\..\Source\OgrePixelCountLodStrategy.cpp" />
+    <ClCompile Include="..\..\Source\OgrePixelFormat.cpp" />
+    <ClCompile Include="..\..\Source\OgrePlane.cpp" />
+    <ClCompile Include="..\..\Source\OgrePlatformInformation.cpp" />
+    <ClCompile Include="..\..\Source\OgrePolygon.cpp" />
+    <ClCompile Include="..\..\Source\OgrePose.cpp" />
+    <ClCompile Include="..\..\Source\OgrePrecompiledHeaders.cpp" />
+    <ClCompile Include="..\..\Source\OgrePredefinedControllers.cpp" />
+    <ClCompile Include="..\..\Source\OgrePrefabFactory.cpp" />
+    <ClCompile Include="..\..\Source\OgreProfiler.cpp" />
+    <ClCompile Include="..\..\Source\OgreProgressiveMesh.cpp" />
+    <ClCompile Include="..\..\Source\OgrePVRTCCodec.cpp" />
+    <ClCompile Include="..\..\Source\OgreQuaternion.cpp" />
+    <ClCompile Include="..\..\Source\OgreRectangle2D.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderQueue.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderQueueInvocation.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderQueueSortingGrouping.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderSystem.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderSystemCapabilities.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderSystemCapabilitiesManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderSystemCapabilitiesSerializer.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderTarget.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderTexture.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderToVertexBuffer.cpp" />
+    <ClCompile Include="..\..\Source\OgreRenderWindow.cpp" />
+    <ClCompile Include="..\..\Source\OgreResource.cpp" />
+    <ClCompile Include="..\..\Source\OgreResourceBackgroundQueue.cpp" />
+    <ClCompile Include="..\..\Source\OgreResourceGroupManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreResourceManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreRibbonTrail.cpp" />
+    <ClCompile Include="..\..\Source\OgreRoot.cpp" />
+    <ClCompile Include="..\..\Source\OgreRotationSpline.cpp" />
+    <ClCompile Include="..\..\Source\OgreSceneManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreSceneManagerEnumerator.cpp" />
+    <ClCompile Include="..\..\Source\OgreSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\OgreSceneQuery.cpp" />
+    <ClCompile Include="..\..\Source\OgreScriptCompiler.cpp" />
+    <ClCompile Include="..\..\Source\OgreScriptLexer.cpp" />
+    <ClCompile Include="..\..\Source\OgreScriptParser.cpp" />
+    <ClCompile Include="..\..\Source\OgreScriptTranslator.cpp" />
+    <ClCompile Include="..\..\Source\OgreSearchOps.cpp" />
+    <ClCompile Include="..\..\Source\OgreSerializer.cpp" />
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetup.cpp" />
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetupFocused.cpp" />
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetupLiSPSM.cpp" />
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetupPlaneOptimal.cpp" />
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetupPSSM.cpp" />
+    <ClCompile Include="..\..\Source\OgreShadowCaster.cpp" />
+    <ClCompile Include="..\..\Source\OgreShadowTextureManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreShadowVolumeExtrudeProgram.cpp" />
+    <ClCompile Include="..\..\Source\OgreSimpleRenderable.cpp" />
+    <ClCompile Include="..\..\Source\OgreSimpleSpline.cpp" />
+    <ClCompile Include="..\..\Source\OgreSkeleton.cpp" />
+    <ClCompile Include="..\..\Source\OgreSkeletonInstance.cpp" />
+    <ClCompile Include="..\..\Source\OgreSkeletonManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreSkeletonSerializer.cpp" />
+    <ClCompile Include="..\..\Source\OgreSmallVector.cpp" />
+    <ClCompile Include="..\..\Source\OgreStaticGeometry.cpp" />
+    <ClCompile Include="..\..\Source\OgreStreamSerialiser.cpp" />
+    <ClCompile Include="..\..\Source\OgreString.cpp" />
+    <ClCompile Include="..\..\Source\OgreStringConverter.cpp" />
+    <ClCompile Include="..\..\Source\OgreStringInterface.cpp" />
+    <ClCompile Include="..\..\Source\OgreStringSerialiser.cpp" />
+    <ClCompile Include="..\..\Source\OgreSubEntity.cpp" />
+    <ClCompile Include="..\..\Source\OgreSubMesh.cpp" />
+    <ClCompile Include="..\..\Source\OgreTagPoint.cpp" />
+    <ClCompile Include="..\..\Source\OgreTangentSpaceCalc.cpp" />
+    <ClCompile Include="..\..\Source\OgreTechnique.cpp" />
+    <ClCompile Include="..\..\Source\OgreTextAreaOverlayElement.cpp" />
+    <ClCompile Include="..\..\Source\OgreTexture.cpp" />
+    <ClCompile Include="..\..\Source\OgreTextureManager.cpp" />
+    <ClCompile Include="..\..\Source\OgreTextureUnitState.cpp" />
+    <ClCompile Include="..\..\Source\OgreTimer.cpp" />
+    <ClCompile Include="..\..\Source\OgreUnifiedHighLevelGpuProgram.cpp" />
+    <ClCompile Include="..\..\Source\OgreUserObjectBindings.cpp" />
+    <ClCompile Include="..\..\Source\OgreUTFString.cpp" />
+    <ClCompile Include="..\..\Source\OgreVector2.cpp" />
+    <ClCompile Include="..\..\Source\OgreVector3.cpp" />
+    <ClCompile Include="..\..\Source\OgreVector4.cpp" />
+    <ClCompile Include="..\..\Source\OgreVertexIndexData.cpp" />
+    <ClCompile Include="..\..\Source\OgreViewport.cpp" />
+    <ClCompile Include="..\..\Source\OgreWindowEventUtilities.cpp" />
+    <ClCompile Include="..\..\Source\OgreWireBoundingBox.cpp" />
+    <ClCompile Include="..\..\Source\OgreWorkQueue.cpp" />
+    <ClCompile Include="..\..\Source\OgreZip.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreAreaEmitter.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreBoxEmitter.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreColourFaderAffector.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreColourFaderAffector2.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreColourImageAffector.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreColourInterpolatorAffector.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreCylinderEmitter.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreDeflectorPlaneAffector.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreDirectionRandomiserAffector.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreEllipsoidEmitter.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreHollowEllipsoidEmitter.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreLinearForceAffector.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreParticleFX.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreParticleFXPlugin.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgrePointEmitter.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreRingEmitter.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreRotationAffector.cpp" />
+    <ClCompile Include="..\..\Source\ParticleFX\OgreScaleAffector.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgreAntiPortal.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgreCapsule.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgreDefaultZone.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCPlane.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZCamera.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZFrustum.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZLight.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZone.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZoneFactory.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZPlugin.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZSceneManager.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZSceneManagerDll.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZSceneNode.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZSceneQuery.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePortal.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePortalBase.cpp" />
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgreSegment.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\EGL\OgreEGLSupport.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\EGL\OgreEGLWindow.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESContext.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESDefaultHardwareBufferManager.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESDepthBuffer.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESEngineDll.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESFBOMultiRenderTarget.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESFBORenderTexture.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESFrameBufferObject.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESGpuProgramManager.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESHardwareBufferManager.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESHardwareIndexBuffer.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESHardwarePixelBuffer.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESHardwareVertexBuffer.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESPBRenderTexture.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESPixelFormat.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESPlugin.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESRenderSystem.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESRenderTexture.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESSupport.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESTexture.cpp" />
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESTextureManager.cpp" />
+    <ClCompile Include="..\..\Source\Threading\OgreDefaultWorkQueueStandard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\ogremain.map" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{049AC700-CA3A-4403-BEE5-36BF4EC55D5A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TestStatic</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMOgre3D;../../../../02_Library/Include/XMOgre3D/PCZSceneManager;../../../../02_Library/Include/XMOgre3D/ParticleFX;../../../../02_Library/Include/XMOgre3D/OctreeZone;../../../../02_Library/Include/XMOgre3D/OctreeSceneManager;../../../../02_Library/Include/XMOgre3D/EXRCodec;../../../../02_Library/Include/XMOgre3D/CgProgramManager;../../../../02_Library/Include/XMOgre3D/BSPSceneManager;../../../../02_Library/Include/XMOgre3D/RenderSystems/GLES;../../../../02_Library/Include/XMOgre3D/RenderSystems/GLES/EGL;../../../../02_Library/Include/XMOgre3D/Components/Paging;../../../../02_Library/Include/XMOgre3D/Components/Property;../../../../02_Library/Include/XMOgre3D/Components/RTShaderSystem;../../../../02_Library/Include/XMOgre3D/Components/Terrain;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4305;4244;4267;4551;4297;4996;4819;4146;4551</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName)d.lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMOgre3D;../../../../02_Library/Include/XMOgre3D/PCZSceneManager;../../../../02_Library/Include/XMOgre3D/ParticleFX;../../../../02_Library/Include/XMOgre3D/OctreeZone;../../../../02_Library/Include/XMOgre3D/OctreeSceneManager;../../../../02_Library/Include/XMOgre3D/EXRCodec;../../../../02_Library/Include/XMOgre3D/CgProgramManager;../../../../02_Library/Include/XMOgre3D/BSPSceneManager;../../../../02_Library/Include/XMOgre3D/RenderSystems/GLES;../../../../02_Library/Include/XMOgre3D/RenderSystems/GLES/EGL;../../../../02_Library/Include/XMOgre3D/Components/Paging;../../../../02_Library/Include/XMOgre3D/Components/Property;../../../../02_Library/Include/XMOgre3D/Components/RTShaderSystem;../../../../02_Library/Include/XMOgre3D/Components/Terrain;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4305;4244;4267;4551;4297;4996;4819;4146;4551</DisableSpecificWarnings>
+      <PrecompiledHeaderFile>OgreStableHeaders.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

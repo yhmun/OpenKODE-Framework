@@ -1,0 +1,1921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\XMKode">
+      <UniqueIdentifier>{38c48e66-d806-421f-96cd-d4fa18a16b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{86337101-3eff-4240-a687-6bb23d5d8fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{b5ffca75-cdd7-42a5-8ac5-145fd5d2c08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{cc9c1f12-1bda-4a58-9c92-bed40bea94d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{6aa8aa38-c520-45c9-b748-6408bec0d005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\ATX">
+      <UniqueIdentifier>{dad2b003-7d4b-41c4-8f36-cb5ef9391464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{d073d01d-5c74-430a-b95a-1b38f4abbd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\XM">
+      <UniqueIdentifier>{825d6b50-b4d1-4e16-8799-6ef59646cf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLUES">
+      <UniqueIdentifier>{3c43f451-73e0-49ac-bf69-4f7cde59455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib">
+      <UniqueIdentifier>{1277a261-01a6-40e1-ad19-fedc5ccb1fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib">
+      <UniqueIdentifier>{64002303-ae6b-4e5c-b93b-57592a1d8f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib\minizip">
+      <UniqueIdentifier>{1130abcf-4b1c-430b-a047-7d47e430f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D">
+      <UniqueIdentifier>{efc218bd-49fc-4b5f-87c3-7c1312b5307b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\RenderSystems">
+      <UniqueIdentifier>{27af2675-d133-4330-8a52-b66cb5155106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\RenderSystems\GLES">
+      <UniqueIdentifier>{338a01e9-8869-4dbc-ac5f-c8b49748c939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\RenderSystems\GLES\EGL">
+      <UniqueIdentifier>{3cf8c092-ddf6-462a-ab2a-032d7e66e1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BSPSceneManager">
+      <UniqueIdentifier>{efa33de3-ecb6-4ef8-95c2-1955375a2960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CgProgramManager">
+      <UniqueIdentifier>{703803b4-e5db-407c-8aaa-717f82253a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Components">
+      <UniqueIdentifier>{2a62934a-0bf6-4105-9928-432b7a135688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EXRCodec">
+      <UniqueIdentifier>{d9747f80-b317-4682-932e-2e7ba8a4584a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OctreeSceneManager">
+      <UniqueIdentifier>{584643f4-430f-492b-a983-0a648bf7632d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OctreeZone">
+      <UniqueIdentifier>{8d8d7f50-9b6c-4b0c-a65a-d9a6b52fda76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ParticleFX">
+      <UniqueIdentifier>{c00d1ad9-b208-481b-8ed3-8411ce6f4fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PCZSceneManager">
+      <UniqueIdentifier>{14857695-3ed3-42ee-981d-db352e10ddcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Threading">
+      <UniqueIdentifier>{bee97fad-2f09-48fc-937c-b08a98d3c7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Components\Paging">
+      <UniqueIdentifier>{45e2b84f-4448-41de-a892-42bf1c971dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Components\Property">
+      <UniqueIdentifier>{bc9ee8da-7ecb-4df8-b557-8aa876d9a2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Components\RTShaderSystem">
+      <UniqueIdentifier>{1ac4b9d3-fec5-41ec-a366-cd8170479d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Components\Terrain">
+      <UniqueIdentifier>{b872becc-0251-4018-b994-bd4a009f01bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\BSPSceneManager">
+      <UniqueIdentifier>{9214a3bb-3393-4d78-b188-84cebce33367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\CgProgramManager">
+      <UniqueIdentifier>{d048bcca-4f77-4d2b-b7a6-1a918c9d89ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\Components">
+      <UniqueIdentifier>{9daaf292-2c00-4b9a-98e4-0cde31b84e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\EXRCodec">
+      <UniqueIdentifier>{3d85dab8-936c-43c9-b684-7011c6f2637e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\PCZSceneManager">
+      <UniqueIdentifier>{63b0812b-256d-4a76-be39-04b6e7951627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\ParticleFX">
+      <UniqueIdentifier>{58825051-6d5b-42d3-b45b-5bdf18dfb917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\OctreeZone">
+      <UniqueIdentifier>{ae9d85bd-85c9-48c7-97af-bad418592479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\OctreeSceneManager">
+      <UniqueIdentifier>{9d5fc7f3-8428-4abf-9512-46997e4b50a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\Components\Terrain">
+      <UniqueIdentifier>{7571847a-c91a-4261-9a05-dbd06db65ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\Components\RTShaderSystem">
+      <UniqueIdentifier>{04daa9ec-3c9c-4f20-8a6a-548dd0683ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\Components\Property">
+      <UniqueIdentifier>{97fb3f23-8387-472c-b598-ce2077f4dfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\Components\Paging">
+      <UniqueIdentifier>{b2e5a1a8-4e05-48b6-8e17-f858e5b78f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\Threading">
+      <UniqueIdentifier>{4da66bb5-4628-4692-9b45-87964a3bc4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\RenderSystems\GLES2">
+      <UniqueIdentifier>{eff75c70-dceb-4750-9242-33400d59e37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\RenderSystems\GLES2\EGL">
+      <UniqueIdentifier>{13ccf6e2-64eb-42ae-aa88-2f79e18d5bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOgre3D\RenderSystems\GLES2\GLSLES">
+      <UniqueIdentifier>{f360ec90-6294-452c-ab0a-89bfcbe1bda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RenderSystems">
+      <UniqueIdentifier>{15014607-a0c5-493a-8efd-5314e3594938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RenderSystems\GLES">
+      <UniqueIdentifier>{12aabc3d-5ecd-4e76-a593-5836022a354c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RenderSystems\GLES\EGL">
+      <UniqueIdentifier>{dd4906e7-011f-48f2-a3ec-0b492fb765c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESContext.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESDefaultHardwareBufferManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESDepthBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESFBOMultiRenderTarget.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESFBORenderTexture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESFrameBufferObject.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESGpuProgramManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESHardwareBufferManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESHardwareIndexBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESHardwarePixelBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESHardwareVertexBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPBRenderTexture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPixelFormat.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPlugin.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESPrerequisites.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESRenderSystem.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESRenderTexture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESSupport.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESTexture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESTextureManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\OgreGLESUtil.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreEGLContext.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreEGLRenderTexture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreEGLSupport.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreEGLWindow.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES\EGL\OgreGLESUtil.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OgreImageResampler.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OgrePixelConversions.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OgreSIMDHelper.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspLevel.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspNode.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspPrerequisites.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspResourceManager.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspSceneManager.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspSceneManagerPlugin.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreBspSceneNode.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreQuake3Level.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreQuake3Shader.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreQuake3ShaderManager.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\BSPSceneManager\OgreQuake3Types.h">
+      <Filter>Include\XMOgre3D\BSPSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgFxScriptLoader.h">
+      <Filter>Include\XMOgre3D\CgProgramManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgPlugin.h">
+      <Filter>Include\XMOgre3D\CgProgramManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgPrerequisites.h">
+      <Filter>Include\XMOgre3D\CgProgramManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgProgram.h">
+      <Filter>Include\XMOgre3D\CgProgramManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\CgProgramManager\OgreCgProgramFactory.h">
+      <Filter>Include\XMOgre3D\CgProgramManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\EXRCodec\OgreEXRCodec.h">
+      <Filter>Include\XMOgre3D\EXRCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctree.h">
+      <Filter>Include\XMOgre3D\OctreeSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreeCamera.h">
+      <Filter>Include\XMOgre3D\OctreeSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreeNode.h">
+      <Filter>Include\XMOgre3D\OctreeSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreePlugin.h">
+      <Filter>Include\XMOgre3D\OctreeSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreePrerequisites.h">
+      <Filter>Include\XMOgre3D\OctreeSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreeSceneManager.h">
+      <Filter>Include\XMOgre3D\OctreeSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeSceneManager\OgreOctreeSceneQuery.h">
+      <Filter>Include\XMOgre3D\OctreeSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeZone\OgreOctreeZone.h">
+      <Filter>Include\XMOgre3D\OctreeZone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeZone\OgreOctreeZoneOctree.h">
+      <Filter>Include\XMOgre3D\OctreeZone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeZone\OgreOctreeZonePlugin.h">
+      <Filter>Include\XMOgre3D\OctreeZone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\OctreeZone\OgreOctreeZonePrerequisites.h">
+      <Filter>Include\XMOgre3D\OctreeZone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreAreaEmitter.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreBoxEmitter.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreBoxEmitterFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourFaderAffector.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourFaderAffector2.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourFaderAffectorFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourFaderAffectorFactory2.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourImageAffector.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourImageAffectorFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourInterpolatorAffector.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreColourInterpolatorAffectorFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreCylinderEmitter.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreCylinderEmitterFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreDeflectorPlaneAffector.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreDeflectorPlaneAffectorFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreDirectionRandomiserAffector.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreDirectionRandomiserAffectorFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreEllipsoidEmitter.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreEllipsoidEmitterFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreHollowEllipsoidEmitter.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreHollowEllipsoidEmitterFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreLinearForceAffector.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreLinearForceAffectorFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreParticleFXPlugin.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreParticleFXPrerequisites.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgrePointEmitter.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgrePointEmitterFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreRingEmitter.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreRingEmitterFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreRotationAffector.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreRotationAffectorFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreScaleAffector.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\ParticleFX\OgreScaleAffectorFactory.h">
+      <Filter>Include\XMOgre3D\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgreAntiPortal.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgreCapsule.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgreDefaultZone.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCPlane.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZCamera.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZFrustum.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZLight.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZone.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZoneFactory.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZPlugin.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZPrerequisites.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZSceneManager.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZSceneNode.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePCZSceneQuery.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePortal.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgrePortalBase.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\PCZSceneManager\OgreSegment.h">
+      <Filter>Include\XMOgre3D\PCZSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreDefaultWorkQueue.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreDefaultWorkQueueStandard.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreDefaultWorkQueueTBB.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefines.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefinesBoost.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefinesNone.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefinesPoco.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadDefinesTBB.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadHeaders.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadHeadersBoost.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadHeadersPoco.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Threading\OgreThreadHeadersTBB.h">
+      <Filter>Include\XMOgre3D\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgreGrid2DPageStrategy.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgreGrid3DPageStrategy.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePage.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageConnection.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageContent.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageContentCollection.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageContentCollectionFactory.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageContentFactory.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePagedWorld.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePagedWorldSection.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageFileFormats.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageManager.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePageStrategy.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePaging.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgrePagingPrerequisites.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Paging\OgreSimplePageContentCollection.h">
+      <Filter>Include\XMOgre3D\Components\Paging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Property\OgreProperty.h">
+      <Filter>Include\XMOgre3D\Components\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Property\OgrePropertyPrerequisites.h">
+      <Filter>Include\XMOgre3D\Components\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreRTShaderSystem.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderCGProgramProcessor.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderCGProgramWriter.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExDualQuaternionSkinning.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExHardwareSkinning.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExHardwareSkinningTechnique.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExIntegratedPSSM3.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExLayeredBlending.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExLinearSkinning.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExNormalMapLighting.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExPerPixelLighting.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderExTextureAtlasSampler.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPColour.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPFog.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPLighting.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPRenderState.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPRenderStateBuilder.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPTexturing.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFFPTransform.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFunction.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderFunctionAtom.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGenerator.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGLSLESProgramProcessor.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGLSLESProgramWriter.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGLSLProgramProcessor.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderGLSLProgramWriter.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderHLSLProgramProcessor.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderHLSLProgramWriter.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderMaterialSerializerListener.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderParameter.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderPrerequisites.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgram.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramManager.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramProcessor.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramSet.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramWriter.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderProgramWriterManager.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderRenderState.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderScriptTranslator.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\RTShaderSystem\OgreShaderSubRenderState.h">
+      <Filter>Include\XMOgre3D\Components\RTShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrain.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainGroup.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainLayerBlendMap.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainMaterialGenerator.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainMaterialGeneratorA.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainPagedWorldSection.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainPaging.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainPrerequisites.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\Components\Terrain\OgreTerrainQuadTreeNode.h">
+      <Filter>Include\XMOgre3D\Components\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Context.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2DefaultHardwareBufferManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2DepthBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2FBOMultiRenderTarget.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2FBORenderTexture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2FrameBufferObject.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2GpuProgram.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2GpuProgramManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwareBufferManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwareIndexBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwareOcclusionQuery.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwarePixelBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2HardwareVertexBuffer.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2InternalShaders.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2PixelFormat.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Plugin.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Prerequisites.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2RenderSystem.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2RenderTexture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Support.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Texture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2TextureManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\OgreGLES2Util.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\EGL\OgreEGLContext.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\EGL\OgreEGLRenderTexture.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\EGL\OgreEGLSupport.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\EGL\OgreEGLWindow.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESCgProgram.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESCgProgramFactory.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESExtSupport.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESGpuProgram.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESLinkProgram.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESLinkProgramManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESPreprocessor.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgram.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramCommon.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramFactory.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramManagerCommon.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramPipeline.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOgre3D\RenderSystems\GLES2\GLSLES\OgreGLSLESProgramPipelineManager.h">
+      <Filter>Include\XMOgre3D\RenderSystems\GLES2\GLSLES</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspLevel.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspNode.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspResourceManager.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspSceneManager.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspSceneManagerDll.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspSceneManagerPlugin.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreBspSceneNode.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreQuake3Level.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreQuake3Shader.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BSPSceneManager\OgreQuake3ShaderManager.cpp">
+      <Filter>Source\BSPSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Threading\OgreDefaultWorkQueueStandard.cpp">
+      <Filter>Source\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgreAntiPortal.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgreCapsule.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgreDefaultZone.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCPlane.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZCamera.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZFrustum.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZLight.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZone.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZoneFactory.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZPlugin.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZSceneManager.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZSceneManagerDll.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZSceneNode.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePCZSceneQuery.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePortal.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgrePortalBase.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PCZSceneManager\OgreSegment.cpp">
+      <Filter>Source\PCZSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreAreaEmitter.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreBoxEmitter.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreColourFaderAffector.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreColourFaderAffector2.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreColourImageAffector.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreColourInterpolatorAffector.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreCylinderEmitter.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreDeflectorPlaneAffector.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreDirectionRandomiserAffector.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreEllipsoidEmitter.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreHollowEllipsoidEmitter.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreLinearForceAffector.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreParticleFX.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreParticleFXPlugin.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgrePointEmitter.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreRingEmitter.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreRotationAffector.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParticleFX\OgreScaleAffector.cpp">
+      <Filter>Source\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeZone\OgreOctreeZone.cpp">
+      <Filter>Source\OctreeZone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeZone\OgreOctreeZoneDll.cpp">
+      <Filter>Source\OctreeZone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeZone\OgreOctreeZoneOctree.cpp">
+      <Filter>Source\OctreeZone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeZone\OgreOctreeZonePlugin.cpp">
+      <Filter>Source\OctreeZone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctree.cpp">
+      <Filter>Source\OctreeSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeCamera.cpp">
+      <Filter>Source\OctreeSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeNode.cpp">
+      <Filter>Source\OctreeSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreePlugin.cpp">
+      <Filter>Source\OctreeSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeSceneManager.cpp">
+      <Filter>Source\OctreeSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeSceneManagerDll.cpp">
+      <Filter>Source\OctreeSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OctreeSceneManager\OgreOctreeSceneQuery.cpp">
+      <Filter>Source\OctreeSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreAlignedAllocator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreAnimable.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreAnimation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreAnimationState.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreAnimationTrack.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreArchiveManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreAutoParamDataSource.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreAxisAlignedBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreBillboard.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreBillboardChain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreBillboardParticleRenderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreBillboardSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreBone.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreBorderPanelOverlayElement.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCamera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCodec.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreColourValue.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCommon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCompositionPass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCompositionTargetPass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCompositionTechnique.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCompositor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCompositorChain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCompositorInstance.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreCompositorManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreConfigFile.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreControllerManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreConvexBody.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDataStream.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDDSCodec.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDefaultHardwareBufferManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDefaultSceneQueries.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDeflate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDepthBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDistanceLodStrategy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDualQuaternion.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDynLib.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreDynLibManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreEdgeListBuilder.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreEntity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreException.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreExternalTextureSource.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreExternalTextureSourceManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreFileSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreFont.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreFontManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreFreeImageCodec.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreFrustum.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreGpuProgram.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreGpuProgramManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreGpuProgramParams.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreGpuProgramUsage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreHardwareBufferManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreHardwareIndexBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreHardwareOcclusionQuery.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreHardwarePixelBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreHardwareVertexBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreHighLevelGpuProgram.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreHighLevelGpuProgramManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreImage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreInstanceBatch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreInstanceBatchHW.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreInstanceBatchHW_VTF.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreInstanceBatchShader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreInstanceBatchVTF.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreInstancedEntity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreInstancedGeometry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreInstanceManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreKeyFrame.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreLight.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreLodStrategy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreLodStrategyManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreLog.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreLogManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreManualObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMaterial.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMaterialManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMaterialSerializer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMath.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMatrix3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMatrix4.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMemoryAllocatedObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMemoryNedAlloc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMemoryNedPooling.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMemoryTracker.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMeshManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMeshSerializer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMeshSerializerImpl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMovableObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreMovablePlane.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreNode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreNumerics.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOptimisedUtil.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOptimisedUtilGeneral.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOptimisedUtilSSE.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOverlay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOverlayContainer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOverlayElement.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOverlayElementCommands.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOverlayElementFactory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreOverlayManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePanelOverlayElement.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreParticle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreParticleEmitter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreParticleEmitterCommands.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreParticleIterator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreParticleSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreParticleSystemManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePatchMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePatchSurface.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePixelCountLodStrategy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePixelFormat.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePlane.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePlatformInformation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePolygon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePose.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePrecompiledHeaders.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePredefinedControllers.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePrefabFactory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreProfiler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreProgressiveMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgrePVRTCCodec.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreQuaternion.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRectangle2D.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderQueue.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderQueueInvocation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderQueueSortingGrouping.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderSystemCapabilities.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderSystemCapabilitiesManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderSystemCapabilitiesSerializer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderTarget.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderTexture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderToVertexBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRenderWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreResource.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreResourceBackgroundQueue.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreResourceGroupManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreResourceManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRibbonTrail.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRoot.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreRotationSpline.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSceneManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSceneManagerEnumerator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSceneNode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSceneQuery.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreScriptCompiler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreScriptLexer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreScriptParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreScriptTranslator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSearchOps.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSerializer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetupFocused.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetupLiSPSM.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetupPlaneOptimal.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreShadowCameraSetupPSSM.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreShadowCaster.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreShadowTextureManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreShadowVolumeExtrudeProgram.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSimpleRenderable.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSimpleSpline.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSkeleton.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSkeletonInstance.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSkeletonManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSkeletonSerializer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSmallVector.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreStaticGeometry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreStreamSerialiser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreString.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreStringConverter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreStringInterface.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreStringSerialiser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSubEntity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreSubMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreTagPoint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreTangentSpaceCalc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreTechnique.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreTextAreaOverlayElement.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreTexture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreTextureManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreTextureUnitState.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreTimer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreUnifiedHighLevelGpuProgram.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreUserObjectBindings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreUTFString.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreVector2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreVector3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreVector4.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreVertexIndexData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreViewport.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreWindowEventUtilities.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreWireBoundingBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreWorkQueue.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OgreZip.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderCGProgramProcessor.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderCGProgramWriter.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExDualQuaternionSkinning.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExHardwareSkinning.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExHardwareSkinningTechnique.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExIntegratedPSSM3.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExLayeredBlending.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExLinearSkinning.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExNormalMapLighting.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExPerPixelLighting.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderExTextureAtlasSampler.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPColour.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPFog.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPLighting.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPRenderStateBuilder.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPTexturing.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFFPTransform.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFunction.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderFunctionAtom.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGenerator.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGLSLESProgramProcessor.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGLSLESProgramWriter.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGLSLProgramProcessor.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderGLSLProgramWriter.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderHLSLProgramProcessor.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderHLSLProgramWriter.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderMaterialSerializerListener.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderParameter.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgram.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramManager.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramProcessor.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramSet.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramWriter.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderProgramWriterManager.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderRenderState.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderScriptTranslator.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\RTShaderSystem\OgreShaderSubRenderState.cpp">
+      <Filter>Source\Components\RTShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrain.cpp">
+      <Filter>Source\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainGroup.cpp">
+      <Filter>Source\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainLayerBlendMap.cpp">
+      <Filter>Source\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainMaterialGenerator.cpp">
+      <Filter>Source\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainMaterialGeneratorA.cpp">
+      <Filter>Source\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainPagedWorldSection.cpp">
+      <Filter>Source\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainPaging.cpp">
+      <Filter>Source\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Components\Terrain\OgreTerrainQuadTreeNode.cpp">
+      <Filter>Source\Components\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\EGL\OgreEGLSupport.cpp">
+      <Filter>Source\RenderSystems\GLES\EGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\EGL\OgreEGLWindow.cpp">
+      <Filter>Source\RenderSystems\GLES\EGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESContext.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESDefaultHardwareBufferManager.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESDepthBuffer.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESEngineDll.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESFBOMultiRenderTarget.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESFBORenderTexture.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESFrameBufferObject.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESGpuProgramManager.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESHardwareBufferManager.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESHardwareIndexBuffer.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESHardwarePixelBuffer.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESHardwareVertexBuffer.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESPBRenderTexture.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESPixelFormat.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESPlugin.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESRenderSystem.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESRenderTexture.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESSupport.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESTexture.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RenderSystems\GLES\OgreGLESTextureManager.cpp">
+      <Filter>Source\RenderSystems\GLES</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\ogremain.map">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+</Project>

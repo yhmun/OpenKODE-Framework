@@ -59,7 +59,7 @@ typedef struct zzip_extra_block ZZIP_EXTRA_BLOCK;
 
 #if !defined ( SHP ) && ( defined ( WIN32 ) | defined ( _WIN32_WCE ) )
 
-typedef khronos_int8_t                  int8_t;
+//typedef khronos_int8_t                  int8_t;
 typedef khronos_int16_t                 int16_t;
 typedef khronos_int32_t                 int32_t;
 typedef khronos_int64_t                 int64_t;

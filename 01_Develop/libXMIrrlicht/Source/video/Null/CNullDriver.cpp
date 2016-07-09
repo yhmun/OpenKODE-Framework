@@ -1436,7 +1436,7 @@ IImage* CNullDriver::createImageFromFile(io::IReadFile* file)
 			return 0;
 	}
     
-	pImage = kdGetImageFromStreamATX ( pFile, nFormat, KD_IMAGE_FLAG_FLIP_Y_ATX );
+	pImage = kdGetImageFromStreamATX ( pFile, nFormat, 0 );
 	if ( !pImage )
 	{
 		return 0;

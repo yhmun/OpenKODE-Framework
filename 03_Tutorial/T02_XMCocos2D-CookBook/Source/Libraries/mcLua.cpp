@@ -80,7 +80,6 @@ static KDint LuaYieldPause ( lua_State* l )
 
 mcLuaManager::mcLuaManager ( KDvoid )
 {
-#if 0
 	m_pHead		 = KD_NULL;
 	m_pMainState = lua_open ( );
 	
@@ -99,12 +98,10 @@ mcLuaManager::mcLuaManager ( KDvoid )
 	luaopen_math	( m_pMainState );
 	luaopen_string	( m_pMainState );
 	lua_settop		( m_pMainState, 0 );	
-#endif
 }
 
 mcLuaManager::~mcLuaManager ( KDvoid )
 {
-#if 0
 	mcLuaScript*		n = m_pHead;
 	while ( n ) 
 	{
@@ -113,49 +110,39 @@ mcLuaManager::~mcLuaManager ( KDvoid )
 		n = i;
 	}
 	lua_close ( m_pMainState );
-#endif
 }
 
 KDbool mcLuaManager::LuaOpenLibrary ( const KDchar* szName, const luaL_reg* pLibs )
 {
-#if 0
 	if ( m_pHead != KD_NULL )
 	{
 		return 0;
 	}
 	
 	luaL_openlib ( m_pMainState, szName, pLibs, 0 );
-#endif
 	return 1;	
 }
 
 KDvoid mcLuaManager::SetGlobalNumber ( const KDchar* szName, KDdouble dVal )
 {
-#if 0
 	lua_pushnumber	( m_pMainState,   dVal );
 	lua_setglobal	( m_pMainState, szName );
-#endif
 }
 
 KDvoid mcLuaManager::SetGlobalInteger ( const KDchar* szName, KDint nVal )
 {
-#if 0
 	lua_pushinteger ( m_pMainState,   nVal );
 	lua_setglobal	( m_pMainState, szName );
-#endif
 }
 
 KDvoid mcLuaManager::SetGlobalString ( const KDchar* szName, const KDchar* szVal )
 {
-#if 0
 	lua_pushstring	( m_pMainState,  szVal );
 	lua_setglobal	( m_pMainState, szName );
-#endif
 }
 	
 mcLuaScript* mcLuaManager::CreateScript ( KDvoid )
 {
-#if 0
 	lua_State*		s = lua_newthread ( m_pMainState );
 	
 	// Add reference to the new thread in the Lua Registry so
@@ -175,13 +162,10 @@ mcLuaScript* mcLuaManager::CreateScript ( KDvoid )
 	ns->m_pNext = m_pHead;
 	m_pHead = ns;
 	return ns;
-#endif
-	return nullptr;
 }
 
 KDvoid mcLuaManager::DestroyScript ( mcLuaScript* s )
 {
-#if 0
 	if ( s == m_pHead )
 	{
 		m_pHead = s->m_pNext;
@@ -200,18 +184,15 @@ KDvoid mcLuaManager::DestroyScript ( mcLuaScript* s )
 		}
 		pLast = l;
 	}
-#endif
 }
 
 KDvoid mcLuaManager::Update ( KDfloat fElapsedSeconds )
 {
-#if 0
 	mcLuaScript*	n = m_pHead;
 	while ( n )
 	{
 		n = n->Update ( fElapsedSeconds );
 	}
-#endif
 }
 
 //---------------------------------------------------------------
@@ -219,7 +200,6 @@ KDvoid mcLuaManager::Update ( KDfloat fElapsedSeconds )
 
 mcLuaScript::mcLuaScript ( lua_State* l, mcLuaManager* pMan, KDint nRegistryRef )
 {
-#if 0
 	m_pNext			= KD_NULL;
 	m_nRegistryRef	= nRegistryRef;
 	m_pState		= l;
@@ -227,19 +207,15 @@ mcLuaScript::mcLuaScript ( lua_State* l, mcLuaManager* pMan, KDint nRegistryRef 
 	m_eYieldMode	= YM_NONE;
 	m_nWaitFrames	= 0;
 	m_fWaitTime		= 0;
-#endif
 }
 
 mcLuaScript::~mcLuaScript ( KDvoid )
 {
-#if 0
 	luaL_unref ( m_pState, LUA_REGISTRYINDEX, m_nRegistryRef );
-#endif
 }
 	
 KDvoid mcLuaScript::LoadFile ( const KDchar* szName )
 {
-#if 0
 	kdPrintf ( "mcLuaScript::LoadFile() - %s\n", szName );
 	KDint	nErr = luaL_loadfile ( m_pState, szName );
 	if ( nErr )
@@ -249,12 +225,10 @@ KDvoid mcLuaScript::LoadFile ( const KDchar* szName )
 	}
 	
 	lua_resume ( m_pState, 0 );
-#endif
 }
 
 KDvoid mcLuaScript::LoadString ( const KDchar* szBuffer )
 {
-#if 0
 	KDint	nErr = luaL_loadstring ( m_pState, szBuffer );
 	if ( nErr )
 	{
@@ -263,12 +237,10 @@ KDvoid mcLuaScript::LoadString ( const KDchar* szBuffer )
 	}
 
 	lua_resume ( m_pState, 0 );
-#endif
 }
 
 mcLuaScript* mcLuaScript::Update ( KDfloat fElapsedSeconds )
 {
-#if 0
 	if ( m_eYieldMode == YM_TIME )
 	{
 		m_fWaitTime -= fElapsedSeconds;
@@ -295,8 +267,6 @@ mcLuaScript* mcLuaScript::Update ( KDfloat fElapsedSeconds )
 	m_eYieldMode = YM_NONE;
 	lua_resume ( m_pState, 0 );
 	return m_pNext;
-#endif
-	return 0;
 }
  
 KDvoid mcLuaScript::YieldFrames ( KDint nNum )

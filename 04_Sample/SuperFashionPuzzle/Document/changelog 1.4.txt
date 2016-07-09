@@ -1,0 +1,9 @@
+Removed memory warning.
+Game engine updated.
+Added icons for retina display.
+Added auto orientation.
+
+Eliminado la advertencia de memoria baja.
+Actualizado el motor del juego.
+A–adido iconos para retina display.
+A–adido auto orientaci—n.

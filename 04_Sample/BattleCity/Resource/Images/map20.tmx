@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="52" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="tile" tilewidth="8" tileheight="8">
+  <image source="tile.png" width="224" height="32"/>
+ </tileset>
+ <layer name="bg1" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztmeEKwjAMhKcwQcG9gYKCgr7/A5qfJSDnkXSmegfhwKym3AddYdMkSdK3tLHaNs72q+lkdW6c7VeT+PTV3urQOPu8z5/tZ+/vZnVvnH3e58/2s/cnPrX5oPxQ3lFn5yFeKD+Ud9TZeYiX+IzFh/XZatc424/yRHxYv1hdG2f7UZ7iMxafo9VCePb5xs5HfB5WT8Kzzzd2vvj8Fp/s/Hvz87x659+bn+clPrX5RPNaez26j0fzWns9uo+Lz9h8oveH7PsHWp/9/s5ez/6f+NTm488H9n0cdXYe6vvzgX0fR52dh/riU5uPF8ozW+w8dj8oz2yx86Lfg8SHU28+0n8I3cNGE7qHjaZ3HEbn8+nv1SU+OXoBYF2FQQ==
+  </data>
+ </layer>
+ <layer name="bg2" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQA0Ab3UP3H1IX8LEQ8eEOQiBtSgEAAAAAAAAAAOClutKCzqavjKCz2f2Q/Z/T/Xf+uWMCZ9oCcQ==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="52" height="52">
+  <object name="t10" x="72" y="72" width="25" height="24"/>
+  <object name="t2" x="352" y="72" width="25" height="24"/>
+  <object name="t9" x="232" y="320" width="25" height="24"/>
+  <object name="pl2" x="256" y="384" width="24" height="24"/>
+  <object name="home" x="192" y="384" width="32" height="32"/>
+  <object name="en2" x="192" y="0" width="32" height="32"/>
+  <object name="pl1" x="136" y="384" width="24" height="24"/>
+  <object name="t8" x="384" y="168" width="25" height="24"/>
+  <object name="t3" x="96" y="320" width="24" height="24"/>
+  <object name="t1" x="0" y="320" width="25" height="24"/>
+  <object name="t5" x="48" y="352" width="25" height="24"/>
+  <object name="t7" x="256" y="72" width="25" height="24"/>
+  <object name="en3" x="384" y="0" width="32" height="32"/>
+  <object name="t6" x="320" y="320" width="25" height="24"/>
+  <object name="en1" x="0" y="0" width="32" height="32"/>
+  <object name="t4" x="384" y="320" width="25" height="24"/>
+ </objectgroup>
+</map>

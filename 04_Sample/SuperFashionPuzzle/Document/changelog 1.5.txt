@@ -1,0 +1,2 @@
+Fixed "Play Again" button
+Arreglo del botón "Play Again"

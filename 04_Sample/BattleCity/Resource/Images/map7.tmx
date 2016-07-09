@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="52" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="tile" tilewidth="8" tileheight="8">
+  <image source="tile.png" width="224" height="32"/>
+ </tileset>
+ <layer name="bg1" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztmkFqxDAMRaeFzq69QQudXXuNmXu09z9F3UUgfFC+fiTFNuSBMVlkYvQsW+PkctnmtbW3jX42vlr73uhn4/QzF+jn3tpj1SNPrT0fNjod9PPT2u+qR95b+zhobP+8tHZd9YzR/Xy2dlv1jNH9sPhGYd6ZP3V9ZfGNwrwzf+r6in7UfGL09qPmE6O3H5ZPXn/edQ1/B5+v1iPoh+WT1593XcPfweer9YjqB1k8oI9Z/CCLB/Qxqh/VV3Z+qTA/qq/s/FKp9hPNL/V51X6i+aU+j/nYWy9Y8c+uP3C8zMfeesGKf3b9geM9uj7w5pcF3q/6QaLrlze/LPB+5ked3xjfbH8Im0/RfMH4ZvtD2HzK/n9aXR+ofqJU1wfR/VHFqgPU/FrIrl9UrDpAza+F7PpFheXF7H6Q3n6856HqfoXX3v0o6sd7HqruV3jt3Y9G94NE6wNGtR8kWh8ge9/HeeOeDfOz932cN+7ZnH7m9lOF5Q/jq56HZp9HeLH8Rc9Ds88jvFT56UWVH6TX/LOIfo/Sa/5ZRL9HqfKDdbP3nG1UP1g3e8/Zsv1k+bI8ZL/3wfGinyxflofs9z443tOPj15+/gCvlKHh
+  </data>
+ </layer>
+ <layer name="bg2" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQA0Ab3UP3H1IX8LEQ8eEOQiBtSgEAAAAAAAAAAOClutKCzqavjKCz2f2Q/Z/T/Xf+uWMCZ9oCcQ==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="52" height="52">
+  <object name="en3" x="384" y="0" width="32" height="32"/>
+  <object name="home" x="192" y="384" width="32" height="32"/>
+  <object name="en2" x="176" y="0" width="32" height="32"/>
+  <object name="t2" x="296" y="208" width="24" height="24"/>
+  <object name="pl1" x="136" y="385" width="24" height="24"/>
+  <object name="pl2" x="256" y="384" width="24" height="24"/>
+  <object name="en1" x="0" y="0" width="32" height="32"/>
+  <object name="t5" x="224" y="288" width="25" height="24"/>
+  <object name="t8" x="360" y="152" width="24" height="24"/>
+  <object name="t3" x="96" y="128" width="25" height="24"/>
+  <object name="t9" x="192" y="104" width="24" height="24"/>
+  <object name="t4" x="0" y="224" width="25" height="24"/>
+  <object name="t7" x="216" y="192" width="25" height="24"/>
+  <object name="t1" x="136" y="208" width="24" height="24"/>
+  <object name="t6" x="360" y="288" width="25" height="24"/>
+  <object name="t10" x="96" y="288" width="24" height="24"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>prince_walk_01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {74, 143}}</string>
+			<key>offset</key>
+			<string>{0, 0.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{7, 1}, {74, 143}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{76, 1}, {66, 144}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{11, 1}, {66, 144}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{143, 1}, {55, 145}}</string>
+			<key>offset</key>
+			<string>{-0.5, 0.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{16, 0}, {55, 145}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{199, 1}, {32, 146}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{28, 0}, {32, 146}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_05.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{232, 1}, {37, 146}}</string>
+			<key>offset</key>
+			<string>{-0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{25, 0}, {37, 146}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_06.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{270, 1}, {60, 144}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{14, 1}, {60, 144}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_07.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{331, 1}, {74, 143}}</string>
+			<key>offset</key>
+			<string>{0, 0.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{7, 1}, {74, 143}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_08.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{406, 1}, {82, 142}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{3, 2}, {82, 142}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_09.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{489, 1}, {74, 141}}</string>
+			<key>offset</key>
+			<string>{0, 0.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{7, 2}, {74, 141}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{564, 1}, {66, 142}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{11, 2}, {66, 142}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{631, 1}, {60, 144}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{14, 1}, {60, 144}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{692, 1}, {48, 145}}</string>
+			<key>offset</key>
+			<string>{0, 0.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{20, 0}, {48, 145}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{741, 1}, {34, 145}}</string>
+			<key>offset</key>
+			<string>{0, 0.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{27, 0}, {34, 145}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{776, 1}, {45, 144}}</string>
+			<key>offset</key>
+			<string>{-0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{21, 1}, {45, 144}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+		<key>prince_walk_15.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{822, 1}, {70, 144}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{9, 1}, {70, 144}}</string>
+			<key>sourceSize</key>
+			<string>{88, 146}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{1024, 512}</string>
+	</dict>
+</dict>
+</plist>

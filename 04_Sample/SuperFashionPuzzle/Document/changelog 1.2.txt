@@ -1,0 +1,5 @@
+Added Facebook login/logout button and ability to resume.
+Improved rename dialog.
+
+A–adido bot—n de login/logout a Facebook y capacidad para recuperar la sesi—n.
+Mejorada la ventana de introducir nombre.

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>Z:\Develop\XMSoft\Framework\04_Sample\DemoBag\Editor\DemoBag\SampleChangeEquip\SampleChangeEquip.xml.ui</filePath>
+  <Version>1.0.0.0</Version>
+  <Name>SampleChangeEquip</Name>
+  <ProjectDir>Z:\Develop\XMSoft\Framework\04_Sample\DemoBag\Editor\DemoBag\SampleChangeEquip</ProjectDir>
+  <JsonFileName>SampleChangeEquip.json</JsonFileName>
+  <Resources>Z:\Develop\XMSoft\Framework\04_Sample\DemoBag\Editor\DemoBag\SampleChangeEquip\Resources</Resources>
+  <JsonFolder>Z:\Develop\XMSoft\Framework\04_Sample\DemoBag\Editor\DemoBag\SampleChangeEquip\Json</JsonFolder>
+  <JsonList>
+    <string>SampleChangeEquip_1.json</string>
+  </JsonList>
+  <imageFileList>
+    <string>SampleChangeEquip_UI0.plist</string>
+  </imageFileList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>SampleChangeEquip_1.json</CurrentUIJson>
+  <CanvasSize>
+    <Width>480</Width>
+    <Height>320</Height>
+  </CanvasSize>
+</UIProject>

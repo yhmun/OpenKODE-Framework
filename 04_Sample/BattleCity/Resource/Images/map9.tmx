@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="52" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="tile" tilewidth="8" tileheight="8">
+  <image source="tile.png" width="224" height="32"/>
+ </tileset>
+ <layer name="bg1" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztmYEKwjAMRKegoP+goKD//4kWZFAPwtLk0qXYByVgOB05U1O7LG0cyjpWMZpLWdcqsrmVda9iNK+y3lVkE+3PqaxzFUf351HWs4qt/mTpB/QFowQ+f5Z+QF8wSuDzZ+mHUfzR9gPLHy/sevfe3xB2vb37WyvR/YBE+xPdD0iUP6P2g8Qo/aBllH7Qkr0frGTtBytZ+4HF6P4go/uz5Ud0ns2WH9F5Nli/1v3Oq2eD9Wvd77z6LbA+2vOqd15gnUdRh/XRnve88wLrPIq66c+XrP60Mvc3rp7NnA+4+cl/Y/0fgaVn493/vXrEer+w13yAsO4X9poPENb9z/SHq1/x+pNtfvP6k21+Y/vTO4+w/emdR3rfz09isf4+oY71Pl6s30/Usd7Hi7XOUl6r8/oqYa2zlNfqvL5KTH9+ddrXvZ+38gHB2kX5
+  </data>
+ </layer>
+ <layer name="bg2" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQA0Ab3UP3H1IX8LEQ8eEOQiBtSgEAAAAAAAAAAOClutKCzqavjKCz2f2Q/Z/T/Xf+uWMCZ9oCcQ==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="52" height="52">
+  <object name="pl2" x="248" y="384" width="24" height="24"/>
+  <object name="en3" x="384" y="0" width="32" height="32"/>
+  <object name="t9" x="360" y="248" width="25" height="24"/>
+  <object name="t5" x="96" y="256" width="25" height="24"/>
+  <object name="t10" x="64" y="56" width="25" height="24"/>
+  <object name="en2" x="184" y="0" width="32" height="32"/>
+  <object name="t3" x="192" y="200" width="24" height="24"/>
+  <object name="home" x="192" y="384" width="32" height="32"/>
+  <object name="t7" x="160" y="264" width="25" height="24"/>
+  <object name="t8" x="24" y="360" width="25" height="24"/>
+  <object name="en1" x="0" y="0" width="32" height="32"/>
+  <object name="t2" x="224" y="136" width="25" height="24"/>
+  <object name="t1" x="72" y="160" width="25" height="24"/>
+  <object name="t4" x="376" y="144" width="25" height="24"/>
+  <object name="pl1" x="136" y="384" width="24" height="24"/>
+  <object name="t6" x="264" y="240" width="25" height="24"/>
+ </objectgroup>
+</map>

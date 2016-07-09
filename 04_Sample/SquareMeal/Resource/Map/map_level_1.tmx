@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="14" height="14" tilewidth="52" tileheight="31">
+ <tileset firstgid="1" name="map_tile" tilewidth="52" tileheight="52" spacing="2" margin="2">
+  <image source="map_tile.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="37" name="map_meta" tilewidth="52" tileheight="31" spacing="2" margin="2">
+  <image source="map_meta.png" width="56" height="68"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="map_level_1" width="14" height="14">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJyVUssOwCAI68nDjm5z7///zY2DGSFt1CYkKhQoeAGYnU3hzt7OzzLGkQNvI7WqFcFbOurUGM9biT+ek+izwnLcJB/r07QVEgPiV/VaUDylj/G8/8A//53k8LyENuqMYp8P9O7V3kdgHK+l91+b5hd39gbQ
+  </data>
+ </layer>
+ <objectgroup name="objects" width="14" height="14">
+  <object name="SpawnPoint" x="312" y="155">
+   <polyline points="0,0 0,31 52,31 52,0 0,0"/>
+  </object>
+ </objectgroup>
+ <layer name="Meta" width="14" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxTZWBgUCUTkwqooY8Y/chqKdVHChiK+oZzeJKDAVyLCK0=
+  </data>
+ </layer>
+</map>

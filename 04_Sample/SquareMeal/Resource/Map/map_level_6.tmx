@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="15" tilewidth="52" tileheight="31">
+ <tileset firstgid="1" name="map_tile" tilewidth="52" tileheight="52" spacing="2" margin="2">
+  <image source="map_tile.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="37" name="map_chap" tilewidth="52" tileheight="32" spacing="2" margin="2">
+  <image source="map_chap.png" width="128" height="256"/>
+ </tileset>
+ <layer name="map_level_6_2" width="13" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPqJOAkfUQa/aonlE96HpITW+kAgBHQga1
+  </data>
+ </layer>
+ <layer name="map_level_6_1" width="13" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBg4CEBswIxCwNpgAWPHlEi9YgSoNH1iKJhXGK47MHnTmx60PWhi6G7DR/A5zZS7CHXbfjCmlC4ERs/6IDYdEAMAKnnZiAtXbMBMQB01QTZ
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="52" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="tile" tilewidth="8" tileheight="8">
+  <image source="tile.png" width="224" height="32"/>
+ </tileset>
+ <layer name="bg1" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztmNEKAlEIRCsoqH8oKKj//8TuowjL7jDO1QsOiA/Cfdijjuzp1Gq1VLqOuJl8H/Ew2der6z3iY/J3xM9kX6+u5rOWPB+0Xk2eD1qvJpRP9flC+WTPV3T/Z89TdP9nz5Oaz3nExWS11HyeI14mq+W/J8qrmj/574nyquZPs/mo/Wk2H7U/sf0fzZMV2//RPFll84n2p2w+0f40u//Zfbqn2f3P7tM9VePD+lM1PtH+pL630cxKfW+jmVU1Pqw/VeNT3Z9Wmyf0nqg+T82H46P+38LyRO8H9f8Wlid6PzQfTNl8snmx+87zyebF7rvmw0nNx++H1Xn5/bA6LxWfo++swufoO2o+Uby26igfL5RPFK+tOsrHq/mszecPVTpT8Q==
+  </data>
+ </layer>
+ <layer name="bg2" width="52" height="52" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQA0Ab3UP3H1IX8LEQ8eEOQiBtSgEAAAAAAAAAAOClutKCzqavjKCz2f2Q/Z/T/Xf+uWMCZ9oCcQ==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="52" height="52" visible="0">
+  <object name="home" x="192" y="384" width="32" height="32"/>
+  <object name="pl1" x="144" y="384" width="24" height="24"/>
+  <object name="en1" x="0" y="0" width="24" height="24"/>
+  <object name="en2" x="192" y="0" width="24" height="24"/>
+  <object name="en3" x="392" y="0" width="24" height="24"/>
+  <object name="t1" x="308" y="68" width="24" height="24"/>
+  <object name="t2" x="356" y="92" width="24" height="24"/>
+  <object name="t3" x="84" y="308" width="24" height="24"/>
+  <object name="t4" x="4" y="132" width="24" height="24"/>
+  <object name="t5" x="180" y="220" width="24" height="24"/>
+  <object name="t6" x="340" y="156" width="24" height="24"/>
+  <object name="t7" x="116" y="108" width="24" height="24"/>
+  <object name="t8" x="28" y="52" width="24" height="24"/>
+  <object name="t9" x="300" y="388" width="24" height="24"/>
+  <object name="t10" x="244" y="36" width="24" height="24"/>
+ </objectgroup>
+</map>

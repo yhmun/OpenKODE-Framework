@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="12" tilewidth="52" tileheight="31">
+ <tileset firstgid="1" name="map_tile" tilewidth="52" tileheight="52" spacing="2" margin="2">
+  <image source="map_tile.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="37" name="map_meta" tilewidth="52" tileheight="31" spacing="2" margin="2">
+  <image source="map_meta.png" width="56" height="68"/>
+ </tileset>
+ <layer name="map_level_sp_1" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJydU8sKhDAMjKKC7voCdU897P//pAk0MMbGqoGhJk4mD21HRN8LtE78n4jVjIoR6LlJ3gp+iLEq+jPU8PQlfwA9Al/yN4irFYk5tA7q2FOfC4dv+/J0JH+CmH2/mDlyerhH1FOdntExfozxpp6Yt78etBfgNhk9299gTs/e7k9mTn3nxvBS/QU6z331n6+Gp/Vlf59Yt6Tj/VI/dxdL4EvvO5wpBfo=
+  </data>
+ </layer>
+ <layer name="Meta" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJy1UkEOwDAI4jPl/0/clVCZM2tNSI0WNLQLwDoMYh7Oo+gB3/Rp9/1UPRR1R9JJXO9P9qryNLfTo+TeV1+99jY3+Ze4E/9Sv4o//k3eWTnEvlf3D6t9b+AB2g4U3w==
+  </data>
+ </layer>
+</map>

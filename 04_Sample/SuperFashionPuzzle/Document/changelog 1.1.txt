@@ -1,0 +1,15 @@
+Added multitasking support for iOS 4.
+Fixed rename dialog on iOS 4.
+Fixed perfomance problem when matching a correct pair in iPhone 2G/3G with iOS 4.
+Fixed some typos.
+Added local scores are saved always.
+Fixed freezing when submitting a score on iOS 4.
+
+
+
+A–adido soporte para la multitarea.
+Arreglado el di‡logo para introducir el nombre en iOS 4.
+Arreglado problema de rendimiento al hacer una pareja correcta con el iPhone 2G/3G con iOS 4.
+Arreglados algunas faltas de ortograf’a.
+A–adido salvado autom‡tico para las puntuaciones locales.
+Arreglado bloqueo del programa al enviar las puntuaciones a Internet con iOS 4.

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="52" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="tile" tilewidth="8" tileheight="8">
+  <image source="tile.png" width="224" height="32"/>
+ </tileset>
+ <layer name="bg1" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztmVEKAjEMRFdBQe+goKD3P6L9EcrAMo6T0BbyoOSnWzEPs2nctrGc2joL8dLWtYuz8WjrKcRXW+8uzkb50fwc2jp2MRvMf/T+W1v3LmaD+Y/eX348ov2gD6wfri98Xo0I84M+sH64vvB5NSLlZ20/SLQvtp+dz/oFRrQvtp+dz/oFRvnRzkOy/SBqfjF/zLf6eS5qfjF/zLf6eS7lZ24/DFZvWL1S+4NsWL1h9UrtD7IpP2P9sPyxfCPq+z0alj+Wb8R9v7uUn7X8IGp/PHq+Gd0fj54/l5+xfqLn++791e0P2P1Pza97f3X7g/Kzlh8ker7JznfnOWp/7M432fnuPKf8rO3H3a/i3l/V75/dH7v31/Iztx8233TrjYta/9h80603Lmr9y/IT1ZfN4ieqL8v+P+hX9jz82zd/GfV73vPgzj3LTwyj/HwASZBVKQ==
+  </data>
+ </layer>
+ <layer name="bg2" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQA0Ab3UP3H1IX8LEQ8eEOQiBtSgEAAAAAAAAAAOClutKCzqavjKCz2f2Q/Z/T/Xf+uWMCZ9oCcQ==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="52" height="52">
+  <object name="home" x="192" y="384" width="32" height="32"/>
+  <object name="pl1" x="144" y="384" width="24" height="24"/>
+  <object name="en1" x="0" y="0" width="32" height="32"/>
+  <object name="en2" x="192" y="0" width="32" height="32"/>
+  <object name="en3" x="384" y="0" width="32" height="32"/>
+  <object name="t1" x="352" y="152" width="24" height="24"/>
+  <object name="t2" x="348" y="188" width="24" height="24"/>
+  <object name="t3" x="4" y="220" width="24" height="24"/>
+  <object name="t4" x="276" y="380" width="24" height="24"/>
+  <object name="t5" x="108" y="60" width="24" height="24"/>
+  <object name="t6" x="140" y="12" width="24" height="24"/>
+  <object name="t7" x="252" y="196" width="24" height="24"/>
+  <object name="t8" x="364" y="260" width="24" height="24"/>
+  <object name="t9" x="36" y="164" width="24" height="24"/>
+  <object name="t10" x="156" y="68" width="24" height="24"/>
+ </objectgroup>
+</map>

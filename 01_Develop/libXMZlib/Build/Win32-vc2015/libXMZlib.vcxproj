@@ -124,6 +124,7 @@
       <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

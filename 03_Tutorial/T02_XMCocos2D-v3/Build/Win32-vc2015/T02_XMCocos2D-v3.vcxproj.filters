@@ -571,6 +571,9 @@
     <Filter Include="Source\ExtensionsTest\ControlExtensionTest\CCControlSwitchTest">
       <UniqueIdentifier>{b30c538b-5abd-4529-9192-578434f5a098}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\MenuTest">
+      <UniqueIdentifier>{632be676-0bff-432f-9d21-9e5f3d047821}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Icon.ico">
@@ -3310,33 +3313,6 @@
     <ClInclude Include="..\..\Source\MotionStreakTest\MotionStreakTest.h">
       <Filter>Source\MotionStreakTest</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\MenuTest\MenuTest.h">
-      <Filter>Source\LayerTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LayerTest\LayerTest.h">
-      <Filter>Source\LabelTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LabelTest\LabelTest.h">
-      <Filter>Source\KeypadTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LabelTest\LabelTestNew.h">
-      <Filter>Source\KeypadTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KeypadTest\KeypadTest.h">
-      <Filter>Source\KeyboardTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KeyboardTest\KeyboardTest.h">
-      <Filter>Source\IntervalTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\IntervalTest\IntervalTest.h">
-      <Filter>Source\InputTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\InputTest\MouseTest.h">
-      <Filter>Source\FontTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FontTest\FontTest.h">
-      <Filter>Source\FileUtilsTest</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\ExtensionsTest\ExtensionsTest.h">
       <Filter>Source\ExtensionsTest</Filter>
     </ClInclude>
@@ -3553,6 +3529,36 @@
     <ClInclude Include="..\..\Source\ExtensionsTest\CocoStudioGUITest\UICheckBoxTest\UICheckBoxTest.h">
       <Filter>Source\ExtensionsTest\CocoStudioGUITest\UICheckBoxTest</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FileUtilsTest\FileUtilsTest.h">
+      <Filter>Source\FileUtilsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FontTest\FontTest.h">
+      <Filter>Source\FontTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\InputTest\MouseTest.h">
+      <Filter>Source\InputTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IntervalTest\IntervalTest.h">
+      <Filter>Source\IntervalTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KeyboardTest\KeyboardTest.h">
+      <Filter>Source\KeyboardTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KeypadTest\KeypadTest.h">
+      <Filter>Source\KeypadTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LayerTest\LayerTest.h">
+      <Filter>Source\LayerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LabelTest\LabelTest.h">
+      <Filter>Source\LabelTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LabelTest\LabelTestNew.h">
+      <Filter>Source\LabelTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MenuTest\MenuTest.h">
+      <Filter>Source\MenuTest</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\AccelerometerTest\AccelerometerTest.cpp">
@@ -3750,33 +3756,6 @@
     <ClCompile Include="..\..\Source\MotionStreakTest\MotionStreakTest.cpp">
       <Filter>Source\MotionStreakTest</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MenuTest\MenuTest.cpp">
-      <Filter>Source\LayerTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LayerTest\LayerTest.cpp">
-      <Filter>Source\LabelTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LabelTest\LabelTest.cpp">
-      <Filter>Source\KeypadTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LabelTest\LabelTestNew.cpp">
-      <Filter>Source\KeypadTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\KeypadTest\KeypadTest.cpp">
-      <Filter>Source\KeyboardTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\KeyboardTest\KeyboardTest.cpp">
-      <Filter>Source\IntervalTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\IntervalTest\IntervalTest.cpp">
-      <Filter>Source\InputTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\InputTest\MouseTest.cpp">
-      <Filter>Source\FontTest</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FontTest\FontTest.cpp">
-      <Filter>Source\FileUtilsTest</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\ExtensionsTest\ExtensionsTest.cpp">
       <Filter>Source\ExtensionsTest</Filter>
     </ClCompile>
@@ -3950,6 +3929,36 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\ExtensionsTest\CocoStudioGUITest\UICheckBoxTest\UICheckBoxTest.cpp">
       <Filter>Source\ExtensionsTest\CocoStudioGUITest\UICheckBoxTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FileUtilsTest\FileUtilsTest.cpp">
+      <Filter>Source\FileUtilsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FontTest\FontTest.cpp">
+      <Filter>Source\FontTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InputTest\MouseTest.cpp">
+      <Filter>Source\InputTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IntervalTest\IntervalTest.cpp">
+      <Filter>Source\IntervalTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KeyboardTest\KeyboardTest.cpp">
+      <Filter>Source\KeyboardTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KeypadTest\KeypadTest.cpp">
+      <Filter>Source\KeypadTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LayerTest\LayerTest.cpp">
+      <Filter>Source\LayerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LabelTest\LabelTest.cpp">
+      <Filter>Source\LabelTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LabelTest\LabelTestNew.cpp">
+      <Filter>Source\LabelTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MenuTest\MenuTest.cpp">
+      <Filter>Source\MenuTest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

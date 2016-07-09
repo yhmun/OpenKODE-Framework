@@ -74,8 +74,8 @@ typedef int ssize_t;
 #define LWS_EXTERN 
 #endif
 
-#define LWS_NO_DAEMONIZE
-#define LWS_NO_EXTENSIONS
+//#define LWS_NO_DAEMONIZE
+//#define LWS_NO_EXTENSIONS
     
 #define CONTEXT_PORT_NO_LISTEN 0
 #define MAX_MUX_RECURSION 2

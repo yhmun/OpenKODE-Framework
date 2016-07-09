@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-ES|Win32">
+      <Configuration>Debug-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-ES|Win32">
+      <Configuration>Release-ES</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_tts.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3G.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GAnimationController.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GAnimationTrack.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GAppearance.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GBackground.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GCamera.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GCompositingMode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GFog.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GGraphics3D.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GGroup.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GImage2D.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GIndexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GKeyframeSequence.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GLight.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GLoader.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GMaterial.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GMorphingMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GNode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GObject3D.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GPolygonMode.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GRayIntersection.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GSkinnedMesh.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GSprite3D.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GTexture2D.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GTransform.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GTransformable.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GTriangleStripArray.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GVertexArray.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GVertexBuffer.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMM3G\M3GWorld.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h" />
+    <ClInclude Include="..\..\Source\M3GInternal.h" />
+    <ClInclude Include="..\..\Source\M3GKeyframe.h" />
+    <ClInclude Include="..\..\Source\M3GMatrix.h" />
+    <ClInclude Include="..\..\Source\M3GQuaternion.h" />
+    <ClInclude Include="..\..\Source\M3GVector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\M3GAnimationController.cpp" />
+    <ClCompile Include="..\..\Source\M3GAnimationTrack.cpp" />
+    <ClCompile Include="..\..\Source\M3GAppearance.cpp" />
+    <ClCompile Include="..\..\Source\M3GBackground.cpp" />
+    <ClCompile Include="..\..\Source\M3GCamera.cpp" />
+    <ClCompile Include="..\..\Source\M3GCompositingMode.cpp" />
+    <ClCompile Include="..\..\Source\M3GFog.cpp" />
+    <ClCompile Include="..\..\Source\M3GGraphics3D.cpp" />
+    <ClCompile Include="..\..\Source\M3GGroup.cpp" />
+    <ClCompile Include="..\..\Source\M3GImage2D.cpp" />
+    <ClCompile Include="..\..\Source\M3GIndexBuffer.cpp" />
+    <ClCompile Include="..\..\Source\M3GInternal.cpp" />
+    <ClCompile Include="..\..\Source\M3GKeyframe.cpp" />
+    <ClCompile Include="..\..\Source\M3GKeyframeSequence.cpp" />
+    <ClCompile Include="..\..\Source\M3GLight.cpp" />
+    <ClCompile Include="..\..\Source\M3GLoader.cpp" />
+    <ClCompile Include="..\..\Source\M3GMaterial.cpp" />
+    <ClCompile Include="..\..\Source\M3GMatrix.cpp" />
+    <ClCompile Include="..\..\Source\M3GMesh.cpp" />
+    <ClCompile Include="..\..\Source\M3GMorphingMesh.cpp" />
+    <ClCompile Include="..\..\Source\M3GNode.cpp" />
+    <ClCompile Include="..\..\Source\M3GObject3D.cpp" />
+    <ClCompile Include="..\..\Source\M3GPolygonMode.cpp" />
+    <ClCompile Include="..\..\Source\M3GQuaternion.cpp" />
+    <ClCompile Include="..\..\Source\M3GRayIntersection.cpp" />
+    <ClCompile Include="..\..\Source\M3GSkinnedMesh.cpp" />
+    <ClCompile Include="..\..\Source\M3GSprite3D.cpp" />
+    <ClCompile Include="..\..\Source\M3GTexture2D.cpp" />
+    <ClCompile Include="..\..\Source\M3GTransform.cpp" />
+    <ClCompile Include="..\..\Source\M3GTransformable.cpp" />
+    <ClCompile Include="..\..\Source\M3GTriangleStripArray.cpp" />
+    <ClCompile Include="..\..\Source\M3GVector.cpp" />
+    <ClCompile Include="..\..\Source\M3GVertexArray.cpp" />
+    <ClCompile Include="..\..\Source\M3GVertexBuffer.cpp" />
+    <ClCompile Include="..\..\Source\M3GWorld.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A90F4B73-3AF9-43CC-8982-89864F030F17}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TestStatic</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)-ES</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)-ES</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4809;4800</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName)d.lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-ES|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4809;4800</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

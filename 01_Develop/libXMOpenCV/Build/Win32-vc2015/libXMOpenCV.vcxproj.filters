@@ -1,0 +1,1750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\XMKode">
+      <UniqueIdentifier>{38c48e66-d806-421f-96cd-d4fa18a16b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\EGL">
+      <UniqueIdentifier>{86337101-3eff-4240-a687-6bb23d5d8fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES">
+      <UniqueIdentifier>{b5ffca75-cdd7-42a5-8ac5-145fd5d2c08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLES2">
+      <UniqueIdentifier>{cc9c1f12-1bda-4a58-9c92-bed40bea94d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KD">
+      <UniqueIdentifier>{6aa8aa38-c520-45c9-b748-6408bec0d005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\ATX">
+      <UniqueIdentifier>{dad2b003-7d4b-41c4-8f36-cb5ef9391464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\KHR">
+      <UniqueIdentifier>{d073d01d-5c74-430a-b95a-1b38f4abbd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\XM">
+      <UniqueIdentifier>{825d6b50-b4d1-4e16-8799-6ef59646cf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMKode\GLUES">
+      <UniqueIdentifier>{3c43f451-73e0-49ac-bf69-4f7cde59455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib">
+      <UniqueIdentifier>{1277a261-01a6-40e1-ad19-fedc5ccb1fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib">
+      <UniqueIdentifier>{64002303-ae6b-4e5c-b93b-57592a1d8f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMZlib\contrib\minizip">
+      <UniqueIdentifier>{1130abcf-4b1c-430b-a047-7d47e430f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\calib3d">
+      <UniqueIdentifier>{932518de-935d-4535-8459-81477e0f5306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\contrib">
+      <UniqueIdentifier>{c1d2efa8-a258-41e8-aa85-daa55926baa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\core">
+      <UniqueIdentifier>{7c22728c-aba8-4281-ac07-79aefbb9bcc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\features2d">
+      <UniqueIdentifier>{2ecbb2be-cb33-41dd-b3d1-edc33c3c9c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\flann">
+      <UniqueIdentifier>{15b71021-3119-49b8-bf2b-0dcf3d3de0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\gpu">
+      <UniqueIdentifier>{092ebf97-0365-422d-b8e2-534eed1e192f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\highgui">
+      <UniqueIdentifier>{3a16581d-446d-4553-8cde-abe16f45afeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\imgproc">
+      <UniqueIdentifier>{a5ed004d-94a0-414b-b8fb-bf41aba409e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\legacy">
+      <UniqueIdentifier>{c6ba90b1-69b7-4e89-b813-e229a6310a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ml">
+      <UniqueIdentifier>{68fdca6d-8b5e-4e98-bbf4-e9f742d9ba4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\nonfree">
+      <UniqueIdentifier>{79eec21e-e9c8-4787-8aaf-c792a0ea1dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\objdetect">
+      <UniqueIdentifier>{c4600281-5bd9-4c8d-9964-af5e7b157826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\photo">
+      <UniqueIdentifier>{351c48c2-8307-4764-a34e-ef0b18de075c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\stitching">
+      <UniqueIdentifier>{193de6f0-f736-430c-8986-e757b18f54d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ts">
+      <UniqueIdentifier>{4a1fee0e-e1cb-41a4-9ffd-bd5a1a041299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\video">
+      <UniqueIdentifier>{94b7c65a-ce11-4328-a0a5-3eb17f3f3926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\videostab">
+      <UniqueIdentifier>{3fa36fb5-ea24-4062-91cd-560f1fa3e8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV">
+      <UniqueIdentifier>{4a2dd219-5d18-44a0-a537-3bbf64818782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2">
+      <UniqueIdentifier>{156bd65e-9f8e-4a16-9dea-1457dfd320e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\calib3d">
+      <UniqueIdentifier>{0d879437-9d3d-491f-a308-1d5b095bb7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\contrib">
+      <UniqueIdentifier>{61387f18-14c0-4b94-95a2-1d48c84861b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\core">
+      <UniqueIdentifier>{150c7a55-1db0-456c-adec-364d8edc40d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\features2d">
+      <UniqueIdentifier>{d9c46476-bd0d-4567-8962-4edca2eb8039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\flann">
+      <UniqueIdentifier>{93891a09-c181-4e52-a837-b1852acb464e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\gpu">
+      <UniqueIdentifier>{c9d25e54-dd1b-4991-824e-2d1b7ab56f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\highgui">
+      <UniqueIdentifier>{ed6393a4-19e3-4cdb-9cc2-5b4573ae53b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\imgproc">
+      <UniqueIdentifier>{bd0d0bfc-3c0d-4e97-9b5c-9a948aa79876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\legacy">
+      <UniqueIdentifier>{e8f6acb2-dc1b-46ae-bfb6-878c9e738573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\ml">
+      <UniqueIdentifier>{ca00a50f-9af2-4a51-97a5-3f083daba345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\nonfree">
+      <UniqueIdentifier>{d15c412a-2346-42c7-804b-4c3ecccc0a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\objdetect">
+      <UniqueIdentifier>{64b6187a-e786-4219-8720-d6d9521641b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\photo">
+      <UniqueIdentifier>{db056944-9b11-4c26-bb36-41f094224203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\stitching">
+      <UniqueIdentifier>{2fd413df-d0d4-4999-aa46-4793ef1a8a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\ts">
+      <UniqueIdentifier>{b2d22422-abb7-4016-b0ba-9fd7a5acb9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\video">
+      <UniqueIdentifier>{3048d035-bf3e-4409-9e1e-16eba2abbd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\videostab">
+      <UniqueIdentifier>{ac86dd1e-b658-4179-9aff-01052ecdb7a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\XMOpenCV2\stitching\detail">
+      <UniqueIdentifier>{bd888691-8d8f-4298-8600-f9e93c96f143}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_ext.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\EGL\egl_platform.h">
+      <Filter>Include\XMKode\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_ext.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES\gl_platform.h">
+      <Filter>Include\XMKode\GLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_ext.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLES2\gl2_platform.h">
+      <Filter>Include\XMKode\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KD\kd_platform.h">
+      <Filter>Include\XMKode\KD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_matrix.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_vector.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_nmea.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_queue.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\XM\xm_sound.h">
+      <Filter>Include\XMKode\XM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_float64.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_thread_storage.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_formatted.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_perfcounter.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\KHR\khr_platform.h">
+      <Filter>Include\XMKode\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_bluetooth.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_dxtcomp.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_jpeg.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_png.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\ATX\atx_imgdec_pvr.h">
+      <Filter>Include\XMKode\ATX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\kode.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\platform.h">
+      <Filter>Include\XMKode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMKode\GLUES\glu_platform.h">
+      <Filter>Include\XMKode\GLUES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zconf.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\zlib.h">
+      <Filter>Include\XMZlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\ioapi.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\unzip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMZlib\contrib\minizip\zip.h">
+      <Filter>Include\XMZlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cv.h">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cv.hpp">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cvaux.h">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cvaux.hpp">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cvwimage.h">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cxcore.h">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cxcore.hpp">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cxeigen.hpp">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\cxmisc.h">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\highgui.h">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV\ml.h">
+      <Filter>Include\XMOpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\calib3d\calib3d.hpp">
+      <Filter>Include\XMOpenCV2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\contrib\contrib.hpp">
+      <Filter>Include\XMOpenCV2\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\contrib\detection_based_tracker.hpp">
+      <Filter>Include\XMOpenCV2\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\contrib\hybridtracker.hpp">
+      <Filter>Include\XMOpenCV2\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\contrib\retina.hpp">
+      <Filter>Include\XMOpenCV2\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\core.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\core_c.h">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\devmem2d.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\eigen.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\gpumat.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\internal.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\mat.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\opengl_interop.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\operations.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\types_c.h">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\version.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\core\wimage.hpp">
+      <Filter>Include\XMOpenCV2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\features2d\features2d.hpp">
+      <Filter>Include\XMOpenCV2\features2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\all_indices.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\allocator.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\any.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\autotuned_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\composite_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\config.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\defines.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\dist.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\dummy.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\dynamic_bitset.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\flann.hpp">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\flann_base.hpp">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\general.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\ground_truth.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\hdf5.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\heap.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\hierarchical_clustering_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\index_testing.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\kdtree_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\kdtree_single_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\kmeans_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\linear_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\logger.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\lsh_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\lsh_table.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\matrix.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\miniflann.hpp">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\nn_index.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\object_factory.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\params.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\random.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\result_set.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\sampling.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\saving.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\simplex_downhill.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\flann\timer.h">
+      <Filter>Include\XMOpenCV2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\gpu\devmem2d.hpp">
+      <Filter>Include\XMOpenCV2\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\gpu\gpu.hpp">
+      <Filter>Include\XMOpenCV2\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\gpu\gpumat.hpp">
+      <Filter>Include\XMOpenCV2\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\gpu\stream_accessor.hpp">
+      <Filter>Include\XMOpenCV2\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\highgui\highgui.hpp">
+      <Filter>Include\XMOpenCV2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\highgui\highgui_c.h">
+      <Filter>Include\XMOpenCV2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\imgproc\imgproc.hpp">
+      <Filter>Include\XMOpenCV2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\imgproc\imgproc_c.h">
+      <Filter>Include\XMOpenCV2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\imgproc\types_c.h">
+      <Filter>Include\XMOpenCV2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\legacy\blobtrack.hpp">
+      <Filter>Include\XMOpenCV2\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\legacy\compat.hpp">
+      <Filter>Include\XMOpenCV2\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\legacy\legacy.hpp">
+      <Filter>Include\XMOpenCV2\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\legacy\streams.hpp">
+      <Filter>Include\XMOpenCV2\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\ml\ml.hpp">
+      <Filter>Include\XMOpenCV2\ml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\nonfree\features2d.hpp">
+      <Filter>Include\XMOpenCV2\nonfree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\nonfree\nonfree.hpp">
+      <Filter>Include\XMOpenCV2\nonfree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\objdetect\objdetect.hpp">
+      <Filter>Include\XMOpenCV2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\photo\photo.hpp">
+      <Filter>Include\XMOpenCV2\photo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\photo\photo_c.h">
+      <Filter>Include\XMOpenCV2\photo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\stitcher.hpp">
+      <Filter>Include\XMOpenCV2\stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\warpers.hpp">
+      <Filter>Include\XMOpenCV2\stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\autocalib.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\blenders.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\camera.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\exposure_compensate.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\matchers.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\motion_estimators.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\seam_finders.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\util.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\util_inl.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\warpers.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\stitching\detail\warpers_inl.hpp">
+      <Filter>Include\XMOpenCV2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\ts\ts.hpp">
+      <Filter>Include\XMOpenCV2\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\ts\ts_gtest.h">
+      <Filter>Include\XMOpenCV2\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\ts\ts_perf.hpp">
+      <Filter>Include\XMOpenCV2\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\video\background_segm.hpp">
+      <Filter>Include\XMOpenCV2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\video\tracking.hpp">
+      <Filter>Include\XMOpenCV2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\video\video.hpp">
+      <Filter>Include\XMOpenCV2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\deblurring.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\fast_marching.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\fast_marching_inl.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\frame_source.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\global_motion.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\inpainting.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\log.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\motion_stabilizing.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\optical_flow.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\stabilizer.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\videostab\videostab.hpp">
+      <Filter>Include\XMOpenCV2\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\opencv.hpp">
+      <Filter>Include\XMOpenCV2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\02_Library\Include\XMOpenCV2\opencv_modules.hpp">
+      <Filter>Include\XMOpenCV2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\calib3d\_modelest.h">
+      <Filter>Source\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\calib3d\circlesgrid.hpp">
+      <Filter>Source\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\calib3d\epnp.h">
+      <Filter>Source\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\calib3d\p3p.h">
+      <Filter>Source\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\calib3d\polynom_solver.h">
+      <Filter>Source\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\calib3d\precomp.hpp">
+      <Filter>Source\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\contrib\basicretinafilter.hpp">
+      <Filter>Source\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\contrib\imagelogpolprojection.hpp">
+      <Filter>Source\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\contrib\magnoretinafilter.hpp">
+      <Filter>Source\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\contrib\parvoretinafilter.hpp">
+      <Filter>Source\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\contrib\precomp.hpp">
+      <Filter>Source\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\contrib\retinacolor.hpp">
+      <Filter>Source\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\contrib\retinafilter.hpp">
+      <Filter>Source\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\contrib\templatebuffer.hpp">
+      <Filter>Source\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\core\precomp.hpp">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\features2d\precomp.hpp">
+      <Filter>Source\features2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\flann\precomp.hpp">
+      <Filter>Source\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gpu\precomp.hpp">
+      <Filter>Source\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\bitstrm.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\cap_ffmpeg_api.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\cap_ffmpeg_impl.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\cap_ffmpeg_impl_v2.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_base.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_bmp.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_exr.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_imageio.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_jpeg.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_jpeg2000.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_png.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_pxm.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_sunras.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmt_tiff.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\grfmts.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\precomp.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\highgui\utils.hpp">
+      <Filter>Source\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\imgproc\_featuretree.h">
+      <Filter>Source\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\imgproc\_geom.h">
+      <Filter>Source\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\imgproc\_imgproc.h">
+      <Filter>Source\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\imgproc\_kdtree.hpp">
+      <Filter>Source\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\imgproc\_list.h">
+      <Filter>Source\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\imgproc\gcgraph.hpp">
+      <Filter>Source\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\imgproc\precomp.hpp">
+      <Filter>Source\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\legacy\_facedetection.h">
+      <Filter>Source\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\legacy\_matrix.h">
+      <Filter>Source\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\legacy\_vectrack.h">
+      <Filter>Source\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\legacy\_vm.h">
+      <Filter>Source\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\legacy\face.h">
+      <Filter>Source\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\legacy\facedetection.h">
+      <Filter>Source\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\legacy\facetemplate.h">
+      <Filter>Source\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\legacy\precomp.hpp">
+      <Filter>Source\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ml\precomp.hpp">
+      <Filter>Source\ml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\nonfree\precomp.hpp">
+      <Filter>Source\nonfree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_latentsvm.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvm_distancetransform.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvm_error.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvm_fft.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvm_matching.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvm_resizeimg.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvm_routine.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvm_tbbversion.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvm_types.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\_lsvmparser.h">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\cascadedetect.hpp">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\objdetect\precomp.hpp">
+      <Filter>Source\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\photo\precomp.hpp">
+      <Filter>Source\photo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\stitching\precomp.hpp">
+      <Filter>Source\stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ts\precomp.hpp">
+      <Filter>Source\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\video\precomp.hpp">
+      <Filter>Source\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\videostab\precomp.hpp">
+      <Filter>Source\videostab</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\calib3d\calibinit.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\calibration.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\checkchessboard.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\circlesgrid.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\epnp.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\fundam.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\modelest.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\p3p.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\polynom_solver.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\posit.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\quadsubpix.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\solvepnp.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\stereobm.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\stereogc.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\stereosgbm.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\calib3d\triangulate.cpp">
+      <Filter>Source\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\adaptiveskindetector.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\ba.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\basicretinafilter.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\chamfermatching.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\colortracker.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\detection_based_tracker.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\featuretracker.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\fuzzymeanshifttracker.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\gencolors.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\hybridtracker.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\imagelogpolprojection.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\inputoutput.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\logpolar_bsm.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\magnoretinafilter.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\octree.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\parvoretinafilter.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\polyfit.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\retina.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\retinacolor.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\retinafilter.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\rgbdodometry.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\selfsimilarity.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\spinimages.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\contrib\stereovar.cpp">
+      <Filter>Source\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\algorithm.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\alloc.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\arithm.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\array.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\cmdparser.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\convert.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\copy.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\datastructs.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\drawing.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\dxt.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\gpumat.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\lapack.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\mathfuncs.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\matmul.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\matop.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\matrix.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\opengl_interop.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\out.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\persistence.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\rand.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\stat.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\system.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\core\tables.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\bagofwords.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\blobdetector.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\brief.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\descriptors.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\detectors.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\draw.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\dynamic.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\evaluation.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\fast.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\keypoint.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\matchers.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\mser.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\orb.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\features2d\stardetector.cpp">
+      <Filter>Source\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\flann\flann.cpp">
+      <Filter>Source\flann</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\flann\miniflann.cpp">
+      <Filter>Source\flann</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\arithm_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\bilateral_filter.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\blend.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\brute_force_matcher.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\calib3d.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\cascadeclassifier.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\color_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\cudastream.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\element_operations.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\fast_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\filtering.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\gftt.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\graphcuts.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\hog_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\imgproc.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\initialization.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\match_template.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\matrix_operations.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\matrix_reductions.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\mssegmentation.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\optical_flow_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\optical_flow_farneback.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\orb_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\pyramids_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\pyrlk.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\remap.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\resize.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\speckle_filtering.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\split_merge.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\stereobp.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\stereocsbp.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\surf_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\warp.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\bitstrm.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\cap.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\cap_dshow.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\cap_ffmpeg.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\cap_ffmpeg_v2.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\cap_images.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\grfmt_base.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\grfmt_bmp.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\grfmt_jpeg.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\grfmt_png.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\grfmt_pxm.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\grfmt_sunras.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\grfmt_tiff.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\loadsave.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\utils_.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\highgui\window.cpp">
+      <Filter>Source\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\accum.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\approx.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\canny.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\color.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\contours.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\convhull.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\corner.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\cornersubpix.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\deriv.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\distransform.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\emd.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\featureselect.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\featuretree.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\filter.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\floodfill.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\gabor.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\geometry.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\grabcut.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\histogram.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\hough.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\imgwarp.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\kdtree.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\linefit.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\lsh.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\matchcontours.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\moments.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\morph.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\phasecorr.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\pyramids.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\pyrsegmentation.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\rotcalipers.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\samplers.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\segmentation.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\shapedescr.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\smooth.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\spilltree.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\subdivision2d.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\sumpixels.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\tables_.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\templmatch.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\thresh.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\undistort.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\imgproc\utils.cpp">
+      <Filter>Source\imgproc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\3dtracker.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\bgfg_estimation.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrack.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackanalysis.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackanalysishist.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackanalysisior.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackanalysistrackdist.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackgen1.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackgenyml.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackingauto.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackingcc.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackingccwithcr.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackingkalman.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackinglist.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackingmsfg.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackingmsfgs.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackpostprockalman.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackpostproclinear.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\blobtrackpostproclist.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\calcimagehomography.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\calibfilter.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\calonder.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\compat.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\condens.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\contourtree.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\correspond.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\corrimages.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\createhandmask.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\dominants.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\dpstereo.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\eigenobjects.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\enteringblobdetection.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\enteringblobdetectionreal.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\epilines.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\extendededges.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\face.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\facedetection.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\facetemplate.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\features2d.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\findface.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\findhandregion.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\hmm.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\hmmobs.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\image.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\lcm.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\lee.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\levmar.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\levmarprojbandle.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\levmartrif.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\lines.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\lmeds.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\morphcontours.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\morphing.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\oneway.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\pgh.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\planardetect.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\prewarp.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\scanlines.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\segment.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\snakes.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\subdiv2.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\testseq.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\texture.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\trifocal.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\vecfacetracking.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\video.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\ann_mlp.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\boost.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\data.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\em.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\ertrees.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\gbt.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\inner_functions.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\knearest.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\nbayes.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\rtrees.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\svm.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\testset.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ml\tree.cpp">
+      <Filter>Source\ml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\nonfree\sift.cpp">
+      <Filter>Source\nonfree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\nonfree\surf.cpp">
+      <Filter>Source\nonfree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\cascadedetect.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\datamatrix.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\distancetransform.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\featurepyramid.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\fft.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\haar.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\hog.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\latentsvm.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\latentsvmdetector.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\linemod.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\lsvmparser.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\matching.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\resizeimg.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\objdetect\routine.cpp">
+      <Filter>Source\objdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\photo\inpaint.cpp">
+      <Filter>Source\photo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\autocalib.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\blenders.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\camera.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\exposure_compensate.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\matchers_.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\motion_estimators.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\seam_finders.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\stitcher.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\util.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\stitching\warpers.cpp">
+      <Filter>Source\stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ts\ts.cpp">
+      <Filter>Source\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ts\ts_arrtest.cpp">
+      <Filter>Source\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ts\ts_func.cpp">
+      <Filter>Source\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ts\ts_gtest.cpp">
+      <Filter>Source\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ts\ts_perf.cpp">
+      <Filter>Source\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\bgfg_acmmm2003.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\bgfg_codebook.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\bgfg_common.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\bgfg_gaussmix.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\bgfg_gaussmix2.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\camshift.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\kalman.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\lkpyramid.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\motempl.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\optflowbm.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\optflowgf.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\optflowhs.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\video\optflowlk.cpp">
+      <Filter>Source\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\deblurring.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\fast_marching.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\frame_source.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\global_motion.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\inpainting.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\log.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\motion_stabilizing.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\optical_flow.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\videostab\stabilizer.cpp">
+      <Filter>Source\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\legacy\camshift_.cpp">
+      <Filter>Source\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gpu\stereobm_.cpp">
+      <Filter>Source\gpu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\objdetect\normal_lut.i">
+      <Filter>Source\objdetect</Filter>
+    </None>
+  </ItemGroup>
+</Project>

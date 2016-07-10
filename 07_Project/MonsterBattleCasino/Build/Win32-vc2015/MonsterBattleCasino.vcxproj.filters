@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Define">
+      <UniqueIdentifier>{f2aea7b7-5790-4256-808a-fc5206d542a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object">
+      <UniqueIdentifier>{fd7a535a-6774-43b9-878f-b8c8a136af01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Label">
+      <UniqueIdentifier>{cf65151d-1fcf-427a-8bfe-98ff1fc80438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Sprite">
+      <UniqueIdentifier>{48a23df4-ab17-476f-a673-bc61adcfb6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CasinoNode">
+      <UniqueIdentifier>{f42733f3-d60b-4246-9734-462e1f021723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CasinoNode\CasinoBattleNode">
+      <UniqueIdentifier>{55f80a03-0ca6-452a-9f7b-8df7ac6b6912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CasinoNode\CasinoBetNode">
+      <UniqueIdentifier>{b3732a95-147b-4e41-b48d-7ec602609c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CasinoNode\CasinoResultNode">
+      <UniqueIdentifier>{c00e1da9-01ee-419e-b19b-8facd99a59bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CasinoNode\CasinoBattleNode\Status">
+      <UniqueIdentifier>{243547d4-c6f8-4e91-8794-84eb930ef1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DormationNode">
+      <UniqueIdentifier>{d75621c3-d2e0-4ec4-a956-01caf396e49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MyData">
+      <UniqueIdentifier>{f7e3fbb0-f11d-4808-b3fc-621ed8d2e5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MyRoomNode">
+      <UniqueIdentifier>{fc190101-3442-43c8-83c5-39156bff54d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Menu">
+      <UniqueIdentifier>{bee30e83-8dd5-42e0-922f-d8767a8cb360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\NodeChageImgs">
+      <UniqueIdentifier>{1fb45e8b-78cb-446f-8bda-c84c47750587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\NumScroll">
+      <UniqueIdentifier>{a8737f0c-cf8e-4ed4-a436-07f289c8f27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Particle">
+      <UniqueIdentifier>{5c767bfd-3531-43d4-9bc2-b79ebcd06d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\TimeGetMoney">
+      <UniqueIdentifier>{2d5ec663-cc56-4cec-9039-928c9736c168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ShopNode">
+      <UniqueIdentifier>{4619a6fe-6353-4af1-8c2f-80ddd1a6d33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TitleNode">
+      <UniqueIdentifier>{a7a255e2-1def-4fcd-8fd0-16a1afca5d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TowerNode">
+      <UniqueIdentifier>{2d8eba8a-ee6e-4fbc-979d-3518ca6f364b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Unit">
+      <UniqueIdentifier>{dfda9703-fc44-4a3c-aa37-a95f3f17470e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TitleNode\Comback">
+      <UniqueIdentifier>{4d06dff9-d21b-448a-b956-cbf2888cda30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TitleNode\Intro">
+      <UniqueIdentifier>{2d8cb480-dc6b-433b-8a7c-c799444b78a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TitleNode\Logo">
+      <UniqueIdentifier>{d5cea899-1c49-4083-8346-72e78b8a9425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TitleNode\Main">
+      <UniqueIdentifier>{fbd909ef-b441-495a-8cd1-f19cdc225f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TitleNode\Manual">
+      <UniqueIdentifier>{30a1a091-fb73-4d54-9e6e-8313b1c33559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TitleNode\Map">
+      <UniqueIdentifier>{4873cf3c-defd-42ef-89c8-0f71dbbed153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Unit\Commander">
+      <UniqueIdentifier>{22c49b95-2970-416a-a727-b5f67bd3e636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Unit\Create">
+      <UniqueIdentifier>{6bb9a802-a020-4c1e-b3fa-d5086d15344c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Unit\UI">
+      <UniqueIdentifier>{5c0640ff-5510-4840-933f-026e289b8841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Unit\Unit">
+      <UniqueIdentifier>{819dcab1-6465-4418-9e9c-fec75c7f7dbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AppDelegate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Define\Define.cpp">
+      <Filter>Source\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CasinoNode\CasinoBattleNode\CasinoBattleNode.cpp">
+      <Filter>Source\CasinoNode\CasinoBattleNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CasinoNode\CasinoBattleNode\Status\CasinoBattleStatus.cpp">
+      <Filter>Source\CasinoNode\CasinoBattleNode\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CasinoNode\CasinoBetNode\CasinoBetNode.cpp">
+      <Filter>Source\CasinoNode\CasinoBetNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CasinoNode\CasinoResultNode\CasinoResultNode.cpp">
+      <Filter>Source\CasinoNode\CasinoResultNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyData\MyData.cpp">
+      <Filter>Source\MyData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyRoomNode\MyRoomNode.cpp">
+      <Filter>Source\MyRoomNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Label\LabelAtlas.cpp">
+      <Filter>Source\Object\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Label\LabelAtlasCustom.cpp">
+      <Filter>Source\Object\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Label\Labels.cpp">
+      <Filter>Source\Object\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Menu\SoundMenuItem.cpp">
+      <Filter>Source\Object\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\TimeGetMoney\TimeGetMoney.cpp">
+      <Filter>Source\Object\TimeGetMoney</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Particle\Particle.cpp">
+      <Filter>Source\Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\NumScroll\NumScroll.cpp">
+      <Filter>Source\Object\NumScroll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\NodeChageImgs\NodeChangeImgs.cpp">
+      <Filter>Source\Object\NodeChageImgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Sprite\SprAni.cpp">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Sprite\SprAnis.cpp">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Sprite\SprEffects.cpp">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Sprite\Sprite.cpp">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShopNode\ShopNode.cpp">
+      <Filter>Source\ShopNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TitleNode\Comback\CombackNode.cpp">
+      <Filter>Source\TitleNode\Comback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TitleNode\Intro\IntroNode.cpp">
+      <Filter>Source\TitleNode\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TitleNode\Logo\LogoNode.cpp">
+      <Filter>Source\TitleNode\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TitleNode\Main\MainNode.cpp">
+      <Filter>Source\TitleNode\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TitleNode\Manual\ManualNode.cpp">
+      <Filter>Source\TitleNode\Manual</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unit\Commander\UnitCommander.cpp">
+      <Filter>Source\Unit\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unit\Commander\UnitCommanderCasino.cpp">
+      <Filter>Source\Unit\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unit\Commander\UnitCommanderTower.cpp">
+      <Filter>Source\Unit\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unit\Create\MobDividend.cpp">
+      <Filter>Source\Unit\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unit\Create\UnitCreateInfos.cpp">
+      <Filter>Source\Unit\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unit\Unit\Unit.cpp">
+      <Filter>Source\Unit\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unit\UI\MobCasinoStatus.cpp">
+      <Filter>Source\Unit\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Define\Define.h">
+      <Filter>Source\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Define\LayerDefine.h">
+      <Filter>Source\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Define\MacroUtil.h">
+      <Filter>Source\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CasinoNode\CasinoBattleNode\CasinoBattleNode.h">
+      <Filter>Source\CasinoNode\CasinoBattleNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CasinoNode\CasinoBattleNode\Status\CasinoBattleStatus.h">
+      <Filter>Source\CasinoNode\CasinoBattleNode\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CasinoNode\CasinoBetNode\CasinoBetNode.h">
+      <Filter>Source\CasinoNode\CasinoBetNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CasinoNode\CasinoResultNode\CasinoResultNode.h">
+      <Filter>Source\CasinoNode\CasinoResultNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyData\MyData.h">
+      <Filter>Source\MyData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyRoomNode\MyRoomNode.h">
+      <Filter>Source\MyRoomNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Label\LabelAtlas.h">
+      <Filter>Source\Object\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Label\LabelAtlasCustom.h">
+      <Filter>Source\Object\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Label\Labels.h">
+      <Filter>Source\Object\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Menu\SoundMenuItem.h">
+      <Filter>Source\Object\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\TimeGetMoney\TimeGetMoney.h">
+      <Filter>Source\Object\TimeGetMoney</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Particle\Particle.h">
+      <Filter>Source\Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\NumScroll\NumScroll.h">
+      <Filter>Source\Object\NumScroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\NodeChageImgs\NodeChangeImgs.h">
+      <Filter>Source\Object\NodeChageImgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Sprite\SprAni.h">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Sprite\SprAnis.h">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Sprite\SprEffects.h">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Sprite\Sprite.h">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShopNode\ShopNode.h">
+      <Filter>Source\ShopNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TitleNode\Comback\CombackNode.h">
+      <Filter>Source\TitleNode\Comback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TitleNode\Intro\IntroNode.h">
+      <Filter>Source\TitleNode\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TitleNode\Logo\LogoNode.h">
+      <Filter>Source\TitleNode\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TitleNode\Main\MainNode.h">
+      <Filter>Source\TitleNode\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TitleNode\Manual\ManualNode.h">
+      <Filter>Source\TitleNode\Manual</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unit\Commander\UnitCommander.h">
+      <Filter>Source\Unit\Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unit\Commander\UnitCommanderCasino.h">
+      <Filter>Source\Unit\Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unit\Commander\UnitCommanderTower.h">
+      <Filter>Source\Unit\Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unit\Create\MobDividend.h">
+      <Filter>Source\Unit\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unit\Create\UnitCreateInfos.h">
+      <Filter>Source\Unit\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unit\Unit\Unit.h">
+      <Filter>Source\Unit\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unit\UI\MobCasinoStatus.h">
+      <Filter>Source\Unit\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

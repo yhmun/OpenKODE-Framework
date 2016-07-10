@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sprite_info>
+    <file_name file_name="sample.spr" />
+</sprite_info>
+
+<parameter_info>
+    <info hp_min  = "10" hp_max  = "20"
+          atk_min = "5"  atk_max = "10"
+		  def_min = "5"  def_max = "10"
+		  agl_min = "10" agl_max = "20"
+		  crt_min = "10" crt_max = "20" />
+</parameter_info>
+
+<script_info>
+
+	<info	CHANCE="20"
+
+			ATTACK_ACT=""
+			TARGET_ONE=""
+			MSG="//NUM_MY번 그린 드래곤이 //NUM_TARGET번 //NAME_TARGET을 몽둥이로 공격 했습니다."
+			WAIT_EVENT=""
+			MSG_CLEAR=""
+
+			DAMAGE=""
+			EFFECT_TARGET="knife"
+			EFFECT_FLICKER_TARGET=""
+			MSG = "//NUM_TARGET번 //NAME_TARGET가 //SUB데미지를 입었습니다."
+			WAIT_EVENT=""
+			MSG_CLEAR=""	/>
+
+	<info	CHANCE="10"
+
+			SPECIAL_ACT=""
+			TARGET_RAND=""
+			MSG="//NUM_MY번 그린 드래곤이 //NUM_TARGET번 //NAME_TARGET에게 특정 동작을 수행 하였습니다."
+			WAIT_EVENT=""
+			MSG_CLEAR=""
+
+			EFFECT_TARGET="sparkling"
+			ATK="100"
+			MSG="//NUM_TARGET번 //NAME_TARGET의 공격력이 //SUB올랐습니다."
+			WAIT_TIME="1.5"
+			MSG_CLEAR=""
+			DEF="-500"
+			MSG="//NUM_TARGET번 //NAME_TARGET의 방어력이 //SUB떨어졌습니다."
+			WAIT_TIME="1.5"
+			MSG_CLEAR=""
+			WAIT_EVENT=""	/>
+	
+</script_info>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AppDelegate.cpp" />
+    <ClCompile Include="..\..\Source\CasinoNode\CasinoBattleNode\CasinoBattleNode.cpp" />
+    <ClCompile Include="..\..\Source\CasinoNode\CasinoBattleNode\Status\CasinoBattleStatus.cpp" />
+    <ClCompile Include="..\..\Source\CasinoNode\CasinoBetNode\CasinoBetNode.cpp" />
+    <ClCompile Include="..\..\Source\CasinoNode\CasinoResultNode\CasinoResultNode.cpp" />
+    <ClCompile Include="..\..\Source\Define\Define.cpp" />
+    <ClCompile Include="..\..\Source\MyData\MyData.cpp" />
+    <ClCompile Include="..\..\Source\MyRoomNode\MyRoomNode.cpp" />
+    <ClCompile Include="..\..\Source\Object\Label\LabelAtlas.cpp" />
+    <ClCompile Include="..\..\Source\Object\Label\LabelAtlasCustom.cpp" />
+    <ClCompile Include="..\..\Source\Object\Label\Labels.cpp" />
+    <ClCompile Include="..\..\Source\Object\Menu\SoundMenuItem.cpp" />
+    <ClCompile Include="..\..\Source\Object\NodeChageImgs\NodeChangeImgs.cpp" />
+    <ClCompile Include="..\..\Source\Object\NumScroll\NumScroll.cpp" />
+    <ClCompile Include="..\..\Source\Object\Particle\Particle.cpp" />
+    <ClCompile Include="..\..\Source\Object\Sprite\SprAni.cpp" />
+    <ClCompile Include="..\..\Source\Object\Sprite\SprAnis.cpp" />
+    <ClCompile Include="..\..\Source\Object\Sprite\SprEffects.cpp" />
+    <ClCompile Include="..\..\Source\Object\Sprite\Sprite.cpp" />
+    <ClCompile Include="..\..\Source\Object\TimeGetMoney\TimeGetMoney.cpp" />
+    <ClCompile Include="..\..\Source\ShopNode\ShopNode.cpp" />
+    <ClCompile Include="..\..\Source\TitleNode\Comback\CombackNode.cpp" />
+    <ClCompile Include="..\..\Source\TitleNode\Intro\IntroNode.cpp" />
+    <ClCompile Include="..\..\Source\TitleNode\Logo\LogoNode.cpp" />
+    <ClCompile Include="..\..\Source\TitleNode\Main\MainNode.cpp" />
+    <ClCompile Include="..\..\Source\TitleNode\Manual\ManualNode.cpp" />
+    <ClCompile Include="..\..\Source\Unit\Commander\UnitCommander.cpp" />
+    <ClCompile Include="..\..\Source\Unit\Commander\UnitCommanderCasino.cpp" />
+    <ClCompile Include="..\..\Source\Unit\Commander\UnitCommanderTower.cpp" />
+    <ClCompile Include="..\..\Source\Unit\Create\MobDividend.cpp" />
+    <ClCompile Include="..\..\Source\Unit\Create\UnitCreateInfos.cpp" />
+    <ClCompile Include="..\..\Source\Unit\UI\MobCasinoStatus.cpp" />
+    <ClCompile Include="..\..\Source\Unit\Unit\Unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CasinoNode\CasinoBattleNode\CasinoBattleNode.h" />
+    <ClInclude Include="..\..\Source\CasinoNode\CasinoBattleNode\Status\CasinoBattleStatus.h" />
+    <ClInclude Include="..\..\Source\CasinoNode\CasinoBetNode\CasinoBetNode.h" />
+    <ClInclude Include="..\..\Source\CasinoNode\CasinoResultNode\CasinoResultNode.h" />
+    <ClInclude Include="..\..\Source\Define\Define.h" />
+    <ClInclude Include="..\..\Source\Define\LayerDefine.h" />
+    <ClInclude Include="..\..\Source\Define\MacroUtil.h" />
+    <ClInclude Include="..\..\Source\MyData\MyData.h" />
+    <ClInclude Include="..\..\Source\MyRoomNode\MyRoomNode.h" />
+    <ClInclude Include="..\..\Source\Object\Label\LabelAtlas.h" />
+    <ClInclude Include="..\..\Source\Object\Label\LabelAtlasCustom.h" />
+    <ClInclude Include="..\..\Source\Object\Label\Labels.h" />
+    <ClInclude Include="..\..\Source\Object\Menu\SoundMenuItem.h" />
+    <ClInclude Include="..\..\Source\Object\NodeChageImgs\NodeChangeImgs.h" />
+    <ClInclude Include="..\..\Source\Object\NumScroll\NumScroll.h" />
+    <ClInclude Include="..\..\Source\Object\Particle\Particle.h" />
+    <ClInclude Include="..\..\Source\Object\Sprite\SprAni.h" />
+    <ClInclude Include="..\..\Source\Object\Sprite\SprAnis.h" />
+    <ClInclude Include="..\..\Source\Object\Sprite\SprEffects.h" />
+    <ClInclude Include="..\..\Source\Object\Sprite\Sprite.h" />
+    <ClInclude Include="..\..\Source\Object\TimeGetMoney\TimeGetMoney.h" />
+    <ClInclude Include="..\..\Source\Precompiled.h" />
+    <ClInclude Include="..\..\Source\ShopNode\ShopNode.h" />
+    <ClInclude Include="..\..\Source\TitleNode\Comback\CombackNode.h" />
+    <ClInclude Include="..\..\Source\TitleNode\Intro\IntroNode.h" />
+    <ClInclude Include="..\..\Source\TitleNode\Logo\LogoNode.h" />
+    <ClInclude Include="..\..\Source\TitleNode\Main\MainNode.h" />
+    <ClInclude Include="..\..\Source\TitleNode\Manual\ManualNode.h" />
+    <ClInclude Include="..\..\Source\Unit\Commander\UnitCommander.h" />
+    <ClInclude Include="..\..\Source\Unit\Commander\UnitCommanderCasino.h" />
+    <ClInclude Include="..\..\Source\Unit\Commander\UnitCommanderTower.h" />
+    <ClInclude Include="..\..\Source\Unit\Create\MobDividend.h" />
+    <ClInclude Include="..\..\Source\Unit\Create\UnitCreateInfos.h" />
+    <ClInclude Include="..\..\Source\Unit\UI\MobCasinoStatus.h" />
+    <ClInclude Include="..\..\Source\Unit\Unit\Unit.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A478A5E-47D8-4F6C-A37A-CBEF04C27AA1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Test</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_OPEN_GL;XP_WIN;JS_HAVE___INTN;JS_INTPTR_TYPE=int;COCOS2D_JAVASCRIPT=1;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMCocos2D-v3;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4819;4244;4800;4099;4251;</DisableSpecificWarnings>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D-v3d.lib;libXMKazmathd.lib;libXMWebsocketsd.lib;libXMCurld.lib;libXMBox2Dd.lib;libXMChipmunkd.lib;libXMSqlited.lib;libXMLuad.lib;libXMJsond.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMFreeTyped.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKoded.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
+copy "..\..\..\..\02_Library\Platform\$(PlatformName)\*.dll" "..\..\Binary\$(PlatformName)"
+copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)d.exe"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_OPEN_GL;XP_WIN;JS_HAVE___INTN;JS_INTPTR_TYPE=int;COCOS2D_JAVASCRIPT=1;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMCocos2D-v3;../../Source</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4819;4244;4800;4099;4251;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D-v3.lib;libXMKazmath.lib;libXMWebsockets.lib;libXMCurl.lib;libXMBox2D.lib;libXMChipmunk.lib;libXMSqlite.lib;libXMLua.lib;libXMJson.lib;libXMXml.lib;libXMTinyXml.lib;libXMFreeType.lib;libXMAtx.lib;libXMZlib.lib;libXMKode.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
+copy "..\..\..\..\02_Library\Platform\$(PlatformName)\*.dll" "..\..\Binary\$(PlatformName)"
+copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName).exe"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

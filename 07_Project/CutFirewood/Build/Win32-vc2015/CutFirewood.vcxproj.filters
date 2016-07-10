@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Define">
+      <UniqueIdentifier>{f2aea7b7-5790-4256-808a-fc5206d542a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{f58d03cd-2d96-4ac3-ae4f-ec0d071faedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object">
+      <UniqueIdentifier>{fd7a535a-6774-43b9-878f-b8c8a136af01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{7a3bf715-fa83-4c0f-8ee7-a5261e8b921c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\BackImg">
+      <UniqueIdentifier>{9481b639-4da3-4ade-a872-609fa28e4c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Character">
+      <UniqueIdentifier>{3b174db4-8327-4acd-ba96-d23d3994c69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Cloud">
+      <UniqueIdentifier>{2a3ac8d9-1ca5-4b40-8ce7-1fbbec0305b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Combo">
+      <UniqueIdentifier>{b4af8ac8-ea3f-45b1-93eb-abf76095bc3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Commander">
+      <UniqueIdentifier>{15edace3-7381-401b-849a-a957b9321339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\EndCommander">
+      <UniqueIdentifier>{2c0d0fed-99f5-43b2-b858-5aa166401aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Firewood">
+      <UniqueIdentifier>{8db83795-96a0-4d3c-b8fa-e19b4ba4c285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameMode">
+      <UniqueIdentifier>{96869a6e-37c0-420a-a053-1e27a07faab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameTime">
+      <UniqueIdentifier>{6069d66b-6cd5-44ce-ac2a-acb4b956031d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GlobalData">
+      <UniqueIdentifier>{8d9a6a55-8a7f-47bc-9c66-93ef8ed57e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\House">
+      <UniqueIdentifier>{c848fe86-43e8-4321-9b65-b286f831e8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Score">
+      <UniqueIdentifier>{c3e463df-3ad1-4d9e-a5bc-4e77f601508f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\StartDirector">
+      <UniqueIdentifier>{4e86d8a8-15a4-445b-b0f1-59d19f371bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Animation">
+      <UniqueIdentifier>{70f3d276-7a5b-4a89-bf98-b1132f75898e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Button">
+      <UniqueIdentifier>{09c779ee-da16-431a-9489-e45d8d6c5577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Camera">
+      <UniqueIdentifier>{e298b114-8eb6-4c77-8e3b-4a6a4e5d7a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\ColorLayer">
+      <UniqueIdentifier>{bed5be63-00f1-432d-be0f-cc7a6fc03f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Draw">
+      <UniqueIdentifier>{bee30e83-8dd5-42e0-922f-d8767a8cb360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Label">
+      <UniqueIdentifier>{cf65151d-1fcf-427a-8bfe-98ff1fc80438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Sprite">
+      <UniqueIdentifier>{48a23df4-ab17-476f-a673-bc61adcfb6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Arcade">
+      <UniqueIdentifier>{726d26ce-77f6-44cd-8875-fa90e07e0bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Intro">
+      <UniqueIdentifier>{fc2acf46-67ca-426a-b4f2-0f434f489708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\JBase">
+      <UniqueIdentifier>{cf1e12ba-cd17-48ac-aa15-1f8058a647e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Logo">
+      <UniqueIdentifier>{98c1d6d5-db86-4456-ba48-5eb56be010ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Main">
+      <UniqueIdentifier>{44b309c7-0d5c-49ed-86fc-ddd1458a3aa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AppDelegate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Define\Define.cpp">
+      <Filter>Source\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\BackImg\BackImg.cpp">
+      <Filter>Source\Game\BackImg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\Character\Char.cpp">
+      <Filter>Source\Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\Character\CharHelper.cpp">
+      <Filter>Source\Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\Cloud\Cloud.cpp">
+      <Filter>Source\Game\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\Combo\Combo.cpp">
+      <Filter>Source\Game\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\Commander\Commander.cpp">
+      <Filter>Source\Game\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\EndCommander\EndCommander.cpp">
+      <Filter>Source\Game\EndCommander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\Firewood\Firewood.cpp">
+      <Filter>Source\Game\Firewood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\GameMode\GameMode.cpp">
+      <Filter>Source\Game\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\GameTime\GameTime.cpp">
+      <Filter>Source\Game\GameTime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\GlobalData\GlobalData.cpp">
+      <Filter>Source\Game\GlobalData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\House\House.cpp">
+      <Filter>Source\Game\House</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\Score\Score.cpp">
+      <Filter>Source\Game\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\StartDirector\StartDirector.cpp">
+      <Filter>Source\Game\StartDirector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Animation\Animation.cpp">
+      <Filter>Source\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Animation\Animations.cpp">
+      <Filter>Source\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Button\Button.cpp">
+      <Filter>Source\Object\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Camera\Camera.cpp">
+      <Filter>Source\Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\ColorLayer\ColorLayer.cpp">
+      <Filter>Source\Object\ColorLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Draw\Draw.cpp">
+      <Filter>Source\Object\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Label\LabelAtlas.cpp">
+      <Filter>Source\Object\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Label\LabelAtlasCostom.cpp">
+      <Filter>Source\Object\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Label\Labels.cpp">
+      <Filter>Source\Object\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Sprite\Sprite.cpp">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Object\Sprite\TextureManage.cpp">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Scene\Arcade\ArcadeScene.cpp">
+      <Filter>Source\Scene\Arcade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Scene\Intro\IntroScene.cpp">
+      <Filter>Source\Scene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Scene\JBase\JBaseGameScene.cpp">
+      <Filter>Source\Scene\JBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Scene\JBase\JBaseScene.cpp">
+      <Filter>Source\Scene\JBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Scene\Logo\LogoScene.cpp">
+      <Filter>Source\Scene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Scene\Main\MainScene.cpp">
+      <Filter>Source\Scene\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Define\Define.h">
+      <Filter>Source\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Define\LayerDefine.h">
+      <Filter>Source\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\BackImg\BackImg.h">
+      <Filter>Source\Game\BackImg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\Character\Char.h">
+      <Filter>Source\Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\Character\CharHelper.h">
+      <Filter>Source\Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\Cloud\Cloud.h">
+      <Filter>Source\Game\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\Combo\Combo.h">
+      <Filter>Source\Game\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\Commander\Commander.h">
+      <Filter>Source\Game\Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\EndCommander\EndCommander.h">
+      <Filter>Source\Game\EndCommander</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\Firewood\Firewood.h">
+      <Filter>Source\Game\Firewood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\GameMode\GameMode.h">
+      <Filter>Source\Game\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\GameTime\GameTime.h">
+      <Filter>Source\Game\GameTime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\GlobalData\GlobalData.h">
+      <Filter>Source\Game\GlobalData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\House\House.h">
+      <Filter>Source\Game\House</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\Score\Score.h">
+      <Filter>Source\Game\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\StartDirector\StartDirector.h">
+      <Filter>Source\Game\StartDirector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Animation\Animation.h">
+      <Filter>Source\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Animation\Animations.h">
+      <Filter>Source\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Button\Button.h">
+      <Filter>Source\Object\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Camera\Camera.h">
+      <Filter>Source\Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\ColorLayer\ColorLayer.h">
+      <Filter>Source\Object\ColorLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Draw\Draw.h">
+      <Filter>Source\Object\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Label\LabelAtlas.h">
+      <Filter>Source\Object\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Label\LabelAtlasCostom.h">
+      <Filter>Source\Object\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Label\Labels.h">
+      <Filter>Source\Object\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Sprite\Sprite.h">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Object\Sprite\TextureManage.h">
+      <Filter>Source\Object\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Scene\Arcade\ArcadeScene.h">
+      <Filter>Source\Scene\Arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Scene\Intro\IntroScene.h">
+      <Filter>Source\Scene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Scene\JBase\JBaseGameScene.h">
+      <Filter>Source\Scene\JBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Scene\JBase\JBaseScene.h">
+      <Filter>Source\Scene\JBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Scene\Logo\LogoScene.h">
+      <Filter>Source\Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Scene\Main\MainScene.h">
+      <Filter>Source\Scene\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

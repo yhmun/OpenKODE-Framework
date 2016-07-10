@@ -25,56 +25,39 @@
     <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Calib3D\SBMSample.cpp" />
-    <ClCompile Include="..\..\Source\Controller.cpp" />
-    <ClCompile Include="..\..\Source\Core\BasicDrawing1.cpp" />
-    <ClCompile Include="..\..\Source\Core\BasicDrawing2.cpp" />
-    <ClCompile Include="..\..\Source\Core\BasicLinearTransforms.cpp" />
-    <ClCompile Include="..\..\Source\Core\DiscreteFourierTransform.cpp" />
-    <ClCompile Include="..\..\Source\Core\DisplayImage.cpp" />
-    <ClCompile Include="..\..\Source\Core\FileInputOutput.cpp" />
-    <ClCompile Include="..\..\Source\Core\Interoperability.cpp" />
-    <ClCompile Include="..\..\Source\Core\MaskOperations.cpp" />
-    <ClCompile Include="..\..\Source\Features2D\SURF_Descriptor.cpp" />
-    <ClCompile Include="..\..\Source\Features2D\SURF_Detector.cpp" />
-    <ClCompile Include="..\..\Source\Features2D\SURF_FlannMatcher.cpp" />
-    <ClCompile Include="..\..\Source\Features2D\SURF_Homography.cpp" />
-    <ClCompile Include="..\..\Source\HistogramsMatching\CalcBackProject.cpp" />
-    <ClCompile Include="..\..\Source\HistogramsMatching\CalcHist.cpp" />
-    <ClCompile Include="..\..\Source\HistogramsMatching\CompareHist.cpp" />
-    <ClCompile Include="..\..\Source\HistogramsMatching\EqualizeHist.cpp" />
-    <ClCompile Include="..\..\Source\HistogramsMatching\MatchTemplate.cpp" />
-    <ClCompile Include="..\..\Source\ImgProc\AddingImages.cpp" />
-    <ClCompile Include="..\..\Source\ImgProc\Morphology.cpp" />
-    <ClCompile Include="..\..\Source\ImgProc\Pyramids.cpp" />
-    <ClCompile Include="..\..\Source\ImgProc\Smoothing.cpp" />
-    <ClCompile Include="..\..\Source\ImgProc\Threshold.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\CannyDetector.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\CopyMakeBorder.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\Filter2D.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\GeometricTransforms.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\HoughCircle.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\HoughLines.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\Laplace.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\Remap.cpp" />
-    <ClCompile Include="..\..\Source\ImgTrans\Sobel.cpp" />
-    <ClCompile Include="..\..\Source\Main.cpp" />
-    <ClCompile Include="..\..\Source\ML\IntroductionToSVM.cpp" />
-    <ClCompile Include="..\..\Source\ML\NonLinearSVMs.cpp" />
-    <ClCompile Include="..\..\Source\ObjectDetection\ObjectDetection.cpp" />
-    <ClCompile Include="..\..\Source\ShapeDesciptors\FindContours.cpp" />
-    <ClCompile Include="..\..\Source\ShapeDesciptors\GeneralContours.cpp" />
-    <ClCompile Include="..\..\Source\ShapeDesciptors\Hull.cpp" />
-    <ClCompile Include="..\..\Source\ShapeDesciptors\Moments.cpp" />
-    <ClCompile Include="..\..\Source\ShapeDesciptors\PointPolygonTest.cpp" />
-    <ClCompile Include="..\..\Source\TrackingMotion\CornerDetector.cpp" />
-    <ClCompile Include="..\..\Source\TrackingMotion\CornerHarris.cpp" />
-    <ClCompile Include="..\..\Source\TrackingMotion\CornerSubPix.cpp" />
-    <ClCompile Include="..\..\Source\TrackingMotion\GoodFeaturesToTrack.cpp" />
+    <ClCompile Include="..\..\Source\Application.cpp" />
+    <ClCompile Include="..\..\Source\BodyNode.cpp" />
+    <ClCompile Include="..\..\Source\ContactListener.cpp" />
+    <ClCompile Include="..\..\Source\CustomAnimation.cpp" />
+    <ClCompile Include="..\..\Source\Enemy.cpp" />
+    <ClCompile Include="..\..\Source\GameData.cpp" />
+    <ClCompile Include="..\..\Source\GameSounds.cpp" />
+    <ClCompile Include="..\..\Source\GroundPlane.cpp" />
+    <ClCompile Include="..\..\Source\IntroLayer.cpp" />
+    <ClCompile Include="..\..\Source\Ninja.cpp" />
+    <ClCompile Include="..\..\Source\StackObject.cpp" />
+    <ClCompile Include="..\..\Source\StartPlatform.cpp" />
+    <ClCompile Include="..\..\Source\TheLevel.cpp" />
+    <ClCompile Include="..\..\Source\TheMenu.cpp" />
+    <ClCompile Include="..\..\Source\TheStack.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Controller.h" />
+    <ClInclude Include="..\..\Source\BodyNode.h" />
+    <ClInclude Include="..\..\Source\Constants.h" />
+    <ClInclude Include="..\..\Source\ContactListener.h" />
+    <ClInclude Include="..\..\Source\CustomAnimation.h" />
+    <ClInclude Include="..\..\Source\Enemy.h" />
+    <ClInclude Include="..\..\Source\GameData.h" />
+    <ClInclude Include="..\..\Source\GameSounds.h" />
+    <ClInclude Include="..\..\Source\GroundPlane.h" />
+    <ClInclude Include="..\..\Source\IntroLayer.h" />
+    <ClInclude Include="..\..\Source\Ninja.h" />
     <ClInclude Include="..\..\Source\Precompiled.h" />
+    <ClInclude Include="..\..\Source\StackObject.h" />
+    <ClInclude Include="..\..\Source\StartPlatform.h" />
+    <ClInclude Include="..\..\Source\TheLevel.h" />
+    <ClInclude Include="..\..\Source\TheMenu.h" />
+    <ClInclude Include="..\..\Source\TheStack.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4A478A5E-47D8-4F6C-A37A-CBEF04C27AA1}</ProjectGuid>
@@ -150,13 +133,14 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4819;4244</DisableSpecificWarnings>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMOpenCVd.lib;libXMCocos2Dd.lib;libXMCurld.lib;libXMBox2Dd.lib;libXMChipmunkd.lib;libXMSqlited.lib;libXMJsond.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMFreeTyped.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKoded.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2Dd.lib;libXMCurld.lib;libXMBox2Dd.lib;libXMChipmunkd.lib;libXMSqlited.lib;libXMJsond.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMFreeTyped.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKoded.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
@@ -176,13 +160,14 @@ copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4819;4244</DisableSpecificWarnings>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMOpenCVd.lib;libXMCocos2D-ESd.lib;libXMGraphics-ESd.lib;libXMCurld.lib;libXMBox2Dd.lib;libXMChipmunkd.lib;libXMSqlited.lib;libXMJsond.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMFreeTyped.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKode-ESd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D-ESd.lib;libXMGraphics-ESd.lib;libXMCurld.lib;libXMBox2Dd.lib;libXMChipmunkd.lib;libXMSqlited.lib;libXMJsond.lib;libXMXmld.lib;libXMTinyXmld.lib;libXMFreeTyped.lib;libXMAtxd.lib;libXMZlibd.lib;libXMKode-ESd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
@@ -205,6 +190,7 @@ copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)
       <DebugInformationFormat>
       </DebugInformationFormat>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4819;4244</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -212,7 +198,7 @@ copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMOpenCV.lib;libXMCocos2D.lib;libXMCurl.lib;libXMBox2D.lib;libXMChipmunk.lib;libXMSqlite.lib;libXMJson.lib;libXMXml.lib;libXMTinyXml.lib;libXMFreeType.lib;libXMAtx.lib;libXMZlib.lib;libXMKode.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D.lib;libXMCurl.lib;libXMBox2D.lib;libXMChipmunk.lib;libXMSqlite.lib;libXMJson.lib;libXMXml.lib;libXMTinyXml.lib;libXMFreeType.lib;libXMAtx.lib;libXMZlib.lib;libXMKode.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")
@@ -235,6 +221,7 @@ copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)
       <DebugInformationFormat>
       </DebugInformationFormat>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4819;4244</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -242,7 +229,7 @@ copy "$(OutDir)\$(ProjectName).exe" "..\..\Binary\$(PlatformName)\$(ProjectName)
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>../../../../02_Library/Platform/Win32</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMOpenCV.lib;libXMCocos2D-ES.lib;libXMGraphics-ES.lib;libXMCurl.lib;libXMBox2D.lib;libXMChipmunk.lib;libXMSqlite.lib;libXMJson.lib;libXMXml.lib;libXMTinyXml.lib;libXMFreeType.lib;libXMAtx.lib;libXMZlib.lib;libXMKode-ES.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libEGL.lib;libgles_cm.lib;ws2_32.lib;winmm.lib;vfw32.lib;Wldap32.lib;libXMCocos2D-ES.lib;libXMGraphics-ES.lib;libXMCurl.lib;libXMBox2D.lib;libXMChipmunk.lib;libXMSqlite.lib;libXMJson.lib;libXMXml.lib;libXMTinyXml.lib;libXMFreeType.lib;libXMAtx.lib;libXMZlib.lib;libXMKode-ES.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "..\..\Binary\$(PlatformName)" (mkdir "..\..\Binary\$(PlatformName)")

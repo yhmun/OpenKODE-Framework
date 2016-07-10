@@ -151,11 +151,12 @@
       <SDLCheck>false</SDLCheck>
       <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMChipmunk;../../Source</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4819</DisableSpecificWarnings>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
       <CompileAs>CompileAsCpp</CompileAs>
       <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

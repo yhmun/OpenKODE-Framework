@@ -716,23 +716,14 @@
     <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpCCSprite.cpp">
       <Filter>Source\extensions\CCSpaceManager\ccExtras</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpConstraintNode.cpp">
-      <Filter>Source\extensions\CCSpaceManager\ccExtras</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpShapeNode.cpp">
       <Filter>Source\extensions\CCSpaceManager\ccExtras</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\cpSpaceSerializer\cpSpaceSerializer.cpp">
-      <Filter>Source\extensions\CCSpaceManager\cpSpaceSerializer</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\platform\CCImage.cpp">
       <Filter>Source\platform</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\platform\CCImage_FreeType.cpp">
       <Filter>Source\platform</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\PhysicsEditorExtras\cpCCSprite_PhysicsEditor.cpp">
-      <Filter>Source\extensions\CCSpaceManager\PhysicsEditorExtras</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResourceManager.cpp">
       <Filter>Source\extensions\CCArtPig</Filter>
@@ -813,9 +804,6 @@
       <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSSymbolControlAction.cpp">
-      <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSTouchEventNotificationLinker.cpp">
       <Filter>Source\extensions\CCArtPig\APSResource\Action</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\APSGraphicAction.cpp">

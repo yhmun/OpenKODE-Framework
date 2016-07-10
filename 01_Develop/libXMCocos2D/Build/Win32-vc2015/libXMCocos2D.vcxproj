@@ -74,7 +74,6 @@
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSAudioAction.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSLinkerAction.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSSymbolControlAction.cpp" />
-    <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\APSTouchEventNotificationLinker.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\APSGraphicAction.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant\APSInstantFadeAction.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCArtPig\APSResource\Action\GraphicAction\Instant\APSInstantGraphicAction.cpp" />
@@ -164,11 +163,8 @@
     <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpCCNode.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpCCNodeImpl.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpCCSprite.cpp" />
-    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpConstraintNode.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCSpaceManager\ccExtras\cpShapeNode.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCSpaceManager\CCSpaceManager.cpp" />
-    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\cpSpaceSerializer\cpSpaceSerializer.cpp" />
-    <ClCompile Include="..\..\Source\extensions\CCSpaceManager\PhysicsEditorExtras\cpCCSprite_PhysicsEditor.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCSpine\Animation.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCSpine\AnimationState.cpp" />
     <ClCompile Include="..\..\Source\extensions\CCSpine\AnimationStateData.cpp" />
@@ -764,21 +760,22 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;USE_OPEN_GL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_LIB;USE_OPEN_GL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMCocos2D;../../Source</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
       <DisableSpecificWarnings>4819;4838</DisableSpecificWarnings>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
       <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(OutDir)\$(ProjectName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(ProjectName)d.lib"</Command>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName)d.lib"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-ES|Win32'">
@@ -786,14 +783,15 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../../../02_Library/Include;../../../../02_Library/Include/XMKode;../../../../02_Library/Include/XMCocos2D;../../Source</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
       <DisableSpecificWarnings>4819;4838</DisableSpecificWarnings>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
       <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -826,7 +824,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(OutDir)\$(ProjectName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(ProjectName).lib"</Command>
+      <Command>copy "$(OutDir)\$(TargetName).lib" "..\..\..\..\02_Library\platform\$(PlatformName)\$(TargetName).lib"</Command>
     </PostBuildEvent>
     <Lib>
       <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>

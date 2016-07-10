@@ -100,13 +100,11 @@ KDbool Level1Scene::init ( KDvoid )
 	m_pBackgroundNode->addChild ( m_pBird4,  6 ,  dustSpeed ,  ccp ( 800,200 ) );
 	
 	// ���ھ� ǥ�� 
-	this->m_pScoreLabel = CCLabelTTF::create ( "Score:0", "Verdana", 20 );
+	this->m_pScoreLabel = CCLabelTTF::create ( "Score:0", "Marker Felt.ttf", 20 );
 	m_pScoreLabel ->retain      ( );
 	m_pScoreLabel ->setColor    ( ccc3 ( 128, 128, 250 ) );
 	m_pScoreLabel ->setPosition ( ccp ( 70, 300 ) );
-
 	this->addChild ( m_pScoreLabel ,0 );
-
 
 	CCMenuItemImage*	pCloseItem = CCMenuItemImage::create
 	(

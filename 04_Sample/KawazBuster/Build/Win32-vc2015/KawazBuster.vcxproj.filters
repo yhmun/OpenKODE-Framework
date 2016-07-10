@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\kwing">
+      <UniqueIdentifier>{d943290b-0322-49c6-9412-4a8026b4a78d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CreditScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HowtoScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KawazTan.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LogoScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MainScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TitleScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWAnimation.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWMusicManager.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWScene.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWSprite.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWState.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWStateManager.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWTimer.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWTimerLabel.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\kwing\KWVector.cpp">
+      <Filter>Source\kwing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CreditScene.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HowtoScene.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KawazTan.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LogoScene.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MainScene.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TitleScene.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWAnimation.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\kwing.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWMusicManager.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWScene.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWSprite.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWState.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWStateManager.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWTimer.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWTimerLabel.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\kwing\KWVector.h">
+      <Filter>Source\kwing</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

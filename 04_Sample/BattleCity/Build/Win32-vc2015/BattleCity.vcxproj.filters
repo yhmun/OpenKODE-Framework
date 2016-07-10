@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Controllers">
+      <UniqueIdentifier>{664dd93a-83a0-4c92-b347-19e4741930ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Models">
+      <UniqueIdentifier>{5873a885-ebf6-4300-aa8a-ff32fcd4dec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SneakyInput">
+      <UniqueIdentifier>{92c16ba2-2631-418a-b757-cf582eb621d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Views">
+      <UniqueIdentifier>{e40c710e-f9e6-4bfa-8cdb-2774beb5c412}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Controllers\InputLayer.cpp">
+      <Filter>Source\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Models\Tank90Sprite.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Models\TankEnemySprite.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Models\ToolSprite.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Views\MainScene.cpp">
+      <Filter>Source\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Views\MapLayer.cpp">
+      <Filter>Source\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Views\ScoreScene.cpp">
+      <Filter>Source\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Views\StartScene.cpp">
+      <Filter>Source\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Views\WinScene.cpp">
+      <Filter>Source\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SneakyInput\ColoredCircleSprite.cpp">
+      <Filter>Source\SneakyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SneakyInput\SneakyButton.cpp">
+      <Filter>Source\SneakyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SneakyInput\SneakyButtonSkinnedBase.cpp">
+      <Filter>Source\SneakyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SneakyInput\SneakyJoystick.cpp">
+      <Filter>Source\SneakyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SneakyInput\SneakyJoystickSkinnedBase.cpp">
+      <Filter>Source\SneakyInput</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Controllers\InputLayer.h">
+      <Filter>Source\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Models\Tank90Sprite.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Models\TankEnemySprite.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Models\ToolSprite.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Views\MainScene.h">
+      <Filter>Source\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Views\MapLayer.h">
+      <Filter>Source\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Views\ScoreScene.h">
+      <Filter>Source\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Views\StartScene.h">
+      <Filter>Source\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Views\WinScene.h">
+      <Filter>Source\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SneakyInput\ColoredCircleSprite.h">
+      <Filter>Source\SneakyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SneakyInput\SneakyButton.h">
+      <Filter>Source\SneakyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SneakyInput\SneakyButtonSkinnedBase.h">
+      <Filter>Source\SneakyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SneakyInput\SneakyJoystick.h">
+      <Filter>Source\SneakyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SneakyInput\SneakyJoystickSkinnedBase.h">
+      <Filter>Source\SneakyInput</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

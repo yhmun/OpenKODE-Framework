@@ -239,7 +239,7 @@ KDvoid GameScene::initLevel ( KDvoid )
     KDint		n = 10 * 60;
     KDint32		nVelocityIterations = 8;
     KDint32		nPositionIterations = 1;
-    KDfloat32	fDelta = 1.0 / 60.0f;
+    KDfloat32	fDelta = 1.0f / 60.0f;
     while ( n-- )
     {
         // Instruct the world to perform a single step of simulation.

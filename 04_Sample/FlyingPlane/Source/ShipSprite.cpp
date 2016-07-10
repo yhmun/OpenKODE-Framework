@@ -76,7 +76,7 @@ KDbool ShipSprite::init ( GameLayer* pGameLayer )
 KDvoid ShipSprite::addFire ( KDvoid )
 {
     CCParticleSystemQuad* pSmoke = CCParticleSystemQuad::create ( "Images/fire.plist" );
-    pSmoke->setScale      ( 0.4 );
+    pSmoke->setScale      ( 0.4f );
     pSmoke->setZOrder     ( -1 );
     pSmoke->setPosition   ( ccp ( 10, 10 ) );
     this->addChild        ( pSmoke );

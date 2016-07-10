@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\LevelEditor">
+      <UniqueIdentifier>{a2f83cf4-6181-4ba9-9535-1c1c1c97e4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Model">
+      <UniqueIdentifier>{6bd62443-1bf6-4b90-9f0d-29cc9003bfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{74bcfb62-c3c7-4d35-a6bd-0327e0bcf22c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Constants.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GameScene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LevelEditor\LevelEditor.cpp">
+      <Filter>Source\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LevelEditor\LevelFileHandler.cpp">
+      <Filter>Source\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LevelEditor\LevelSelectionScene.cpp">
+      <Filter>Source\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LevelEditor\PopupMenu.cpp">
+      <Filter>Source\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LevelEditor\RopeSprite.cpp">
+      <Filter>Source\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Model\PineappleModel.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Model\RopeModel.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utils\CoordinateHelper.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utils\GameManager.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Utils\MyContactListener.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Constants.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameScene.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LevelEditor\LevelEditor.h">
+      <Filter>Source\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LevelEditor\LevelFileHandler.h">
+      <Filter>Source\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LevelEditor\LevelSelectionScene.h">
+      <Filter>Source\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LevelEditor\PopupMenu.h">
+      <Filter>Source\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LevelEditor\RopeSprite.h">
+      <Filter>Source\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Model\AbstractModel.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Model\PineappleModel.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Model\RopeModel.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utils\CoordinateHelper.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utils\GameManager.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utils\MyContactListener.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

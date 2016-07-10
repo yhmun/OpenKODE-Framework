@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{89cfda33-d624-4564-b396-9407fb534897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager">
+      <UniqueIdentifier>{01967696-11a1-454d-bc91-c8667e2ee7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Screen">
+      <UniqueIdentifier>{ab20b73f-8eef-46e7-91bc-f463cc58c12d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\CBullet.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\CEnemy.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\CTarget.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\CWeapon.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\CWorld.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Manager\EngManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Manager\EnvManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Manager\ResManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Manager\ScrManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Screen\ScrGame.cpp">
+      <Filter>Source\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Screen\ScrIntro.cpp">
+      <Filter>Source\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Screen\ScrLoading.cpp">
+      <Filter>Source\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Screen\ScrMain.cpp">
+      <Filter>Source\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Screen\ScrSplash.cpp">
+      <Filter>Source\Screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\CBullet.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\CEnemy.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\CTarget.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\CWeapon.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\CWorld.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Manager\EngManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Manager\EnvManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Manager\ResManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Manager\ScrManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Screen\ScrGame.h">
+      <Filter>Source\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Screen\ScrIntro.h">
+      <Filter>Source\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Screen\ScrLoading.h">
+      <Filter>Source\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Screen\ScrMain.h">
+      <Filter>Source\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Screen\ScrSplash.h">
+      <Filter>Source\Screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

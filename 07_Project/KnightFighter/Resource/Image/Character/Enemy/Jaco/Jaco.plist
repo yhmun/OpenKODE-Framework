@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Jaco</string>
+	<key>IsActive</key>
+	<true/>
+	<key>MaxHP</key>
+	<integer>2</integer>
+	<key>CurrentHP</key>
+	<integer>2</integer>
+	<key>MoveSpeed</key>
+	<integer>10</integer>
+	<key>ShootDamage</key>
+	<integer>1</integer>
+	<key>SlashDamage</key>
+	<integer>6</integer>
+	<key>SlashVariety</key>
+	<integer>1</integer>
+	<key>PossibleShoot</key>
+	<false/>
+	<key>PossibleSlash</key>
+	<false/>
+	<key>Score</key>
+	<integer>10</integer>
+</dict>
+</plist>

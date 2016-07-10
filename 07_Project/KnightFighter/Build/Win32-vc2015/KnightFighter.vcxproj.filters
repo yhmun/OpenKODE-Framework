@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ColliderToolkit">
+      <UniqueIdentifier>{4fc7df17-26bc-4abc-a39f-3e35d54ce511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Define">
+      <UniqueIdentifier>{04583d9c-7859-4041-a965-cb2361760f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Loader">
+      <UniqueIdentifier>{a71abbf2-f795-4e60-a8eb-b991b3954808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager">
+      <UniqueIdentifier>{680c849e-0535-4a08-84c3-ff74e7c5a664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node">
+      <UniqueIdentifier>{897b84f3-6854-45aa-bbfd-9266728fa56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Background">
+      <UniqueIdentifier>{2079ed57-e328-4b10-a6ac-583816ba2d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Bullet">
+      <UniqueIdentifier>{85510294-d715-4435-b2c4-32ae205fc7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Character">
+      <UniqueIdentifier>{e904bb87-eb17-406a-81c3-8d444eb0f739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Effect">
+      <UniqueIdentifier>{a1fa269c-2e0a-4a23-8118-ee273bbac500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Layer">
+      <UniqueIdentifier>{5a965a93-a632-4998-9ae7-a1e95741cb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Scene">
+      <UniqueIdentifier>{33768f58-23a1-4cf6-bc9a-31f7a3daaa5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\UI">
+      <UniqueIdentifier>{28296b8e-5319-4e05-8ec4-cf60bc1a3cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Bullet\Enemy">
+      <UniqueIdentifier>{16b484e2-43b1-41ef-90ae-50d20777b714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Bullet\Player">
+      <UniqueIdentifier>{66716839-f44a-4b7e-8ad8-8cc62d39a4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Character\Enemy">
+      <UniqueIdentifier>{57c84ef2-0725-4bde-9993-e5dfcad2e878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Character\Player">
+      <UniqueIdentifier>{7bce8910-13bf-4dbf-a4a6-51c9e56a3e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Effect\Die">
+      <UniqueIdentifier>{51b17d32-b7ba-417f-8804-554b7c9fa48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Effect\Shoot">
+      <UniqueIdentifier>{42fe1c1b-1915-497a-8787-5ecec8878ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Node\Effect\Slash">
+      <UniqueIdentifier>{bb16c2f1-21aa-4dfe-916b-e041aaeae48f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AppDelegate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ColliderToolkit\XMContactFilter.cpp">
+      <Filter>Source\ColliderToolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ColliderToolkit\XMContactListener.cpp">
+      <Filter>Source\ColliderToolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Loader\XMStageLoader.cpp">
+      <Filter>Source\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Manager\XMGlobalManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Background\XMBackground.cpp">
+      <Filter>Source\Node\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Bullet\XMBullet.cpp">
+      <Filter>Source\Node\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Bullet\Enemy\XMEnemyBullet.cpp">
+      <Filter>Source\Node\Bullet\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Bullet\Enemy\XMGoblinRiderBullet.cpp">
+      <Filter>Source\Node\Bullet\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Bullet\Enemy\XMSmallBullet.cpp">
+      <Filter>Source\Node\Bullet\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Bullet\Player\XMKnightBullet.cpp">
+      <Filter>Source\Node\Bullet\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Bullet\Player\XMPlayerBullet.cpp">
+      <Filter>Source\Node\Bullet\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Character\Enemy\XMEnemy.cpp">
+      <Filter>Source\Node\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Character\Enemy\XMGoblin.cpp">
+      <Filter>Source\Node\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Character\Enemy\XMGoblinRider.cpp">
+      <Filter>Source\Node\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Character\Enemy\XMJaco.cpp">
+      <Filter>Source\Node\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Character\Player\XMKnight.cpp">
+      <Filter>Source\Node\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Character\Player\XMPlayer.cpp">
+      <Filter>Source\Node\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Character\XMCharacter.cpp">
+      <Filter>Source\Node\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Effect\Die\XMDieEffect.cpp">
+      <Filter>Source\Node\Effect\Die</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Effect\Shoot\XMShootEffect.cpp">
+      <Filter>Source\Node\Effect\Slash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Effect\Slash\XMSlashEffect.cpp">
+      <Filter>Source\Node\Effect\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Layer\XMMissionComplete.cpp">
+      <Filter>Source\Node\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Layer\XMMissionFailed.cpp">
+      <Filter>Source\Node\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Ui\XMStageUi.cpp">
+      <Filter>Source\Node\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Scene\XMChapter.cpp">
+      <Filter>Source\Node\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Scene\XMCompanyLogo.cpp">
+      <Filter>Source\Node\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Scene\XMLoading.cpp">
+      <Filter>Source\Node\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Scene\XMMain.cpp">
+      <Filter>Source\Node\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Scene\XMReady.cpp">
+      <Filter>Source\Node\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node\Scene\XMStageScene.cpp">
+      <Filter>Source\Node\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ColliderToolkit\XMContactFilter.h">
+      <Filter>Source\ColliderToolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ColliderToolkit\XMContactListener.h">
+      <Filter>Source\ColliderToolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Define\XMDefine.h">
+      <Filter>Source\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Loader\XMStageLoader.h">
+      <Filter>Source\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Manager\XMGlobalManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Background\XMBackground.h">
+      <Filter>Source\Node\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Bullet\XMBullet.h">
+      <Filter>Source\Node\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Bullet\Enemy\XMEnemyBullet.h">
+      <Filter>Source\Node\Bullet\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Bullet\Enemy\XMGoblinRiderBullet.h">
+      <Filter>Source\Node\Bullet\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Bullet\Enemy\XMSmallBullet.h">
+      <Filter>Source\Node\Bullet\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Bullet\Player\XMKnightBullet.h">
+      <Filter>Source\Node\Bullet\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Bullet\Player\XMPlayerBullet.h">
+      <Filter>Source\Node\Bullet\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Character\Enemy\XMEnemy.h">
+      <Filter>Source\Node\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Character\Enemy\XMGoblin.h">
+      <Filter>Source\Node\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Character\Enemy\XMGoblinRider.h">
+      <Filter>Source\Node\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Character\Enemy\XMJaco.h">
+      <Filter>Source\Node\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Character\Player\XMKnight.h">
+      <Filter>Source\Node\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Character\Player\XMPlayer.h">
+      <Filter>Source\Node\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Character\XMCharacter.h">
+      <Filter>Source\Node\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Effect\Die\XMDieEffect.h">
+      <Filter>Source\Node\Effect\Die</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Effect\Shoot\XMShootEffect.h">
+      <Filter>Source\Node\Effect\Slash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Effect\Slash\XMSlashEffect.h">
+      <Filter>Source\Node\Effect\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Layer\XMMissionComplete.h">
+      <Filter>Source\Node\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Layer\XMMissionFailed.h">
+      <Filter>Source\Node\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Ui\XMStageUi.h">
+      <Filter>Source\Node\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Scene\XMChapter.h">
+      <Filter>Source\Node\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Scene\XMCompanyLogo.h">
+      <Filter>Source\Node\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Scene\XMLoading.h">
+      <Filter>Source\Node\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Scene\XMMain.h">
+      <Filter>Source\Node\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Scene\XMReady.h">
+      <Filter>Source\Node\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node\Scene\XMStageScene.h">
+      <Filter>Source\Node\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

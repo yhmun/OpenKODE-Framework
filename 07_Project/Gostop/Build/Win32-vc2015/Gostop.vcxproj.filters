@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6128c3e3-6599-42b6-b306-7a217a2fbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3b4b64c-4edf-4a42-a3be-0add85e4f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dialog">
+      <UniqueIdentifier>{86b1fbed-17fb-4d99-a791-d4d395374513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{83df7beb-b71d-4f0b-8f4b-465610bc8886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Intro">
+      <UniqueIdentifier>{7b6eaa48-c5e4-4aca-9e91-fdc585071426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Menu">
+      <UniqueIdentifier>{1d10adeb-23ef-43af-a951-478a5cb47d5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\EnvManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetManager_Win32.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScrManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgBase.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgConfig.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgGame.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgHelp.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgInfo.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgNotice.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgQuit.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgRank.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgResult.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Dialog\DlgShop.cpp">
+      <Filter>Source\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\Card.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\ScrCartoon.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\ScrGame.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\ScrLadder.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Game\ScrVersus.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Intro\ScrIntro.cpp">
+      <Filter>Source\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Intro\ScrSplash.cpp">
+      <Filter>Source\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Menu\ScrMain.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Menu\ScrStage.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\EnvManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NetManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ScrManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UTF8Bytes.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UTF8Texts.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgBase.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgConfig.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgGame.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgHelp.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgInfo.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgNotice.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgQuit.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgRank.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgResult.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Dialog\DlgShop.h">
+      <Filter>Source\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\Card.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\ScrCartoon.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\ScrGame.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\ScrLadder.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Game\ScrVersus.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Intro\ScrIntro.h">
+      <Filter>Source\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Intro\ScrSplash.h">
+      <Filter>Source\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Menu\ScrMain.h">
+      <Filter>Source\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Menu\ScrStage.h">
+      <Filter>Source\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

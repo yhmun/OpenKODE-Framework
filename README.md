@@ -7,14 +7,15 @@ OpenKODE® is a royalty-free, open standard that combines a set of native APIs t
 ### Support platforms
 | Type | IDE Environment | Status | Description |
 | --- | --- | --- | --- |
-| **Windows** | Visual Studio 2015 | `upload completed` | Two build config options for OpenGL and OpenGL-ES |
+| **Windows** | Visual Studio 2015 | `upload completed` | *Two build config options for OpenGL and OpenGL-ES* |
 | **WinCE** | Visual Studio 2008 | `no more manged` | *WinCE 5.0, 6.0 tested* |
 | **iOS** | Xcode | `not uploaded yet` | *Need to upgrade Xcode version* |
 | **Android** | Android Studio | `not uploaded yet` | *Need to replace eclipse to Android studio* |
 | **Linux** | Make files | `no more manged` | *Ubuntu 8 tested and no more managed* |
-| **Tizen** | Tizen Studio | `no more manged` | Only emulator tested |
-| **Bada** | Bada Studio | `no more manged` | Bada platform has replaced to Tizen |
-| **Black Berry** | Black Berry Studio | `no more manged` | Only emulator tested |
+| **Tizen** | Tizen Studio | `no more manged` | *Only emulator tested* |
+| **Bada** | Bada Studio | `no more manged` | *Bada platform has replaced to Tizen* |
+| **Black Berry** | Black Berry Studio | `no more manged` | *Only emulator tested* |
+| **QNX** | ? | `managed by other` | *Cooperated company built* |
 
 ### Clone the repo
 ``` 

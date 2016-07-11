@@ -100,6 +100,8 @@ OpenKODE® is a royalty-free, open standard that combines a set of native APIs t
 | **Cocos2D** *Lua* | *2D game engine tutorials* |
 | **Cocos2D** *Cook Book* | *Advanced tutorials* |
 | **Irrlicht3D** | *3D rendering engine tutorials* |
+| **XMGraphics** | *3D rendering library tutorials* |
+| **M3G** | *3D rendering library tutorials* |
 | **OpenCV** | *Computer vision framework tutorials* |
 | **Ogre3D** | *3D rendering engine tutorials* |
 

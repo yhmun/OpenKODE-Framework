@@ -4,6 +4,18 @@ This framework based on OpenKODE focuses on easy development of games, location 
 #### [OpenKODE: Khronos Open Development Environment](https://www.khronos.org/openkode/)
 OpenKODE® is a royalty-free, open standard that combines a set of native APIs to increase source portability for rich media and graphics applications. OpenKODE reduces mobile platform fragmentation by providing a cross-platform API for accessing operating system resources, and a media architecture for portable access to advanced mixed graphics acceleration.
 
+### Support platforms
+| Type | IDE Environment | Status | Description |
+| --- | --- | --- | --- |
+| **Windows** | Visual Studio 2015 | `upload completed` | |
+| **WinCE** | Visual Studio 2008 | `no more manged` | *WinCE 5.0, 6.0 tested* |
+| **iOS** | Xcode | `not uploaded yet` | *Need to upgrade Xcode version* |
+| **Android** | Android Studio | `not uploaded yet` | *Need to replace eclipse to Android studio* |
+| **Linux** | Make files | `no more manged` | *Ubuntu 8 tested and no more managed* |
+| **Tizen** | Tizen Studio | `no more manged` | Only emulator tested |
+| **Bada** | Bada Studio | `no more manged` | Bada platform has replaced to Tizen |
+| **Black Berry** | Black Berry Studio | `no more manged` | Only emulator tested |
+
 ### Clone the repo
 ``` 
   $ git clone https://github.com/mcodegeeks/OpenKODE-Framework.git 

@@ -203,7 +203,7 @@ KDbool M3GLoader::loadIMG ( KDvoid )
 	kdFreeImageATX ( pImage );
 	kdFseek ( pFile, uOffset, KD_SEEK_SET );
 
-	pImage = kdGetImageFromStreamATX ( pFile, nFormat, 0 );
+	pImage = kdGetImageFromStreamATX ( pFile, nFormat, KD_IMAGE_FLAG_FLIP_Y_ATX);
 	if ( !pImage )
 	{
 		M3GException ( "IOException", __FUNCTION__, "This file is invalid." );

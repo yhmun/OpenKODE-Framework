@@ -30,8 +30,11 @@
  */
 
 #include "main.h"
+#include "platform.h"
 
-XM_DEF_APP_MAIN_DEFAULT ( XM_SYS_DEFAULT )
+XM_APP_MAIN_BEGIN
+	XM_APP_WND_REALIZE(XM_SYS_DEFAULT)
+XM_APP_MAIN_END
 
 #define	GRID_X              1
 #define	GRID_Y              20
@@ -218,47 +221,115 @@ KDvoid xmEventResize ( KDint width, KDint height )
 	SetAnimate ( );
 }
 
-KDvoid xmEventTouchUp ( KDint id, KDint x, KDint y )
+KD_API KDvoid KD_APIENTRY xmEventProc(const KDEvent* event)
 {
+	switch (event->type)
+	{
+		case KD_EVENT_NATIVE:
+		{
+			//#if !defined ( SHP ) && defined ( _WIN32 ) 
+			//KDEventNativeWin32*  proc = (KDEventNativeWin32*) event->data.native.p;
+			//KDEventNativeLinux*  proc = (KDEventNativeLinux*) event->data.native.p;
+			//#endif
+		}	break;
 
-}
+		case KD_EVENT_CREATE:
+		{
+			// event->data.size.width;
+			// event->data.size.height;
+			xmEventCreate();
+			xmEventResize(event->data.size.width, event->data.size.height);
+		}	break;
 
-KDvoid xmEventTouchDown ( KDint id, KDint x, KDint y )
-{
+		case KD_EVENT_DESTROY:
+		{
+			xmEventDestroy();
+		}	break;
 
-}
+		case KD_EVENT_RESIZE:
+		{
+			// event->data.size.width;
+			// event->data.size.height;	
+			xmEventResize(event->data.size.width, event->data.size.height);
+		}	break;
 
-KDvoid xmEventTouchMove ( KDint id, KDint x, KDint y )
-{
+		case KD_EVENT_FOCUS:
+		{
+			// event->data.value.i;
+			// 1 : focus
+		}	break;
 
-}
+		case KD_EVENT_VISIBLE:
+		{
+			// event->data.value.i;
+			// 1 : visible
+		}	break;
 
-KDvoid xmEventKeyUp ( KDint code )
-{
+		case KD_EVENT_REDRAW:
+		{
+			xmEventRedraw();
+		}	break;
 
-}
+		case KD_EVENT_UPDATE:
+		{
+			// event->data.update.msec;
+			xmEventUpdate(event->data.update.msec);
+		}	break;
 
-KDvoid xmEventKeyDown ( KDint code )
-{
+		case KD_EVENT_TOUCH_BEGAN:
+		{
+			// event->data.touch.touches;
+			// event->data.touch.count;
+		}	break;
 
-}
+		case KD_EVENT_TOUCH_MOVED:
+		{
 
-KDvoid xmEventAcceleration ( KDfloat x, KDfloat y, KDfloat z )
-{
+		}	break;
 
-}
+		case KD_EVENT_TOUCH_ENDED:
+		{
 
-KDvoid xmEventVisible ( KDbool state )
-{
+		}	break;
 
-}
+		case KD_EVENT_TOUCH_CANCELLED:
+		{
 
-KDvoid xmEventFocus ( KDbool state )
-{
+		}	break;
 
-}
+		case KD_EVENT_KEY_RELEASED:
+		{
+			// event->data.keypad.code;		
+		}	break;
 
-KDvoid xmEventUser ( const KDEvent* event )
-{
+		case KD_EVENT_KEY_PRESSED:
+		{
 
+		}	break;
+
+		case KD_EVENT_ACCELEROMETER:
+		{
+			// event->data.accelerometer.x;
+			// event->data.accelerometer.y;
+			// event->data.accelerometer.z;
+		}	break;
+
+		case KD_EVENT_LOCATION:
+		{
+			// event->data.value.i;
+			// KD_NMEA_UPDATED_GPS, KD_NMEA_UPDATED_USER
+		}	break;
+
+		case KD_EVENT_INSERT_TEXT:
+		{
+			// event->data.insert.utf8;
+		}	break;
+
+		case KD_EVENT_SERIALIZE:
+		{
+			// event->data.serialize.type;
+			// event->data.serialize.data;
+			// event->data.serialize.size;
+		}	break;
+	}
 }

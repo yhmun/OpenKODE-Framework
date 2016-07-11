@@ -7,7 +7,7 @@ OpenKODE® is a royalty-free, open standard that combines a set of native APIs t
 ### Support platforms
 | Type | IDE Environment | Status | Description |
 | --- | --- | --- | --- |
-| **Windows** | Visual Studio 2015 | `upload completed` | |
+| **Windows** | Visual Studio 2015 | `upload completed` | Two build config options for OpenGL and OpenGL-ES |
 | **WinCE** | Visual Studio 2008 | `no more manged` | *WinCE 5.0, 6.0 tested* |
 | **iOS** | Xcode | `not uploaded yet` | *Need to upgrade Xcode version* |
 | **Android** | Android Studio | `not uploaded yet` | *Need to replace eclipse to Android studio* |

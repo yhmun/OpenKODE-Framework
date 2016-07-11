@@ -4,6 +4,17 @@ This framework based on OpenKODE focuses on easy development of games, location 
 #### [OpenKODE: Khronos Open Development Environment](https://www.khronos.org/openkode/)
 OpenKODE® is a royalty-free, open standard that combines a set of native APIs to increase source portability for rich media and graphics applications. OpenKODE reduces mobile platform fragmentation by providing a cross-platform API for accessing operating system resources, and a media architecture for portable access to advanced mixed graphics acceleration.
 
+### Clone the repo
+``` 
+  $ git clone https://github.com/mcodegeeks/OpenKODE-Framework.git 
+```
+
+### Build for Windows *(Visual Studio)*
+``` 
+  $ cd (03_Tutorial|04_Sample|07_Project)/<Project_Name>/Build/Win32-vc2015
+  $ <Project_Name>.sln
+```
+
 ### Directory Structure
 ```
 + 01_Develop
@@ -13,7 +24,7 @@ OpenKODE® is a royalty-free, open standard that combines a set of native APIs t
     - Source
 + 02_Library
   + Include: Library header files
-    - XM<Name>
+    - XM<Libray_Name>
   - Licence: Library licence files
   + Platform: Compiled libaries after build
     - Win32
@@ -23,7 +34,7 @@ OpenKODE® is a royalty-free, open standard that combines a set of native APIs t
     - Tizen
     - Bada
 + 03_Tutorial
-  + <Name>
+  + <Project_Name>
     + Binary: Excuted files after build
       - Win32
     + Build

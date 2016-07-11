@@ -15,7 +15,7 @@ OpenKODE® is a royalty-free, open standard that combines a set of native APIs t
 | **Tizen** | Tizen Studio | `no more manged` | *Only emulator tested* |
 | **Bada** | Bada Studio | `no more manged` | *Bada platform has replaced to Tizen* |
 | **Black Berry** | Black Berry Studio | `no more manged` | *Only emulator tested* |
-| **QNX** | ? | `managed by other` | *Cooperated company built* |
+| **QNX** | ? | `managed by other` | *Co-operated company built* |
 
 ### Clone the repo
 ``` 

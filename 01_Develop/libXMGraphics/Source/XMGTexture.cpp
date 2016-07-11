@@ -245,7 +245,7 @@ XMGTexture::XMGTexture ( const KDchar * path, XMGFormat format, XMGFlip flip )
 		impl->ATX2GLFormat ( img_format, tex_format, tex_type, img_alpha );
 	}
 	
-	XMGAssert ( image = kdGetImageATX ( path, img_format, 0 ) );
+	XMGAssert ( image = kdGetImageATX ( path, img_format, KD_IMAGE_FLAG_FLIP_Y_ATX ) );
 
 	if ( img_format == KD_IMAGE_FORMAT_COMPRESSED_ATX )
 	{

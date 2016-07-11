@@ -9,7 +9,8 @@ OpenKODE® is a royalty-free, open standard that combines a set of native APIs t
   $ git clone https://github.com/mcodegeeks/OpenKODE-Framework.git 
 ```
 
-### Build for Windows *(Visual Studio)*
+### Build 
+  * For Windows *(Visual Studio)*
 ``` 
   $ cd (03_Tutorial|04_Sample|07_Project)/<Project_Name>/Build/Win32-vc2015
   $ <Project_Name>.sln

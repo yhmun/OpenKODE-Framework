@@ -324,6 +324,7 @@ fastlane/test_output
 *.lib
 *.dll
 *.exe
+*.a
 [Bb]inary/
 [Dd]ata/
 [Dd]ebug-ES/
